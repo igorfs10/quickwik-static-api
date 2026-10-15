@@ -1,0 +1,59 @@
+{
+  "id": "hollow_knight",
+  "title": "Hollow Knight",
+  "icon": "🪲",
+  "updated_at": "2026-10-15T12:00:00Z",
+  "process_keywords": [
+    "hollow_knight",
+    "hollow knight",
+    "hollowknight"
+  ],
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "charms", "label": "💎 Amuletos" },
+    { "id": "skills", "label": "⚔️ Habilidades" },
+    { "id": "bosses", "label": "👑 Chefes" },
+    { "id": "lore", "label": "📜 Segredos" }
+  ],
+  "entries": [
+    {
+      "id": 201,
+      "title": "Wayward Compass (Bússola)",
+      "subtitle": "Mostra a localização do Cavaleiro no mapa",
+      "category": "charms",
+      "entry_type": "equipment",
+      "summary": "Aponta onde você está no mapa desenhado de Hallownest.",
+      "details": "Custa 1 encaixe de amuleto (Notch). Essencial para exploração nas primeiras horas até decorar os caminhos e bancos de descanso de cada bioma.",
+      "cure": "",
+      "location": "Vendido por Iselda na loja de Dirtmouth por 220 Geo logo após encontrar Cornifer em Forgotten Crossroads.",
+      "pro_tip": "Retire o amuleto antes de enfrentar chefes difíceis para liberar 1 notch para amuletos de combate como Quick Slash ou Fragile Strength.",
+      "tags": "hollow knight bussola mapa compass amuleto dirtmouth iselda equipamento equipment"
+    },
+    {
+      "id": 202,
+      "title": "Shaman Stone (Pedra do Xamã)",
+      "subtitle": "Aumenta drasticamente o dano de magias (Vengeful Spirit, etc.)",
+      "category": "charms",
+      "entry_type": "equipment",
+      "summary": "Aumenta o poder e tamanho dos feitiços em cerca de 33% a 50%!",
+      "details": "Faz Vengeful Spirit / Shade Soul causar 20 a 40 de dano por acerto (podendo acertar chefes grandes mais de uma vez). O melhor amuleto ofensivo do jogo para builds focadas em alma.",
+      "cure": "",
+      "location": "Compre com Salubra em Forgotten Crossroads por 220 Geo.",
+      "pro_tip": "Combine com Spell Twister (reduz custo de alma de 33 para 24) para lançar até 4 feitiços seguidos com a reserva de alma cheia.",
+      "tags": "hollow knight shaman stone magia feitiço dano salubra alma soul equipamento equipment"
+    },
+    {
+      "id": 203,
+      "title": "Mothwing Cloak (Manto de Mariposa)",
+      "subtitle": "Habilidade essencial de esquiva rápida (Dash horizontal)",
+      "category": "skills",
+      "entry_type": "skill",
+      "summary": "Permite disparar em dash para frente no chão ou no ar.",
+      "details": "Desbloqueia acesso a Greenpath, Fungal Wastes e City of Tears. Crucial para esquivar de ataques de investida e pular abismos com espinhos.",
+      "cure": "",
+      "location": "Derrote Hornet pela primeira vez em Greenpath e colete o manto do cadáver do receptáculo.",
+      "pro_tip": "Depois pode ser aprimorado para Shade Cloak no Abyss, permitindo atravessar inimigos e barreiras de escuridão sem tomar dano.",
+      "tags": "hollow knight dash esquiva manto mothwing cloak hornet greenpath habilidade skill"
+    }
+  ]
+}

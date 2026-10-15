@@ -1,0 +1,175 @@
+{
+  "id": "ff12",
+  "title": "Final Fantasy XII: The Zodiac Age",
+  "icon": "⚔️",
+  "updated_at": "2026-10-15T12:00:00Z",
+  "process_keywords": [
+    "ffxii",
+    "ff12",
+    "zodiacage"
+  ],
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "status", "label": "🧪 Status" },
+    { "id": "items", "label": "🎒 Itens" },
+    { "id": "spells", "label": "✨ Magias" }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Disease (Doença)",
+      "subtitle": "HP Máximo drenado e travado no HP atual",
+      "category": "status",
+      "summary": "Dano sofrido reduz seu HP máximo permanentemente até ser curado!",
+      "details": "O status mais perigoso de Ivalice. O HP Máximo do personagem se torna instantaneamente igual ao HP atual no momento da infecção. Qualquer dano adicional reduz ainda mais o HP Máximo, podendo deixar o personagem travado com 1 de HP máximo total. Magias normais de cura (Cure, Cura, Curaja) NÃO conseguem restaurar o HP além desse teto rebaixado.",
+      "cure": "• Item: Serum (compra em Mt Bur-Omisace / Balfonheim).\n• Item: Remedy (EXIGE licença Remedy Lore 3 destravada na License Board).\n• Magia: Cleanse (feitiço de magia branca no Necrohol of Nabudis ou Cerobi Steppe).\n⚠️ Esuna NÃO cura Disease!",
+      "location": "",
+      "pro_tip": "• Gambits recomendados: 'Ally: any -> Serum' ou 'Ally: status = Disease -> Remedy'.\n• Prevenção: O acessório 'Bubble Belt' dobra o HP e previne Disease automaticamente.\n• Tática Ofensiva: Equipe o acessório 'Nihopalaoa' e use um Serum em chefes vulneráveis para infligir Disease neles!",
+      "tags": "disease doenca status perigo hp teto debuff remedy serum cleanse"
+    },
+    {
+      "id": 2,
+      "title": "Oil (Óleo)",
+      "subtitle": "Triplica todo dano elemental de Fogo recebido",
+      "category": "status",
+      "summary": "Alvo recebe 300% de dano por magias e ataques de fogo (Fire/Fira/Firaga)!",
+      "details": "Cobre o alvo em óleo inflamável. Não causa dano por si só, mas qualquer ataque ou magia com elemento Fogo causa o triplo do dano normal (300%). Em áreas com inimigos do tipo Bomb ou chefes de fogo, um grupo sob Oil pode ser dizimado em um único turno.",
+      "cure": "• Item: Handkerchief (muito barato, vendido em qualquer loja de itens).\n• Item: Remedy (basta Remedy Lore 1).\n• Magia: Esuna.",
+      "location": "",
+      "pro_tip": "• Estratégia Monstruosa de DPS: Lance a magia Oil no chefe (ou use Nihopalaoa + Handkerchief). Em seguida, configure seus magos negros com Gambit: 'Foe: status = Oil -> Firaga' usando cajado Flame Staff (+50% dano de fogo). O dano sobe para o teto máximo com facilidade!",
+      "tags": "oil oleo status fogo dano firaga handkerchief esuna debuff flame staff"
+    },
+    {
+      "id": 3,
+      "title": "Stop (Parada)",
+      "subtitle": "Congela o tempo e barra de ação (ATB) do personagem",
+      "category": "status",
+      "summary": "O personagem para completamente: sem ações, sem recarga de ATB e sem buffs expirando.",
+      "details": "Interrompe totalmente todas as ações e o fluxo temporal do personagem. Buffs ativos (como Haste, Protect) não expiram enquanto durar o Stop, mas o personagem fica completamente indefeso e vulnerável a ataques inimigos sem poder esquivar ou bloquear com escudo.",
+      "cure": "• Item: Chronos Tear (compre estoques em Rabanastre ou Balfonheim).\n• Item: Remedy (exige Remedy Lore 2).\n⚠️ Esuna NÃO cura Stop!",
+      "location": "",
+      "pro_tip": "• Gambit essencial: 'Ally: status = Stop -> Chronos Tear'.\n• Prevenção: Acessório 'Power Armlet' ou 'Ribbon'.\n• Chronos Tear é um item de uso quase instantâneo que não consome MP.",
+      "tags": "stop parada atb congelado chronos tear remedy status controle"
+    },
+    {
+      "id": 4,
+      "title": "Doom (Condenação)",
+      "subtitle": "Contador regressivo para Morte Instantânea",
+      "category": "status",
+      "summary": "Um contador numérico surge na cabeça. Quando chegar a zero, morte imediata!",
+      "details": "Coloca um contador regressivo visível sobre a cabeça do personagem. Ao chegar a zero, o personagem é nocauteado instantaneamente (KO). Quase nenhum feitiço normal remove este efeito, tornando-o um teste contra o tempo.",
+      "cure": "• Remedy Lore 3: Apenas um Remedy lançado com a licença Remedy Lore 3 consegue remover Doom.\n• Alternativa: Aguarde o nocaute e reviva imediatamente com Phoenix Down ou Arise.",
+      "location": "",
+      "pro_tip": "• Se não possuir Remedy Lore 3 no grupo, lance Berserk ou Haste no personagem condenado para extrair o máximo de dano antes que o contador expire, mantendo outro aliado com Gambit 'Ally: status = KO -> Phoenix Down'.",
+      "tags": "doom condenacao morte instantanea remedy lore contador status"
+    },
+    {
+      "id": 5,
+      "title": "Petrify (Petrificação)",
+      "subtitle": "Contagem regressiva de pedra (10 a 0)",
+      "category": "status",
+      "summary": "Contador de 10 a 0. Ao zerar, vira estátua de pedra e é considerado KO.",
+      "details": "Em FF XII, a petrificação é gradual: um contador surge e o personagem ainda pode agir enquanto o número diminui. Porém, ao atingir zero, o personagem vira pedra e não pode mais receber cura nem agir até ser revertido.",
+      "cure": "• Item: Gold Needle (compre em grandes quantidades em qualquer merchant).\n• Item: Stundal.\n• Magia: Esuna ou Cleanse.\n• Item: Remedy (Remedy Lore 1).",
+      "location": "",
+      "pro_tip": "• Configure: 'Ally: status = Petrify -> Gold Needle'. Sempre cure ANTES de chegar a zero para evitar perder um membro ativo da equipe.",
+      "tags": "petrify petrificacao pedra gold needle esuna stundal status"
+    },
+    {
+      "id": 6,
+      "title": "Serum",
+      "subtitle": "Item medicinal especializado que cura Disease (Doença)",
+      "category": "items",
+      "summary": "Cura o status Disease imediatamente, permitindo que o HP volte ao máximo.",
+      "details": "Consumível primordial para áreas de alto perigo onde monstros aplicam Disease. Diferente das magias de cura comuns, o Serum anula a infecção instantaneamente.",
+      "cure": "",
+      "location": "• Vendido por mercadores em Mt Bur-Omisace e no porto de Balfonheim (após eventos da história).",
+      "pro_tip": "• Carregue sempre pelo menos 10 unidades antes de masmorras avançadas como Necrohol of Nabudis ou Pharos.\n• Use com acessório Nihopalaoa em chefes para infligir Disease neles!",
+      "tags": "serum item cura disease doenca remedio balfonheim omisace"
+    },
+    {
+      "id": 7,
+      "title": "Remedy (Panaceia)",
+      "subtitle": "Cura status negativos básicos e avança com as licenças Remedy Lore",
+      "category": "items",
+      "summary": "O item de cura mais versátil do jogo. Cura quase todos os status com as licenças certas.",
+      "details": "Por padrão cura status como Poison, Blind e Silence. Com Remedy Lore 1 cura Petrify; com Remedy Lore 2 cura Stop; com Remedy Lore 3 cura Disease e Doom!",
+      "cure": "",
+      "location": "• Vendido em quase todas as lojas de itens de Ivalice (Rabanastre, Bhujerba, Nalbina).",
+      "pro_tip": "• Destrave as 3 licenças Remedy Lore o mais cedo possível na License Board do seu suporte para torná-lo um item de cura supremo.",
+      "tags": "remedy item cura panaceia lore disease doom stop status"
+    },
+    {
+      "id": 8,
+      "title": "Handkerchief",
+      "subtitle": "Lenço de uso rápido que remove o status Oil (Óleo)",
+      "category": "items",
+      "summary": "Limpa o óleo do corpo, prevenindo dano triplicado de magias e ataques de fogo.",
+      "details": "Item essencial contra inimigos do tipo Bomb ou chefes que usam magias de fogo combinadas com Oil.",
+      "cure": "",
+      "location": "• Vendido por apenas 80 Gil em praticamente qualquer loja de itens de Rabanastre e outras cidades.",
+      "pro_tip": "• Mantenha o gambit 'Ally: status = Oil -> Handkerchief' ativo em áreas quentes como Mosphoran Highwaste.",
+      "tags": "handkerchief item lenco cura oil oleo fogo rabanastre"
+    },
+    {
+      "id": 9,
+      "title": "Chronos Tear",
+      "subtitle": "Lágrima temporal que descongela o personagem e cura Stop",
+      "category": "items",
+      "summary": "Remove a imobilização total do status Stop sem gastar MP e com uso quase instantâneo.",
+      "details": "Descongela a barra de ATB e devolve o controle do personagem de forma imediata quando atingido por Time Magick.",
+      "cure": "",
+      "location": "• Vendido na loja de itens de Rabanastre e mercadores em Balfonheim e Archades.",
+      "pro_tip": "• Configure sempre no topo dos seus Gambits: 'Ally: status = Stop -> Chronos Tear'.",
+      "tags": "chronos tear item cura stop tempo parada atb rabanastre"
+    },
+    {
+      "id": 10,
+      "title": "Gold Needle",
+      "subtitle": "Agulha dourada que desfaz o endurecimento e cura Petrify",
+      "category": "items",
+      "summary": "Reverte tanto a contagem regressiva de petrificação quanto o estado de pedra consolidado.",
+      "details": "Consumível barato e fundamental para evitar que membros da equipe sejam petrificados e fiquem fora de combate.",
+      "cure": "",
+      "location": "• Vendido em todas as cidades e mercadores viajantes por valor muito baixo.",
+      "pro_tip": "• Carregue sempre 30 unidades; basiliscos, górgonas e monstros alados aplicam petrificação em área com frequência.",
+      "tags": "gold needle item agulha cura petrify pedra petrificacao"
+    },
+    {
+      "id": 11,
+      "title": "Esuna",
+      "subtitle": "Magia Branca fundamental de purificação para múltiplos status",
+      "category": "spells",
+      "summary": "Remove Poison, Blind, Silence, Sleep, Sap, Immobilize, Disable, Petrify e Oil de um aliado.",
+      "details": "Custa 24 MP. É o feitiço básico mais importante para limpar debuffs dos aliados sem gastar itens do inventário.",
+      "cure": "",
+      "location": "• Vendida na loja de magias de Bhujerba (Yamoora's Magicks) e em Rabanastre após a tumba de Raithwall.",
+      "pro_tip": "• Configure gambit 'Ally: any -> Esuna' para limpeza contínua, mas lembre-se: Esuna NÃO cura Disease nem Stop!",
+      "tags": "esuna magia spell branca cura purificacao status bhujerba rabanastre"
+    },
+    {
+      "id": 12,
+      "title": "Cleanse",
+      "subtitle": "Magia Branca avançada de alto nível capaz de erradicar Disease e Petrify",
+      "category": "spells",
+      "summary": "O único feitiço mágico capaz de remover Disease (Doença) e restaurar o HP máximo.",
+      "details": "Magia Branca de Rank 7. Muito rara e poderosa, substitui a necessidade constante de carregar o item Serum.",
+      "cure": "",
+      "location": "• Baú do tesouro em Necrohol of Nabudis (Cloister of the Highborn) ou baú com Diamond Armlet em Cerobi Steppe.",
+      "pro_tip": "• Requer a licença White Magick 7 na License Board (usada por White Mage ou Red Battlemage).",
+      "tags": "cleanse magia spell branca cura disease doenca necrohol nabudis cerobi"
+    },
+    {
+      "id": 13,
+      "title": "Dispel",
+      "subtitle": "Magia Verde indispensável que remove buffs e efeitos mágicos",
+      "category": "spells",
+      "summary": "Remove buffs de inimigos (Haste, Protect, Shell, Regen) e desfaz Reverse ou Berserk.",
+      "details": "Essencial em batalhas contra chefes e hunts para desarmar escudos e acelerações inimigas.",
+      "cure": "",
+      "location": "• Vendida na loja Clan Centurio em Rabanastre (requer rank Hedge Knight) ou em baú no Tomb of Raithwall.",
+      "pro_tip": "• Configure o gambit 'Foe: any -> Dispel' para anular instantaneamente qualquer buff que os chefes lancem em si mesmos!",
+      "tags": "dispel magia spell verde clan centurio raithwall buff debuff"
+    }
+  ]
+}
