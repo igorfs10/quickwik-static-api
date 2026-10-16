@@ -41,7 +41,6 @@
       "details": "Item primordial para a sobrevivência. Cada Golden Seed adiciona usos ao seu Flask of Crimson Tears (vida) ou Cerulean Tears (FP/mana). Conforme o número de frascos aumenta, mais sementes são necessárias por nível (até o máximo de 14 frascos no total).",
       "cure": "",
       "location": "• Encontradas sob pequenas árvores douradas brilhantes (Minor Erdtree Saplings):\n  - Stormhill (na subida do portão antes do castelo)\n  - Weeping Peninsula (perto do castelo Morne)\n  - Liurnia of the Lakes (ao longo dos caminhos centrais e ruínas)\n  - Caelid e Leyndell.",
-      "cure_or_location": "",
       "pro_tip": "• Ao explorar qualquer região nova, siga a estrada principal: praticamente todas as rotas principais têm uma muda dourada visível de longe com uma Golden Seed gratuita aos seus pés!",
       "tags": "elden ring golden seed frasco cura cargas flask erdtree item"
     },
@@ -55,7 +54,6 @@
       "details": "Usadas no menu do Local de Graça para subir o nível do frasco (+1, +2 ... até +12). No nível máximo, um único gole restaura quase a totalidade de uma barra de vida com 60 de Vigor.",
       "cure": "",
       "location": "• Sempre localizadas aos pés da estátua de Marika dentro de Igrejas em ruínas:\n  - Terceira Igreja de Marika (leste de Limgrave)\n  - Igreja da Peregrinação (norte da Weeping Peninsula)\n  - Igreja Batismal de Callu (centro da Weeping Peninsula)\n  - Quarta Igreja de Marika (oeste da Weeping Peninsula)\n  - Igreja de Irith (saída sul de Liurnia).",
-      "cure_or_location": "",
       "pro_tip": "• Segredo de Início de Jogo: A Península das Lamentações (ao sul de Limgrave) possui TRÊS Igrejas com Sacred Tears fáceis de pegar sem precisar enfrentar chefes obrigatórios! Colete as 3 antes de lutar contra Margit!",
       "tags": "elden ring sacred tear igreja marika potencia cura flask item"
     },
@@ -69,7 +67,6 @@
       "details": "Item reutilizável que canaliza poder sagrado dourado para forçar Margit, the Fell Omen e Morgott, the Omen King ao chão. Durante o atordoamento, o chefe fica indefeso para receber ataques pesados carregados que quebram a postura.",
       "cure": "",
       "location": "• Comprado com o NPC Patches na Caverna de Murkwater (Murkwater Cave) em Limgrave por 5.000 Runas, após derrotá-lo até a metade da vida e aceitar a rendição dele.",
-      "cure_or_location": "",
       "pro_tip": "• Utilidade Secreta Fora de Chefes: O Shackle emite uma onda de colisão invisível que atinge centenas de metros: use-o dentro de masmorras e catacumbas para desarmar pilares de fogo e revelar paredes ilusórias sem precisar bater nelas!",
       "tags": "elden ring margit shackle patches stun muralha ilusoria segredo item"
     },
@@ -83,7 +80,6 @@
       "details": "Diferente das pedras normais (que exigem dezenas de pedras por patamar), armas especiais (como Bloodhound's Fang, Moonveil, Blasphemous Blade) precisam de apenas 1 Somber Stone por nível. Isso permite turbinar o dano do seu personagem de forma muito rápida.",
       "cure": "",
       "location": "• Somber [1] a [4]: Vendidas infinitamente pelo ferreiro Mestre Iji na estrada oeste de Liurnia (Road to the Manor).\n• Somber [5] e [6]: Túnel de Altus e Mt. Gelmir.\n• Somber [7], [8] e [9]: Dragonbarrow (nordeste de Caelid) e Farum Azula.",
-      "cure_or_location": "",
       "pro_tip": "• Se você usa a Bloodhound's Fang (adquirida no Forlorn Hound Evergaol), visite Iji em Liurnia logo após o início do jogo: compre as Somber 1, 2, 3 e 4 para colocar sua arma no +4 instantaneamente!",
       "tags": "elden ring somber smithing stone pedras armas upgrade iji item"
     },
@@ -97,7 +93,6 @@
       "details": "O melhor talismã de progressão do jogo. Multiplica todas as runas obtidas por 1.2x. Acumula multiplicativamente com o consumível Gold-Pickled Fowl Foot (+30%), gerando um total de +56% de runas adicionais.",
       "cure": "",
       "location": "• Recompensa por derrotar os Cavaleiros de Cleanrot no final da Caverna Abandonada (Abandoned Cave) em Caelid, acessível atravessando um tronco sobre o desfiladeiro de Scarlet Rot.",
-      "cure_or_location": "",
       "pro_tip": "• Dica de Ouro: Durante a animação de morte de chefes de história, troque rapidamente para o Golden Scarab e use um Gold-Pickled Fowl Foot antes da mensagem 'ENEMY FELLED' sumir para faturar um bônus astronômico de runas!",
       "tags": "elden ring golden scarab talisman farm runas xp caelid equipamento equipment"
     },
@@ -111,7 +106,6 @@
       "details": "Exige apenas 12 de Fé. Aplica um pequeno calor que queima 15 de HP de si mesmo e remove instantaneamente todo o acúmulo e status ativos de Podridão Escarlate (Scarlet Rot) e Veneno (Poison).",
       "cure": "• Cura instantânea: Remove todo o acúmulo e efeito ativo de Podridão Escarlate (Scarlet Rot) e Veneno (Poison) ao custo de 15 HP e mínimo de FP.",
       "location": "• Acampamento dos Monges do Fogo (Fire Monk Camp) a sudeste da Igreja dos Votos (Church of Vows) em Liurnia of the Lakes, em um corpo ao lado de uma fogueira.",
-      "cure_or_location": "",
       "pro_tip": "• Mesmo que sua build seja puramente física ou mágica, equipe um Finger Seal básico e invista 12 de Fé (ou use o talismã Two Fingers Heirloom). Esse feitiço evita gastar Preserving Boluses caros no Lake of Rot!",
       "tags": "elden ring flame cleanse me scarlet rot veneno podridao liurnia magia magic"
     }
