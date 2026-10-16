@@ -1,1 +1,0 @@
-# quickwik-static-api
