@@ -5,7 +5,7 @@
       "title": "Hollow Knight",
       "icon": "🪲",
       "url": "games/hollow_knight.json",
-      "updated_at": "2026-10-16T20:00:00Z"
+      "updated_at": "2026-10-18T20:00:00Z"
     },
     {
       "id": "elden_ring",
@@ -19,8 +19,8 @@
       "title": "Final Fantasy XII: The Zodiac Age",
       "icon": "⚔️",
       "url": "games/ff12.json",
-      "updated_at": "2026-10-16T20:00:00Z"
+      "updated_at": "2026-10-18T20:00:00Z"
     }
   ],
-  "updated_at": "2026-10-16T20:00:00Z"
+  "updated_at": "2026-10-18T20:00:00Z"
 }

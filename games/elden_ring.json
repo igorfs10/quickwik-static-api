@@ -36,6 +36,7 @@
       "title": "Golden Seed (Semente Dourada)",
       "subtitle": "Aumenta o número total de usos do Frasco de Lágrimas",
       "category": "heal",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -69,6 +70,7 @@
       "title": "Sacred Tear (Lágrima Sagrada)",
       "subtitle": "Aumenta a quantidade de HP e FP curada por cada gole (+1 a +12)",
       "category": "heal",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -102,6 +104,7 @@
       "title": "Margit's Shackle (Grilhões de Margit)",
       "subtitle": "Imobiliza Margit e Morgott na Fase 1 por 4 a 5 segundos",
       "category": "key",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -135,6 +138,7 @@
       "title": "Somber Smithing Stones [1] a [9]",
       "subtitle": "Pedras de forja para armas especiais e lendárias (+1 a +10)",
       "category": "upgrade",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -168,6 +172,7 @@
       "title": "Golden Scarab (Escaravelho Dourado)",
       "subtitle": "Talismã que aumenta o ganho de Runas em +20%",
       "category": "key",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -201,6 +206,7 @@
       "title": "Flame, Cleanse Me (Fogo, Limpa-me)",
       "subtitle": "Encantamento de cura para Scarlet Rot e Poison",
       "category": "defense",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",

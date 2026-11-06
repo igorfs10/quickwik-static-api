@@ -2,7 +2,7 @@
   "id": "ff12",
   "title": "Final Fantasy XII: The Zodiac Age",
   "icon": "⚔️",
-  "updated_at": "2026-10-16T20:00:00Z",
+  "updated_at": "2026-10-18T20:00:00Z",
   "process_keywords": [
     "ffxii",
     "ff12",
@@ -32,6 +32,7 @@
       "title": "Poison (Veneno)",
       "subtitle": "Dreno gradual contínuo de HP ao longo do tempo",
       "category": "status",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Ícone do Status",
@@ -71,6 +72,7 @@
       "title": "Disease (Doença)",
       "subtitle": "HP Máximo drenado e travado no HP atual",
       "category": "status",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -104,6 +106,7 @@
       "title": "Oil (Óleo)",
       "subtitle": "Triplica todo dano elemental de Fogo recebido",
       "category": "status",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -137,6 +140,7 @@
       "title": "Stop (Parada)",
       "subtitle": "Congela o tempo e barra de ação (ATB) do personagem",
       "category": "status",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -170,6 +174,7 @@
       "title": "Doom (Condenação)",
       "subtitle": "Contador regressivo para Morte Instantânea",
       "category": "status",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -203,6 +208,7 @@
       "title": "Petrify (Petrificação)",
       "subtitle": "Contagem regressiva de pedra (10 a 0)",
       "category": "status",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -236,6 +242,7 @@
       "title": "Serum",
       "subtitle": "Item medicinal especializado que cura Disease (Doença)",
       "category": "items",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -269,6 +276,7 @@
       "title": "Remedy (Panaceia)",
       "subtitle": "Cura status negativos básicos e avança com as licenças Remedy Lore",
       "category": "items",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -302,6 +310,7 @@
       "title": "Handkerchief",
       "subtitle": "Lenço de uso rápido que remove o status Oil (Óleo)",
       "category": "items",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -335,6 +344,7 @@
       "title": "Chronos Tear",
       "subtitle": "Lágrima temporal que descongela o personagem e cura Stop",
       "category": "items",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -368,6 +378,7 @@
       "title": "Gold Needle",
       "subtitle": "Agulha dourada que desfaz o endurecimento e cura Petrify",
       "category": "items",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -401,6 +412,7 @@
       "title": "Esuna",
       "subtitle": "Magia Branca fundamental de purificação para múltiplos status",
       "category": "spells",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -434,6 +446,7 @@
       "title": "Cleanse",
       "subtitle": "Magia Branca avançada de alto nível capaz de erradicar Disease e Petrify",
       "category": "spells",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
@@ -467,6 +480,7 @@
       "title": "Dispel",
       "subtitle": "Magia Verde indispensável que remove buffs e efeitos mágicos",
       "category": "spells",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",

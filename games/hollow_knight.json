@@ -2,7 +2,7 @@
   "id": "hollow_knight",
   "title": "Hollow Knight",
   "icon": "🪲",
-  "updated_at": "2026-10-16T20:00:00Z",
+  "updated_at": "2026-10-18T20:00:00Z",
   "process_keywords": [
     "hollow_knight",
     "hollow knight",
@@ -21,6 +21,7 @@
       "title": "Wayward Compass (Bússola)",
       "subtitle": "Mostra a localização do Cavaleiro no mapa",
       "category": "charms",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -54,6 +55,7 @@
       "title": "Shaman Stone (Pedra do Xamã)",
       "subtitle": "Aumenta drasticamente o dano de magias (Vengeful Spirit, etc.)",
       "category": "charms",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
@@ -87,6 +89,7 @@
       "title": "Mothwing Cloak (Manto de Mariposa)",
       "subtitle": "Habilidade essencial de esquiva rápida (Dash horizontal)",
       "category": "skills",
+      "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
