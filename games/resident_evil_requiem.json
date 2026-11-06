@@ -1,0 +1,920 @@
+{
+  "id": "resident_evil_requiem",
+  "title": "Resident Evil Requiem",
+  "icon": "🧟",
+  "updated_at": "2026-11-06T23:00:00Z",
+  "process_keywords": [
+    "re_requiem",
+    "residentevilrequiem",
+    "resident evil requiem",
+    "re9"
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "Todos"
+    },
+    {
+      "id": "platinum",
+      "label": "🏆 Guia de Platina"
+    }
+  ],
+  "entries": [
+    {
+      "id": 301,
+      "title": "Réquiem (Requiem)",
+      "subtitle": "🏆 Platina — Obtenha todos os troféus de Resident Evil Requiem",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visão Geral da Platina",
+          "type": "text",
+          "content": "• Raridade: Platina (1 Platina, 3 Ouro, 6 Prata, 40 Bronze — Total de 50 troféus)\n• Tempo estimado: 20 a 25 horas\n• Jogadas mínimas recomendadas: 3 campanhas\n• Troféus online: Nenhum\n• Troféus perdíveis: Sim (colecionáveis e ações específicas em áreas sem retorno, pois o jogo não possui seleção de capítulos).",
+          "color": "cyan"
+        },
+        {
+          "title": "Roadmap Recomendado (3 Jogadas)",
+          "type": "text",
+          "content": "1ª Jogada — Dificuldade Padrão (Moderno) + Colecionáveis:\n• Aproveite a história com Grace Ashcroft e Leon S. Kennedy e foque em pegar todos os 75 Arquivos, 25 Bonecos Mr. Raccoon, 5 Cofres e 3 Contêineres da BSAA, além dos troféus de combate específicos.\n\n2ª Jogada — Dificuldade Casual (Speedrun + Sem Cura + Sem Coletor):\n• Combine os 3 desafios restritivos na dificuldade Casual: terminar em menos de 4 horas (Trem Bala Sem Freio), sem usar ervas/injetores vitais (Detox Raiz) e sem usar o Coletor de Sangue com a Grace (Minimalista).\n\n3ª Jogada — Dificuldade Insanidade:\n• Use os Pontos de Desafio (CP) acumulados nas duas primeiras campanhas para comprar Munição Infinita / Armas Bônus na loja de extras e conclua o modo Insanidade sem dificuldade.",
+          "color": "green"
+        }
+      ],
+      "tags": "platina platinum requiem roadmap guia todos trofeus 100%"
+    },
+    {
+      "id": 302,
+      "title": "Déjà vu",
+      "subtitle": "🥉 Bronze — Presencie um surto em Wrenwood",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Desbloqueado automaticamente no prólogo/início da campanha ao vivenciar o início do surto em Wrenwood.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia deja vu wrenwood surto automatico"
+    },
+    {
+      "id": 303,
+      "title": "Mergulhando no Abismo (Descent Into Darkness)",
+      "subtitle": "🥉 Bronze — Chegue ao porão do centro de cuidados",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Obtido automaticamente durante a campanha com a Grace ao descer até o subsolo/porão do Centro de Cuidados de Rhodes Hill.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia mergulhando no abismo descent into darkness porao centro de cuidados grace"
+    },
+    {
+      "id": 304,
+      "title": "Noite Sem Fim (It's Been a Long Night)",
+      "subtitle": "🥉 Bronze — Chegue ao pátio do centro de cuidados",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Concedido automaticamente ao destrancar o acesso principal e alcançar o pátio externo do Centro de Cuidados de Rhodes Hill.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia noite sem fim foi uma longa noite patio centro de cuidados rhodes hill"
+    },
+    {
+      "id": 305,
+      "title": "Dura Realidade (A Harsh Reality)",
+      "subtitle": "🥉 Bronze — Fuja do centro de cuidados",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Desbloqueado automaticamente após concluir toda a seção do Centro de Cuidados de Rhodes Hill e escapar do complexo.\n• Atenção: Certifique-se de ter aberto os 3 cofres de Rhodes Hill e concluído os troféus específicos das alas Leste e Oeste antes de sair definitivamente.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze historia dura realidade uma realidade dura a harsh reality centro de cuidados fuga"
+    },
+    {
+      "id": 306,
+      "title": "Tá Descendo? (Going Down?)",
+      "subtitle": "🥉 Bronze — Chegue ao térreo usando a plataforma suspensa",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Obtido automaticamente durante a progressão principal ao utilizar a plataforma suspensa e sobreviver à descida até o nível térreo.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia ta descendo indo pra baixo going down plataforma suspensa"
+    },
+    {
+      "id": 307,
+      "title": "A Volta do Herói (The Hero Returns)",
+      "subtitle": "🥉 Bronze — Chegue ao R.P.D. (Delegacia de Polícia de Raccoon City)",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Concedido automaticamente na campanha de Leon S. Kennedy ao retornar à icônica Delegacia de Polícia de Raccoon City (R.P.D.).",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia a volta do heroi o heroi retorna the hero returns rpd leon raccoon city"
+    },
+    {
+      "id": 308,
+      "title": "Eu Me Lembro Disso Também (I Remember That, Too)",
+      "subtitle": "🥉 Bronze — Derrote o Supertirano",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Desbloqueado automaticamente ao vencer a batalha contra o chefe Super Tyrant (Supertirano) com o Leon.\n• Dica: Mire no coração exposto no peito da criatura e utilize o aparar (L1) com o Machado Tático ou esquive das investidas em linha reta quando ele preparar o golpe carregado.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia chefe boss super tyrant supertirano eu tambem me lembro disso leon"
+    },
+    {
+      "id": 309,
+      "title": "O Legado da Umbrella (Umbrella's Legacy)",
+      "subtitle": "🥉 Bronze — Encontre a instalação subterrânea ARK",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Concedido automaticamente ao descobrir e entrar no complexo laboratorial ARK da Umbrella no ato final da campanha.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia o legado da umbrella umbrellas legacy ark laboratorio"
+    },
+    {
+      "id": 310,
+      "title": "A Missão Final (The Final Mission)",
+      "subtitle": "🥉 Bronze — Comece a explorar os níveis inferiores da ARK",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Desbloqueado automaticamente ao avançar para os níveis profundos da instalação ARK rumo ao confronto derradeiro.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze historia a missao final the final mission ark niveis inferiores"
+    },
+    {
+      "id": 311,
+      "title": "Esperança e Réquiem (Hope and Requiem)",
+      "subtitle": "🥈 Prata — Conclua a história principal libertando Elpis",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Prata — Conclusão da História Principal.",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Conclua a campanha principal escolhendo libertar Elpis no desfecho da história na instalação ARK.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata historia final esperanca e requiem hope and requiem elpis zerar"
+    },
+    {
+      "id": 312,
+      "title": "Agente Novato (Rookie Agent)",
+      "subtitle": "🥉 Bronze — Conclua a história principal pelo menos na dificuldade Casual",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Bronze — Dificuldade (Acumulativo).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Termine a campanha principal na dificuldade Casual ou superior.\n• Os troféus de dificuldade são cumulativos: terminar diretamente no Padrão ou Insanidade também desbloqueia este troféu.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze dificuldade agente novato rookie agent casual zerar"
+    },
+    {
+      "id": 313,
+      "title": "Agente em Ascensão (Rising Agent)",
+      "subtitle": "🥈 Prata — Conclua a história principal pelo menos na dificuldade Padrão (Moderno)",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Prata — Dificuldade (Acumulativo).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Termine a história principal na dificuldade Padrão (Moderno) ou superior.\n• Recomendado para a sua 1ª jogada, pois oferece salvamentos automáticos generosos e equilíbrio ideal para explorar e pegar todos os colecionáveis.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata dificuldade agente em ascensao rising agent padrao moderno standard"
+    },
+    {
+      "id": 314,
+      "title": "Agente Resoluto (Resolute Agent)",
+      "subtitle": "🥈 Prata — Conclua a história principal pelo menos na dificuldade Padrão (Clássico)",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Prata — Dificuldade (Acumulativo).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Conclua a história principal na dificuldade Padrão (Clássico) ou na dificuldade Insanidade.\n• Nota: No modo Padrão (Clássico), os salvamentos manuais exigem Fitas de Tinta (Ink Ribbons) nas máquinas de escrever (o que também permite obter o troféu 'À Moda Antiga'). Se você concluir o jogo no modo Insanidade, este troféu também será desbloqueado automaticamente.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata dificuldade agente resoluto resolute agent padrao classico ink ribbon"
+    },
+    {
+      "id": 315,
+      "title": "Agente Notável (Remarkable Agent)",
+      "subtitle": "🥇 Ouro — Conclua a história principal na dificuldade Insanidade",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tipo do Troféu",
+          "type": "text",
+          "content": "Troféu de Ouro — Dificuldade Máxima (Insanity).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia do Guia",
+          "type": "text",
+          "content": "• Na dificuldade Insanidade, os inimigos causam dano massivo, são muito mais agressivos, o posicionamento de alguns perigos muda e as combinações de todos os 5 cofres são diferentes das dificuldades normais.\n• Dica para facilitar: Deixe esta para a sua 3ª jogada. Utilize os Pontos de Desafio (CP) obtidos ao completar o Speedrun e os colecionáveis nas runs anteriores para desbloquear Munição Infinita ou armas especiais na Loja de Bônus — elas não bloqueiam o troféu!",
+          "color": "green"
+        }
+      ],
+      "tags": "ouro dificuldade agente notavel remarkable agent insanidade insano insanity"
+    },
+    {
+      "id": 316,
+      "title": "Fora de Vista, Fora da Mente (Out of Sight, Out of Mind)",
+      "subtitle": "🥉 Bronze — Guarde um item no baú de itens jogando como Grace",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com a Grace, vá até qualquer Caixa de Itens (encontrada nas salas seguras ao lado das máquinas de escrever no Centro de Cuidados de Rhodes Hill) e deposite qualquer item do seu inventário.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze fora de vista fora da mente longe dos olhos longe do coracao bau caixa de itens grace"
+    },
+    {
+      "id": 317,
+      "title": "À Moda Antiga (The Ol' Fashioned Way)",
+      "subtitle": "🥉 Bronze — Use uma fita de tinta para salvar em uma máquina de escrever",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Para usar uma Fita de Tinta (Ink Ribbon) em uma máquina de escrever, você deve estar jogando na dificuldade Padrão (Clássico) ou Insanidade, onde os salvamentos manuais consomem fitas de tinta.\n• Assim que encontrar sua primeira Fita de Tinta perto de uma máquina de escrever e registrar o jogo, o troféu será desbloqueado.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze a moda antiga old school the ol fashioned way fita de tinta ink ribbon maquina de escrever salvar"
+    },
+    {
+      "id": 318,
+      "title": "Tal Mãe, Tal Filha (Like Mother, Like Daughter)",
+      "subtitle": "🥉 Bronze — Abra uma gaveta usando uma gazua (lockpick)",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Uma homenagem direta a Alyssa Ashcroft (mãe de Grace em Resident Evil Outbreak).\n• Encontre uma Gazua (Lockpick) — a primeira pode ser pega no Escritório do Pesquisador-Chefe (Lead Researcher's Office), no 2º andar do Centro de Cuidados em Rhodes Hill — e use-a para destrancar qualquer gaveta trancada.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze tal mae tal filha like mother like daughter gazua lockpick gaveta grace alyssa"
+    },
+    {
+      "id": 319,
+      "title": "Dose Cavalar (Fatal Dose)",
+      "subtitle": "🥉 Bronze — Derrote um zumbi usando um injetor hemolítico",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com a Grace, equipe ou tenha um Injetor Hemolítico (Hemolytic Injector) no inventário.\n• Aproxime-se furtivamente por trás de um zumbi ou atordoe-o primeiro e aplique o injetor hemolítico para eliminá-lo instantaneamente.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze dose cavalar dose fatal fatal dose injetor hemolitico hemolytic injector zumbi grace"
+    },
+    {
+      "id": 320,
+      "title": "Ciência! (Science!)",
+      "subtitle": "🥉 Bronze — Desbloqueie uma receita de fabricação por meio de análise",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Durante a campanha com a Grace no Centro de Cuidados de Rhodes Hill, interaja com o equipamento de análise laboratorial e conclua o minigame de análise de amostra para liberar uma nova receita de fabricação (crafting).",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze ciencia science eureka receita fabricacao crafting analise grace"
+    },
+    {
+      "id": 321,
+      "title": "O Poder do Sangue (The Power of Blood)",
+      "subtitle": "🥉 Bronze — Fabrique um item utilizando o Coletor de Sangue",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Após obter o Coletor de Sangue (Blood Collector) com a Grace e extrair microamostras de sangue infectado de inimigos abatidos ou poças no cenário, abra o menu de criação e sintetize qualquer item que utilize sangue como reagente.\n• Atenção: Não faça isso durante a sua jogada focada no troféu 'Minimalista'!",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze o poder do sangue sangue e poder the power of blood coletor de sangue crafting grace"
+    },
+    {
+      "id": 322,
+      "title": "Sangue! Mais Sangue! (Blood! More Blood!)",
+      "subtitle": "🥉 Bronze — Utilize 300 microamostras de sangue infectado em uma única jogada",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Com a Grace, colete sangue de inimigos derrotados usando o Coletor de Sangue e gaste pelo menos 300 microamostras fabricando itens (como injetores e munições químicas) ao longo de uma mesma campanha.\n• É muito fácil de obter naturalmente na sua 1ª jogada se você extrair sangue regularmente e criar itens sempre que o reservatório estiver cheio.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze sangue mais sangue blood more blood 300 microamostras coletor grace"
+    },
+    {
+      "id": 323,
+      "title": "Apelão (Bring Out the Big Guns)",
+      "subtitle": "🥉 Bronze — Atordoe 'A Garota' (The Girl) usando a arma Requiem",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Enquanto explora o Centro de Cuidados de Rhodes Hill sendo perseguido pela entidade conhecida como 'A Garota' (The Girl), equipe o revólver pesado Requiem e dispare diretamente nela para fazê-la recuar/atordoar.\n• Dica: Salve o jogo antes de atirar caso queira recarregar o save logo após ganhar o troféu para economizar a munição rara da Requiem.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze apelao bring out the big guns a garota the girl requiem atordoar stun"
+    },
+    {
+      "id": 324,
+      "title": "A Caçada Começa (The Hunt Begins)",
+      "subtitle": "🥉 Bronze — Destrua 1 memorial de Mr. Raccoon",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Destrua a sua primeira estatueta/boneco do Mr. Raccoon com um tiro ou golpe corpo a corpo.\n• Existem 25 bonecos espalhados pelo jogo (necessários para o troféu 'Que Pestinha!').",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze a cacada comeca the hunt begins mr raccoon colecionavel boneco"
+    },
+    {
+      "id": 325,
+      "title": "Intocável (Untouchable)",
+      "subtitle": "🥉 Bronze — Apare (parry) um ataque inimigo com sucesso",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com o Leon, pressione o botão de defesa (L1 no PlayStation / LB no Controle / Espaço no PC) no instante exato em que um inimigo desferir um ataque para apará-lo com o Machado Tático.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze intocavel untouchable parry aparar defesa leon machado"
+    },
+    {
+      "id": 326,
+      "title": "Posso Pegar Emprestado? (Can I Borrow This?)",
+      "subtitle": "🥉 Bronze — Arremesse uma arma derrubada por um inimigo",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Com o Leon, enfrente um zumbi que esteja empunhando uma arma branca ou ferramenta (como cano, machado ou barra de ferro).\n• Atordoe ou derrote o inimigo para que ele solte a arma no chão, aproxime-se dela e pressione o comando de interação contextual para arremessá-la contra outro inimigo próximo.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze posso pegar emprestado can i borrow this arremessar arma inimigo leon"
+    },
+    {
+      "id": 327,
+      "title": "Picapau (Chop Chop)",
+      "subtitle": "🥉 Bronze — Derrote 3 zumbis usando o golpe finalizador de machadinha",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com o Leon, atordoe ou derrube zumbis (atirando nas pernas ou na cabeça) e aproxime-se para executar o golpe finalizador corpo a corpo com o Machado Tático.\n• Repita o abate finalizador em 3 zumbis para desbloquear o troféu.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze picapau corta corta chop chop machadinha machado tatico leon 3 zumbis"
+    },
+    {
+      "id": 328,
+      "title": "Terapia de Varejo (Retail Therapy)",
+      "subtitle": "🥉 Bronze — Compre um item na Caixa de Suprimentos",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com o Leon, acesse qualquer Caixa de Suprimentos (Supply Box, como a do Acampamento Central em Raccoon City Leste) e utilize seus créditos para comprar qualquer item ou suprimento.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze terapia de varejo terapia de compras retail therapy caixa de suprimentos loja leon"
+    },
+    {
+      "id": 329,
+      "title": "Feito sob Medida (Tailor Made)",
+      "subtitle": "🥉 Bronze — Modifique ou aprimore uma arma",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Equipe uma peça de modificação em uma arma (como o compensador da pistola encontrado no Centro de Cuidados) ou compre qualquer melhoria de atributo de arma em uma Caixa de Suprimentos com o Leon.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze feito sob medida tailor made customized melhorar arma upgrade"
+    },
+    {
+      "id": 330,
+      "title": "Fúria ao Volante (Road Rage)",
+      "subtitle": "🥉 Bronze — Impeça um dos ataques de Victor na rodovia",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Durante a sequência de perseguição de veículo na rodovia contra Victor, concentre seus disparos no ponto fraco quando ele preparar a investida contra o veículo para interromper o ataque dele antes do impacto.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze furia ao volante furia na estrada road rage victor perseguição rodovia"
+    },
+    {
+      "id": 331,
+      "title": "Mestre Artesão (Master Craftsman)",
+      "subtitle": "🥈 Prata — Fabrique todos os tipos de itens possíveis no menu de criação",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Você precisa fabricar (craftar) pelo menos uma unidade de cada receita disponível no jogo (incluindo as receitas de Grace com o Coletor de Sangue/análise laboratorial e as munições/itens de Leon).\n• Dica: Certifique-se de analisar todas as amostras nos terminais laboratoriais de Rhodes Hill e da ARK para desbloquear todas as receitas de criação e fabrique um item de cada tipo.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata mestre artesao master craftsman fabricar todos itens receitas crafting"
+    },
+    {
+      "id": 332,
+      "title": "Prato do Dia: Bala (Bang For Your Buck)",
+      "subtitle": "🥉 Bronze — Derrote pelo menos 3 inimigos com um único disparo da Requiem",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• A arma Requiem possui alto poder de perfuração.\n• Atraia 3 ou mais zumbis para um corredor estreito ou batente de porta para que fiquem alinhados um atrás do outro.\n• Dica: Enfraqueça os zumbis com alguns tiros de pistola nas pernas primeiro, alinhe os 3 no corredor e dê um único tiro com a Requiem atravessando todos eles.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze prato do dia bala bang for your buck 3 inimigos um tiro requiem perfuracao"
+    },
+    {
+      "id": 333,
+      "title": "O Gato Comeu Sua Língua? (Cat Got Your Tongue?)",
+      "subtitle": "🥉 Bronze — Corte a língua de um Carnífice β2 (Licker) usando o Machado Tático",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Localização e Como Fazer",
+          "type": "text",
+          "content": "• Obtido com o Leon na instalação ARK (na segunda seção dele dentro do laboratório).\n• Quando encontrar um Carnífice β2 (Licker β2), mantenha uma distância média para induzi-lo a usar o bote de língua à distância.\n• Pressione o botão de aparar (L1 / LB) no momento exato em que a língua vier em direção ao Leon. Ele usará o Machado Tático para decepar a língua da criatura, liberando o troféu na hora.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze o gato comeu sua lingua cat got your tongue licker carnifice b2 lingua parry machado leon ark"
+    },
+    {
+      "id": 334,
+      "title": "Servido! (Order Up!)",
+      "subtitle": "🥉 Bronze — Derrote o Chef do Centro de Cuidados na história principal",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Jogando com a Grace na Ala Oeste do Centro de Cuidados de Rhodes Hill, você encontrará o Chef (The Butcher) na Cozinha e depois patrulhando os corredores.\n• A maneira mais fácil e econômica de matá-lo é esgueirar-se furtivamente por trás dele e aplicar um Injetor Hemolítico (ou usar disparos da Requiem na cabeça). Derrotá-lo também rende a Chave da Despensa e um amuleto.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze servido faca seu pedido order up chef cozinheiro centro de cuidados grace"
+    },
+    {
+      "id": 335,
+      "title": "Dupla Letal (Deadly Duet)",
+      "subtitle": "🥉 Bronze — Derrote as duas zumbis cantoras na história principal",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Localização das 2 Zumbis Cantoras",
+          "type": "text",
+          "content": "Jogando com a Grace no Centro de Cuidados de Rhodes Hill, elimine as duas zumbis especiais que cantam e dão gritos sônicos:\n• 1ª Cantora: No Bar & Lounge (2º andar da Ala Oeste, no caminho para o Escritório do Presidente).\n• 2ª Cantora: Na Sala de Conferências (2º andar da Ala Leste, acessível após obter a Pulseira de Identificação Nível 1).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze dupla letal deadly duet duas zumbis cantoras singing zombies rhodes hill grace"
+    },
+    {
+      "id": 336,
+      "title": "Grace e Golias (Grace and Goliath)",
+      "subtitle": "🥉 Bronze — Derrote um 'Chunk' (zumbi gigante) jogando como Grace",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Após pegar a Pulseira de Identificação Nível 1 na Ala Leste do Centro de Cuidados de Rhodes Hill, um imenso zumbi mutante chamado 'Chunk' passará a vagar pelo andar superior.\n• Dica: Aproveite que ele é lento e fica preso em portas estreitas para atirar com segurança de outra sala ou use Injetores Hemolíticos e tiros de Requiem para abatê-lo.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze grace e golias grace and goliath chunk gigante rhodes hill"
+    },
+    {
+      "id": 337,
+      "title": "Disputa Interna (Internal Dispute)",
+      "subtitle": "🥉 Bronze — Faça um zumbi atacar outro zumbi nas enfermarias do hospital",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Passo a Passo",
+          "type": "text",
+          "content": "• Deve ser feito com a Grace na Ala Leste do Centro de Cuidados de Rhodes Hill (corredor após a Sala de Exames / Sala de Espera).\n• Pegue uma Garrafa Vazia (há uma na Sala de Jantar da Ala Oeste).\n• No corredor onde há um zumbi cego (veste branca, que ataca qualquer fonte de som) e uma zumbi camareira (vestido preto), espere ambos ficarem próximos e arremesse a Garrafa Vazia na zumbi camareira. O barulho fará o zumbi cego atacar a outra zumbi, desbloqueando o troféu.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze disputa interna internal dispute zumbi atacar outro zumbi cego garrafa vazia grace"
+    },
+    {
+      "id": 338,
+      "title": "Profissional Experiente (Seasoned Pro)",
+      "subtitle": "🥉 Bronze — Derrote 300 inimigos",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Troféu cumulativo entre todas as suas jogadas (soma os abates de Grace e Leon).\n• Virá naturalmente durante o final da 1ª campanha ou no início da 2ª campanha.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze profissional experiente seasoned pro 300 inimigos abates kills"
+    },
+    {
+      "id": 339,
+      "title": "Hoje Não, Amigão! (Not Today, Buds!)",
+      "subtitle": "🥉 Bronze — Destrua todos os brotos da Planta 43 (Plant 43 seedlings)",
+      "category": "platinum",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Localização dos Brotos",
+          "type": "text",
+          "content": "• Perdível: Na reta final a caminho da ARK (com o Leon), você encontrará brotos tentaculares da Planta 43.\n• O 1º broto fica dentro de um vagão de trem ao atravessar uma fenda.\n• Logo em seguida, após descer de rapel para o sistema de cavernas subterrâneas, existem mais cerca de 8 brotos espalhados pela caverna (incluindo alguns em túneis laterais). Vasculhe todos os caminhos da caverna e destrua todos os brotos antes de prosseguir.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze hoje nao amigao not today buds planta 43 plant 43 seedlings brotos caverna leon"
+    },
+    {
+      "id": 340,
+      "title": "Nenhum Cofre é Seguro (No Safe is Safe)",
+      "subtitle": "🥉 Bronze — Abra todos os 5 cofres na história principal",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Combinações — Casual / Padrão",
+          "type": "text",
+          "content": "Todos os 5 cofres são abertos jogando com a Grace:\n1. Bar & Lounge (Rhodes Hill, Ala Oeste 2º Andar): Esquerda 10, Direita 80, Esquerda 30\n2. Sala de Exames (Rhodes Hill, Ala Leste 1º Andar): Direita 30, Esquerda 10, Direita 50\n3. Porão / Fornalha (Subsolo de Rhodes Hill): Direita 60, Esquerda 40, Direita 80\n4. Câmara de Esterilização (Complexo ARK): Direita 10, Esquerda 90, Direita 20\n5. Sala de Controle de Monitoramento (Complexo ARK): Esquerda 50, Direita 60, Esquerda 80",
+          "color": "green"
+        },
+        {
+          "title": "Combinações — Modo Insanidade",
+          "type": "text",
+          "content": "Caso esteja fazendo no modo Insanidade, as senhas mudam para:\n1. Bar & Lounge: Direita 20, Esquerda 50, Direita 30\n2. Sala de Exames: Esquerda 50, Direita 30, Esquerda 90\n3. Porão / Fornalha: Esquerda 70, Esquerda 50, Esquerda 20\n4. Câmara de Esterilização: Esquerda 80, Esquerda 50, Direita 0\n5. Sala de Controle de Monitoramento: Direita 20, Direita 0, Direita 70",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bronze nenhum cofre e seguro no safe is safe cofres senhas combinacoes 5 cofres grace"
+    },
+    {
+      "id": 341,
+      "title": "Expectativas de Caixote (Crate Expectations)",
+      "subtitle": "🥉 Bronze — Abra todos os 3 contêineres da BSAA",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Existem 3 Contêineres especiais da BSAA espalhados pela região de Raccoon City Leste durante a campanha do Leon.\n• Explore os arredores do Acampamento Central e as ruas adjacentes de Raccoon City Leste antes de entrar definitivamente na R.P.D. para destrancar todos os 3 contêineres.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze expectativas de caixote crate expectations conteineres bsaa 3 caixas leon raccoon city"
+    },
+    {
+      "id": 342,
+      "title": "Caso Encerrado (Case Closed)",
+      "subtitle": "🥈 Prata — Leia todos os 75 arquivos da história principal",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Existem 75 documentos/arquivos (notas, diários, relatórios e memorandos) distribuídos entre as seções de Grace e Leon (Wrenwood, Centro de Cuidados de Rhodes Hill, Raccoon City Leste, R.P.D. e ARK).\n• O progresso de arquivos lidos é salvo no registro global da sua conta: se deixar algum para trás, basta ler apenas os que faltaram na próxima jogada.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata caso encerrado case closed 75 arquivos documentos colecionaveis files"
+    },
+    {
+      "id": 343,
+      "title": "Que Pestinha! (You Little Rascal!)",
+      "subtitle": "🥈 Prata — Destrua todos os 25 memoriais de Mr. Raccoon",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Destrua todas as 25 estatuetas do Mr. Raccoon escondidas pelos cenários do jogo.\n• Dica 1: O Cofre #3 (no Porão de Rhodes Hill) contém gratuitamente o Mapa de Mr. Raccoon do Centro de Cuidados!\n• Dica 2: Os bonecos destruídos ficam salvos permanentemente no perfil do jogo entre diferentes campanhas. Fique atento ao som característico de chocalho mecânico quando estiver perto de um.",
+          "color": "green"
+        }
+      ],
+      "tags": "prata que pestinha you little rascal 25 mr raccoon bonecos colecionaveis"
+    },
+    {
+      "id": 344,
+      "title": "Trem Bala Sem Freio (Speed Demon)",
+      "subtitle": "🥇 Ouro — Conclua a história principal libertando Elpis em menos de 4 horas",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Estratégia para o Speedrun (< 4h)",
+          "type": "text",
+          "content": "• Faça este desafio na dificuldade Casual durante a sua 2ª jogada.\n• O cronômetro do jogo PAUSA quando você abre o menu de pausa (Options/Esc), mas continua correndo no inventário e em cutscenes (pule todas as cutscenes!).\n• Dica crucial: Se você morrer ou perder tempo, NÃO clique em 'Continuar' na tela de morte (pois o tempo gasto é somado). Em vez disso, saia para o Menu Principal e carregue o seu último Save Manual!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "ouro trem bala sem freio demonio da velocidade speed demon speedrun 4 horas"
+    },
+    {
+      "id": 345,
+      "title": "Nem Vou Olhar a Fatura (Credit Where Credit Is Due)",
+      "subtitle": "🥉 Bronze — Ganhe 200.000 créditos no total",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Acumule um total histórico de 200.000 créditos (obtidos com o módulo rastreador do Leon ao eliminar inimigos, vender itens e coletar recompensas).\n• O valor é cumulativo entre várias jogadas (você pode gastar os créditos normalmente nas Caixas de Suprimentos sem prejudicar o progresso do troféu).",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze nem vou olhar a fatura credit where credit is due 200000 creditos dinheiro leon"
+    },
+    {
+      "id": 346,
+      "title": "Sanguinário (Bloodlust)",
+      "subtitle": "🥉 Bronze — Colete 5.000 microamostras de sangue infectado com o Coletor de Sangue",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Cumulativo entre todas as suas partidas.\n• Jogando com a Grace, extraia sangue de todos os inimigos abatidos e poças de sangue usando o Coletor de Sangue até atingir a marca acumulada de 5.000 microamostras coletadas.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze sanguinario bloodlust 5000 microamostras sangue coletor grace"
+    },
+    {
+      "id": 347,
+      "title": "Mania de Modelo (Model Mania)",
+      "subtitle": "🥉 Bronze — Visualize todos os modelos 3D no menu de Bônus",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Acesse a Loja de Bônus no menu principal, compre todos os 44 Modelos 3D de personagens/criaturas usando Pontos de Desafio (CP) e abra cada um deles no visualizador da galeria para registrar a visualização.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze mania de modelo model mania 44 modelos 3d galeria bonus cp"
+    },
+    {
+      "id": 348,
+      "title": "Curadoria de Arte (Curator)",
+      "subtitle": "🥉 Bronze — Visualize todas as artes conceituais no menu de Bônus",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Compre todas as Artes Conceituais na Loja de Bônus com Pontos de Desafio (CP) após zerar o jogo e passe por todas elas no visualizador de artes do menu Bônus.",
+          "color": "green"
+        }
+      ],
+      "tags": "bronze curadoria de arte curator artes conceituais galeria bonus cp"
+    },
+    {
+      "id": 349,
+      "title": "Detox Raiz (Never Touch the Stuff)",
+      "subtitle": "🥇 Ouro — Conclua a história principal sem usar ervas ou injetores médicos",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Termine a campanha completa com 0 usos de itens de cura manual (ervas e injetores vitais/médicos).\n• Dica: Faça na dificuldade Casual! No modo Casual, a sua saúde se regenera automaticamente até sair do estado de Perigo (Danger) quando você fica alguns segundos sem sofrer dano.\n• Você pode verificar no menu de Desafios de Pausa se o contador de curas usadas continua em 0 antes de salvar.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "ouro detox raiz nunca toque nisso never touch the stuff sem curar sem ervas injetores"
+    },
+    {
+      "id": 350,
+      "title": "Minimalista (Minimalist)",
+      "subtitle": "🥈 Prata — Conclua a história principal sem que Grace use o Coletor de Sangue",
+      "category": "platinum",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Termine a campanha inteira sem extrair sangue e sem fabricar itens que exijam o Coletor de Sangue da Grace.\n• Atenção: Você ainda é obrigado a pegar o Coletor de Sangue na mesa por questão de história, mas NUNCA o utilize para sugar sangue nem para criar itens sanguíneos.\n• Acompanhe no menu de Desafios para garantir que o contador permanece em 0.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "prata minimalista minimalist sem coletor de sangue blood collector grace"
+    }
+  ]
+}

@@ -20,7 +20,14 @@
       "icon": "⚔️",
       "url": "games/ff12.json",
       "updated_at": "2026-11-06T22:51:00Z"
+    },
+    {
+      "id": "resident_evil_requiem",
+      "title": "Resident Evil Requiem",
+      "icon": "🧟",
+      "url": "games/resident_evil_requiem.json",
+      "updated_at": "2026-11-06T23:00:00Z"
     }
   ],
-  "updated_at": "2026-11-06T22:51:00Z"
+  "updated_at": "2026-11-06T23:00:00Z"
 }
