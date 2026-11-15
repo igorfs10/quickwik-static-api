@@ -2,12 +2,32 @@
   "id": "resident_evil_requiem",
   "title": "Resident Evil Requiem",
   "icon": "🧟",
-  "updated_at": "2026-11-15T17:15:00Z",
+  "updated_at": "2026-11-15T19:40:00Z",
   "sources": [
+    {
+      "name": "Evil Resource — Resident Evil Requiem Weaponry Database",
+      "url": "https://www.evilresource.com/resident-evil-requiem/weaponry",
+      "license": "Referência factual e thumbnails de inventário das armas do jogo"
+    },
     {
       "name": "Filipe Ramos — Análise de Mecânicas Escondidas e Armas (YouTube)",
       "url": "https://www.youtube.com/watch?v=su8oxK9hA5s",
       "license": "Referência factual e vídeo incorporado via link oficial (texto reescrito)"
+    },
+    {
+      "name": "Resident Evil Wiki (Fandom) — Resident Evil Requiem Weapons & Upgrades",
+      "url": "https://residentevil.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "Steam Community — Datamined Weapon Damage & Scaling Guide",
+      "url": "https://steamcommunity.com/",
+      "license": "Referência factual de valores e fórmulas com redação própria"
+    },
+    {
+      "name": "GameSpot / GameWatcher — Resident Evil Requiem Weapons & Locations",
+      "url": "https://www.gamespot.com/",
+      "license": "Referência factual com redação própria"
     },
     {
       "name": "PSNProfiles / PowerPyx — Resident Evil Requiem Trophy Guide",
@@ -32,8 +52,12 @@
       "label": "Todos"
     },
     {
+      "id": "weapons",
+      "label": "🔫 Armas"
+    },
+    {
       "id": "mechanics",
-      "label": "🔫 Mecânicas & Armas"
+      "label": "⚙️ Mecânicas & Guias"
     },
     {
       "id": "platinum",
@@ -970,6 +994,1012 @@
         }
       ],
       "tags": "prata minimalista minimalist sem coletor de sangue blood collector grace"
+    },
+    {
+      "id": 352,
+      "title": "B934 (Pistola — Grace)",
+      "subtitle": "🔫 Grace • Pistola inicial de emergência • Dano Base: 90",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "b934.webp",
+          "color": "green"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Pistola semiautomática compacta (Munição de Pistola).\n• Papel tático: Arma de sobrevivência inicial da campanha da Grace, projetada apenas para defesa de curto prazo até você recuperar a S&S M232.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 90 (escala adaptativa entre ~36 e 90 conforme o rank de dificuldade).\n• Multiplicadores do jogo: Foco completo da mira (+16% dano) e Headshot (+35% dano).\n• Upgrades: Não possui peças ou melhorias em loja; a eficiência da Grace aumenta apenas usando Estabilizadores (melhoram dano geral e firmeza da mira).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Dificuldade Casual / Padrão: Encontrada no chão da Sala de Jantar (Dining Room, 1º andar da Ala Oeste) do Centro de Cuidados de Rhodes Hill.\n• Dificuldade Insanidade: Movida para o balcão de recepção da Sala de Espera (Waiting Room).",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Economize munição: atire na perna ou na cabeça esperando a retícula fechar completamente (foco) para causar atordoamento e fugir ou finalizar com o Injetor Hemolítico.\n• Substitua pela S&S M232 assim que abrir a Ala Oeste.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace b934 pistola handgun dano 90 inicial rhodes hill sala de jantar dining room armas"
+    },
+    {
+      "id": 353,
+      "title": "S&S M232 (Pistola — Grace)",
+      "subtitle": "🔫 Grace • Pistola principal de precisão • Dano Base: 120",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "ss_m232.webp",
+          "color": "green"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Grace Ashcroft (também desbloqueável como arma bônus para o Leon).\n• Classe: Pistola semiautomática tática.\n• Papel tático: Melhor pistola padrão da Grace na campanha principal, superando a B934 em dano, precisão e tamanho do pente.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 120 (+16% com mira focada / +35% em headshot).\n• Capacidade: 9 munições por carregador.\n• Upgrades: Aceita o Compensador encontrado no Centro de Cuidados para reduzir o recuo entre disparos; seu poder geral escala com os Estabilizadores da Grace.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Centro de Cuidados de Rhodes Hill (Ala Oeste, 2º andar): Dentro do Bar & Lounge, caída na pia / balcão inferior atrás do bar.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• ⚠️ Não passe direto pelo Bar & Lounge sem pegá-la: ela substitui completamente a B934 e poupa muita munição ao longo de Rhodes Hill.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace ss m232 s&s m232 pistola handgun dano 120 bar lounge compensador armas"
+    },
+    {
+      "id": 354,
+      "title": "Freya's Needle (Pistola Automática — Grace)",
+      "subtitle": "🔫 Grace • Pistola-metralhadora bônus de tambor • Dano Base: 32/tiro",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "freyas_needle.webp",
+          "color": "green"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Pistola-metralhadora compacta de disparo automático (tambor de alta capacidade).\n• Papel tático: Entrega altíssima cadência com apenas uma mão para pressionar inimigos em corredores estreitos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 32 por projétil (menor dano individual que a B934/M232, compensado por rajadas contínuas de altíssimo DPS em curta distância).\n• Capacidade: Carregador tipo tambor de alta capacidade utilizando munição de pistola.\n• Upgrades: Não recebe modificações de Caixa de Suprimentos; beneficia-se dos Estabilizadores da Grace.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) com Pontos de Desafio (CP) e acessada no Baú de Itens da Grace em campanhas seguintes.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Excelente para jogadas no modo Insanidade ou para quebrar o avanço de grupos sem depender da Requiem.\n• Dê rajadas curtas no peito e rosto para não desperdiçar toda a reserva de munição de pistola.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace freyas needle freya pistola automatica smg tambor bonus dano 32 armas"
+    },
+    {
+      "id": 355,
+      "title": "Faca Improvisada e Faca de Caça (Corpo a Corpo — Grace)",
+      "subtitle": "🗡️ Grace • Lâminas defensivas e desmontáveis para sucata",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Faca Improvisada (Makeshift Knife)",
+          "type": "image",
+          "content": "makeshift_knife.webp",
+          "color": "green"
+        },
+        {
+          "title": "Faca de Caça (Hunting Knife)",
+          "type": "image",
+          "content": "hunting_knife.webp",
+          "color": "green"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Grace Ashcroft.\n• Classe: Armas brancas defensivas (Makeshift Knife / Hunting Knife).\n• Papel tático: Ferramentas de escape rápido contra agarrões e finalização silenciosa quando a munição estiver zerada.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano: Baixo em golpes normais; evita dano pesado ao ser gasta no contra-ataque de agarrão.\n• Durabilidade: Limitada e NÃO pode ser afiada nem reparada.\n• Reciclagem: Facas quebradas ou desgastadas podem ser desmontadas no inventário em Sucata para fabricar munição ou itens.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Faca Improvisada (Makeshift Knife): Primeiro armário à direita na Sala de Arquivos (Filing Room), ao lado da Sala de Jantar.\n• Faca de Caça (Hunting Knife): Cravada em um inimigo próximo à região de Arquivos/Jantar e espalhada por Rhodes Hill.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Nunca jogue fora uma faca quebrada: use o menu de criação para convertê-la em Sucata.\n• Guarde sempre ao menos 1 faca intacta no inventário da Grace como seguro de vida ao passar por corredores apertados.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace faca improvisada makeshift hunting knife corpo a corpo sucata durabilidade armas"
+    },
+    {
+      "id": 356,
+      "title": "Faca R.I.P. / R.I.P. Knife (Corpo a Corpo — Grace)",
+      "subtitle": "🗡️ Grace • Lâmina especial de alta durabilidade",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "rip_knife.webp",
+          "color": "yellow"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Arma branca especial de alta resistência.\n• Papel tático: Alternativa muito mais durável e agressiva às facas improvisadas e de caça.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano e Durabilidade: Dano corpo a corpo e resistência estrutural muito acima das facas padrão de Rhodes Hill.\n• Upgrades: Não aceita modificações em oficina.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Obtida trocando Moedas Antigas (Antique Coins) na vitrine do Salão / Parlor no Centro de Cuidados de Rhodes Hill (especialmente relevante na dificuldade Insanidade).",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Ideal para poupar munição na dificuldade Insanidade, finalizando zumbis derrubados sem consumir a durabilidade rapidamente.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace rip knife faca moedas antigas antique coins insanidade corpo a corpo armas"
+    },
+    {
+      "id": 357,
+      "title": "Garrafa de Ácido e Coquetel Molotov (Arremessáveis — Grace)",
+      "subtitle": "🧪 Grace • Ácido (Hit Kill em Lickers) e Molotov em área",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Garrafa de Ácido (Bottle of Acid)",
+          "type": "image",
+          "content": "bottle_of_acid.webp",
+          "color": "yellow"
+        },
+        {
+          "title": "Coquetel Molotov (Molotov Cocktail)",
+          "type": "image",
+          "content": "molotov_cocktail.webp",
+          "color": "orange"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Grace Ashcroft (uso estratégico de laboratório).\n• Classe: Arremessáveis químicos e incendiários artesanais.\n• Papel tático: Soluções de altíssimo impacto para limpar grupos ou neutralizar ameaças letais sem gastar munição pesada.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano e Mecânica",
+          "type": "text",
+          "content": "• Garrafa de Ácido: Dano químico corrosivo extremo — elimina Lickers / Carnífices instantaneamente (1 golpe), ignorando sua barra de vida alta.\n• Coquetel Molotov: Explosão e chamas persistentes em área que incendeiam e atordoam múltiplos zumbis simultaneamente.",
+          "color": "gray"
+        },
+        {
+          "title": "Como Fabricar e Onde Obter",
+          "type": "text",
+          "content": "• Analise as amostras nos terminais laboratoriais de Rhodes Hill para liberar as receitas.\n• Fabricação: Combine Garrafa Vazia (Empty Bottle) + Sangue Infectado coletado via Coletor de Sangue.\n• ⚠️ Atenção: Não fabrique itens com o Coletor de Sangue durante a corrida pelo troféu 'Minimalista'.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Guarde sempre 1 ou 2 Garrafas de Ácido para trechos com Lickers e economize suas balas da Requiem para os chefes.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace garrafa de acido molotov arremessavel licker carnifice hit kill crafting coletor sangue armas"
+    },
+    {
+      "id": 358,
+      "title": "Injetor Hemolítico / Hemolytic Injector (Furtividade — Grace)",
+      "subtitle": "💉 Grace • Ferramenta tática de execução instantânea em zumbis e elites",
+      "category": "mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Personagem e Perfil da Ferramenta",
+          "type": "text",
+          "content": "• Protagonista: Exclusivo da Grace Ashcroft.\n• Classe: Ferramenta tática de execução biológica (item consumível).\n• Papel tático: Principal recurso da Grace para eliminar inimigos sem alertar outros alvos nem gastar munição.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano e Mecânica",
+          "type": "text",
+          "content": "• Dano: Abate instantâneo (1-hit kill) em zumbis padrão quando aplicado pelas costas (furtivo) ou em alvos atordoados.\n• Contra Inimigos Pesados: Causa dano massivo em subchefes como o Chef (The Butcher) e Chunk.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Fabricar",
+          "type": "text",
+          "content": "• Encontrado pronto em salas de Rhodes Hill (incluindo áreas médicas e de laboratório) ou fabricado combinando microamostras no menu de criação.\n• Troféu ligado: 'Dose Cavalar (Fatal Dose)' ao derrotar um zumbi usando o injetor.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Use o som de garrafas vazias arremessadas para virar zumbis ou zumbis cantoras de costas e aplicar o Injetor Hemolítico sem desperdiçar balas.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace injetor hemolitico hemolytic injector furtivo stealth insta kill chef chunk"
+    },
+    {
+      "id": 359,
+      "title": "Requiem (Revólver Magnum 12.7mm — Leon & Grace)",
+      "subtitle": "💥 Leon & Grace • Poder 9/10 • Perfuração múltipla de 12.7x55mm",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "requiem.webp",
+          "color": "red"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonistas: COMPARTILHADA — usada tanto por Grace Ashcroft quanto por Leon S. Kennedy em momentos-chave da campanha.\n• Classe: Revólver Magnum pesado calibre 12.7x55mm.\n• Papel tático: Arma assinatura de altíssimo impacto destinada a chefes, emergências e inimigos blindados.",
+          "color": "purple"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Poder: 9 / 10 (dano massivo capaz de abater vários inimigos alinhados em um único disparo perfurante).\n• Cadência: 4 / 10 | Capacidade: 5 munições no tambor.\n• Upgrades (Leon): Níveis 1 a 3 reduzem drasticamente o recuo, aceleram a recarga do tambor e elevam o multiplicador de impacto contra chefes.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Obtida obrigatoriamente na progressão principal da história no Salão Central (Central Hall) do Centro de Cuidados de Rhodes Hill.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Troféu 'Apelão': dispare na entidade 'A Garota' em Rhodes Hill para atordoá-la.\n• Troféu 'Prato do Dia: Bala': enfraqueça 3 zumbis na perna, alinhe-os em um corredor e mate os 3 com 1 único tiro perfurante da Requiem.\n• Munição raríssima — guarde para emergências e chefes!",
+          "color": "green"
+        }
+      ],
+      "tags": "leon grace requiem revolver magnum 12.7mm dano poder 9 perfuracao chefe central hall armas"
+    },
+    {
+      "id": 360,
+      "title": "Alligator Snapper (Pistola DSO — Leon)",
+      "subtitle": "🔫 Leon • Pistola inicial DSO • Dano: 120 → 220 • Poder 6/10",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "alligator_snapper.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Pistola semiautomática padrão da DSO.\n• Papel tático: Cavalo de batalha confiável para o jogo inteiro devido ao baixo recuo, alta precisão e fartura de munição de pistola.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base (por nível/rank): 120 → 150 → 180 → 220 (versão inicial comparativa ~88 antes dos ajustes).\n• Atributos base: Poder 6 / 10 | Cadência 7 / 10.\n• Upgrades (Caixa de Suprimentos): Melhorias de Potência, Estabilidade e carregador estendido (High-Capacity Mag / Slick Magazine Catch) adicionando +3 até +9 balas extras.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Disponível automaticamente no inventário (maleta) do Leon desde o início da campanha dele.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Excelente sinergia com o Machado Tático: acerte joelhos ou cabeça com a retícula focada (+16%) para abrir prompt de finalização corpo a corpo.\n• Com todos os 25 Mr. Raccoons destruídos, libera Ajuste Avançado (Nível 3).",
+          "color": "green"
+        }
+      ],
+      "tags": "leon alligator snapper pistola inicial dso dano 120 220 poder 6 upgrades maleta armas"
+    },
+    {
+      "id": 361,
+      "title": "Silencer 9 (Pistola Silenciada — Leon)",
+      "subtitle": "🔫 Leon • Maior dano base das pistolas padrão (100) + Silenciador",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "silencer_9.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Pistola tática com supressor integrado.\n• Papel tático: Substituta de alto calibre para a Alligator Snapper, combinando tiro silencioso e excelente controle de precisão.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base Comparativo: 100 (superior à Alligator Snapper base e à Matilda IMP base por projétil).\n• Escala na Caixa de Suprimentos:\n  - Poder: 1.5 → até 2.7 (peças Add-on Suppressor + / ☆).\n  - Cadência: até 3.7 (Aluminium Trigger).\n  - Capacidade: 10 → até 20 tiros (High-Capacity Mag).\n  - Precisão: até 4.0 (com acessório Dot Sight).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Comprada na Caixa de Suprimentos (Supply Box) no Acampamento da BSAA em Raccoon City Leste por 5.500 Créditos.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Vale muito o investimento se você busca abates silenciosos e precisão máxima com a mira Dot Sight.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon silencer 9 pistola silenciada supressor 5500 creditos raccoon city leste dano 100 dot sight armas"
+    },
+    {
+      "id": 362,
+      "title": "Matilda IMP (Pistola de Rajada — Leon)",
+      "subtitle": "🔫 Leon • Pistola clássica com rajada de 3 tiros • Dano Base: 92/bala",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "matilda_imp.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola de rajada (3-round burst) desbloqueável.\n• Papel tático: Transforma munição comum de pistola em rajadas velozes de altíssimo DPS.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 92 por projétil (~276 brutos por rajada de 3 balas caso todas acertem o alvo).\n• Upgrades: Focada em mitigação de recuo/estabilidade, coronha estendida para controlar as rajadas e carregadores ampliados.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) usando Pontos de Desafio (CP) e retirada em qualquer Caixa de Suprimentos do Leon.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Consome munição muito depressa: ideal quando combinada com upgrades de capacidade ou Munição Infinita para a run de Insanidade.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon matilda imp pistola rajada 3 tiros bonus cp dano 92 armas"
+    },
+    {
+      "id": 363,
+      "title": "Redemption (Pistola de Calibre Pesado — Leon)",
+      "subtitle": "💥 Leon • Pistola tiro único com munição de rifle e dano extremo",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "redemption.webp",
+          "color": "purple"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola pesada de tiro único (classe handcannon / calibre de rifle).\n• Papel tático: Canhão portátil de altíssimo impacto para abater inimigos resistentes em 1 disparo bem colocado.",
+          "color": "purple"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano: Um dos maiores danos brutos por tiro de todo o jogo fora da classe Magnum, utilizando munição de rifle.\n• Capacidade: 1 munição na câmara (exige recarga manual após cada disparo).\n• Upgrades: Melhorias focadas em velocidade de recarga e potência máxima.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueada via progressão avançada / marcos de Conteúdo Extra para o arsenal do Leon e retirada na Caixa de Suprimentos.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Mire sempre após estabilizar o foco da retícula: errar o tiro custa preciosos segundos de recarga.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon redemption pistola pesada tiro unico rifle handcannon alto dano armas"
+    },
+    {
+      "id": 364,
+      "title": "Ghost Grudge (Revólver Magnum — Leon)",
+      "subtitle": "💥 Leon • Revólver Magnum bônus (1.000 CP) com recarga rápida",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "ghost_grudge.webp",
+          "color": "purple"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Revólver Magnum pós-jogo.\n• Papel tático: Alternativa secundária ágil à Requiem para quem quer poder de parada massivo nas jogadas seguintes.",
+          "color": "purple"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano: Altíssimo impacto de classe Magnum (abate inimigos padrão com 1 tiro na cabeça).\n• Mecânica especial: Recarga rápida automática quando você esvazia todas as balas do tambor.\n• Upgrades: NÃO aceita acessórios ou melhorias convencionais.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueado na Loja de Conteúdo Extra por apenas 1.000 CP (Pontos de Desafio) após cumprir os requisitos da loja e coletado na Caixa de Suprimentos do Leon.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Acostume-se a esvaziar o tambor inteiro antes de recarregar para ativar o bônus de velocidade da recarga rápida.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon ghost grudge magnum revolver 1000 cp bonus loja recarga rapida armas"
+    },
+    {
+      "id": 365,
+      "title": "MSBG 500 (Escopeta Pump-Action — Leon)",
+      "subtitle": "💥 Leon • Primeira escopeta • Dano Base: 512 (~691 focado) • Poder 8/10",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "msbg_500.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta compacta de ação por bomba (pump-action).\n• Papel tático: Escopeta inicial de controle de espaço em curta distância no Centro de Cuidados.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 512 por cartucho (até ~691.2 com headshot/foco caso todos os projéteis acertem).\n• Atributos base: Poder 8 / 10 | Cadência 4 / 10 | Capacidade: 5 cartuchos.\n• Upgrades: Melhora potência, cadência e capacidade até o Nv. 2 (Nv. 3 após os 25 Mr. Raccoons).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Encontrada no chão do Sótão (Attic) do Centro de Cuidados de Rhodes Hill, logo antes do confronto contra o Chunk.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• A dispersão dela é aberta: use à queima-roupa para derrubar vários inimigos de uma vez e economize créditos se planeja migrar para a W870 Police gratuita ou a 990-TAC.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon msbg 500 escopeta shotgun dano 512 sotao attic rhodes hill armas"
+    },
+    {
+      "id": 366,
+      "title": "W870 Police (Escopeta Policial — Leon)",
+      "subtitle": "⚠️ Leon • Escopeta clássica gratuita (Kendo's Gun Shop) • Poder 7/10",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "w870_police.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta policial pump-action clássica de Raccoon City.\n• Papel tático: Alternativa gratuita e extremamente confiável caso você não queira gastar 7.000 Créditos na 990-TAC.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Atributos base: Poder 7 / 10 | Cadência 3 / 10 | Capacidade base: 5 cartuchos.\n• Perfil de impacto: Enorme força de empurrão e atordoamento em curta distância.\n• Upgrades: Aprimorável em Caixa de Suprimentos (até Nv. 2 padrão e Nv. 3 avançado).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização (⚠️ Item Fácil de Perder!)",
+          "type": "text",
+          "content": "• Em Raccoon City, dentro da Loja de Armas do Kendo (Kendo's Gun Shop).\n• ⚠️ ATENÇÃO: Assim que terminar a cutscene de entrada na loja do Kendo, VIRE 180° IMEDIATAMENTE — a W870 Police está na prateleira logo atrás da porta de entrada!",
+          "color": "red"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Ótima opção para guardar seus créditos de Raccoon City Leste para aprimorar outras armas principais, já que ela sai de graça.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon w870 police kendo gun shop escopeta shotgun perdivel raccoon city armas"
+    },
+    {
+      "id": 367,
+      "title": "990-TAC (Escopeta Semiautomática — Leon)",
+      "subtitle": "💥 Leon • Melhor escopeta tática • Dano Base: 559 (1.500+ c/ Cute Bear)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "990_tac.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta semiautomática tática.\n• Papel tático: A escopeta de maior DPS e consistência da campanha, combinando disparos rápidos com agrupamento fechado de chumbos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Base: 559 por cartucho (~754.65 em headshot focado).\n• Potencial Oculto Máximo: Com upgrades + agrupamento fechado de chumbos + amuleto Cute Bear (> 2 metros = 1.6x), ultrapassa 1.500 de dano real por tiro!\n• Upgrades: Cadência elevada, menor recuo e tubos de extensão de capacidade na Caixa de Suprimentos.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Comprada na Caixa de Suprimentos do Acampamento da BSAA em Raccoon City Leste por 7.000 Créditos.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Graças ao agrupamento fechado e ao disparo semiautomático, funciona incrivelmente bem entre 2 e 5 metros de distância — faixa perfeita para ativar o bônus de +60% do amuleto Cute Bear!",
+          "color": "green"
+        }
+      ],
+      "tags": "leon 990 tac 990-tac escopeta semiautomatica dano 559 cute bear 7000 creditos bsaa armas"
+    },
+    {
+      "id": 368,
+      "title": "Stiri REVO3 A1 (Submetralhadora — Leon)",
+      "subtitle": "🔫 Leon • SMG ágil de fácil controle • Poder 2/10 • Cadência 9/10",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "stiri_revo3_a1.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Submetralhadora compacta (SMG).\n• Papel tático: Arma automática leve voltada à mobilidade, controle fácil e atordoamento rápido de inimigos próximos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Ficha 1–10: Poder 2 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 3 / 10.\n• Capacidade: 30 munições por carregador.\n• Upgrades: Melhora potência, estabilidade e velocidade de recarga na Caixa de Suprimentos.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Disponível para compra nas Caixas de Suprimentos em Raccoon City Leste utilizando Créditos.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Em dano por bala ela perde para a SMG Gal (Poder 2 vs 5); caso queira economizar créditos, vá buscar a Gal gratuitamente no estacionamento subterrâneo antes de investir nela.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon stiri revo3 a1 submetralhadora smg cadencia 9 capacidade 30 raccoon city armas"
+    },
+    {
+      "id": 369,
+      "title": "Gal (Submetralhadora — Leon)",
+      "subtitle": "🔫 Leon • SMG gratuita no estacionamento • Poder 5/10 • 40 tiros",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "gal_smg.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Submetralhadora clássica de alta cadência (SMG).\n• Papel tático: Muito mais contundente que a Stiri REVO3 A1 por bala, com carregador amplo para limpar hordas.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Ficha 1–10: Poder 5 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 4 / 10.\n• Capacidade: 40 munições no carregador base.\n• Upgrades: Potência, cadência, estabilidade e carregador ampliáveis na Caixa de Suprimentos.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Encontrada gratuitamente escondida dentro de um galpão no Estacionamento Subterrâneo de Raccoon City Leste (após passar pela área dos carros submersos).",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Excelente para destruir pontos fracos amarelos de chefes rapidamente ou segurar avanços em áreas abertas.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon gal submetralhadora smg poder 5 capacidade 40 estacionamento subterraneo raccoon city armas"
+    },
+    {
+      "id": 370,
+      "title": "Clatter Carbine (Rifle de Assalto Silenciado — Leon)",
+      "subtitle": "🔫 Leon • Carabina de assalto bônus silenciada (6.000 CP)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "clatter_carbine.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Rifle de assalto tático moderno com supressor integrado.\n• Papel tático: Combina boa precisão em médio alcance, disparo automático/rajada e maior impacto por tiro que as SMGs.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Perfil de Combate: Superior às SMGs em dano por projétil, com silenciador integrado e ótima precisão após aprimoramentos de estabilidade.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueada na Loja de Conteúdo Extra após concluir a campanha por 6.000 CP e resgatada na Caixa de Suprimentos do Leon.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Indicada para New Game+ após acumular bastante CP ou para combinar com Munição Infinita no modo Insanidade.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon clatter carbine rifle assalto silenciado 6000 cp bonus loja armas"
+    },
+    {
+      "id": 371,
+      "title": "Classic 70 (Rifle de Ferrolho — Leon)",
+      "subtitle": "🎯 Leon • Sniper de altíssimo impacto • Dano Base: 476 (até 894+)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "classic_70.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Rifle sniper de ferrolho (bolt-action).\n• Papel tático: Especialista em abates cirúrgicos de longa distância e explosão de pontos fracos críticos de chefes.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Numérico Verificado:\n  - Base: 476 | Headshot: 642.6 | Headshot Focado: 745.42.\n  - No nível máximo / variações de amuleto sem luneta: alcança até 894.50+ equivalente por disparo!\n• Ficha 1–10: Poder 9 / 10 | Cadência 3 / 10 | Estabilidade 7 / 10 | Recarga 4 / 10 | Precisão 9 / 10 | Capacidade: 6 balas.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Adquirida automaticamente na história logo antes da seção do pátio / telhado do Centro de Cuidados onde Leon dá cobertura à Grace.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Mesmo sendo mais lenta que o Marksman 1A, causa quase o dobro de dano por bala (476 vs 288) — ideal para economizar munição de rifle contra chefes e inimigos de elite.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon classic 70 rifle sniper ferrolho dano 476 894 precisao 9 rhodes hill armas"
+    },
+    {
+      "id": 372,
+      "title": "Marksman 1A (Rifle Semiautomático — Leon)",
+      "subtitle": "🎯 Leon • Rifle tático semiautomático • Dano Base: 288 • 25+ balas",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "marksman_1a.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Carabina/Rifle tático semiautomático com supressor integrado.\n• Papel tático: Foco em disparos consecutivos rápidos, recarga ágil e versatilidade (a luneta pode ser removida para combates de média distância).",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Upgrades",
+          "type": "text",
+          "content": "• Dano Numérico Verificado:\n  - Base: 288 | Headshot: 388.8 | Headshot Focado: 451.01.\n• Capacidade e Cadência: Disparo semiautomático veloz; carregador expansível na Caixa de Suprimentos para mais de 25 munições.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Dentro do Contêiner da BSAA #03, localizado próximo ao final da rua principal de Raccoon City Leste (necessário para o troféu 'Expectativas de Caixote').",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Remova a luneta quando entrar em áreas internas para transformar o Marksman 1A em uma carabina semiautomática de altíssima cadência e zero perda de visão periférica.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon marksman 1a rifle atirador semiautomatico dano 288 bsaa container 3 raccoon city armas"
+    },
+    {
+      "id": 373,
+      "title": "Machado Tático / Hatchet (Corpo a Corpo — Leon)",
+      "subtitle": "🪓 Leon • Arma branca inicial para parry, execuções e corte de língua",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "tactical_hatchet.webp",
+          "color": "blue"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusivo de Leon S. Kennedy.\n• Classe: Machado tático corpo a corpo.\n• Papel tático: Ferramenta principal de defesa (parry) e abates finalizadores sem gastar munição.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Mecânicas",
+          "type": "text",
+          "content": "• Defesa (Parry): Pressione L1 / LB / Espaço no momento exato para aparar golpes inimigos e até decepar a língua do Licker β2 (troféu 'O Gato Comeu Sua Língua?').\n• Finalizações: Executa golpes letais rápidos em zumbis atordoados ou derrubados (troféu 'Picapau').\n• Durabilidade: Perde fio com o uso — mantenha sempre afiado no menu rápido.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Equipamento inicial padrão de Leon S. Kennedy desde o começo da campanha.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Afie o machado sempre após sequências intensas de parry para nunca ficar sem defesa diante do Supertirano ou de Lickers.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon machado tatico hatchet parry aparar picapau licker lingua corpo a corpo armas"
+    },
+    {
+      "id": 374,
+      "title": "Mortal Edge (Corpo a Corpo — Leon)",
+      "subtitle": "🪓 Leon • Versão de elite do machado (Chefe Comandante / 3.000 CP)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "mortal_edge.webp",
+          "color": "purple"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Machado tático avançado de elite.\n• Papel tático: Substituição superior ao Machado Tático padrão, com maior poder de corte e impacto em contra-ataques.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Mecânicas",
+          "type": "text",
+          "content": "• Poder Ofensivo e Parry: Golpes corpo a corpo e contra-ataques de aparar (L1 / LB / Espaço) muito mais devastadores que os do Hatchet inicial.\n• Durabilidade: Requer manutenção normal ou bônus de durabilidade conforme o uso.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Campanha: Derrubada pelo chefe Comandante (Commander) dentro da instalação subterrânea ARK.\n• Loja de Conteúdo Extra: Desbloqueável por 3.000 CP para aparecer na Caixa de Suprimentos nas próximas campanhas.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Desbloqueie na Loja de Bônus antes de iniciar o modo Insanidade para ter uma defesa corpo a corpo muito mais letal desde o início.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon mortal edge machado elite comandante commander ark 3000 cp parry corpo a corpo armas"
+    },
+    {
+      "id": 375,
+      "title": "Kotetsu (Faca Bônus — Grace / Leon)",
+      "subtitle": "🗡️ Bônus (Grace / Extra) • Faca de durabilidade infinita",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "kotetsu.webp",
+          "color": "yellow"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Item Bônus de sobrevivência (especialmente valioso para Grace Ashcroft no lugar das facas descartáveis; disponível via Loja de Bônus).\n• Classe: Lâmina japonesa especial inquebrável.\n• Papel tático: Elimina completamente a preocupação com quebra de facas em agarrões.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dano, Atributos e Mecânicas",
+          "type": "text",
+          "content": "• Durabilidade: INFINITA — nunca quebra e não precisa de reparos após escapar de agarrões ou finalizar inimigos.\n• Dano: Bom dano corpo a corpo contínuo para economizar munição.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Comprada na Loja de Conteúdo Extra (Bônus) usando Pontos de Desafio (CP) após concluir desafios da campanha e retirada no Baú de Itens.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Essencial para a jogada na dificuldade Insanidade ou sem curas: permite defender agarrões quantas vezes precisar sem perder a lâmina.",
+          "color": "green"
+        }
+      ],
+      "tags": "grace leon kotetsu faca infinita inquebravel durabilidade infinita bonus cp armas"
+    },
+    {
+      "id": 376,
+      "title": "RPG-7 (Lança-Foguetes — Leon)",
+      "subtitle": "🚀 Leon • Lança-foguetes bônus devastador para chefes e Insanidade",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "rpg_7.webp",
+          "color": "red"
+        },
+        {
+          "title": "Personagem e Perfil da Arma",
+          "type": "text",
+          "content": "• Protagonista: Leon S. Kennedy (arma especial de Conteúdo Extra).\n• Classe: Lança-foguetes antitanque explosivo.\n• Papel tático: Aniquilação instantânea de chefes e hordas em New Game+ e na dificuldade Insanidade.",
+          "color": "purple"
+        },
+        {
+          "title": "Dano e Mecânica",
+          "type": "text",
+          "content": "• Dano: Explosão massiva em área capaz de eliminar subchefes instantaneamente e encerrar fases inteiras de chefes em segundos.\n• Ocupação: Ocupa espaço grande na maleta do Leon (organize os slots antes de retirar).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização e Como Obter",
+          "type": "text",
+          "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) após zerar o jogo usando Pontos de Desafio (CP) e retirada na Caixa de Suprimentos do Leon.",
+          "color": "yellow"
+        },
+        {
+          "title": "Dicas Práticas",
+          "type": "text",
+          "content": "• Combinar a RPG-7 com Munição Infinita é a estratégia mais rápida do guia para fechar o modo Insanidade sem sofrimento.",
+          "color": "green"
+        }
+      ],
+      "tags": "leon rpg7 rpg-7 lanca foguetes rocket launcher bonus cp insanidade chefe armas"
     }
   ]
 }
