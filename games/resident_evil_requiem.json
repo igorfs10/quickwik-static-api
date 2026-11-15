@@ -2,7 +2,24 @@
   "id": "resident_evil_requiem",
   "title": "Resident Evil Requiem",
   "icon": "🧟",
-  "updated_at": "2026-11-06T23:00:00Z",
+  "updated_at": "2026-11-15T17:15:00Z",
+  "sources": [
+    {
+      "name": "Filipe Ramos — Análise de Mecânicas Escondidas e Armas (YouTube)",
+      "url": "https://www.youtube.com/watch?v=su8oxK9hA5s",
+      "license": "Referência factual e vídeo incorporado via link oficial (texto reescrito)"
+    },
+    {
+      "name": "PSNProfiles / PowerPyx — Resident Evil Requiem Trophy Guide",
+      "url": "https://psnprofiles.com/",
+      "license": "Referência factual com redação própria"
+    },
+    {
+      "name": "SteamDB / PCGamingWiki — Resident Evil Requiem",
+      "url": "https://steamdb.info/",
+      "license": "Referência técnica de executáveis"
+    }
+  ],
   "process_keywords": [
     "re_requiem",
     "residentevilrequiem",
@@ -15,11 +32,49 @@
       "label": "Todos"
     },
     {
+      "id": "mechanics",
+      "label": "🔫 Mecânicas & Armas"
+    },
+    {
       "id": "platinum",
       "label": "🏆 Guia de Platina"
     }
   ],
   "entries": [
+    {
+      "id": 351,
+      "title": "Mecânicas Escondidas e Armas (Guia Filipe Ramos)",
+      "subtitle": "🔫 Análise técnica de dano real, multiplicadores ocultos, amuletos e arsenal",
+      "category": "mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Vídeo Guia — Mecânicas Escondidas e Armas (Filipe Ramos)",
+          "type": "youtube",
+          "content": "https://www.youtube.com/watch?v=su8oxK9hA5s",
+          "color": "red"
+        },
+        {
+          "title": "Estatísticas Ocultas do Arsenal",
+          "type": "text",
+          "content": "• Os atributos exibidos nos menus do jogo não revelam multiplicadores internos de crítico, dano de atordoamento (stagger/wince) e penalidades por distância.\n• Armas iniciais e intermediárias possuem curvas de eficiência distintas dependendo dos aprimoramentos e acessórios equipados, além de variações ocultas na velocidade real de recarga e cadência.",
+          "color": "cyan"
+        },
+        {
+          "title": "Modificadores de Distância e Amuletos (Cute Bear Charm)",
+          "type": "text",
+          "content": "• O amuleto Cute Bear (Ursinho) altera radicalmente a fórmula de dano conforme a distância até o alvo:\n• Curta distância (< 2 metros): Aplica penalidade de 0.8x no dano final (-20%).\n• Média e longa distância (> 2 metros): Aplica bônus de 1.6x no dano final (+60%), transformando escopetas de dispersão controlada e armas de médio alcance em opções de altíssimo DPS.",
+          "color": "gray"
+        },
+        {
+          "title": "Dicas Práticas de Combate e Economia",
+          "type": "text",
+          "content": "• Priorize disparos em pontos vitais mantendo a faixa acima de 2 metros quando estiver usando o amuleto Cute Bear.\n• Utilize facas e finalizações corpo a corpo em inimigos atordoados para economizar munição pesada antes das seções de chefes e da dificuldade Insanidade.",
+          "color": "green"
+        }
+      ],
+      "tags": "mecanicas escondidas armas filipe ramos guia video youtube dano oculto cute bear charm amuleto ursinho status arsenal"
+    },
     {
       "id": 301,
       "title": "Réquiem (Requiem)",
