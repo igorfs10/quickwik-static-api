@@ -2,8 +2,14 @@
   "id": "hollow_knight",
   "title": "Hollow Knight",
   "icon": "🪲",
-  "updated_at": "2026-11-06T22:51:00Z",
-  "process_keywords": [
+  "updated_at": "2026-11-15T20:15:00Z",
+  "sources": [
+    {
+      "name": "Hollow Knight Wiki (Fandom)",
+      "url": "https://hollowknight.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    }
+  ],  "process_keywords": [
     "hollow_knight",
     "hollow knight",
     "hollowknight"
@@ -32,7 +38,7 @@
         {
           "title": "Mecânica",
           "type": "text",
-          "content": "Custa 1 encaixe de amuleto (Notch). Essencial para exploração nas primeiras horas até decorar os caminhos e bancos de descanso de cada bioma.",
+          "content": "Custa 1 espaço de amuleto (encaixe). Essencial para exploração nas primeiras horas até decorar os caminhos e bancos de descanso de cada bioma.",
           "color": "gray"
         },
         {
@@ -44,7 +50,7 @@
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "Retire o amuleto antes de enfrentar chefes difíceis para liberar 1 notch para amuletos de combate como Quick Slash ou Fragile Strength.",
+          "content": "Retire o amuleto antes de enfrentar chefes difíceis para liberar 1 espaço para amuletos de combate como Quick Slash ou Fragile Strength.",
           "color": "green"
         }
       ],
@@ -94,7 +100,7 @@
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Permite disparar em dash para frente no chão ou no ar.",
+          "content": "Permite disparar em investida rápida (dash) para frente no chão ou no ar.",
           "color": "cyan"
         },
         {

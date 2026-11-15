@@ -2,8 +2,14 @@
   "id": "ff12",
   "title": "Final Fantasy XII: The Zodiac Age",
   "icon": "⚔️",
-  "updated_at": "2026-11-06T22:51:00Z",
-  "process_keywords": [
+  "updated_at": "2026-11-15T20:15:00Z",
+  "sources": [
+    {
+      "name": "Final Fantasy Wiki (Fandom) — Final Fantasy XII",
+      "url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_XII",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    }
+  ],  "process_keywords": [
     "ffxii",
     "ff12",
     "zodiacage"
@@ -15,7 +21,7 @@
     },
     {
       "id": "status",
-      "label": "🧪 Status"
+      "label": "🧪 Efeitos & Status"
     },
     {
       "id": "items",
@@ -129,7 +135,7 @@
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Estratégia Monstruosa de DPS: Lance a magia Oil no chefe (ou use Nihopalaoa + Handkerchief). Em seguida, configure seus magos negros com Gambit: 'Foe: status = Oil -> Firaga' usando cajado Flame Staff (+50% dano de fogo). O dano sobe para o teto máximo com facilidade!",
+          "content": "• Estratégia de Dano Máximo: Lance a magia Oil no chefe (ou use Nihopalaoa + Handkerchief). Em seguida, configure seus magos negros com Gambit: 'Foe: status = Oil -> Firaga' usando cajado Flame Staff (+50% dano de fogo). O dano sobe para o teto máximo com facilidade!",
           "color": "green"
         }
       ],
@@ -185,7 +191,7 @@
         {
           "title": "Mecânica",
           "type": "text",
-          "content": "Coloca um contador regressivo visível sobre a cabeça do personagem. Ao chegar a zero, o personagem é nocauteado instantaneamente (KO). Quase nenhum feitiço normal remove este efeito, tornando-o um teste contra o tempo.",
+          "content": "Coloca um contador regressivo visível sobre a cabeça do personagem. Ao chegar a zero, o personagem é nocauteado instantaneamente (fora de combate). Quase nenhum feitiço normal remove este efeito, tornando-o um teste contra o tempo.",
           "color": "gray"
         },
         {
@@ -213,7 +219,7 @@
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Contador de 10 a 0. Ao zerar, vira estátua de pedra e é considerado KO.",
+          "content": "Contador de 10 a 0. Ao zerar, vira estátua de pedra e fica fora de combate.",
           "color": "orange"
         },
         {

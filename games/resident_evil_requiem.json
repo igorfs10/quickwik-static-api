@@ -2,7 +2,7 @@
   "id": "resident_evil_requiem",
   "title": "Resident Evil Requiem",
   "icon": "🧟",
-  "updated_at": "2026-11-15T19:40:00Z",
+  "updated_at": "2026-11-15T20:15:00Z",
   "sources": [
     {
       "name": "Evil Resource — Resident Evil Requiem Weaponry Database",
@@ -81,13 +81,13 @@
         {
           "title": "Estatísticas Ocultas do Arsenal",
           "type": "text",
-          "content": "• Os atributos exibidos nos menus do jogo não revelam multiplicadores internos de crítico, dano de atordoamento (stagger/wince) e penalidades por distância.\n• Armas iniciais e intermediárias possuem curvas de eficiência distintas dependendo dos aprimoramentos e acessórios equipados, além de variações ocultas na velocidade real de recarga e cadência.",
+          "content": "• Os atributos exibidos nos menus do jogo não revelam multiplicadores internos de crítico, dano de atordoamento e desequilíbrio (stagger) e penalidades por distância.\n• Armas iniciais e intermediárias possuem curvas de eficiência distintas dependendo dos aprimoramentos e acessórios equipados, além de variações ocultas na velocidade real de recarga e cadência.",
           "color": "cyan"
         },
         {
           "title": "Modificadores de Distância e Amuletos (Cute Bear Charm)",
           "type": "text",
-          "content": "• O amuleto Cute Bear (Ursinho) altera radicalmente a fórmula de dano conforme a distância até o alvo:\n• Curta distância (< 2 metros): Aplica penalidade de 0.8x no dano final (-20%).\n• Média e longa distância (> 2 metros): Aplica bônus de 1.6x no dano final (+60%), transformando escopetas de dispersão controlada e armas de médio alcance em opções de altíssimo DPS.",
+          "content": "• O amuleto Cute Bear (Ursinho) altera radicalmente a fórmula de dano conforme a distância até o alvo:\n• Curta distância (< 2 metros): Aplica penalidade de 0.8x no dano final (-20%).\n• Média e longa distância (> 2 metros): Aplica bônus de 1.6x no dano final (+60%), transformando escopetas de dispersão controlada e armas de médio alcance em opções de altíssimo dano por segundo.",
           "color": "gray"
         },
         {
@@ -113,7 +113,7 @@
           "color": "cyan"
         },
         {
-          "title": "Roadmap Recomendado (3 Jogadas)",
+          "title": "Roteiro Recomendado (3 Jogadas)",
           "type": "text",
           "content": "1ª Jogada — Dificuldade Padrão (Moderno) + Colecionáveis:\n• Aproveite a história com Grace Ashcroft e Leon S. Kennedy e foque em pegar todos os 75 Arquivos, 25 Bonecos Mr. Raccoon, 5 Cofres e 3 Contêineres da BSAA, além dos troféus de combate específicos.\n\n2ª Jogada — Dificuldade Casual (Speedrun + Sem Cura + Sem Coletor):\n• Combine os 3 desafios restritivos na dificuldade Casual: terminar em menos de 4 horas (Trem Bala Sem Freio), sem usar ervas/injetores vitais (Detox Raiz) e sem usar o Coletor de Sangue com a Grace (Minimalista).\n\n3ª Jogada — Dificuldade Insanidade:\n• Use os Pontos de Desafio (CP) acumulados nas duas primeiras campanhas para comprar Munição Infinita / Armas Bônus na loja de extras e conclua o modo Insanidade sem dificuldade.",
           "color": "green"
@@ -423,7 +423,7 @@
         {
           "title": "Estratégia do Guia",
           "type": "text",
-          "content": "• Na dificuldade Insanidade, os inimigos causam dano massivo, são muito mais agressivos, o posicionamento de alguns perigos muda e as combinações de todos os 5 cofres são diferentes das dificuldades normais.\n• Dica para facilitar: Deixe esta para a sua 3ª jogada. Utilize os Pontos de Desafio (CP) obtidos ao completar o Speedrun e os colecionáveis nas runs anteriores para desbloquear Munição Infinita ou armas especiais na Loja de Bônus — elas não bloqueiam o troféu!",
+          "content": "• Na dificuldade Insanidade, os inimigos causam dano massivo, são muito mais agressivos, o posicionamento de alguns perigos muda e as combinações de todos os 5 cofres são diferentes das dificuldades normais.\n• Dica para facilitar: Deixe esta para a sua 3ª jogada. Utilize os Pontos de Desafio (CP) obtidos ao completar o Speedrun e os colecionáveis nas jogadas anteriores para desbloquear Munição Infinita ou armas especiais na Loja de Bônus — elas não bloqueiam o troféu!",
           "color": "green"
         }
       ],
@@ -503,7 +503,7 @@
         {
           "title": "Como Desbloquear",
           "type": "text",
-          "content": "• Durante a campanha com a Grace no Centro de Cuidados de Rhodes Hill, interaja com o equipamento de análise laboratorial e conclua o minigame de análise de amostra para liberar uma nova receita de fabricação (crafting).",
+          "content": "• Durante a campanha com a Grace no Centro de Cuidados de Rhodes Hill, interaja com o equipamento de análise laboratorial e conclua o minigame de análise de amostra para liberar uma nova receita de criação de itens.",
           "color": "green"
         }
       ],
@@ -891,7 +891,7 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Estratégia para o Speedrun (< 4h)",
+          "title": "Estratégia para Zeramento Rápido (Speedrun < 4h)",
           "type": "text",
           "content": "• Faça este desafio na dificuldade Casual durante a sua 2ª jogada.\n• O cronômetro do jogo PAUSA quando você abre o menu de pausa (Options/Esc), mas continua correndo no inventário e em cutscenes (pule todas as cutscenes!).\n• Dica crucial: Se você morrer ou perder tempo, NÃO clique em 'Continuar' na tela de morte (pois o tempo gasto é somado). Em vez disso, saia para o Menu Principal e carregue o seu último Save Manual!",
           "color": "yellow"
@@ -1015,9 +1015,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 90 (escala adaptativa entre ~36 e 90 conforme o rank de dificuldade).\n• Multiplicadores do jogo: Foco completo da mira (+16% dano) e Headshot (+35% dano).\n• Upgrades: Não possui peças ou melhorias em loja; a eficiência da Grace aumenta apenas usando Estabilizadores (melhoram dano geral e firmeza da mira).",
+          "content": "• Dano Base: 90 (escala adaptativa entre ~36 e 90 conforme o rank de dificuldade).\n• Multiplicadores do jogo: Foco completo da mira (+16% dano) e Headshot (+35% dano).\n• Melhorias: Não possui peças ou melhorias em loja; a eficiência da Grace aumenta apenas usando Estabilizadores (melhoram dano geral e firmeza da mira).",
           "color": "gray"
         },
         {
@@ -1055,9 +1055,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 120 (+16% com mira focada / +35% em headshot).\n• Capacidade: 9 munições por carregador.\n• Upgrades: Aceita o Compensador encontrado no Centro de Cuidados para reduzir o recuo entre disparos; seu poder geral escala com os Estabilizadores da Grace.",
+          "content": "• Dano Base: 120 (+16% com mira focada / +35% em headshot).\n• Capacidade: 9 munições por carregador.\n• Melhorias: Aceita o Compensador encontrado no Centro de Cuidados para reduzir o recuo entre disparos; seu poder geral escala com os Estabilizadores da Grace.",
           "color": "gray"
         },
         {
@@ -1095,9 +1095,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 32 por projétil (menor dano individual que a B934/M232, compensado por rajadas contínuas de altíssimo DPS em curta distância).\n• Capacidade: Carregador tipo tambor de alta capacidade utilizando munição de pistola.\n• Upgrades: Não recebe modificações de Caixa de Suprimentos; beneficia-se dos Estabilizadores da Grace.",
+          "content": "• Dano Base: 32 por projétil (menor dano individual que a B934/M232, compensado por rajadas contínuas de altíssimo dano contínuo em curta distância).\n• Capacidade: Carregador tipo tambor de alta capacidade utilizando munição de pistola.\n• Melhorias: Não recebe modificações de Caixa de Suprimentos; beneficia-se dos Estabilizadores da Grace.",
           "color": "gray"
         },
         {
@@ -1141,7 +1141,7 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
           "content": "• Dano: Baixo em golpes normais; evita dano pesado ao ser gasta no contra-ataque de agarrão.\n• Durabilidade: Limitada e NÃO pode ser afiada nem reparada.\n• Reciclagem: Facas quebradas ou desgastadas podem ser desmontadas no inventário em Sucata para fabricar munição ou itens.",
           "color": "gray"
@@ -1181,9 +1181,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano e Durabilidade: Dano corpo a corpo e resistência estrutural muito acima das facas padrão de Rhodes Hill.\n• Upgrades: Não aceita modificações em oficina.",
+          "content": "• Dano e Durabilidade: Dano corpo a corpo e resistência estrutural muito acima das facas padrão de Rhodes Hill.\n• Melhorias: Não aceita modificações em oficina.",
           "color": "gray"
         },
         {
@@ -1263,7 +1263,7 @@
         {
           "title": "Dano e Mecânica",
           "type": "text",
-          "content": "• Dano: Abate instantâneo (1-hit kill) em zumbis padrão quando aplicado pelas costas (furtivo) ou em alvos atordoados.\n• Contra Inimigos Pesados: Causa dano massivo em subchefes como o Chef (The Butcher) e Chunk.",
+          "content": "• Dano: Abate instantâneo (com 1 golpe) em zumbis padrão quando aplicado pelas costas (furtivo) ou em alvos atordoados.\n• Contra Inimigos Pesados: Causa dano massivo em subchefes como o Chef (The Butcher) e Chunk.",
           "color": "gray"
         },
         {
@@ -1301,9 +1301,9 @@
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Poder: 9 / 10 (dano massivo capaz de abater vários inimigos alinhados em um único disparo perfurante).\n• Cadência: 4 / 10 | Capacidade: 5 munições no tambor.\n• Upgrades (Leon): Níveis 1 a 3 reduzem drasticamente o recuo, aceleram a recarga do tambor e elevam o multiplicador de impacto contra chefes.",
+          "content": "• Poder: 9 / 10 (dano massivo capaz de abater vários inimigos alinhados em um único disparo perfurante).\n• Cadência: 4 / 10 | Capacidade: 5 munições no tambor.\n• Melhorias (Leon): Níveis 1 a 3 reduzem drasticamente o recuo, aceleram a recarga do tambor e elevam o multiplicador de impacto contra chefes.",
           "color": "gray"
         },
         {
@@ -1341,9 +1341,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base (por nível/rank): 120 → 150 → 180 → 220 (versão inicial comparativa ~88 antes dos ajustes).\n• Atributos base: Poder 6 / 10 | Cadência 7 / 10.\n• Upgrades (Caixa de Suprimentos): Melhorias de Potência, Estabilidade e carregador estendido (High-Capacity Mag / Slick Magazine Catch) adicionando +3 até +9 balas extras.",
+          "content": "• Dano Base (por nível/rank): 120 → 150 → 180 → 220 (versão inicial comparativa ~88 antes dos ajustes).\n• Atributos base: Poder 6 / 10 | Cadência 7 / 10.\n• Melhorias (Caixa de Suprimentos): Melhorias de Potência, Estabilidade e carregador estendido (High-Capacity Mag / Slick Magazine Catch) adicionando +3 até +9 balas extras.",
           "color": "gray"
         },
         {
@@ -1381,7 +1381,7 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
           "content": "• Dano Base Comparativo: 100 (superior à Alligator Snapper base e à Matilda IMP base por projétil).\n• Escala na Caixa de Suprimentos:\n  - Poder: 1.5 → até 2.7 (peças Add-on Suppressor + / ☆).\n  - Cadência: até 3.7 (Aluminium Trigger).\n  - Capacidade: 10 → até 20 tiros (High-Capacity Mag).\n  - Precisão: até 4.0 (com acessório Dot Sight).",
           "color": "gray"
@@ -1417,13 +1417,13 @@
         {
           "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola de rajada (3-round burst) desbloqueável.\n• Papel tático: Transforma munição comum de pistola em rajadas velozes de altíssimo DPS.",
+          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola de rajada (3-round burst) desbloqueável.\n• Papel tático: Transforma munição comum de pistola em rajadas velozes de altíssimo dano por segundo.",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 92 por projétil (~276 brutos por rajada de 3 balas caso todas acertem o alvo).\n• Upgrades: Focada em mitigação de recuo/estabilidade, coronha estendida para controlar as rajadas e carregadores ampliados.",
+          "content": "• Dano Base: 92 por projétil (~276 brutos por rajada de 3 balas caso todas acertem o alvo).\n• Melhorias: Focada em mitigação de recuo/estabilidade, coronha estendida para controlar as rajadas e carregadores ampliados.",
           "color": "gray"
         },
         {
@@ -1435,7 +1435,7 @@
         {
           "title": "Dicas Práticas",
           "type": "text",
-          "content": "• Consome munição muito depressa: ideal quando combinada com upgrades de capacidade ou Munição Infinita para a run de Insanidade.",
+          "content": "• Consome munição muito depressa: ideal quando combinada com melhorias de capacidade ou Munição Infinita para a campanha no modo Insanidade.",
           "color": "green"
         }
       ],
@@ -1461,9 +1461,9 @@
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano: Um dos maiores danos brutos por tiro de todo o jogo fora da classe Magnum, utilizando munição de rifle.\n• Capacidade: 1 munição na câmara (exige recarga manual após cada disparo).\n• Upgrades: Melhorias focadas em velocidade de recarga e potência máxima.",
+          "content": "• Dano: Um dos maiores danos brutos por tiro de todo o jogo fora da classe Magnum, utilizando munição de rifle.\n• Capacidade: 1 munição na câmara (exige recarga manual após cada disparo).\n• Melhorias: Melhorias focadas em velocidade de recarga e potência máxima.",
           "color": "gray"
         },
         {
@@ -1501,9 +1501,9 @@
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano: Altíssimo impacto de classe Magnum (abate inimigos padrão com 1 tiro na cabeça).\n• Mecânica especial: Recarga rápida automática quando você esvazia todas as balas do tambor.\n• Upgrades: NÃO aceita acessórios ou melhorias convencionais.",
+          "content": "• Dano: Altíssimo impacto de classe Magnum (abate inimigos padrão com 1 tiro na cabeça).\n• Mecânica especial: Recarga rápida automática quando você esvazia todas as balas do tambor.\n• Melhorias: NÃO aceita acessórios ou melhorias convencionais.",
           "color": "gray"
         },
         {
@@ -1541,9 +1541,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 512 por cartucho (até ~691.2 com headshot/foco caso todos os projéteis acertem).\n• Atributos base: Poder 8 / 10 | Cadência 4 / 10 | Capacidade: 5 cartuchos.\n• Upgrades: Melhora potência, cadência e capacidade até o Nv. 2 (Nv. 3 após os 25 Mr. Raccoons).",
+          "content": "• Dano Base: 512 por cartucho (até ~691.2 com headshot/foco caso todos os projéteis acertem).\n• Atributos base: Poder 8 / 10 | Cadência 4 / 10 | Capacidade: 5 cartuchos.\n• Melhorias: Melhora potência, cadência e capacidade até o Nv. 2 (Nv. 3 após os 25 Mr. Raccoons).",
           "color": "gray"
         },
         {
@@ -1581,9 +1581,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Atributos base: Poder 7 / 10 | Cadência 3 / 10 | Capacidade base: 5 cartuchos.\n• Perfil de impacto: Enorme força de empurrão e atordoamento em curta distância.\n• Upgrades: Aprimorável em Caixa de Suprimentos (até Nv. 2 padrão e Nv. 3 avançado).",
+          "content": "• Atributos base: Poder 7 / 10 | Cadência 3 / 10 | Capacidade base: 5 cartuchos.\n• Perfil de impacto: Enorme força de empurrão e atordoamento em curta distância.\n• Melhorias: Aprimorável em Caixa de Suprimentos (até Nv. 2 padrão e Nv. 3 avançado).",
           "color": "gray"
         },
         {
@@ -1617,13 +1617,13 @@
         {
           "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta semiautomática tática.\n• Papel tático: A escopeta de maior DPS e consistência da campanha, combinando disparos rápidos com agrupamento fechado de chumbos.",
+          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta semiautomática tática.\n• Papel tático: A escopeta de maior poder de dano e consistência da campanha, combinando disparos rápidos com agrupamento fechado de chumbos.",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 559 por cartucho (~754.65 em headshot focado).\n• Potencial Oculto Máximo: Com upgrades + agrupamento fechado de chumbos + amuleto Cute Bear (> 2 metros = 1.6x), ultrapassa 1.500 de dano real por tiro!\n• Upgrades: Cadência elevada, menor recuo e tubos de extensão de capacidade na Caixa de Suprimentos.",
+          "content": "• Dano Base: 559 por cartucho (~754.65 em headshot focado).\n• Potencial Oculto Máximo: Com melhorias + agrupamento fechado de chumbos + amuleto Cute Bear (> 2 metros = 1.6x), ultrapassa 1.500 de dano real por tiro!\n• Melhorias: Cadência elevada, menor recuo e tubos de extensão de capacidade na Caixa de Suprimentos.",
           "color": "gray"
         },
         {
@@ -1661,9 +1661,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Ficha 1–10: Poder 2 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 3 / 10.\n• Capacidade: 30 munições por carregador.\n• Upgrades: Melhora potência, estabilidade e velocidade de recarga na Caixa de Suprimentos.",
+          "content": "• Ficha 1–10: Poder 2 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 3 / 10.\n• Capacidade: 30 munições por carregador.\n• Melhorias: Melhora potência, estabilidade e velocidade de recarga na Caixa de Suprimentos.",
           "color": "gray"
         },
         {
@@ -1701,9 +1701,9 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Ficha 1–10: Poder 5 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 4 / 10.\n• Capacidade: 40 munições no carregador base.\n• Upgrades: Potência, cadência, estabilidade e carregador ampliáveis na Caixa de Suprimentos.",
+          "content": "• Ficha 1–10: Poder 5 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 4 / 10.\n• Capacidade: 40 munições no carregador base.\n• Melhorias: Potência, cadência, estabilidade e carregador ampliáveis na Caixa de Suprimentos.",
           "color": "gray"
         },
         {
@@ -1741,7 +1741,7 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
           "content": "• Perfil de Combate: Superior às SMGs em dano por projétil, com silenciador integrado e ótima precisão após aprimoramentos de estabilidade.",
           "color": "gray"
@@ -1781,7 +1781,7 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
           "content": "• Dano Numérico Verificado:\n  - Base: 476 | Headshot: 642.6 | Headshot Focado: 745.42.\n  - No nível máximo / variações de amuleto sem luneta: alcança até 894.50+ equivalente por disparo!\n• Ficha 1–10: Poder 9 / 10 | Cadência 3 / 10 | Estabilidade 7 / 10 | Recarga 4 / 10 | Precisão 9 / 10 | Capacidade: 6 balas.",
           "color": "gray"
@@ -1821,7 +1821,7 @@
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Upgrades",
+          "title": "Dano, Atributos e Melhorias",
           "type": "text",
           "content": "• Dano Numérico Verificado:\n  - Base: 288 | Headshot: 388.8 | Headshot Focado: 451.01.\n• Capacidade e Cadência: Disparo semiautomático veloz; carregador expansível na Caixa de Suprimentos para mais de 25 munições.",
           "color": "gray"

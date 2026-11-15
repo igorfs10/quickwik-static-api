@@ -2,8 +2,19 @@
   "id": "elden_ring",
   "title": "Elden Ring",
   "icon": "💍",
-  "updated_at": "2026-11-06T22:51:00Z",
-  "process_keywords": [
+  "updated_at": "2026-11-15T20:15:00Z",
+  "sources": [
+    {
+      "name": "Fextralife — Elden Ring Wiki",
+      "url": "https://eldenring.wiki.fextralife.com/",
+      "license": "Referência factual com redação própria"
+    },
+    {
+      "name": "Elden Ring Wiki (Fandom)",
+      "url": "https://eldenring.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    }
+  ],  "process_keywords": [
     "eldenring",
     "elden_ring",
     "elden ring"
@@ -19,11 +30,11 @@
     },
     {
       "id": "upgrade",
-      "label": "⚙️ Upgrades"
+      "label": "⚙️ Melhorias & Forja"
     },
     {
       "id": "key",
-      "label": "🗝️ Itens Chave"
+      "label": "🗝️ Itens-Chave"
     },
     {
       "id": "defense",
@@ -165,7 +176,7 @@
           "color": "green"
         }
       ],
-      "tags": "elden ring somber smithing stone pedras armas upgrade iji item"
+      "tags": "elden ring somber smithing stone pedras armas upgrade melhorias forja iji item"
     },
     {
       "id": 105,

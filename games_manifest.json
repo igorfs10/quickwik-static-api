@@ -5,29 +5,29 @@
       "title": "Hollow Knight",
       "icon": "🪲",
       "url": "games/hollow_knight.json",
-      "updated_at": "2026-11-06T22:51:00Z"
+      "updated_at": "2026-11-15T20:15:00Z"
     },
     {
       "id": "elden_ring",
       "title": "Elden Ring",
       "icon": "💍",
       "url": "games/elden_ring.json",
-      "updated_at": "2026-11-06T22:51:00Z"
+      "updated_at": "2026-11-15T20:15:00Z"
     },
     {
       "id": "ff12",
       "title": "Final Fantasy XII: The Zodiac Age",
       "icon": "⚔️",
       "url": "games/ff12.json",
-      "updated_at": "2026-11-06T22:51:00Z"
+      "updated_at": "2026-11-15T20:15:00Z"
     },
     {
       "id": "resident_evil_requiem",
       "title": "Resident Evil Requiem",
       "icon": "🧟",
       "url": "games/resident_evil_requiem.json",
-      "updated_at": "2026-11-15T19:40:00Z"
+      "updated_at": "2026-11-15T20:15:00Z"
     }
   ],
-  "updated_at": "2026-11-15T19:40:00Z"
+  "updated_at": "2026-11-15T20:15:00Z"
 }
