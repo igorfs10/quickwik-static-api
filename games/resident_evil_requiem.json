@@ -2,7 +2,7 @@
   "id": "resident_evil_requiem",
   "title": "Resident Evil Requiem",
   "icon": "🧟",
-  "updated_at": "2026-11-15T20:15:00Z",
+  "updated_at": "2026-11-18T01:30:00Z",
   "sources": [
     {
       "name": "Evil Resource — Resident Evil Requiem Weaponry Database",
@@ -38,6 +38,11 @@
       "name": "SteamDB / PCGamingWiki — Resident Evil Requiem",
       "url": "https://steamdb.info/",
       "license": "Referência técnica de executáveis"
+    },
+    {
+      "name": "Evil Resource — Resident Evil Requiem Maps",
+      "url": "https://www.evilresource.com/resident-evil-requiem/maps",
+      "license": "Referência factual de plantas e nomes de salas dos mapas"
     }
   ],
   "process_keywords": [
@@ -62,6 +67,10 @@
     {
       "id": "platinum",
       "label": "🏆 Guia de Platina"
+    },
+    {
+      "id": "maps",
+      "label": "🗺️ Mapas"
     }
   ],
   "entries": [
@@ -73,26 +82,26 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Vídeo Guia — Mecânicas Escondidas e Armas (Filipe Ramos)",
           "type": "youtube",
+          "title": "Vídeo Guia — Mecânicas Escondidas e Armas (Filipe Ramos)",
           "content": "https://www.youtube.com/watch?v=su8oxK9hA5s",
           "color": "red"
         },
         {
-          "title": "Estatísticas Ocultas do Arsenal",
           "type": "text",
+          "title": "Estatísticas Ocultas do Arsenal",
           "content": "• Os atributos exibidos nos menus do jogo não revelam multiplicadores internos de crítico, dano de atordoamento e desequilíbrio (stagger) e penalidades por distância.\n• Armas iniciais e intermediárias possuem curvas de eficiência distintas dependendo dos aprimoramentos e acessórios equipados, além de variações ocultas na velocidade real de recarga e cadência.",
           "color": "cyan"
         },
         {
-          "title": "Modificadores de Distância e Amuletos (Cute Bear Charm)",
           "type": "text",
+          "title": "Modificadores de Distância e Amuletos (Cute Bear Charm)",
           "content": "• O amuleto Cute Bear (Ursinho) altera radicalmente a fórmula de dano conforme a distância até o alvo:\n• Curta distância (< 2 metros): Aplica penalidade de 0.8x no dano final (-20%).\n• Média e longa distância (> 2 metros): Aplica bônus de 1.6x no dano final (+60%), transformando escopetas de dispersão controlada e armas de médio alcance em opções de altíssimo dano por segundo.",
           "color": "gray"
         },
         {
-          "title": "Dicas Práticas de Combate e Economia",
           "type": "text",
+          "title": "Dicas Práticas de Combate e Economia",
           "content": "• Priorize disparos em pontos vitais mantendo a faixa acima de 2 metros quando estiver usando o amuleto Cute Bear.\n• Utilize facas e finalizações corpo a corpo em inimigos atordoados para economizar munição pesada antes das seções de chefes e da dificuldade Insanidade.",
           "color": "green"
         }
@@ -107,14 +116,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visão Geral da Platina",
           "type": "text",
+          "title": "Visão Geral da Platina",
           "content": "• Raridade: Platina (1 Platina, 3 Ouro, 6 Prata, 40 Bronze — Total de 50 troféus)\n• Tempo estimado: 20 a 25 horas\n• Jogadas mínimas recomendadas: 3 campanhas\n• Troféus online: Nenhum\n• Troféus perdíveis: Sim (colecionáveis e ações específicas em áreas sem retorno, pois o jogo não possui seleção de capítulos).",
           "color": "cyan"
         },
         {
-          "title": "Roteiro Recomendado (3 Jogadas)",
           "type": "text",
+          "title": "Roteiro Recomendado (3 Jogadas)",
           "content": "1ª Jogada — Dificuldade Padrão (Moderno) + Colecionáveis:\n• Aproveite a história com Grace Ashcroft e Leon S. Kennedy e foque em pegar todos os 75 Arquivos, 25 Bonecos Mr. Raccoon, 5 Cofres e 3 Contêineres da BSAA, além dos troféus de combate específicos.\n\n2ª Jogada — Dificuldade Casual (Speedrun + Sem Cura + Sem Coletor):\n• Combine os 3 desafios restritivos na dificuldade Casual: terminar em menos de 4 horas (Trem Bala Sem Freio), sem usar ervas/injetores vitais (Detox Raiz) e sem usar o Coletor de Sangue com a Grace (Minimalista).\n\n3ª Jogada — Dificuldade Insanidade:\n• Use os Pontos de Desafio (CP) acumulados nas duas primeiras campanhas para comprar Munição Infinita / Armas Bônus na loja de extras e conclua o modo Insanidade sem dificuldade.",
           "color": "green"
         }
@@ -129,14 +138,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Desbloqueado automaticamente no prólogo/início da campanha ao vivenciar o início do surto em Wrenwood.",
           "color": "green"
         }
@@ -151,14 +160,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Obtido automaticamente durante a campanha com a Grace ao descer até o subsolo/porão do Centro de Cuidados de Rhodes Hill.",
           "color": "green"
         }
@@ -173,14 +182,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Concedido automaticamente ao destrancar o acesso principal e alcançar o pátio externo do Centro de Cuidados de Rhodes Hill.",
           "color": "green"
         }
@@ -195,14 +204,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Desbloqueado automaticamente após concluir toda a seção do Centro de Cuidados de Rhodes Hill e escapar do complexo.\n• Atenção: Certifique-se de ter aberto os 3 cofres de Rhodes Hill e concluído os troféus específicos das alas Leste e Oeste antes de sair definitivamente.",
           "color": "yellow"
         }
@@ -217,14 +226,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Obtido automaticamente durante a progressão principal ao utilizar a plataforma suspensa e sobreviver à descida até o nível térreo.",
           "color": "green"
         }
@@ -239,14 +248,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Concedido automaticamente na campanha de Leon S. Kennedy ao retornar à icônica Delegacia de Polícia de Raccoon City (R.P.D.).",
           "color": "green"
         }
@@ -261,14 +270,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Desbloqueado automaticamente ao vencer a batalha contra o chefe Super Tyrant (Supertirano) com o Leon.\n• Dica: Mire no coração exposto no peito da criatura e utilize o aparar (L1) com o Machado Tático ou esquive das investidas em linha reta quando ele preparar o golpe carregado.",
           "color": "green"
         }
@@ -283,14 +292,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Concedido automaticamente ao descobrir e entrar no complexo laboratorial ARK da Umbrella no ato final da campanha.",
           "color": "green"
         }
@@ -305,14 +314,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Relacionado à história (Impossível de perder).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Desbloqueado automaticamente ao avançar para os níveis profundos da instalação ARK rumo ao confronto derradeiro.",
           "color": "green"
         }
@@ -327,14 +336,14 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Prata — Conclusão da História Principal.",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Conclua a campanha principal escolhendo libertar Elpis no desfecho da história na instalação ARK.",
           "color": "green"
         }
@@ -349,14 +358,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Bronze — Dificuldade (Acumulativo).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Termine a campanha principal na dificuldade Casual ou superior.\n• Os troféus de dificuldade são cumulativos: terminar diretamente no Padrão ou Insanidade também desbloqueia este troféu.",
           "color": "green"
         }
@@ -371,14 +380,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Prata — Dificuldade (Acumulativo).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Termine a história principal na dificuldade Padrão (Moderno) ou superior.\n• Recomendado para a sua 1ª jogada, pois oferece salvamentos automáticos generosos e equilíbrio ideal para explorar e pegar todos os colecionáveis.",
           "color": "green"
         }
@@ -393,14 +402,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Prata — Dificuldade (Acumulativo).",
           "color": "cyan"
         },
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Conclua a história principal na dificuldade Padrão (Clássico) ou na dificuldade Insanidade.\n• Nota: No modo Padrão (Clássico), os salvamentos manuais exigem Fitas de Tinta (Ink Ribbons) nas máquinas de escrever (o que também permite obter o troféu 'À Moda Antiga'). Se você concluir o jogo no modo Insanidade, este troféu também será desbloqueado automaticamente.",
           "color": "green"
         }
@@ -415,14 +424,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Tipo do Troféu",
           "type": "text",
+          "title": "Tipo do Troféu",
           "content": "Troféu de Ouro — Dificuldade Máxima (Insanity).",
           "color": "yellow"
         },
         {
-          "title": "Estratégia do Guia",
           "type": "text",
+          "title": "Estratégia do Guia",
           "content": "• Na dificuldade Insanidade, os inimigos causam dano massivo, são muito mais agressivos, o posicionamento de alguns perigos muda e as combinações de todos os 5 cofres são diferentes das dificuldades normais.\n• Dica para facilitar: Deixe esta para a sua 3ª jogada. Utilize os Pontos de Desafio (CP) obtidos ao completar o Speedrun e os colecionáveis nas jogadas anteriores para desbloquear Munição Infinita ou armas especiais na Loja de Bônus — elas não bloqueiam o troféu!",
           "color": "green"
         }
@@ -437,8 +446,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com a Grace, vá até qualquer Caixa de Itens (encontrada nas salas seguras ao lado das máquinas de escrever no Centro de Cuidados de Rhodes Hill) e deposite qualquer item do seu inventário.",
           "color": "green"
         }
@@ -453,8 +462,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Para usar uma Fita de Tinta (Ink Ribbon) em uma máquina de escrever, você deve estar jogando na dificuldade Padrão (Clássico) ou Insanidade, onde os salvamentos manuais consomem fitas de tinta.\n• Assim que encontrar sua primeira Fita de Tinta perto de uma máquina de escrever e registrar o jogo, o troféu será desbloqueado.",
           "color": "green"
         }
@@ -469,8 +478,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Uma homenagem direta a Alyssa Ashcroft (mãe de Grace em Resident Evil Outbreak).\n• Encontre uma Gazua (Lockpick) — a primeira pode ser pega no Escritório do Pesquisador-Chefe (Lead Researcher's Office), no 2º andar do Centro de Cuidados em Rhodes Hill — e use-a para destrancar qualquer gaveta trancada.",
           "color": "green"
         }
@@ -485,8 +494,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com a Grace, equipe ou tenha um Injetor Hemolítico (Hemolytic Injector) no inventário.\n• Aproxime-se furtivamente por trás de um zumbi ou atordoe-o primeiro e aplique o injetor hemolítico para eliminá-lo instantaneamente.",
           "color": "green"
         }
@@ -501,8 +510,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Durante a campanha com a Grace no Centro de Cuidados de Rhodes Hill, interaja com o equipamento de análise laboratorial e conclua o minigame de análise de amostra para liberar uma nova receita de criação de itens.",
           "color": "green"
         }
@@ -517,8 +526,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Após obter o Coletor de Sangue (Blood Collector) com a Grace e extrair microamostras de sangue infectado de inimigos abatidos ou poças no cenário, abra o menu de criação e sintetize qualquer item que utilize sangue como reagente.\n• Atenção: Não faça isso durante a sua jogada focada no troféu 'Minimalista'!",
           "color": "green"
         }
@@ -533,8 +542,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Com a Grace, colete sangue de inimigos derrotados usando o Coletor de Sangue e gaste pelo menos 300 microamostras fabricando itens (como injetores e munições químicas) ao longo de uma mesma campanha.\n• É muito fácil de obter naturalmente na sua 1ª jogada se você extrair sangue regularmente e criar itens sempre que o reservatório estiver cheio.",
           "color": "green"
         }
@@ -549,8 +558,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Enquanto explora o Centro de Cuidados de Rhodes Hill sendo perseguido pela entidade conhecida como 'A Garota' (The Girl), equipe o revólver pesado Requiem e dispare diretamente nela para fazê-la recuar/atordoar.\n• Dica: Salve o jogo antes de atirar caso queira recarregar o save logo após ganhar o troféu para economizar a munição rara da Requiem.",
           "color": "yellow"
         }
@@ -565,8 +574,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Destrua a sua primeira estatueta/boneco do Mr. Raccoon com um tiro ou golpe corpo a corpo.\n• Existem 25 bonecos espalhados pelo jogo (necessários para o troféu 'Que Pestinha!').",
           "color": "green"
         }
@@ -581,8 +590,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com o Leon, pressione o botão de defesa (L1 no PlayStation / LB no Controle / Espaço no PC) no instante exato em que um inimigo desferir um ataque para apará-lo com o Machado Tático.",
           "color": "green"
         }
@@ -597,8 +606,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Com o Leon, enfrente um zumbi que esteja empunhando uma arma branca ou ferramenta (como cano, machado ou barra de ferro).\n• Atordoe ou derrote o inimigo para que ele solte a arma no chão, aproxime-se dela e pressione o comando de interação contextual para arremessá-la contra outro inimigo próximo.",
           "color": "green"
         }
@@ -613,8 +622,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com o Leon, atordoe ou derrube zumbis (atirando nas pernas ou na cabeça) e aproxime-se para executar o golpe finalizador corpo a corpo com o Machado Tático.\n• Repita o abate finalizador em 3 zumbis para desbloquear o troféu.",
           "color": "green"
         }
@@ -629,8 +638,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com o Leon, acesse qualquer Caixa de Suprimentos (Supply Box, como a do Acampamento Central em Raccoon City Leste) e utilize seus créditos para comprar qualquer item ou suprimento.",
           "color": "green"
         }
@@ -645,8 +654,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Equipe uma peça de modificação em uma arma (como o compensador da pistola encontrado no Centro de Cuidados) ou compre qualquer melhoria de atributo de arma em uma Caixa de Suprimentos com o Leon.",
           "color": "green"
         }
@@ -661,8 +670,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Durante a sequência de perseguição de veículo na rodovia contra Victor, concentre seus disparos no ponto fraco quando ele preparar a investida contra o veículo para interromper o ataque dele antes do impacto.",
           "color": "yellow"
         }
@@ -677,8 +686,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Você precisa fabricar (craftar) pelo menos uma unidade de cada receita disponível no jogo (incluindo as receitas de Grace com o Coletor de Sangue/análise laboratorial e as munições/itens de Leon).\n• Dica: Certifique-se de analisar todas as amostras nos terminais laboratoriais de Rhodes Hill e da ARK para desbloquear todas as receitas de criação e fabrique um item de cada tipo.",
           "color": "green"
         }
@@ -693,8 +702,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• A arma Requiem possui alto poder de perfuração.\n• Atraia 3 ou mais zumbis para um corredor estreito ou batente de porta para que fiquem alinhados um atrás do outro.\n• Dica: Enfraqueça os zumbis com alguns tiros de pistola nas pernas primeiro, alinhe os 3 no corredor e dê um único tiro com a Requiem atravessando todos eles.",
           "color": "green"
         }
@@ -709,8 +718,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Localização e Como Fazer",
           "type": "text",
+          "title": "Localização e Como Fazer",
           "content": "• Obtido com o Leon na instalação ARK (na segunda seção dele dentro do laboratório).\n• Quando encontrar um Carnífice β2 (Licker β2), mantenha uma distância média para induzi-lo a usar o bote de língua à distância.\n• Pressione o botão de aparar (L1 / LB) no momento exato em que a língua vier em direção ao Leon. Ele usará o Machado Tático para decepar a língua da criatura, liberando o troféu na hora.",
           "color": "yellow"
         }
@@ -725,8 +734,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Jogando com a Grace na Ala Oeste do Centro de Cuidados de Rhodes Hill, você encontrará o Chef (The Butcher) na Cozinha e depois patrulhando os corredores.\n• A maneira mais fácil e econômica de matá-lo é esgueirar-se furtivamente por trás dele e aplicar um Injetor Hemolítico (ou usar disparos da Requiem na cabeça). Derrotá-lo também rende a Chave da Despensa e um amuleto.",
           "color": "yellow"
         }
@@ -741,8 +750,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Localização das 2 Zumbis Cantoras",
           "type": "text",
+          "title": "Localização das 2 Zumbis Cantoras",
           "content": "Jogando com a Grace no Centro de Cuidados de Rhodes Hill, elimine as duas zumbis especiais que cantam e dão gritos sônicos:\n• 1ª Cantora: No Bar & Lounge (2º andar da Ala Oeste, no caminho para o Escritório do Presidente).\n• 2ª Cantora: Na Sala de Conferências (2º andar da Ala Leste, acessível após obter a Pulseira de Identificação Nível 1).",
           "color": "yellow"
         }
@@ -757,8 +766,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Após pegar a Pulseira de Identificação Nível 1 na Ala Leste do Centro de Cuidados de Rhodes Hill, um imenso zumbi mutante chamado 'Chunk' passará a vagar pelo andar superior.\n• Dica: Aproveite que ele é lento e fica preso em portas estreitas para atirar com segurança de outra sala ou use Injetores Hemolíticos e tiros de Requiem para abatê-lo.",
           "color": "yellow"
         }
@@ -773,8 +782,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Passo a Passo",
           "type": "text",
+          "title": "Passo a Passo",
           "content": "• Deve ser feito com a Grace na Ala Leste do Centro de Cuidados de Rhodes Hill (corredor após a Sala de Exames / Sala de Espera).\n• Pegue uma Garrafa Vazia (há uma na Sala de Jantar da Ala Oeste).\n• No corredor onde há um zumbi cego (veste branca, que ataca qualquer fonte de som) e uma zumbi camareira (vestido preto), espere ambos ficarem próximos e arremesse a Garrafa Vazia na zumbi camareira. O barulho fará o zumbi cego atacar a outra zumbi, desbloqueando o troféu.",
           "color": "yellow"
         }
@@ -789,8 +798,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Troféu cumulativo entre todas as suas jogadas (soma os abates de Grace e Leon).\n• Virá naturalmente durante o final da 1ª campanha ou no início da 2ª campanha.",
           "color": "green"
         }
@@ -805,8 +814,8 @@
       "spoiler": true,
       "additional_data": [
         {
-          "title": "Localização dos Brotos",
           "type": "text",
+          "title": "Localização dos Brotos",
           "content": "• Perdível: Na reta final a caminho da ARK (com o Leon), você encontrará brotos tentaculares da Planta 43.\n• O 1º broto fica dentro de um vagão de trem ao atravessar uma fenda.\n• Logo em seguida, após descer de rapel para o sistema de cavernas subterrâneas, existem mais cerca de 8 brotos espalhados pela caverna (incluindo alguns em túneis laterais). Vasculhe todos os caminhos da caverna e destrua todos os brotos antes de prosseguir.",
           "color": "yellow"
         }
@@ -821,14 +830,14 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Combinações — Casual / Padrão",
           "type": "text",
+          "title": "Combinações — Casual / Padrão",
           "content": "Todos os 5 cofres são abertos jogando com a Grace:\n1. Bar & Lounge (Rhodes Hill, Ala Oeste 2º Andar): Esquerda 10, Direita 80, Esquerda 30\n2. Sala de Exames (Rhodes Hill, Ala Leste 1º Andar): Direita 30, Esquerda 10, Direita 50\n3. Porão / Fornalha (Subsolo de Rhodes Hill): Direita 60, Esquerda 40, Direita 80\n4. Câmara de Esterilização (Complexo ARK): Direita 10, Esquerda 90, Direita 20\n5. Sala de Controle de Monitoramento (Complexo ARK): Esquerda 50, Direita 60, Esquerda 80",
           "color": "green"
         },
         {
-          "title": "Combinações — Modo Insanidade",
           "type": "text",
+          "title": "Combinações — Modo Insanidade",
           "content": "Caso esteja fazendo no modo Insanidade, as senhas mudam para:\n1. Bar & Lounge: Direita 20, Esquerda 50, Direita 30\n2. Sala de Exames: Esquerda 50, Direita 30, Esquerda 90\n3. Porão / Fornalha: Esquerda 70, Esquerda 50, Esquerda 20\n4. Câmara de Esterilização: Esquerda 80, Esquerda 50, Direita 0\n5. Sala de Controle de Monitoramento: Direita 20, Direita 0, Direita 70",
           "color": "yellow"
         }
@@ -843,8 +852,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Existem 3 Contêineres especiais da BSAA espalhados pela região de Raccoon City Leste durante a campanha do Leon.\n• Explore os arredores do Acampamento Central e as ruas adjacentes de Raccoon City Leste antes de entrar definitivamente na R.P.D. para destrancar todos os 3 contêineres.",
           "color": "green"
         }
@@ -859,8 +868,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Existem 75 documentos/arquivos (notas, diários, relatórios e memorandos) distribuídos entre as seções de Grace e Leon (Wrenwood, Centro de Cuidados de Rhodes Hill, Raccoon City Leste, R.P.D. e ARK).\n• O progresso de arquivos lidos é salvo no registro global da sua conta: se deixar algum para trás, basta ler apenas os que faltaram na próxima jogada.",
           "color": "green"
         }
@@ -875,8 +884,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Destrua todas as 25 estatuetas do Mr. Raccoon escondidas pelos cenários do jogo.\n• Dica 1: O Cofre #3 (no Porão de Rhodes Hill) contém gratuitamente o Mapa de Mr. Raccoon do Centro de Cuidados!\n• Dica 2: Os bonecos destruídos ficam salvos permanentemente no perfil do jogo entre diferentes campanhas. Fique atento ao som característico de chocalho mecânico quando estiver perto de um.",
           "color": "green"
         }
@@ -891,8 +900,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Estratégia para Zeramento Rápido (Speedrun < 4h)",
           "type": "text",
+          "title": "Estratégia para Zeramento Rápido (Speedrun < 4h)",
           "content": "• Faça este desafio na dificuldade Casual durante a sua 2ª jogada.\n• O cronômetro do jogo PAUSA quando você abre o menu de pausa (Options/Esc), mas continua correndo no inventário e em cutscenes (pule todas as cutscenes!).\n• Dica crucial: Se você morrer ou perder tempo, NÃO clique em 'Continuar' na tela de morte (pois o tempo gasto é somado). Em vez disso, saia para o Menu Principal e carregue o seu último Save Manual!",
           "color": "yellow"
         }
@@ -907,8 +916,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Acumule um total histórico de 200.000 créditos (obtidos com o módulo rastreador do Leon ao eliminar inimigos, vender itens e coletar recompensas).\n• O valor é cumulativo entre várias jogadas (você pode gastar os créditos normalmente nas Caixas de Suprimentos sem prejudicar o progresso do troféu).",
           "color": "green"
         }
@@ -923,8 +932,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Cumulativo entre todas as suas partidas.\n• Jogando com a Grace, extraia sangue de todos os inimigos abatidos e poças de sangue usando o Coletor de Sangue até atingir a marca acumulada de 5.000 microamostras coletadas.",
           "color": "green"
         }
@@ -939,8 +948,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Acesse a Loja de Bônus no menu principal, compre todos os 44 Modelos 3D de personagens/criaturas usando Pontos de Desafio (CP) e abra cada um deles no visualizador da galeria para registrar a visualização.",
           "color": "green"
         }
@@ -955,8 +964,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Compre todas as Artes Conceituais na Loja de Bônus com Pontos de Desafio (CP) após zerar o jogo e passe por todas elas no visualizador de artes do menu Bônus.",
           "color": "green"
         }
@@ -971,8 +980,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Termine a campanha completa com 0 usos de itens de cura manual (ervas e injetores vitais/médicos).\n• Dica: Faça na dificuldade Casual! No modo Casual, a sua saúde se regenera automaticamente até sair do estado de Perigo (Danger) quando você fica alguns segundos sem sofrer dano.\n• Você pode verificar no menu de Desafios de Pausa se o contador de curas usadas continua em 0 antes de salvar.",
           "color": "yellow"
         }
@@ -987,8 +996,8 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Como Desbloquear",
           "type": "text",
+          "title": "Como Desbloquear",
           "content": "• Termine a campanha inteira sem extrair sangue e sem fabricar itens que exijam o Coletor de Sangue da Grace.\n• Atenção: Você ainda é obrigado a pegar o Coletor de Sangue na mesa por questão de história, mas NUNCA o utilize para sugar sangue nem para criar itens sanguíneos.\n• Acompanhe no menu de Desafios para garantir que o contador permanece em 0.",
           "color": "yellow"
         }
@@ -1003,32 +1012,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "b934.webp",
           "color": "green"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Pistola semiautomática compacta (Munição de Pistola).\n• Papel tático: Arma de sobrevivência inicial da campanha da Grace, projetada apenas para defesa de curto prazo até você recuperar a S&S M232.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft\n• Classe / Munição: Pistola semiautomática compacta (Munição de Pistola)\n• Dano Base: 90 (escala adaptativa ~36–90 conforme dificuldade)\n• Multiplicadores: +16% com mira focada | +35% em Headshot\n• Melhorias: Sem peças em oficina (escala apenas com Estabilizadores da Grace)",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 90 (escala adaptativa entre ~36 e 90 conforme o rank de dificuldade).\n• Multiplicadores do jogo: Foco completo da mira (+16% dano) e Headshot (+35% dano).\n• Melhorias: Não possui peças ou melhorias em loja; a eficiência da Grace aumenta apenas usando Estabilizadores (melhoram dano geral e firmeza da mira).",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Arma de sobrevivência inicial da campanha da Grace, voltada à defesa de curto prazo até você recuperar a S&S M232.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Dificuldade Casual / Padrão: Encontrada no chão da Sala de Jantar (Dining Room, 1º andar da Ala Oeste) do Centro de Cuidados de Rhodes Hill.\n• Dificuldade Insanidade: Movida para o balcão de recepção da Sala de Espera (Waiting Room).",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Economize munição: atire na perna ou na cabeça esperando a retícula fechar completamente (foco) para causar atordoamento e fugir ou finalizar com o Injetor Hemolítico.\n• Substitua pela S&S M232 assim que abrir a Ala Oeste.",
           "color": "green"
         }
@@ -1043,32 +1052,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "ss_m232.webp",
           "color": "green"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Grace Ashcroft (também desbloqueável como arma bônus para o Leon).\n• Classe: Pistola semiautomática tática.\n• Papel tático: Melhor pistola padrão da Grace na campanha principal, superando a B934 em dano, precisão e tamanho do pente.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft (também desbloqueável como bônus para o Leon)\n• Classe / Munição: Pistola semiautomática tática (Munição de Pistola)\n• Dano Base: 120 (+16% com mira focada | +35% em Headshot)\n• Capacidade: 9 munições por carregador\n• Melhorias: Aceita Compensador (reduz recuo entre tiros); poder geral escala com Estabilizadores da Grace",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 120 (+16% com mira focada / +35% em headshot).\n• Capacidade: 9 munições por carregador.\n• Melhorias: Aceita o Compensador encontrado no Centro de Cuidados para reduzir o recuo entre disparos; seu poder geral escala com os Estabilizadores da Grace.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Melhor pistola padrão da Grace na campanha principal, superando a B934 em dano, precisão e capacidade.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Centro de Cuidados de Rhodes Hill (Ala Oeste, 2º andar): Dentro do Bar & Lounge, caída na pia / balcão inferior atrás do bar.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• ⚠️ Não passe direto pelo Bar & Lounge sem pegá-la: ela substitui completamente a B934 e poupa muita munição ao longo de Rhodes Hill.",
           "color": "green"
         }
@@ -1083,32 +1092,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "freyas_needle.webp",
           "color": "green"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Pistola-metralhadora compacta de disparo automático (tambor de alta capacidade).\n• Papel tático: Entrega altíssima cadência com apenas uma mão para pressionar inimigos em corredores estreitos.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft (Exclusiva)\n• Classe / Munição: Pistola-metralhadora automática (Munição de Pistola)\n• Dano Base: 32 por projétil (alto DPS contínuo em rajadas curtas)\n• Capacidade: Carregador tipo tambor de alta capacidade\n• Melhorias: Sem peças de Caixa de Suprimentos; beneficia-se dos Estabilizadores da Grace",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 32 por projétil (menor dano individual que a B934/M232, compensado por rajadas contínuas de altíssimo dano contínuo em curta distância).\n• Capacidade: Carregador tipo tambor de alta capacidade utilizando munição de pistola.\n• Melhorias: Não recebe modificações de Caixa de Suprimentos; beneficia-se dos Estabilizadores da Grace.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Entrega altíssima cadência com apenas uma mão para conter inimigos em corredores estreitos.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) com Pontos de Desafio (CP) e acessada no Baú de Itens da Grace em campanhas seguintes.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Excelente para jogadas no modo Insanidade ou para quebrar o avanço de grupos sem depender da Requiem.\n• Dê rajadas curtas no peito e rosto para não desperdiçar toda a reserva de munição de pistola.",
           "color": "green"
         }
@@ -1123,38 +1132,38 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Faca Improvisada (Makeshift Knife)",
           "type": "image",
+          "title": "Faca Improvisada (Makeshift Knife)",
           "content": "makeshift_knife.webp",
           "color": "green"
         },
         {
-          "title": "Faca de Caça (Hunting Knife)",
           "type": "image",
+          "title": "Faca de Caça (Hunting Knife)",
           "content": "hunting_knife.webp",
           "color": "green"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Grace Ashcroft.\n• Classe: Armas brancas defensivas (Makeshift Knife / Hunting Knife).\n• Papel tático: Ferramentas de escape rápido contra agarrões e finalização silenciosa quando a munição estiver zerada.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft\n• Classe: Armas brancas defensivas (Makeshift Knife / Hunting Knife)\n• Dano / Função: Baixo em ataques comuns; evita dano pesado no contra-ataque de agarrões\n• Durabilidade: Limitada (NÃO pode ser afiada nem reparada)\n• Reciclagem: Facas quebradas são desmontadas no inventário em Sucata",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano: Baixo em golpes normais; evita dano pesado ao ser gasta no contra-ataque de agarrão.\n• Durabilidade: Limitada e NÃO pode ser afiada nem reparada.\n• Reciclagem: Facas quebradas ou desgastadas podem ser desmontadas no inventário em Sucata para fabricar munição ou itens.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Ferramentas de escape rápido contra agarrões e finalização silenciosa quando a munição acabar.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Faca Improvisada (Makeshift Knife): Primeiro armário à direita na Sala de Arquivos (Filing Room), ao lado da Sala de Jantar.\n• Faca de Caça (Hunting Knife): Cravada em um inimigo próximo à região de Arquivos/Jantar e espalhada por Rhodes Hill.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Nunca jogue fora uma faca quebrada: use o menu de criação para convertê-la em Sucata.\n• Guarde sempre ao menos 1 faca intacta no inventário da Grace como seguro de vida ao passar por corredores apertados.",
           "color": "green"
         }
@@ -1169,32 +1178,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "rip_knife.webp",
           "color": "yellow"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva da Grace Ashcroft.\n• Classe: Arma branca especial de alta resistência.\n• Papel tático: Alternativa muito mais durável e agressiva às facas improvisadas e de caça.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft (Exclusiva)\n• Classe: Arma branca especial de alta resistência\n• Dano / Impacto: Dano corpo a corpo muito superior às facas improvisadas e de caça\n• Durabilidade: Resistência estrutural muito acima das lâminas padrão de Rhodes Hill\n• Melhorias: Não aceita modificações em oficina",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano e Durabilidade: Dano corpo a corpo e resistência estrutural muito acima das facas padrão de Rhodes Hill.\n• Melhorias: Não aceita modificações em oficina.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Alternativa durável e agressiva para finalizar zumbis derrubados sem gastar balas (destaque no modo Insanidade).",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Obtida trocando Moedas Antigas (Antique Coins) na vitrine do Salão / Parlor no Centro de Cuidados de Rhodes Hill (especialmente relevante na dificuldade Insanidade).",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Ideal para poupar munição na dificuldade Insanidade, finalizando zumbis derrubados sem consumir a durabilidade rapidamente.",
           "color": "green"
         }
@@ -1209,38 +1218,38 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Garrafa de Ácido (Bottle of Acid)",
           "type": "image",
+          "title": "Garrafa de Ácido (Bottle of Acid)",
           "content": "bottle_of_acid.webp",
           "color": "yellow"
         },
         {
-          "title": "Coquetel Molotov (Molotov Cocktail)",
           "type": "image",
+          "title": "Coquetel Molotov (Molotov Cocktail)",
           "content": "molotov_cocktail.webp",
           "color": "orange"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Grace Ashcroft (uso estratégico de laboratório).\n• Classe: Arremessáveis químicos e incendiários artesanais.\n• Papel tático: Soluções de altíssimo impacto para limpar grupos ou neutralizar ameaças letais sem gastar munição pesada.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Grace Ashcroft\n• Classe: Arremessáveis químicos e incendiários artesanais\n• Dano (Garrafa de Ácido): Dano corrosivo extremo — elimina Lickers / Carnífices instantaneamente (1 golpe)\n• Dano (Coquetel Molotov): Explosão e chamas persistentes em área para atordoar e queimar grupos\n• Fabricação: Garrafa Vazia + Sangue Infectado (receitas liberadas nos terminais laboratoriais)",
           "color": "cyan"
         },
         {
-          "title": "Dano e Mecânica",
           "type": "text",
-          "content": "• Garrafa de Ácido: Dano químico corrosivo extremo — elimina Lickers / Carnífices instantaneamente (1 golpe), ignorando sua barra de vida alta.\n• Coquetel Molotov: Explosão e chamas persistentes em área que incendeiam e atordoam múltiplos zumbis simultaneamente.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Soluções de alto impacto para limpar aglomerações ou neutralizar ameaças letais sem gastar munição pesada.",
           "color": "gray"
         },
         {
-          "title": "Como Fabricar e Onde Obter",
           "type": "text",
+          "title": "Como Fabricar e Onde Obter",
           "content": "• Analise as amostras nos terminais laboratoriais de Rhodes Hill para liberar as receitas.\n• Fabricação: Combine Garrafa Vazia (Empty Bottle) + Sangue Infectado coletado via Coletor de Sangue.\n• ⚠️ Atenção: Não fabrique itens com o Coletor de Sangue durante a corrida pelo troféu 'Minimalista'.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Guarde sempre 1 ou 2 Garrafas de Ácido para trechos com Lickers e economize suas balas da Requiem para os chefes.",
           "color": "green"
         }
@@ -1255,26 +1264,26 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Personagem e Perfil da Ferramenta",
           "type": "text",
+          "title": "Personagem e Perfil da Ferramenta",
           "content": "• Protagonista: Exclusivo da Grace Ashcroft.\n• Classe: Ferramenta tática de execução biológica (item consumível).\n• Papel tático: Principal recurso da Grace para eliminar inimigos sem alertar outros alvos nem gastar munição.",
           "color": "cyan"
         },
         {
-          "title": "Dano e Mecânica",
           "type": "text",
+          "title": "Dano e Mecânica",
           "content": "• Dano: Abate instantâneo (com 1 golpe) em zumbis padrão quando aplicado pelas costas (furtivo) ou em alvos atordoados.\n• Contra Inimigos Pesados: Causa dano massivo em subchefes como o Chef (The Butcher) e Chunk.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Fabricar",
           "type": "text",
+          "title": "Localização e Como Fabricar",
           "content": "• Encontrado pronto em salas de Rhodes Hill (incluindo áreas médicas e de laboratório) ou fabricado combinando microamostras no menu de criação.\n• Troféu ligado: 'Dose Cavalar (Fatal Dose)' ao derrotar um zumbi usando o injetor.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Use o som de garrafas vazias arremessadas para virar zumbis ou zumbis cantoras de costas e aplicar o Injetor Hemolítico sem desperdiçar balas.",
           "color": "green"
         }
@@ -1289,32 +1298,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "requiem.webp",
           "color": "red"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonistas: COMPARTILHADA — usada tanto por Grace Ashcroft quanto por Leon S. Kennedy em momentos-chave da campanha.\n• Classe: Revólver Magnum pesado calibre 12.7x55mm.\n• Papel tático: Arma assinatura de altíssimo impacto destinada a chefes, emergências e inimigos blindados.",
+          "title": "Atributos da Arma",
+          "content": "• Usuários: Leon S. Kennedy & Grace Ashcroft (Compartilhada)\n• Classe / Munição: Revólver Magnum pesado calibre 12.7x55mm\n• Poder / Impacto: 9 / 10 (disparo perfurante capaz de abater múltiplos alvos alinhados)\n• Cadência: 4 / 10\n• Capacidade: 5 munições no tambor\n• Melhorias (Leon): Níveis 1 a 3 reduzem recuo, aceleram recarga e elevam o multiplicador contra chefes",
+          "color": "cyan"
+        },
+        {
+          "type": "text",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Arma assinatura de altíssimo impacto destinada a chefes, emergências e inimigos blindados.",
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Poder: 9 / 10 (dano massivo capaz de abater vários inimigos alinhados em um único disparo perfurante).\n• Cadência: 4 / 10 | Capacidade: 5 munições no tambor.\n• Melhorias (Leon): Níveis 1 a 3 reduzem drasticamente o recuo, aceleram a recarga do tambor e elevam o multiplicador de impacto contra chefes.",
-          "color": "gray"
-        },
-        {
           "title": "Localização e Como Obter",
-          "type": "text",
           "content": "• Obtida obrigatoriamente na progressão principal da história no Salão Central (Central Hall) do Centro de Cuidados de Rhodes Hill.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Troféu 'Apelão': dispare na entidade 'A Garota' em Rhodes Hill para atordoá-la.\n• Troféu 'Prato do Dia: Bala': enfraqueça 3 zumbis na perna, alinhe-os em um corredor e mate os 3 com 1 único tiro perfurante da Requiem.\n• Munição raríssima — guarde para emergências e chefes!",
           "color": "green"
         }
@@ -1329,32 +1338,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "alligator_snapper.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Pistola semiautomática padrão da DSO.\n• Papel tático: Cavalo de batalha confiável para o jogo inteiro devido ao baixo recuo, alta precisão e fartura de munição de pistola.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Pistola semiautomática DSO (Munição de Pistola)\n• Dano Base: 120 → 150 → 180 → 220 (versão comparativa inicial ~88)\n• Poder / Cadência: Poder 6 / 10 | Cadência 7 / 10\n• Melhorias: Potência, Estabilidade e carregador estendido (+3 até +9 balas; Nv. 3 após 25 Mr. Raccoons)",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base (por nível/rank): 120 → 150 → 180 → 220 (versão inicial comparativa ~88 antes dos ajustes).\n• Atributos base: Poder 6 / 10 | Cadência 7 / 10.\n• Melhorias (Caixa de Suprimentos): Melhorias de Potência, Estabilidade e carregador estendido (High-Capacity Mag / Slick Magazine Catch) adicionando +3 até +9 balas extras.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Cavalo de batalha confiável para a campanha inteira com baixo recuo, precisão e munição farta.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Disponível automaticamente no inventário (maleta) do Leon desde o início da campanha dele.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Excelente sinergia com o Machado Tático: acerte joelhos ou cabeça com a retícula focada (+16%) para abrir prompt de finalização corpo a corpo.\n• Com todos os 25 Mr. Raccoons destruídos, libera Ajuste Avançado (Nível 3).",
           "color": "green"
         }
@@ -1369,32 +1378,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "silencer_9.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Pistola tática com supressor integrado.\n• Papel tático: Substituta de alto calibre para a Alligator Snapper, combinando tiro silencioso e excelente controle de precisão.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Pistola tática com supressor integrado (Munição de Pistola)\n• Dano Base Comparativo: 100 por projétil (Poder: 1.5 → até 2.7 na oficina)\n• Cadência / Precisão: Cadência até 3.7 (Aluminium Trigger) | Precisão até 4.0 (Dot Sight)\n• Capacidade: 10 → até 20 munições (High-Capacity Mag)\n• Melhorias: Add-on Suppressor + / ☆, Aluminium Trigger, High-Capacity Mag e Dot Sight",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base Comparativo: 100 (superior à Alligator Snapper base e à Matilda IMP base por projétil).\n• Escala na Caixa de Suprimentos:\n  - Poder: 1.5 → até 2.7 (peças Add-on Suppressor + / ☆).\n  - Cadência: até 3.7 (Aluminium Trigger).\n  - Capacidade: 10 → até 20 tiros (High-Capacity Mag).\n  - Precisão: até 4.0 (com acessório Dot Sight).",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Substituta de alto calibre para a Alligator Snapper, unindo tiro silencioso e precisão máxima.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Comprada na Caixa de Suprimentos (Supply Box) no Acampamento da BSAA em Raccoon City Leste por 5.500 Créditos.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Vale muito o investimento se você busca abates silenciosos e precisão máxima com a mira Dot Sight.",
           "color": "green"
         }
@@ -1409,32 +1418,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "matilda_imp.webp",
           "color": "cyan"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola de rajada (3-round burst) desbloqueável.\n• Papel tático: Transforma munição comum de pistola em rajadas velozes de altíssimo dano por segundo.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy\n• Classe / Munição: Pistola de rajada 3-round burst (Munição de Pistola)\n• Dano Base: 92 por projétil (~276 brutos por rajada completa de 3 tiros)\n• Melhorias: Redução de recuo/estabilidade, coronha estendida para controle e carregadores ampliados",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 92 por projétil (~276 brutos por rajada de 3 balas caso todas acertem o alvo).\n• Melhorias: Focada em mitigação de recuo/estabilidade, coronha estendida para controlar as rajadas e carregadores ampliados.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Transforma munição comum de pistola em rajadas velozes de altíssimo dano por segundo.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) usando Pontos de Desafio (CP) e retirada em qualquer Caixa de Suprimentos do Leon.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Consome munição muito depressa: ideal quando combinada com melhorias de capacidade ou Munição Infinita para a campanha no modo Insanidade.",
           "color": "green"
         }
@@ -1449,32 +1458,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "redemption.webp",
           "color": "purple"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Pistola pesada de tiro único (classe handcannon / calibre de rifle).\n• Papel tático: Canhão portátil de altíssimo impacto para abater inimigos resistentes em 1 disparo bem colocado.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy\n• Classe / Munição: Pistola pesada de tiro único (Munição de Rifle)\n• Dano / Impacto: Um dos maiores danos brutos por tiro de todo o jogo fora da classe Magnum\n• Capacidade: 1 munição na câmara (exige recarga manual após cada disparo)\n• Melhorias: Focadas em velocidade de recarga e potência máxima",
+          "color": "cyan"
+        },
+        {
+          "type": "text",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Canhão portátil de altíssimo impacto para abater inimigos resistentes em 1 disparo bem colocado.",
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano: Um dos maiores danos brutos por tiro de todo o jogo fora da classe Magnum, utilizando munição de rifle.\n• Capacidade: 1 munição na câmara (exige recarga manual após cada disparo).\n• Melhorias: Melhorias focadas em velocidade de recarga e potência máxima.",
-          "color": "gray"
-        },
-        {
           "title": "Localização e Como Obter",
-          "type": "text",
           "content": "• Desbloqueada via progressão avançada / marcos de Conteúdo Extra para o arsenal do Leon e retirada na Caixa de Suprimentos.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Mire sempre após estabilizar o foco da retícula: errar o tiro custa preciosos segundos de recarga.",
           "color": "green"
         }
@@ -1489,32 +1498,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "ghost_grudge.webp",
           "color": "purple"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Revólver Magnum pós-jogo.\n• Papel tático: Alternativa secundária ágil à Requiem para quem quer poder de parada massivo nas jogadas seguintes.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy\n• Classe / Munição: Revólver Magnum pós-jogo (Munição Magnum)\n• Dano / Impacto: Altíssimo impacto classe Magnum (abate inimigos comuns com 1 headshot)\n• Mecânica Especial: Recarga rápida automática quando você esvazia todas as balas do tambor\n• Melhorias: NÃO aceita acessórios nem melhorias convencionais",
+          "color": "cyan"
+        },
+        {
+          "type": "text",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Alternativa secundária ágil à Requiem para quem busca poder de parada massivo nas jogadas seguintes.",
           "color": "purple"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano: Altíssimo impacto de classe Magnum (abate inimigos padrão com 1 tiro na cabeça).\n• Mecânica especial: Recarga rápida automática quando você esvazia todas as balas do tambor.\n• Melhorias: NÃO aceita acessórios ou melhorias convencionais.",
-          "color": "gray"
-        },
-        {
           "title": "Localização e Como Obter",
-          "type": "text",
           "content": "• Desbloqueado na Loja de Conteúdo Extra por apenas 1.000 CP (Pontos de Desafio) após cumprir os requisitos da loja e coletado na Caixa de Suprimentos do Leon.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Acostume-se a esvaziar o tambor inteiro antes de recarregar para ativar o bônus de velocidade da recarga rápida.",
           "color": "green"
         }
@@ -1529,32 +1538,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "msbg_500.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta compacta de ação por bomba (pump-action).\n• Papel tático: Escopeta inicial de controle de espaço em curta distância no Centro de Cuidados.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Escopeta pump-action compacta (Cartuchos de Escopeta)\n• Dano Base: 512 por cartucho (~691.2 com headshot/foco caso todos os chumbos acertem)\n• Poder / Cadência: Poder 8 / 10 | Cadência 4 / 10\n• Capacidade: 5 cartuchos\n• Melhorias: Potência, cadência e capacidade até Nv. 2 (Nv. 3 após os 25 Mr. Raccoons)",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 512 por cartucho (até ~691.2 com headshot/foco caso todos os projéteis acertem).\n• Atributos base: Poder 8 / 10 | Cadência 4 / 10 | Capacidade: 5 cartuchos.\n• Melhorias: Melhora potência, cadência e capacidade até o Nv. 2 (Nv. 3 após os 25 Mr. Raccoons).",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Escopeta inicial de controle de espaço em curta distância no Centro de Cuidados.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Encontrada no chão do Sótão (Attic) do Centro de Cuidados de Rhodes Hill, logo antes do confronto contra o Chunk.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• A dispersão dela é aberta: use à queima-roupa para derrubar vários inimigos de uma vez e economize créditos se planeja migrar para a W870 Police gratuita ou a 990-TAC.",
           "color": "green"
         }
@@ -1569,32 +1578,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "w870_police.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta policial pump-action clássica de Raccoon City.\n• Papel tático: Alternativa gratuita e extremamente confiável caso você não queira gastar 7.000 Créditos na 990-TAC.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Escopeta policial pump-action clássica (Cartuchos de Escopeta)\n• Poder / Cadência: Poder 7 / 10 | Cadência 3 / 10\n• Capacidade Base: 5 cartuchos\n• Impacto: Enorme força de empurrão e atordoamento em curta distância\n• Melhorias: Aprimorável na Caixa de Suprimentos (Nv. 2 padrão e Nv. 3 avançado)",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Atributos base: Poder 7 / 10 | Cadência 3 / 10 | Capacidade base: 5 cartuchos.\n• Perfil de impacto: Enorme força de empurrão e atordoamento em curta distância.\n• Melhorias: Aprimorável em Caixa de Suprimentos (até Nv. 2 padrão e Nv. 3 avançado).",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Alternativa gratuita e confiável para quem não quer gastar 7.000 Créditos na 990-TAC.",
           "color": "gray"
         },
         {
-          "title": "Localização (⚠️ Item Fácil de Perder!)",
           "type": "text",
+          "title": "Localização (⚠️ Item Fácil de Perder!)",
           "content": "• Em Raccoon City, dentro da Loja de Armas do Kendo (Kendo's Gun Shop).\n• ⚠️ ATENÇÃO: Assim que terminar a cutscene de entrada na loja do Kendo, VIRE 180° IMEDIATAMENTE — a W870 Police está na prateleira logo atrás da porta de entrada!",
           "color": "red"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Ótima opção para guardar seus créditos de Raccoon City Leste para aprimorar outras armas principais, já que ela sai de graça.",
           "color": "green"
         }
@@ -1609,32 +1618,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "990_tac.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Escopeta semiautomática tática.\n• Papel tático: A escopeta de maior poder de dano e consistência da campanha, combinando disparos rápidos com agrupamento fechado de chumbos.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Escopeta semiautomática tática (Cartuchos de Escopeta)\n• Dano Base: 559 por cartucho (~754.65 em headshot focado)\n• Potencial Máximo: > 1.500 de dano real (melhorias + agrupamento fechado + amuleto Cute Bear a >2m = 1.6x)\n• Melhorias: Cadência elevada, menor recuo e tubos estendidos na Caixa de Suprimentos",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Base: 559 por cartucho (~754.65 em headshot focado).\n• Potencial Oculto Máximo: Com melhorias + agrupamento fechado de chumbos + amuleto Cute Bear (> 2 metros = 1.6x), ultrapassa 1.500 de dano real por tiro!\n• Melhorias: Cadência elevada, menor recuo e tubos de extensão de capacidade na Caixa de Suprimentos.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Escopeta mais letal e consistente da campanha, unindo disparo rápido e agrupamento fechado.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Comprada na Caixa de Suprimentos do Acampamento da BSAA em Raccoon City Leste por 7.000 Créditos.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Graças ao agrupamento fechado e ao disparo semiautomático, funciona incrivelmente bem entre 2 e 5 metros de distância — faixa perfeita para ativar o bônus de +60% do amuleto Cute Bear!",
           "color": "green"
         }
@@ -1649,32 +1658,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "stiri_revo3_a1.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Submetralhadora compacta (SMG).\n• Papel tático: Arma automática leve voltada à mobilidade, controle fácil e atordoamento rápido de inimigos próximos.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Submetralhadora compacta (Munição de SMG)\n• Ficha Base (1–10): Poder 2 | Cadência 9 | Estabilidade 6 | Recarga 7 | Precisão 3\n• Capacidade: 30 munições por carregador\n• Melhorias: Potência, estabilidade e velocidade de recarga na Caixa de Suprimentos",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Ficha 1–10: Poder 2 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 3 / 10.\n• Capacidade: 30 munições por carregador.\n• Melhorias: Melhora potência, estabilidade e velocidade de recarga na Caixa de Suprimentos.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Arma automática leve voltada à mobilidade, controle fácil e atordoamento rápido em curta distância.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Disponível para compra nas Caixas de Suprimentos em Raccoon City Leste utilizando Créditos.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Em dano por bala ela perde para a SMG Gal (Poder 2 vs 5); caso queira economizar créditos, vá buscar a Gal gratuitamente no estacionamento subterrâneo antes de investir nela.",
           "color": "green"
         }
@@ -1689,32 +1698,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "gal_smg.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Submetralhadora clássica de alta cadência (SMG).\n• Papel tático: Muito mais contundente que a Stiri REVO3 A1 por bala, com carregador amplo para limpar hordas.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Submetralhadora clássica de alta cadência (Munição de SMG)\n• Ficha Base (1–10): Poder 5 | Cadência 9 | Estabilidade 6 | Recarga 7 | Precisão 4\n• Capacidade: 40 munições no carregador base\n• Melhorias: Potência, cadência, estabilidade e carregador na Caixa de Suprimentos",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Ficha 1–10: Poder 5 / 10 | Cadência 9 / 10 | Estabilidade 6 / 10 | Recarga 7 / 10 | Precisão 4 / 10.\n• Capacidade: 40 munições no carregador base.\n• Melhorias: Potência, cadência, estabilidade e carregador ampliáveis na Caixa de Suprimentos.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Muito mais contundente que a Stiri REVO3 A1 por projétil, com carregador amplo para limpar hordas.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Encontrada gratuitamente escondida dentro de um galpão no Estacionamento Subterrâneo de Raccoon City Leste (após passar pela área dos carros submersos).",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Excelente para destruir pontos fracos amarelos de chefes rapidamente ou segurar avanços em áreas abertas.",
           "color": "green"
         }
@@ -1729,32 +1738,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "clatter_carbine.webp",
           "color": "cyan"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy.\n• Classe: Rifle de assalto tático moderno com supressor integrado.\n• Papel tático: Combina boa precisão em médio alcance, disparo automático/rajada e maior impacto por tiro que as SMGs.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy\n• Classe / Munição: Rifle de assalto tático com supressor integrado\n• Dano / Alcance: Superior às SMGs em dano por projétil e eficiência em médio alcance\n• Destaque: Silenciador integrado, disparo automático/rajada e alta estabilidade após melhorias",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Perfil de Combate: Superior às SMGs em dano por projétil, com silenciador integrado e ótima precisão após aprimoramentos de estabilidade.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Arma automática versátil indicada para New Game+ e combinações com Munição Infinita.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Desbloqueada na Loja de Conteúdo Extra após concluir a campanha por 6.000 CP e resgatada na Caixa de Suprimentos do Leon.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Indicada para New Game+ após acumular bastante CP ou para combinar com Munição Infinita no modo Insanidade.",
           "color": "green"
         }
@@ -1769,32 +1778,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "classic_70.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Rifle sniper de ferrolho (bolt-action).\n• Papel tático: Especialista em abates cirúrgicos de longa distância e explosão de pontos fracos críticos de chefes.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Rifle sniper de ferrolho (Munição de Rifle)\n• Dano Verificado: Base: 476 | Headshot: 642.6 | Focado: 745.42 (até 894.50+ sem luneta c/ amuleto)\n• Ficha Base (1–10): Poder 9 | Cadência 3 | Estabilidade 7 | Recarga 4 | Precisão 9\n• Capacidade: 6 munições\n• Melhorias: Potência, velocidade de ferrolho, recarga e precisão na Caixa de Suprimentos",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Numérico Verificado:\n  - Base: 476 | Headshot: 642.6 | Headshot Focado: 745.42.\n  - No nível máximo / variações de amuleto sem luneta: alcança até 894.50+ equivalente por disparo!\n• Ficha 1–10: Poder 9 / 10 | Cadência 3 / 10 | Estabilidade 7 / 10 | Recarga 4 / 10 | Precisão 9 / 10 | Capacidade: 6 balas.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Especialista em abates cirúrgicos à longa distância e explosão de pontos fracos críticos de chefes.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Adquirida automaticamente na história logo antes da seção do pátio / telhado do Centro de Cuidados onde Leon dá cobertura à Grace.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Mesmo sendo mais lenta que o Marksman 1A, causa quase o dobro de dano por bala (476 vs 288) — ideal para economizar munição de rifle contra chefes e inimigos de elite.",
           "color": "green"
         }
@@ -1809,32 +1818,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "marksman_1a.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Carabina/Rifle tático semiautomático com supressor integrado.\n• Papel tático: Foco em disparos consecutivos rápidos, recarga ágil e versatilidade (a luneta pode ser removida para combates de média distância).",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusiva)\n• Classe / Munição: Carabina/Rifle semiautomático com supressor (Munição de Rifle)\n• Dano Verificado: Base: 288 | Headshot: 388.8 | Headshot Focado: 451.01\n• Capacidade: Expansível para mais de 25 munições na Caixa de Suprimentos\n• Modulação: A luneta pode ser removida para combates de média e curta distância",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Melhorias",
           "type": "text",
-          "content": "• Dano Numérico Verificado:\n  - Base: 288 | Headshot: 388.8 | Headshot Focado: 451.01.\n• Capacidade e Cadência: Disparo semiautomático veloz; carregador expansível na Caixa de Suprimentos para mais de 25 munições.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Foco em disparos consecutivos rápidos, recarga ágil e versatilidade sem perda de visão periférica.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Dentro do Contêiner da BSAA #03, localizado próximo ao final da rua principal de Raccoon City Leste (necessário para o troféu 'Expectativas de Caixote').",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Remova a luneta quando entrar em áreas internas para transformar o Marksman 1A em uma carabina semiautomática de altíssima cadência e zero perda de visão periférica.",
           "color": "green"
         }
@@ -1849,32 +1858,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "tactical_hatchet.webp",
           "color": "blue"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusivo de Leon S. Kennedy.\n• Classe: Machado tático corpo a corpo.\n• Papel tático: Ferramenta principal de defesa (parry) e abates finalizadores sem gastar munição.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusivo)\n• Classe: Arma corpo a corpo / defesa principal\n• Defesa (Parry): Pressione L1 / LB / Espaço no timing exato para aparar golpes e cortar a língua do Licker β2\n• Finalizações: Golpes letais rápidos em zumbis atordoados ou derrubados\n• Durabilidade: Perde fio com o uso — mantenha sempre afiado no menu rápido",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Mecânicas",
           "type": "text",
-          "content": "• Defesa (Parry): Pressione L1 / LB / Espaço no momento exato para aparar golpes inimigos e até decepar a língua do Licker β2 (troféu 'O Gato Comeu Sua Língua?').\n• Finalizações: Executa golpes letais rápidos em zumbis atordoados ou derrubados (troféu 'Picapau').\n• Durabilidade: Perde fio com o uso — mantenha sempre afiado no menu rápido.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Recurso base do Leon para aparar ataques fatais e finalizar inimigos sem gastar munição.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Equipamento inicial padrão de Leon S. Kennedy desde o começo da campanha.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Afie o machado sempre após sequências intensas de parry para nunca ficar sem defesa diante do Supertirano ou de Lickers.",
           "color": "green"
         }
@@ -1889,32 +1898,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "mortal_edge.webp",
           "color": "purple"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Exclusiva de Leon S. Kennedy.\n• Classe: Machado tático avançado de elite.\n• Papel tático: Substituição superior ao Machado Tático padrão, com maior poder de corte e impacto em contra-ataques.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Exclusivo)\n• Classe: Machado tático avançado de elite\n• Dano / Parry: Golpes corpo a corpo e contra-ataques (L1 / LB / Espaço) muito mais devastadores que o Hatchet\n• Durabilidade: Requer manutenção normal de afiação conforme o uso",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Mecânicas",
           "type": "text",
-          "content": "• Poder Ofensivo e Parry: Golpes corpo a corpo e contra-ataques de aparar (L1 / LB / Espaço) muito mais devastadores que os do Hatchet inicial.\n• Durabilidade: Requer manutenção normal ou bônus de durabilidade conforme o uso.",
-          "color": "gray"
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Substituição de elite para o Machado Tático, entregando defesa corpo a corpo muito mais letal.",
+          "color": "purple"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Campanha: Derrubada pelo chefe Comandante (Commander) dentro da instalação subterrânea ARK.\n• Loja de Conteúdo Extra: Desbloqueável por 3.000 CP para aparecer na Caixa de Suprimentos nas próximas campanhas.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Desbloqueie na Loja de Bônus antes de iniciar o modo Insanidade para ter uma defesa corpo a corpo muito mais letal desde o início.",
           "color": "green"
         }
@@ -1929,32 +1938,32 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "kotetsu.webp",
           "color": "yellow"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Item Bônus de sobrevivência (especialmente valioso para Grace Ashcroft no lugar das facas descartáveis; disponível via Loja de Bônus).\n• Classe: Lâmina japonesa especial inquebrável.\n• Papel tático: Elimina completamente a preocupação com quebra de facas em agarrões.",
+          "title": "Atributos da Arma",
+          "content": "• Usuários: Grace Ashcroft / Extra (Loja de Bônus)\n• Classe: Lâmina japonesa especial inquebrável\n• Dano: Bom dano corpo a corpo contínuo para economia máxima de munição\n• Durabilidade: INFINITA — nunca quebra e dispensa reparos após agarrões ou finalizações",
           "color": "cyan"
         },
         {
-          "title": "Dano, Atributos e Mecânicas",
           "type": "text",
-          "content": "• Durabilidade: INFINITA — nunca quebra e não precisa de reparos após escapar de agarrões ou finalizar inimigos.\n• Dano: Bom dano corpo a corpo contínuo para economizar munição.",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Elimina completamente o gerenciamento de quebra de facas da Grace em jogadas difíceis.",
           "color": "gray"
         },
         {
-          "title": "Localização e Como Obter",
           "type": "text",
+          "title": "Localização e Como Obter",
           "content": "• Comprada na Loja de Conteúdo Extra (Bônus) usando Pontos de Desafio (CP) após concluir desafios da campanha e retirada no Baú de Itens.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Essencial para a jogada na dificuldade Insanidade ou sem curas: permite defender agarrões quantas vezes precisar sem perder a lâmina.",
           "color": "green"
         }
@@ -1969,37 +1978,381 @@
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Visual da Arma",
           "type": "image",
+          "title": "Visual da Arma",
           "content": "rpg_7.webp",
           "color": "red"
         },
         {
-          "title": "Personagem e Perfil da Arma",
           "type": "text",
-          "content": "• Protagonista: Leon S. Kennedy (arma especial de Conteúdo Extra).\n• Classe: Lança-foguetes antitanque explosivo.\n• Papel tático: Aniquilação instantânea de chefes e hordas em New Game+ e na dificuldade Insanidade.",
+          "title": "Atributos da Arma",
+          "content": "• Usuário: Leon S. Kennedy (Conteúdo Extra)\n• Classe / Munição: Lança-foguetes antitanque explosivo\n• Dano: Explosão massiva em área capaz de eliminar subchefes em 1 tiro e encurtar lutas contra chefes\n• Inventário: Ocupa muitos slots na maleta do Leon (organize os espaços antes de retirar)",
+          "color": "cyan"
+        },
+        {
+          "type": "text",
+          "title": "Perfil Tático",
+          "content": "• Papel tático: Arma definitiva de New Game+ para limpar o modo Insanidade e enfrentar chefes em segundos.",
           "color": "purple"
         },
         {
-          "title": "Dano e Mecânica",
           "type": "text",
-          "content": "• Dano: Explosão massiva em área capaz de eliminar subchefes instantaneamente e encerrar fases inteiras de chefes em segundos.\n• Ocupação: Ocupa espaço grande na maleta do Leon (organize os slots antes de retirar).",
-          "color": "gray"
-        },
-        {
           "title": "Localização e Como Obter",
-          "type": "text",
           "content": "• Desbloqueada na Loja de Conteúdo Extra (Bônus) após zerar o jogo usando Pontos de Desafio (CP) e retirada na Caixa de Suprimentos do Leon.",
           "color": "yellow"
         },
         {
-          "title": "Dicas Práticas",
           "type": "text",
+          "title": "Dicas Práticas",
           "content": "• Combinar a RPG-7 com Munição Infinita é a estratégia mais rápida do guia para fechar o modo Insanidade sem sofrimento.",
           "color": "green"
         }
       ],
       "tags": "leon rpg7 rpg-7 lanca foguetes rocket launcher bonus cp insanidade chefe armas"
+    },
+    {
+      "id": 377,
+      "title": "Mapa: Ruas de Wrenwood & Hotel Wrenwood",
+      "subtitle": "🗺️ Prólogo (Grace) • Rua Principal + 1º e 2º Andares do Hotel",
+      "category": "maps",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Resumo da Região e Pontos de Interesse",
+          "content": "• Segmento inicial da campanha com a Grace Ashcroft nas ruas chuvosas e no Hotel Wrenwood abandonado.\n• Salas-chave (1F): Lobby, Reception, Kitchen, Lounge & Bar, Restroom, Office e Employee Entrance.\n• Salas-chave (2F): Room 204 (e banheiro), Rec Room, 2F Corridor e saída de emergência pela escadaria.\n• Navegação: Use as escadas sul (Stairway) para acessar o 2F e o Room 204 onde avançam os eventos do prólogo.",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Rua Principal (Main Street)",
+          "content": "re9_mainstreet.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Hotel Wrenwood — 1º Andar (1F)",
+          "content": "re9_wrenwoodhotel1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Hotel Wrenwood — 2º Andar (2F)",
+          "content": "re9_wrenwoodhotel2f.webp",
+          "color": "green"
+        }
+      ],
+      "tags": "mapa wrenwood hotel room 204 prologo grace"
+    },
+    {
+      "id": 378,
+      "title": "Mapa: Centro de Cuidados de Rhodes Hill (Interno & Porão)",
+      "subtitle": "🗺️ Care Center • 1F, 2F, 3F & Subsolo (Cofres, Armas e Itens)",
+      "category": "maps",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Armas, Cofres e Pontos de Interesse",
+          "content": "• Armas na área: B934 (Dining Room 1F / Waiting Room 1F na Insanidade), S&S M232 (Bar & Lounge 2F), Faca Improvisada (Filing Room 1F), Requiem (Central Hall 1F) e Escopeta MSBG 500 (Sótão / Attic 3F).\n• Cofre #1 — Bar & Lounge (2F Ala Oeste): Casual L10-R80-L30 | Insanidade R20-L50-R30.\n• Cofre #2 — Examination Room (1F Ala Leste): Casual R30-L10-R50 | Insanidade L50-R30-L90.\n• Cofre #3 — Porão / Fornalha (Basement): Casual R60-L40-R80 | Insanidade L70-L50-L20 (contém o Mapa de Mr. Raccoon do Centro!).\n• Troca de Moedas Antigas: Vitrine no Salão (Parlor 1F) onde se obtém Estabilizadores e a Faca R.I.P.",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Centro de Cuidados — 1º Andar (1F)",
+          "content": "re9_carecenter1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Centro de Cuidados — 2º Andar (2F)",
+          "content": "re9_carecenter2f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Centro de Cuidados — 3º Andar & Sótão (3F)",
+          "content": "re9_carecenter3f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Centro de Cuidados — Porão (Basement)",
+          "content": "re9_carecenterbasement.webp",
+          "color": "yellow"
+        }
+      ],
+      "tags": "mapa rhodes hill care center cofres b934 m232 msbg 500"
+    },
+    {
+      "id": 379,
+      "title": "Mapa: Pátio de Rhodes Hill & Centro de Pesquisa",
+      "subtitle": "🗺️ Courtyard West/East & Research Facility • Heliporto e Laboratório",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Áreas de Conexão e Objetivos",
+          "content": "• Pátio Oeste: Conecta a Suíte VIP e o saguão ao pátio externo e ao Heliporto (Helipad).\n• Centro de Pesquisa (Research Facility): Abriga as salas Electrical Room, Collection & Testing (Oeste/Leste), Development e a rota de evacuação de emergência.\n• Pátio Leste & Telhado: Passagem pelo cemitério (Cemetery), sacadas East/West Overlook, Rooftop (seção do Leon com o rifle Classic 70) e acesso ao Escritório Privado de Victor.",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Pátio Oeste & Heliporto",
+          "content": "re9_carecentercourtyardwest.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Centro de Pesquisa (Research Facility)",
+          "content": "re9_carecenterresearchfacility.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "Pátio Leste, Cemitério & Telhado",
+          "content": "re9_carecentercourtyardeast.webp",
+          "color": "green"
+        }
+      ],
+      "tags": "mapa courtyard research facility helipad classic 70"
+    },
+    {
+      "id": 380,
+      "title": "Mapa: Estação de Tratamento de Água",
+      "subtitle": "🗺️ Water Treatment Plant • Níveis 1F & 2F (Comportas e Controle)",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Estrutura da Estação",
+          "content": "• 1º Andar (1F): Entrada, Sluice Passage (passagem das comportas), corredor em 'L', área de sedimentação, Control Room, Filing Room e Storage Area.\n• 2º Andar (2F): Loading Bay e Storage Bay interligadas pela escadaria principal.\n• Dica de travessia: Observe os pontos elevados na área de controle antes de descer para as comportas.",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Estação de Tratamento de Água — 1º Andar (1F)",
+          "content": "re9_watertreatmentplant1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Estação de Tratamento de Água — 2º Andar (2F)",
+          "content": "re9_watertreatmentplant2f.webp",
+          "color": "green"
+        }
+      ],
+      "tags": "mapa water treatment estacao de agua control room"
+    },
+    {
+      "id": 381,
+      "title": "Mapa: Raccoon City Leste (Ruas, Metrô & Prédios)",
+      "subtitle": "🗺️ Leon • Acampamento BSAA, Contêineres, Estação Ridgewood & Torres",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Armas, Contêineres BSAA e Exploração",
+          "content": "• Caixa de Suprimentos (Acampamento BSAA / Central Camp): Compre a Silencer 9 (5.500 Créditos) e a escopeta 990-TAC (7.000 Créditos).\n• Armas no mapa: Submetralhadora Gal grátis em galpão do Estacionamento Subterrâneo e rifle Marksman 1A dentro do Contêiner da BSAA #03.\n• Colecionáveis e Troféu 'Expectativas de Caixote': Abra todos os 3 Contêineres especiais da BSAA espalhados pelas ruas e arredores antes de seguir em definitivo para a R.P.D.\n• Áreas verticais: Armazém Logístico e Apartamentos Cedarbrook contam com andares 2F a 5F (telhados), além do subsolo B1 na Estação Ridgewood e Willis Tower.",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Raccoon City Leste — Ruas Principais (1F)",
+          "content": "re9_raccooncityeast1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Estação Ridgewood — Subsolo (B1)",
+          "content": "re9_raccooncityeastb1.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "Armazém Logístico & Cedarbrook — 2º Andar (2F)",
+          "content": "re9_raccooncityeast2f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Armazém Logístico & Cedarbrook — 3º Andar (3F)",
+          "content": "re9_raccooncityeast3f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Armazém Logístico & Cedarbrook — 4º Andar (4F)",
+          "content": "re9_raccooncityeast4f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Armazém Logístico & Cedarbrook — Telhados (5F)",
+          "content": "re9_raccooncityeast5f.webp",
+          "color": "green"
+        }
+      ],
+      "tags": "mapa raccoon city east bsaa silencer 9 990-tac gal marksman 1a"
+    },
+    {
+      "id": 382,
+      "title": "Mapa: Raccoon City Centro & Delegacia R.P.D.",
+      "subtitle": "🗺️ Centro • Loja do Kendo (W870 Grátis) & Delegacia 1F/2F/3F",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Pontos Críticos e Item Fácil de Perder",
+          "content": "• ⚠️ ESCOPETA GRATUITA (W870 Police): Na Loja de Armas do Kendo (Gun Shop Kendo), logo ao término da cutscene de entrada, VIRE 180° imediatamente — a W870 Police está atrás da porta!\n• Raccoon City Centro: Conecta o pátio frontal do Orfanato, a quadra de basquete (Basketball Court), a Rua Lateral e a Loja do Kendo até a entrada e os fundos da R.P.D.\n• Delegacia R.P.D. (1F–3F): Main Hall, Operations Room, West Office, Reception, Library (2F–3F), Lounge, Chief's Office e Private Collection Room.",
+          "color": "red"
+        },
+        {
+          "type": "image",
+          "title": "Raccoon City Centro (Rua do Orfanato, Kendo & R.P.D.)",
+          "content": "re9_raccooncitycenter.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "Delegacia R.P.D. — 1º Andar (1F)",
+          "content": "re9_policestation1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Delegacia R.P.D. — 2º Andar (2F)",
+          "content": "re9_policestation2f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Delegacia R.P.D. — 3º Andar (3F)",
+          "content": "re9_policestation3f.webp",
+          "color": "green"
+        }
+      ],
+      "tags": "mapa rpd delegacia kendo w870 police raccoon city center"
+    },
+    {
+      "id": 383,
+      "title": "Mapa: Orfanato & Estação Blackthorn (Subsolo)",
+      "subtitle": "🗺️ Orphanage 1F/2F/B1/B2 & Blackthorn Station B1/B2/B3",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Descida Subterrânea até o ARK",
+          "content": "• Orfanato (1F–2F): Salas principais incluindo Director's Room, Bedroom e Nursery.\n• Subsolo do Orfanato (B1–B2): Passa pelo Research Lab e Neonatal Observation Lab (B1) até a Capela Subterrânea e Cripta (B2).\n• Estação Blackthorn (B1–B3): Túneis ferroviários com vagões (Train Carriage 1–3) que descem até a passagem subterrânea e entrada de serviço da instalação ARK (B3).",
+          "color": "cyan"
+        },
+        {
+          "type": "image",
+          "title": "Orfanato — 1º Andar (1F)",
+          "content": "re9_orphanage1f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Orfanato — 2º Andar (2F)",
+          "content": "re9_orphanage2f.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Orfanato — Subsolo B1 (Laboratório & Capela)",
+          "content": "re9_orphanageb1.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "Orfanato — Subsolo B2 (Cripta & Capela Subterrânea)",
+          "content": "re9_orphanageb2.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "Estação Blackthorn — Nível B1",
+          "content": "re9_blackthornstationb1.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Estação Blackthorn — Nível B2 (Plataformas)",
+          "content": "re9_blackthornstationb2.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "Estação Blackthorn — Nível B3 (Entrada de Serviço do ARK)",
+          "content": "re9_blackthornstationb3.webp",
+          "color": "red"
+        }
+      ],
+      "tags": "mapa orphanage orfanato blackthorn cripta capela"
+    },
+    {
+      "id": 384,
+      "title": "Mapa: Complexo Subterrâneo ARK",
+      "subtitle": "🗺️ Ato Final • 1F Oeste/Leste + Subsolos B1 a B5 (Cofres #4 e #5)",
+      "category": "maps",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "type": "text",
+          "title": "Cofres Finais, Chefe e Pontos de Interesse",
+          "content": "• Cofre #4 — Câmara de Esterilização (Sterilization Passage, ARK 1F Oeste): Casual R10-L90-R20 | Insanidade L80-L50-R0.\n• Cofre #5 — Monitor Control Room (ARK B2): Casual L50-R60-L80 | Insanidade R20-R0-R70.\n• Setores centrais: 1F Leste (Central Refining System: PANDORA e elevadores), Repositórios de Bioarmas 05 (B2–B3), 11 e 12 (B4–B5), além da Sala de Gerador e Lixão (Dump).\n• Chefe Comandante: Enfrentado na instalação ARK — derruba o machado de elite Mortal Edge.",
+          "color": "purple"
+        },
+        {
+          "type": "image",
+          "title": "ARK — 1º Andar Oeste (Docas & Esterilização)",
+          "content": "re9_ark1fwest.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "ARK — 1º Andar Leste (PANDORA & Elevadores)",
+          "content": "re9_ark1feast.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "ARK — Subsolo B1",
+          "content": "re9_arkb1.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "ARK — Subsolo B2 (Monitor Control Room)",
+          "content": "re9_arkb2.webp",
+          "color": "yellow"
+        },
+        {
+          "type": "image",
+          "title": "ARK — Subsolo B3 (Repositório 05)",
+          "content": "re9_arkb3.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "ARK — Subsolo B4 (Repositório 11 & Lixão)",
+          "content": "re9_arkb4.webp",
+          "color": "green"
+        },
+        {
+          "type": "image",
+          "title": "ARK — Subsolo B5 (Gerador & Repositório 12)",
+          "content": "re9_arkb5.webp",
+          "color": "red"
+        }
+      ],
+      "tags": "mapa ark pandora cofres esterilizacao monitor control mortal edge"
     }
   ]
 }
