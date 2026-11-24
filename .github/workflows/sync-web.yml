@@ -1,0 +1,85 @@
+name: Sync Static API to web
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-web-branch
+  cancel-in-progress: false
+
+jobs:
+  sync-web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Validate JSON files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ ! -f games_manifest.json ]; then
+            echo "Error: games_manifest.json not found." >&2
+            exit 1
+          fi
+
+          if [ ! -d games ]; then
+            echo "Error: games/ directory not found." >&2
+            exit 1
+          fi
+
+          jq empty games_manifest.json
+          while IFS= read -r -d '' file; do
+            echo "Validating ${file}"
+            jq empty "${file}"
+          done < <(find games -type f -name '*.json' -print0)
+
+      - name: Prepare clean payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/web-dist
+          mkdir -p /tmp/web-dist
+          cp games_manifest.json /tmp/web-dist/
+          cp -R games /tmp/web-dist/
+
+      - name: Sync and push to web branch
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          rm -rf /tmp/web-repo
+
+          if ! git clone --depth 1 --branch web "${REPO_URL}" /tmp/web-repo; then
+            echo "Branch web not found on remote. Initializing orphan web branch."
+            git init /tmp/web-repo
+            git -C /tmp/web-repo remote add origin "${REPO_URL}"
+            git -C /tmp/web-repo checkout --orphan web
+          fi
+
+          rsync -a --delete --exclude='.git' /tmp/web-dist/ /tmp/web-repo/
+
+          cd /tmp/web-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to publish to web."
+            exit 0
+          fi
+
+          git commit -m "sync: publish static api from ${GITHUB_SHA::7}"
+          git push origin web
