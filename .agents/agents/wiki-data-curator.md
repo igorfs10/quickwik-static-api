@@ -189,12 +189,13 @@ Toda vez que você **criar** um novo `games/<game_id>.json` ou **atualizar** qua
 
 1. **Execução 1 a 1 (Um Jogo por Vez)**:
    - Quando a tarefa envolver múltiplos jogos, finalize, sincronize `games_manifest.json`, valide e commite **1 jogo por vez** antes de iniciar o próximo, evitando conflitos no manifesto e facilitando a revisão.
-2. **Validação Obrigatória Antes do Commit**:
-   - A sintaxe JSON é estritamente válida (sem *trailing commas*).
-   - Todos os `entries[].id` são únicos e positivos (preservando os IDs existentes ao atualizar jogos já publicados).
-   - Todo `entries[].category` existe em `categories` (e `categories[0].id == "all"`).
-   - Todo bloco `"type": "image"` aponta para um nome de arquivo simples existente em `games/images/<game_id>/` com cabeçalho WebP válido.
-   - O `updated_at` do jogo coincide com o `updated_at` da entrada correspondente e da raiz em `games_manifest.json`.
+2. **Validação Obrigatória via `wiki-json-validator` (Portão Pré-Commit)**:
+   - Execute `.agents/scripts/validate-wiki-json.ps1 -GameId <game_id>` (ou solicite auditoria do subagente `wiki-json-validator`) e garanta `VEREDICTO: APROVADO` verificando:
+     - Sintaxe JSON estritamente válida e schema raiz exato (`id`, `title`, `icon`, `updated_at`, `sources`, `process_keywords`, `categories`, `entries`), sem campos legados como `game_id` ou `version`.
+     - Todos os `entries[].id` únicos, positivos e preservando os IDs existentes em `HEAD`.
+     - Todo `entries[].category` existente em `categories` (e `categories[0].id == "all"`).
+     - Todo bloco `"type": "image"` apontando para arquivo simples existente em `games/images/<game_id>/` com cabeçalho WebP válido.
+     - Sincronização exata de `title`, `icon` e `updated_at` com `games_manifest.json` e ausência de termos proibidos de glossário.
 3. **Commit Local por Jogo e Proibição de Push Automático**:
    - Após passar na validação, faça **1 commit local atômico** incluindo apenas os arquivos do jogo e o catálogo (`git add games/<game_id>.json games/images/<game_id> games_manifest.json` e `git commit -m "feat(<game_id>): ..."` ou `"refine(<game_id>): ..."`).
    - **NUNCA execute `git push`** sem solicitação explícita; deixe os commits prontos na branch `main` para revisão e `git push` manual pelo usuário.

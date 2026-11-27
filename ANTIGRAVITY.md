@@ -17,7 +17,12 @@ Este repositório hospeda o **Catálogo Online (`games_manifest.json`)**, os **G
 │           └── <arquivo>.webp              # Imagens e mapas referenciados em additional_data ("type": "image")
 └── .agents/
     ├── agents/
-    │   └── wiki-data-curator.md            # Subagente especialista em pesquisa e criação/atualização dos JSONs
+    │   ├── wiki-data-curator.md            # Subagente especialista em pesquisa e criação/atualização dos JSONs
+    │   └── wiki-json-validator.md          # Subagente auditor obrigatório (portão pré-commit)
+    ├── rules/
+    │   └── mandatory-json-validation.md    # Regra always_on que obriga validação antes de todo commit
+    ├── scripts/
+    │   └── validate-wiki-json.ps1          # Validador determinístico do schema Rust, imagens e glossário
     └── skills/
         └── quickwik-glossary/
             └── SKILL.md                    # Glossário de Linguagem Ubíqua e padrão de redação PT-BR dos guias
@@ -35,6 +40,9 @@ Sempre que o usuário pedir para **criar um novo guia de jogo**, **adicionar ou 
    - Segue rigorosamente o schema JSON esperado pelo cliente Rust do QuickWik (`GamesManifest` e `GameJsonData`).
 2. **Aplique a skill `quickwik-glossary`** (`.agents/skills/quickwik-glossary/SKILL.md`):
    - Mantém toda a redação dos guias em **Português Brasileiro (PT-BR)** natural, direto e escaneável (com bullet points `• `, subtítulos telegráficos e cores semânticas padronizadas nos cards de `additional_data`).
+
+3. **Passe obrigatoriamente pelo validador `wiki-json-validator`** (`.agents/agents/wiki-json-validator.md` + `.agents/rules/mandatory-json-validation.md`):
+   - Antes de qualquer `git commit` envolvendo `games/*.json` ou `games_manifest.json`, execute `.agents/scripts/validate-wiki-json.ps1` via subagente `wiki-json-validator` e garanta `VEREDICTO: APROVADO`.
 
 ---
 

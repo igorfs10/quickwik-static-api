@@ -39,9 +39,29 @@ jobs:
           fi
 
           jq empty games_manifest.json
+          jq -e '
+            (.updated_at | type == "string") and
+            (.games | type == "array" and length > 0) and
+            ([.games[] | .id] | length == (unique | length)) and
+            all(.games[]; (.id | type == "string") and (.title | type == "string") and (.icon | type == "string") and (.url == ("games/" + .id + ".json")) and (.updated_at | type == "string"))
+          ' games_manifest.json >/dev/null
+
           while IFS= read -r -d '' file; do
             echo "Validating ${file}"
             jq empty "${file}"
+            base_id="$(basename "${file}" .json)"
+            jq -e --arg bid "${base_id}" '
+              (.id == $bid) and
+              (.title | type == "string" and length > 0) and
+              (.icon | type == "string" and length > 0) and
+              (.updated_at | type == "string" and test("Z$")) and
+              (.sources | type == "array" and length > 0) and
+              (.process_keywords | type == "array" and length > 0) and
+              (.categories | type == "array" and length >= 2 and .[0].id == "all") and
+              (.entries | type == "array" and length > 0) and
+              ([.entries[] | .id] | length == (unique | length))
+            ' "${file}" >/dev/null
+            jq -e --arg bid "${base_id}" 'any(.games[]; .id == $bid)' games_manifest.json >/dev/null
           done < <(find games -type f -name '*.json' -print0)
 
       - name: Prepare clean payload
