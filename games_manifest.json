@@ -62,7 +62,14 @@
       "icon": "⛏️",
       "url": "games/minecraft.json",
       "updated_at": "2026-11-27T16:40:00Z"
+    },
+    {
+      "id": "ragnarok_latam",
+      "title": "Ragnarok Online LATAM",
+      "icon": "🛡️",
+      "url": "games/ragnarok_latam.json",
+      "updated_at": "2026-11-27T17:00:00Z"
     }
   ],
-  "updated_at": "2026-11-27T16:40:00Z"
+  "updated_at": "2026-11-27T17:00:00Z"
 }
