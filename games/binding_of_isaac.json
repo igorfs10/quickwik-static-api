@@ -2,7 +2,7 @@
     "id":  "binding_of_isaac",
     "title":  "The Binding of Isaac: Rebirth",
     "icon":  "💧",
-    "updated_at":  "2026-11-27T16:25:00Z",
+    "updated_at":  "2026-11-27T19:00:00Z",
     "sources":  [
                     {
                         "name":  "The Binding of Isaac: Rebirth Wiki (Fandom)",
@@ -36,6 +36,10 @@
                        {
                            "id":  "all",
                            "label":  "Todos"
+                       },
+                       {
+                           "id":  "characters",
+                           "label":  "👤 Personagens \u0026 Tainted"
                        },
                        {
                            "id":  "rooms_mechanics",
@@ -148,7 +152,7 @@
                         "title":  "Planetário (Planetarium — Desbloqueio \u0026 Matemática)",
                         "subtitle":  "🪐 1% base + 20% por cada Treasure Room ignorada sem abrir a porta",
                         "category":  "rooms_mechanics",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Como Desbloquear",
@@ -176,7 +180,7 @@
                         "title":  "Salas Secretas, Super Secretas \u0026 Ultra Secretas (Red Key)",
                         "subtitle":  "💣 Secreta = 2 a 4 paredes livres • Super = 1 parede perto do Boss • Ultra = Diagonal Vermelha",
                         "category":  "rooms_mechanics",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Sala Secreta \u0026 Super Secreta (Bombas)",
@@ -251,10 +255,10 @@
                     },
                     {
                         "id":  8,
-                        "title":  "Spindown Dice (Tabela das Melhores Conversões -1 ID)",
-                        "subtitle":  "🎲 Tooth Picks ➔ Sacred Heart • Blood Bag ➔ Brimstone • Bot Fly ➔ Death Certificate",
+                        "title":  "Spindown Dice (Tabela -1 ID)",
+                        "subtitle":  "🎲 Quality 4 • Subtrai 1 do ID dos pedestais na sala • Tooth Picks ➔ Sacred Heart",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -263,30 +267,42 @@
                                                     "color":  "purple"
                                                 },
                                                 {
-                                                    "title":  "Conversões Tier S (Copie ou Fixe na Tela!)",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Tooth Picks (183) ➔ Sacred Heart (182)\n• Blood Bag (119) ➔ Brimstone (118)\n• Bot Fly (629) ➔ Death Certificate (628)\n• Lil Abaddon (679) ➔ C Section (678)\n• Knockout Drops (637) ➔ R Key (636)\n• Nancy Bombs (563) ➔ Rock Bottom (562)\n• Belly Jelly (690) ➔ Glitched Crown (689)\n• Lazarus\u0027 Rags (332) ➔ Godhead (331)",
-                                                    "color":  "yellow"
-                                                },
-                                                {
-                                                    "title":  "Outras Conversões Fortíssimas (-1 ID)",
-                                                    "type":  "text",
-                                                    "content":  "• Azazel\u0027s Rage (699) ➔ Twisted Pair (698)\n• Consolation Prize (644) ➔ Revelation (643)\n• Wavy Cap (582) ➔ Psy Fly (581)\n• Hypercoagulation (724) ➔ Spindown Dice (723 — gera 2º dado!)\n• Ouija Board (115) ➔ Mom\u0027s Knife (114)\n• Thunder Thighs (314) ➔ Holy Mantle (313)\n• Ventricle Razor (396) ➔ Tech X (395)\n• Lachryphagy (532) ➔ Haemolacria (531)\n• Kidney Stone (626) ➔ Mega Mush (625)",
+                                                    "content":  "• Quality 4 | Ativo (6 cargas) | Pool: Sala Secreta (Secret Room).\n• Subtrai 1 da numeração interna de todos os pedestais da sala atual.\n• Melhores conversões (-1 ID):\n  - Tooth Picks (183) ➔ Sacred Heart (182)\n  - Blood Bag (119) ➔ Brimstone (118)\n  - Bot Fly (629) ➔ Death Certificate (628)\n  - Lil Abaddon (679) ➔ C Section (678)\n  - Knockout Drops (637) ➔ R Key (636)\n  - Nancy Bombs (563) ➔ Rock Bottom (562)\n  - Belly Jelly (690) ➔ Glitched Crown (689)\n  - Lazarus\u0027 Rags (332) ➔ Godhead (331)\n  - Azazel\u0027s Rage (699) ➔ Twisted Pair (698)\n  - Consolation Prize (644) ➔ Revelation (643)\n  - Wavy Cap (582) ➔ Psy Fly (581)\n  - Hypercoagulation (724) ➔ Spindown Dice (723)",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Mecânica \u0026 Pegadinhas",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Recarga de 6 salas. Subtrai 1 da numeração interna de todos os pedestais na sala.\n• ⚠️ Se você ainda NÃO desbloqueou o item de destino no seu perfil (ex.: Death Certificate ou Rock Bottom), o Spindown Dice pula automaticamente esse número e cai no item anterior!\n• ⚠️ Usar Spindown em Sad Onion (ID 1) faz o pedestal desaparecer de vez!\n• Com Car Battery, ele subtrai 2 números de uma vez (cuidado para não passar direto pelo item que você quer).",
+                                                    "content":  "• Derrote Delirium (The Void) jogando com Tainted Isaac.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Ignora completamente as piscinas da sala: transforma lixo de Boss/Loja em itens de Sala do Anjo, Diabo ou Secreta.\n• Com Car Battery, subtrai 2 IDs por uso.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Guarde para usar em Tooth Picks (Boss Room) e Blood Bag (Máquina de Sangue) para garantir Sacred Heart e Brimstone quase toda run.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Se você ainda NÃO desbloqueou o item de destino no save (ex.: Rock Bottom), o dado pula direto para o ID anterior!\n• Usar em Sad Onion (ID 1) apaga o pedestal.",
                                                     "color":  "red"
                                                 }
                                             ],
-                        "tags":  "spindown dice tabela conversoes id -1 tooth picks sacred heart blood bag brimstone bot fly death certificate lil abaddon c section knockout drops r key nancy bombs rock bottom"
+                        "tags":  "spindown dice tabela conversoes id -1 tooth picks sacred heart blood bag brimstone bot fly death certificate lil abaddon c section knockout drops r key nancy bombs rock bottom quality 4"
                     },
                     {
                         "id":  9,
                         "title":  "Sacred Heart (Coração Sagrado)",
-                        "subtitle":  "💎 Quality 4 • Multiplicador 2.3x de Dano + Lágrimas Teleguiadas + Cura Total",
+                        "subtitle":  "💎 Quality 4 • 2.3x Dano + Lágrimas Teleguiadas + Cura Total",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -297,15 +313,27 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Atributos \u0026 Efeito",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Multiplicador brutal de 2.3x no Dano Total + 1.0 de Dano base (o maior multiplicador direto sem desvantagem grave do jogo!).\n• Concede Lágrimas Teleguiadas (Homing Tears).\n• +1 Contêiner de Coração Vermelho e cura todos os seus corações vermelhos na hora.\n• Reduções leves: -0.4 Tears e -0.25 Shot Speed (o Shot Speed menor na verdade melhora a curva do tiro teleguiado!).\n• Conta 1/3 para a transformação Seraphim.",
+                                                    "content":  "• Quality 4 | Passivo | Pools: Sala do Anjo, Ultra Secret Room, Confessionário.\n• Multiplicador de 2.3x Dano Total + 1.0 Dano base + Lágrimas Teleguiadas (Homing).\n• +1 Contêiner Vermelho e cura toda a vida vermelha.\n• -0.4 Tears e -0.25 Shot Speed.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Onde Encontrar \u0026 Sinergias",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Piscinas: Sala do Anjo, Ultra Secret Room e Confessionário.\n• Não acumula o multiplicador 2.3x com Crown of Light ou Immaculate Heart? Acumula SIM! Sacred Heart acumula multiplicador com quase tudo no jogo (exceto 2ª cópia do próprio Sacred Heart), chegando facilmente a 30+ de dano.\n• Pelo Spindown Dice: use em Tooth Picks (item comum de Boss Room)!",
+                                                    "content":  "• Desbloqueado desde o início (sem requisito prévio).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• O multiplicador 2.3x acumula com Crown of Light, Eve\u0027s Mascara e Polyphemus.\n• Conta 1/3 para a transformação Seraphim.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• O menor Shot Speed ajuda as lágrimas teleguiadas a fazerem curva mais fechada nos chefes; obtenível também via Spindown em Tooth Picks.",
                                                     "color":  "green"
                                                 }
                                             ],
@@ -314,9 +342,9 @@
                     {
                         "id":  10,
                         "title":  "Godhead (Divindade)",
-                        "subtitle":  "💎 Quality 4 • Aura Luminosa Teleguiada com 60 DPS Fixos por Segundo",
+                        "subtitle":  "💎 Quality 4 • Aura Luminosa Teleguiada com até 60 DPS Fixos",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -325,16 +353,34 @@
                                                     "color":  "yellow"
                                                 },
                                                 {
-                                                    "title":  "Atributos \u0026 Mecânica da Aura",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• +0.5 Dano, Lágrimas Teleguiadas, -0.3 Tears e -0.3 Shot Speed.\n• Envolve cada lágrima com uma aura brilhante que causa 2.0 de dano fixo por tique (30 tiques por segundo = até 60 DPS puro por projétil!), ignorando seu atributo de Dano se ele estiver baixo.\n• Conta 1/3 para Seraphim.",
+                                                    "content":  "• Quality 4 | Passivo | Pool: Sala do Anjo (Angel Room).\n• +0.5 Dano, Lágrimas Teleguiadas, -0.3 Tears e -0.3 Shot Speed.\n• Envolve cada lágrima em uma aura que causa 2.0 de dano fixo por tique (até 60 DPS puro por lágrima!).",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Sinergias \u0026 Alertas",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Desbloqueio: complete TODAS as marcas de conclusão no modo Hard jogando com The Lost.\n• Sinergia absurda com Soy Milk / Almond Milk, Piercing Tears (Cupid\u0027s Arrow / Sagittarius) e Shot Speed baixo (a lágrima passa devagar atravessando o chefe e fritando na aura!).\n• ⚠️ Cuidado: Brimstone, Mom\u0027s Knife e Tech X sobrescrevem as lágrimas comuns e removem a aura luminosa do Godhead!",
+                                                    "content":  "• Conquiste TODAS as 12 marcas de conclusão no modo Hard jogando com The Lost.",
                                                     "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Escala absurdamente com Soy Milk, Almond Milk e tiros perfurantes (Piercing) + Shot Speed baixo.\n• Conta 1/3 para a transformação Seraphim.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Atire passando ao lado de chefes resistentes a armadura (Hush / Delirium) para a aura fritar o HP sem parar.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Brimstone, Mom\u0027s Knife e Tech X sobrescrevem as lágrimas comuns e removem a aura do Godhead.",
+                                                    "color":  "red"
                                                 }
                                             ],
                         "tags":  "godhead divindade aura luminosa the lost hard marks angel room soy milk piercing quality 4"
@@ -342,7 +388,7 @@
                     {
                         "id":  11,
                         "title":  "Brimstone (Laser de Sangue)",
-                        "subtitle":  "💎 Quality 4 • Feixe de Sangue Carregado com Alcance Infinito e Atravessamento Total",
+                        "subtitle":  "💎 Quality 4 • Feixe de Sangue Carregado com Alcance Infinito",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -353,15 +399,27 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Mecânica em Repentance",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Substitui lágrimas por um feixe de sangue carregado que atravessa toda a sala, pedras e inimigos, causando 9 tiques do seu Dano atual por disparo.\n• Conta 1/3 para a transformação Leviathan.\n• Pegar um 2º Brimstone (ex.: Diplopia, Crooked Penny ou R Key) dá +1.0x multiplicador extra e transforma o tiro em um Mega Feixe largo de 12 tiques!",
-                                                    "color":  "red"
+                                                    "content":  "• Quality 4 | Passivo | Pools: Pacto com o Diabo (Devil Room), Ultra Secret Room.\n• Dispara um feixe de sangue que atravessa sala, pedras e inimigos causando 9 tiques do seu Dano por tiro.",
+                                                    "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Melhores Sinergias",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Homing (Spoon Bender / Sacred Heart / Brain Worm): o laser entorta inteiro perseguindo todos os inimigos da tela!\n• Soy Milk / Almond Milk: disparo contínuo instantâneo sem precisar carregar!\n• Tammy\u0027s Head, Ludovico Technique (anel gigante de sangue controlável), Tech X (anéis de sangue laser) e Haemolacria.",
+                                                    "content":  "• Desbloqueado desde o início (sem requisito prévio).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• 2º Brimstone (Diplopia/R Key) dá +1.0x dano extra e cria um Mega Feixe de 12 tiques.\n• Conta 1/3 para Leviathan.\n• Sinergias Tier S: Homing (Spoon Bender/Brain Worm entortam o laser), Soy Milk (laser contínuo sem carga!), Tech X, Haemolacria e Mom\u0027s Knife.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Custa 2 corações no Diabo (ou Blood Bag + Spindown Dice); vale quase sempre sacrificar vida para pegar.",
                                                     "color":  "green"
                                                 }
                                             ],
@@ -370,9 +428,9 @@
                     {
                         "id":  12,
                         "title":  "Revelation (Revelação)",
-                        "subtitle":  "💎 Quality 4 • Voo + 2 Soul Hearts + Feixe Sagrado que NÃO substitui suas lágrimas!",
+                        "subtitle":  "💎 Quality 4 • Voo + 2 Soul Hearts + Feixe Sagrado Secundário",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -381,16 +439,28 @@
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Mecânica \u0026 Vantagem Oculta",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Concede Voo imediato, +2 Soul Hearts e conta 1/3 para Seraphim (desbloqueado vencendo Mother com Bethany).\n• Enquanto você segura o botão de atirar normalmente, carrega uma barra secundária em 2.35 segundos fixos — ao soltar, dispara um feixe de luz sagrado de 15 tiques do seu dano sem perder suas lágrimas principais!\n• O tempo de recarga de 2.35s ignora seu atributo de Tears: é salvador em builds lentas como Polyphemus, Eve\u0027s Mascara ou Monstro\u0027s Lung!",
+                                                    "content":  "• Quality 4 | Passivo | Pool: Sala do Anjo (Angel Room).\n• Concede Voo permanente, +2 Soul Hearts e dispara um feixe de luz sagrado (15 tiques) a cada 2.35s de disparo carregado.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Onde Encontrar",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Sala do Anjo (ou Spindown Dice em Consolation Prize — ID 644).",
+                                                    "content":  "• Derrote Mother (Corpse II) jogando com Bethany.",
                                                     "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• NÃO substitui suas lágrimas principais (funciona junto com qualquer build!).\n• A recarga de 2.35s ignora Fire Rate baixo (Polyphemus / Eve\u0027s Mascara).\n• Conta 1/3 para Seraphim.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Mantenha o botão de tiro pressionado ao entrar nas salas e solte na direção dos inimigos prioritários; obtenível via Spindown em Consolation Prize.",
+                                                    "color":  "green"
                                                 }
                                             ],
                         "tags":  "revelation revelacao feixe luz voo soul hearts bethany mother angel room quality 4"
@@ -398,9 +468,9 @@
                     {
                         "id":  13,
                         "title":  "C Section (Cesariana)",
-                        "subtitle":  "💎 Quality 4 • Fetos Teleguiados de Dano Contínuo que herdam Facas, Espadas e Lasers",
+                        "subtitle":  "💎 Quality 4 • Fetos Teleguiados de Dano Contínuo",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -409,15 +479,27 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Por que é um dos Itens Mais Fortes do Jogo",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Dispara fetos espectrais e teleguiados que grudam nos inimigos causando 75% do seu dano repetidamente a cada poucos quadros antes de estourar.\n• Desbloqueio: derrotar The Beast jogando com Lilith.\n• Piscinas: Treasure Room e Ultra Secret Room (ou Spindown Dice em Lil Abaddon — ID 679).",
+                                                    "content":  "• Quality 4 | Passivo | Pools: Treasure Room, Ultra Secret Room.\n• Dispara fetos espectrais teleguiados que grudam nos inimigos causando 75% do seu dano repetidamente antes de estourar.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Sinergias Quebradas",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Mom\u0027s Knife / Spirit Sword: cada feto segura uma faca ou espada girando e retalhando os chefes!\n• Tech X / Brimstone / Godhead: os fetos carregam anéis de laser, disparam mini-lasers de sangue ou brilham com a aura do Godhead!\n• Soy Milk / Twisted Pair: inunda a tela inteira e derrete Hush, Mother e Delirium em segundos.",
+                                                    "content":  "• Derrote The Beast jogando com Lilith.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Sinergias quebradas: Mom\u0027s Knife / Spirit Sword (cada feto segura uma faca/espada!), Tech X (anéis nos fetos), Brimstone, Godhead, Soy Milk e Twisted Pair.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Item de vitória automática contra Hush, Mother e Delirium; também acessível via Spindown Dice em Lil Abaddon.",
                                                     "color":  "green"
                                                 }
                                             ],
@@ -425,10 +507,10 @@
                     },
                     {
                         "id":  14,
-                        "title":  "Rock Bottom (Fundo do Poço — Como Funciona de Verdade)",
-                        "subtitle":  "🪨 Trava seus atributos no maior pico já atingido, mas o cálculo oculto continua!",
+                        "title":  "Rock Bottom (Fundo do Poço)",
+                        "subtitle":  "🪨 Quality 3 • Trava Atributos no Maior Pico Já Atingido",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -437,26 +519,44 @@
                                                     "color":  "gray"
                                                 },
                                                 {
-                                                    "title":  "A Regra Oculta por Trás dos Panos",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Desbloqueado vencendo Boss Rush com Jacob \u0026 Esau (Piscina: Sala Secreta, ou Spindown em Nancy Bombs).\n• Rock Bottom congela seus atributos efetivos sempre no MAIOR valor que eles já alcançaram na partida e impede qualquer queda.\n• ⚠️ ATENÇÃO À MATEMÁTICA REAL: o jogo continua calculando seus aumentos e reduções reais nos bastidores! Exemplo: se você usou The Devil (+2 DMG, indo de 3.5 para 5.5) e saiu da sala, seu dano visível fica travado em 5.5, mas seu dano \"oculto\" voltou para 3.5 — se pegar um item de +1 DMG depois, ele soma em 3.5 (= 4.5), então seu dano visível continuará 5.5 até o valor oculto ultrapassar 5.5!",
+                                                    "content":  "• Quality 3 | Passivo | Pool: Sala Secreta (Secret Room).\n• Impede que qualquer atributo visível do personagem caia abaixo do maior valor já alcançado após pegá-lo.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear",
+                                                    "type":  "text",
+                                                    "content":  "• Conclua a Boss Rush jogando com Jacob \u0026 Esau.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• ⚠️ Matemática real oculta: o jogo continua calculando seus aumentos e quedas reais nos bastidores — novos itens só aumentam o atributo visível se o cálculo oculto ultrapassar o pico travado.\n• Combos quebrados: Red Stew primeiro -\u003e Soy Milk depois (mantém dano alto com 27.5 Tears!), Kidney Stone e acúmulo de cartas (Strength/Devil/Empress) na mesma sala.",
                                                     "color":  "gray"
                                                 },
                                                 {
-                                                    "title":  "Ordem Certa dos Combos Quebrados",
+                                                    "title":  "Estratégia",
                                                     "type":  "text",
-                                                    "content":  "• Red Stew + Soy Milk + Polyphemus: pegue Red Stew PRIMEIRO (trava ~25 de Dano), depois Soy Milk (trava 27.5 de Fire Rate mantendo os 25 de Dano!), ou pegue Soy Milk antes de Polyphemus/Sacred Heart!\n• Kidney Stone: dispara o pico absurdo de Fire Rate da pedra nos rins e trava aquela metralhadora para sempre!\n• Cartas Strength / Empress / Devil / Star of Bethlehem / Succubus: estoure todos os buffs temporários JUNTOS na mesma sala para cravar um pico inalcançável!",
+                                                    "content":  "• Sempre pegue buffs fortes ANTES de itens que reduzem atributos (ex.: pegue Red Stew antes de Soy Milk).",
                                                     "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Não altera retroativamente quedas que ocorreram antes de você pegar Rock Bottom.",
+                                                    "color":  "red"
                                                 }
                                             ],
-                        "tags":  "rock bottom fundo do poco atributos congelados como funciona matematica oculta soy milk red stew kidney stone secret room jacob esau"
+                        "tags":  "rock bottom fundo do poco atributos congelados matematica oculta soy milk red stew kidney stone secret room jacob esau"
                     },
                     {
                         "id":  15,
-                        "title":  "Glitched Crown (Coroa Bugada — Truque do Pause)",
-                        "subtitle":  "👑 Pedestais ciclam 5 itens por segundo • Use o Pause no item anterior para nunca errar!",
+                        "title":  "Glitched Crown (Coroa Bugada)",
+                        "subtitle":  "👑 Quality 4 • Pedestais Ciclam 5 Itens por Segundo",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -465,16 +565,34 @@
                                                     "color":  "purple"
                                                 },
                                                 {
-                                                    "title":  "Mecânica",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Desbloqueada vencendo The Beast com Tainted Isaac (Piscina: Sala Secreta; Spindown em Belly Jelly — ID 690).\n• Todo pedestal gerado passa a alternar rapidamente entre 5 itens diferentes daquela sala (0.2s cada item).\n• ⚠️ Aviso de Pool: ver 5 itens de uma vez consome os 5 itens da piscina da sala (esgota a Sala Secreta ou Sala do Anjo muito mais rápido!).",
-                                                    "color":  "purple"
+                                                    "content":  "• Quality 4 | Passivo | Pool: Sala Secreta (Secret Room).\n• Todo pedestal de item gerado alterna rapidamente entre 5 opções diferentes a cada 0.2s.",
+                                                    "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Passo a Passo do Truque do Pause (100% de Acerto)",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "1. Fique parado bem colado ao lado do pedestal (a 1 passo de distância) e decore a ordem dos 5 itens.\n2. Aperte ESC (Pause) exatamente quando aparecer o item IMEDIATAMENTE ANTERIOR ao item que você quer pegar.\n3. Aperte ESC para despausar JÁ segurando a tecla de andar em direção ao pedestal — durante o tempo de caminhada de 0.2s, o pedestal vira exatamente o item desejado!",
+                                                    "content":  "• Derrote The Beast jogando com Tainted Isaac.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Ver 5 itens por pedestal consome 5 itens da piscina daquela sala (acaba mais rápido com Salas Secretas/Anjo levando ao Breakfast).\n• Combina muito bem com Sacred Orb e Binge Eater.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Truque do Pause (100% de acerto): fique a 1 passo do pedestal, pause (ESC) no item IMEDIATAMENTE ANTERIOR ao desejado e despausa já andando em direção ao pedestal!",
                                                     "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Em baús, o jogo remove o atraso de coleta: não encoste no baú enquanto abre para não pegar um item aleatório sem querer.",
+                                                    "color":  "red"
                                                 }
                                             ],
                         "tags":  "glitched crown coroa bugada pause timing truque como pegar item certo secret room tainted isaac quality 4"
@@ -482,7 +600,7 @@
                     {
                         "id":  16,
                         "title":  "R Key (Tecla R)",
-                        "subtitle":  "💎 Quality 4 • Reinicia a run de volta ao Basement I mantendo TODOS os seus itens!",
+                        "subtitle":  "💎 Quality 4 • Reinicia a Run no Basement I Mantendo Tudo",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -493,16 +611,34 @@
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Descrição \u0026 Regras",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Item ativo de uso único (Sala Secreta — custa 99¢ se aparecer à venda em Greed Mode ou via Member Card).\n• Reinicia a jornada inteira voltando para o Capítulo 1 (Basement I) com todos os seus itens, vida, pickups e transformações intactos!\n• ⚠️ O cronômetro da partida NÃO zera! Portanto Boss Rush (\u003c 20m) e Hush (\u003c 30m) estarão fechados na 2ª volta, a menos que você leve Mama Mega! ou Strange Key.",
+                                                    "content":  "• Quality 4 | Ativo de Uso Único | Pool: Sala Secreta (Secret Room).\n• Retorna ao Capítulo 1 (Basement I) mantendo todos os seus itens, vida, pickups e transformações intactos.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Estratégia para Marcas de Conclusão",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Nunca ative na hora! Segure a R Key até derrotar um chefe final sem continuação (como Mother no Corpse II, Mega Satan se o baú não encerrar direto, ???, The Lamb ou Delirium — aperte R Key durante a animação de morte do Delirium antes do baú cair ou logo após abrir!).\n• Na 2ª volta, vá para a rota oposta (ex.: The Beast / Home, que não depende de cronômetro!).\n• Com ? Card (Double Active), usar a ? Card ativa o efeito da R Key SEM consumir a própria R Key, permitindo 3 partidas seguidas na mesma run!",
+                                                    "content":  "• Desbloqueado desde o início (sem requisito prévio).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Com a carta ? Card (Double Active), você dispara o efeito da R Key SEM consumir a R Key, permitindo 3 voltas completas!\n• Também acessível via Spindown em Knockout Drops.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Use logo após matar um chefe final sem continuação (Mother, Delirium durante a animação de morte ou Mega Satan se o baú não encerrar direto) para fazer outra rota e multiplicar marcas de conclusão!",
                                                     "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• O cronômetro da partida NÃO zera ao usar R Key (Boss Rush e Hush ficam fechados na 2ª volta, exceto com Mama Mega!).",
+                                                    "color":  "red"
                                                 }
                                             ],
                         "tags":  "r key tecla r reiniciar run secret room marcas completion marks ? card knockout drops quality 4"
@@ -510,7 +646,7 @@
                     {
                         "id":  17,
                         "title":  "Death Certificate (Atestado de Óbito)",
-                        "subtitle":  "📜 Leva a um andar com TODOS os itens do jogo para escolher exatamente 1",
+                        "subtitle":  "📜 Quality 4 • Escolha Livremente Qualquer Item do Jogo",
                         "category":  "items",
                         "spoiler":  true,
                         "additional_data":  [
@@ -521,15 +657,27 @@
                                                     "color":  "purple"
                                                 },
                                                 {
-                                                    "title":  "Como Desbloquear \u0026 Usar",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Desbloqueio supremo: conquistar TODAS as marcas de conclusão no modo Hard com todos os 34 personagens (normais e Tainted).\n• Ao ativar, teleporta você para uma versão alternativa de Home contendo dezenas de salas com todos os itens desbloqueados em ordem numérica.\n• Ao encostar em 1 pedestal, os demais somem e você volta para o andar onde estava.",
-                                                    "color":  "purple"
+                                                    "content":  "• Quality 4 | Ativo de Uso Único | Pool: Sala Secreta (Secret Room).\n• Teleporta para uma dimensão especial de Home contendo todos os itens desbloqueados em pedestais: escolha 1 e volte para a sala anterior.",
+                                                    "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Dica de Ouro Antes de Pegar o Item",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Vasculhe TODAS as salas do andar do Death Certificate antes de escolher seu item: há dezenas de baús, pílulas, cartas, moedas e corações espalhados pelo chão que você pode saquear livremente!\n• Como obter antes de desbloquear? Não funciona via Spindown se estiver bloqueado, mas Metronome tem raríssima chance de acionar o efeito.",
+                                                    "content":  "• Conquiste TODAS as marcas de conclusão no modo Hard com todos os 34 personagens (17 normais + 17 Tainted).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Em Tainted Cain, receita fixa com 8 Bone Hearts na Bag of Crafting.\n• Via Spindown Dice: use em Bot Fly (ID 629).",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Antes de encostar em qualquer pedestal, explore todas as salas do andar especial para coletar os baús, cartas e pílulas espalhados pelo chão!",
                                                     "color":  "green"
                                                 }
                                             ],
@@ -538,9 +686,9 @@
                     {
                         "id":  18,
                         "title":  "Damocles (Espada de Dâmocles)",
-                        "subtitle":  "⚠️ Dobra quase todos os pedestais de graça, mas 1 hit inimigo ativa risco de morte súbita!",
+                        "subtitle":  "💎 Quality 3 • Dobra Pedestais Gratuitamente (⚠️ Risco de Morte Súbita)",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -549,24 +697,42 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Efeito \u0026 Duplicação",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Ativo de uso único (Pacto com o Diabo): pendura uma espada sobre a cabeça de Isaac pelo resto da run.\n• Sempre que uma sala gerar pedestais naturais (Treasure Room, Boss Room, Sala do Anjo, Loja, Secretas), ela cria 1 item extra gratuito ao lado de cada pedestal (e você pode pegar OS DOIS!).",
+                                                    "content":  "• Quality 3 | Ativo de Uso Único | Pool: Pacto com o Diabo (Devil Room).\n• Gera 1 item extra gratuito ao lado de quase todo pedestal natural (Treasure, Boss, Anjo, Loja, Secreta) — você pega os dois!",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "⚠️ Regra Exata de Morte Súbita",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Enquanto você NÃO sofrer dano direto de inimigos/armadilhas, a espada tem 0% de chance de cair!\n• Assim que você levar 1 único hit real (mesmo perdendo só Soul Heart — quebrar Holy Mantle NÃO conta!), o jogo rola 1 chance em 10.000 a cada 4 frames (~4 minutos em média, mas pode cair em 2 segundos!) de matar você instantaneamente.\n• O QUE NÃO ATIVA A QUEDA: portas de Curse Room, Blood Donation Machine, IV Bag, Devil Beggar, Confessionário e Razor Blade!\n• Como sobreviver à queda: vidas extras (Dead Cat, 1up!, Lazarus\u0027 Rags, Soul of Lazarus) ou estar invulnerável no exato frame da queda (Algiz, Book of Shadows, Gnawed Leaf). Em The Lost e Tainted Lost, Damocles é 100% vantagem pura sem desvantagem!",
+                                                    "content":  "• Derrote The Lamb (Dark Room) jogando com Jacob \u0026 Esau.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Enquanto não sofrer dano direto de inimigos/armadilhas, tem 0% de chance de cair.\n• Auto-dano de Curse Room, Blood Donation Machine, Devil Beggar, Confessionário e IV Bag NÃO ativam a queda!",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Em The Lost e Tainted Lost não há desvantagem (morrer sem Holy Mantle já encerraria a run de qualquer forma) — é item obrigatório neles.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Após levar 1 hit real (mesmo em Soul Heart — quebrar Holy Mantle não conta), há chance contínua aleatória de a espada cair e matar você na hora (vidas extras salvam).",
                                                     "color":  "red"
                                                 }
                                             ],
-                        "tags":  "damocles espada de damocles morte subita dobra itens pedestais the lost tainted lost devil room"
+                        "tags":  "damocles espada de damocles morte subita dobra itens pedestais the lost tainted lost devil room jacob esau"
                     },
                     {
                         "id":  19,
                         "title":  "Mom\u0027s Knife (Faca da Mamãe)",
-                        "subtitle":  "🔪 Quality 4 • Bumerangue Perfurocortante de 2x a 6x Dano que Derrete Chefes",
+                        "subtitle":  "🔪 Quality 4 • Bumerangue de 2x a 6x Dano que Derrete Chefes",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -577,24 +743,42 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Mecânica de Dano",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Segurada na mão: causa 2x o seu Dano várias vezes por segundo no corpo a corpo.\n• Arremessada (carregando o tiro): causa até 6x o seu Dano por tique no ponto máximo de retorno do bumerangue, ignorando grande parte do ritmo de luta dos chefes.",
+                                                    "content":  "• Quality 4 | Passivo | Pools: Pacto com o Diabo, Treasure Room.\n• Segurada: 2x Dano contínuo no contato. Arremessada: até 6x Dano por tique no ponto de retorno.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Sinergias \u0026 Alertas",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Sinergias excelentes: C Section, Brimstone (dispara uma chuva de facas fantasma após arremessar!), Quad Shot / Triple Shot / Loki\u0027s Horns / Tiny Planet.\n• ⚠️ Alerta: Mom\u0027s Knife anula várias builds divertidas de lágrimas (como Godhead, Trisagion e Lachryphagy). Avalie antes de pegar se sua sinergia atual já for absurda!",
+                                                    "content":  "• Derrote Satan (Sheol) jogando com Isaac.",
                                                     "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Sinergias excelentes: C Section, Brimstone (dispara leque de facas extras), Quad/Triple Shot e Loki\u0027s Horns.\n• Via Spindown Dice: use em Ouija Board (ID 115).",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Posicione o ponto máximo de retorno do arremesso exatamente dentro da hitbox do chefe para derretê-lo em segundos.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Atenção",
+                                                    "type":  "text",
+                                                    "content":  "• Sobrescreve lágrimas normais e anula várias sinergias famosas como Godhead e Trisagion.",
+                                                    "color":  "red"
                                                 }
                                             ],
-                        "tags":  "moms knife faca da mamae devil room treasure room bumerangue dano chefes ouija board quality 4"
+                        "tags":  "moms knife faca da mamae devil room treasure room bumerangue dano chefes ouija board isaac satan quality 4"
                     },
                     {
                         "id":  20,
                         "title":  "Tech X (Anéis de Laser)",
-                        "subtitle":  "💎 Quality 4 • Anéis de Laser com Alcance Infinito • Solte tiros curtos para máximo DPS!",
+                        "subtitle":  "💎 Quality 4 • Anéis de Laser com Alcance Infinito",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -605,24 +789,36 @@
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Mecânica em Repentance",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Em Repentance, o dano do anel escala proporcionalmente à carga: carga mínima causa 25% do dano por tique, carga máxima causa 100% do dano por tique.\n• O dano acontece apenas na BORDA luminosa do círculo (o centro oco não dá dano!).",
+                                                    "content":  "• Quality 4 | Passivo | Pool: Treasure Room.\n• Dispara anéis elétricos perfurantes que atravessam obstáculos e acertam inimigos várias vezes ao cruzar.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear",
+                                                    "type":  "text",
+                                                    "content":  "• Desbloqueado desde o início (sem requisito prévio).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Em Repentance, carga mínima dá 25% de dano/tique e carga máxima dá 100% (além de anel maior).\n• Sinergias Tier S: Brimstone (anéis de sangue), C Section, Homing (dobra os anéis para dentro do alvo) e Shot Speed BAIXO (o anel fica mais tempo em cima do chefe!).",
                                                     "color":  "gray"
                                                 },
                                                 {
-                                                    "title":  "Estratégia \u0026 Sinergias",
+                                                    "title":  "Estratégia",
                                                     "type":  "text",
-                                                    "content":  "• Contra salas cheias: carregue 100% para criar um anel gigante que limpa a tela.\n• Contra chefes únicos: dê toques médios/rápidos e reduza seu Shot Speed (ex.: Sacred Heart, Dead Onion, Blue Cap) — quanto mais devagar o anel viajar, mais tiques seguidos a borda acerta no mesmo chefe!\n• Sinergia letal com Brimstone, Spoon Bender (Homing), Continuum e Lump of Coal.",
+                                                    "content":  "• Evite pegar Shot Speed muito alto: quanto mais devagar o anel viajar, mais tiques de dano ele causa nos chefes.",
                                                     "color":  "green"
                                                 }
                                             ],
-                        "tags":  "tech x aneis de laser treasure room shot speed brimstone homing ventricle razor quality 4"
+                        "tags":  "tech x aneis laser treasure room brimstone homing shot speed ventricle razor quality 4"
                     },
                     {
                         "id":  21,
                         "title":  "Polyphemus \u0026 Haemolacria (Mega Lágrimas)",
-                        "subtitle":  "👁️ Polyphemus (+4 flat e x2.0 Dano) • Haemolacria (+1 flat, x1.5 Dano e Arco Explosivo)",
+                        "subtitle":  "👁️ Quality 4 • Multiplicadores Massivos de Dano Bruto",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -633,26 +829,38 @@
                                                     "color":  "red"
                                                 },
                                                 {
-                                                    "title":  "Polyphemus (Olho de Ciclope)",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Fórmula: (Dano + 4) x 2.0, com multiplicador de 0.42x na cadência de tiro (Fire Rate).\n• Overkill Piercing: se sua lágrima matar um inimigo e sobrar dano excedente, ela continua viajando com a diferença de dano restante!\n• Com 20/20, Inner Eye ou Mutant Spider, não reduz a cadência duas vezes — apenas concede +5 de Dano flat extra!",
+                                                    "content":  "• Quality 4 | Passivos | Pool: Treasure Room.\n• Polyphemus: (Dano + 4) x 2.0 com multiplicador 0.42x de Fire Rate e atravessamento por overkill.\n• Haemolacria: (Dano + 1) x 1.5 (+50% multiplicador real) em arco parabólico que explode em dezenas de gotas.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Haemolacria (Lágrima de Sangue em Arco)",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Fórmula: (Dano + 1) x 1.5 (+50% multiplicador real de dano!), disparando em arco parabólico que estoura em dezenas de gotas menores.\n• Multiplica de forma insana Brimstone (estoura uma estrela de lasers de sangue no impacto!), C Section, Tech X, Trisagion e Piercing (cuidado com Ipecac/Dr. Fetus sem Host Hat ou Pyromaniac!).",
-                                                    "color":  "red"
+                                                    "content":  "• Polyphemus: desbloqueado desde o início.\n• Haemolacria: colete o item Blood Clot 10 vezes acumuladas entre partidas.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Com 20/20, Mutant Spider ou Inner Eye, Polyphemus não aplica a penalidade de Fire Rate duas vezes.\n• Haemolacria com Brimstone, C Section, Tech X ou Trisagion multiplica os projéteis da explosão.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Em Haemolacria + Ipecac/Dr. Fetus tenha cuidado redobrado sem imunidade a explosões (Host Hat / Pyromaniac).",
+                                                    "color":  "green"
                                                 }
                                             ],
-                        "tags":  "polyphemus haemolacria mega lagrimas ciclope sangue arco multiplicador dano treasure room quality 4"
+                        "tags":  "polyphemus haemolacria mega lagrimas ciclope blood clot multiplicador dano treasure room quality 4"
                     },
                     {
                         "id":  22,
                         "title":  "Twisted Pair \u0026 Incubus (Duplicadores de Tiro)",
-                        "subtitle":  "😈 Incubus (75% Dano) • Twisted Pair (2x 37.5% = +75% DPS colado no seu corpo!)",
+                        "subtitle":  "😈 Quality 4 • Familiares que Copiam Seus Tiros e Efeitos",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -661,24 +869,36 @@
                                                     "color":  "purple"
                                                 },
                                                 {
-                                                    "title":  "Comparativo Direto",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Incubus: familiar na fila que copia exatamente seus tiros, lasers, facas e efeitos causando 75% do seu dano em Repentance (100% de dano se estiver jogando de Lilith!).\n• Twisted Pair (desbloqueado vencendo The Beast com Tainted Lilith): dois demônios que ficam grudados lado a lado na cabeça do personagem (mira perfeita!), causando 37.5% do seu dano cada (= +75% de DPS total + dobro de chance de ativar efeitos por lágrima!).\n• Ambos contam 1/3 para a transformação Conjoined!",
-                                                    "color":  "purple"
+                                                    "content":  "• Quality 4 | Passivos | Pool: Pacto com o Diabo (Devil Room).\n• Incubus: familiar na fila que copia seus tiros com 75% do seu dano (100% na Lilith).\n• Twisted Pair: 2 demônios colados lado a lado na cabeça do personagem causando 37.5% cada (= +75% DPS com mira perfeita!).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear",
+                                                    "type":  "text",
+                                                    "content":  "• Incubus: derrote Hush jogando com Lilith.\n• Twisted Pair: derrote The Beast jogando com Tainted Lilith.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Ambos copiam lágrimas, Brimstone, Tech X, Mom\u0027s Knife, C Section e efeitos de sorte (Tough Love / Holy Light).\n• Ambos contam 1/3 para a transformação Conjoined.",
+                                                    "color":  "gray"
                                                 },
                                                 {
                                                     "title":  "Estratégia",
                                                     "type":  "text",
-                                                    "content":  "• Sempre priorize ambos em qualquer Pacto com o Diabo (2 corações). Com Forgotten, Incubus e Twisted Pair arremessam ossos à distância enquanto você bate com a clava!",
+                                                    "content":  "• Priorize ambos em qualquer Pacto com o Diabo (2 corações); Twisted Pair também sai via Spindown em Azazel\u0027s Rage.",
                                                     "color":  "green"
                                                 }
                                             ],
-                        "tags":  "twisted pair incubus familiares devil room pacto diabo lilith conjoined duplicar tiros quality 4"
+                        "tags":  "twisted pair incubus familiares devil room pacto diabo lilith hush beast conjoined quality 4"
                     },
                     {
                         "id":  23,
                         "title":  "Psy Fly, Holy Mantle \u0026 The Wafer (Trindade Defensiva)",
-                        "subtitle":  "🛡️ Psy Fly rebate quase todas as balas • Holy Mantle = 1 hit grátis/sala • Wafer = 1/2 dano",
+                        "subtitle":  "🛡️ Quality 4 • Neutralizam Projéteis, Primeiro Hit e Dano Dobrado",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -689,24 +909,36 @@
                                                     "color":  "purple"
                                                 },
                                                 {
-                                                    "title":  "O Que Cada Um Faz",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Psy Fly (Quality 4 — Treasure Room / Key Beggar): mosca veloz que intercepta projéteis inimigos em pleno ar e devolve tiros teleguiados; neutraliza quase sozinha Hush, Isaac, Mega Satan e Mother! Conta 1/3 para Beelzebub.\n• Holy Mantle (Quality 4 — Sala do Anjo / Treasure Room): bloqueia o 1º dano recebido em CADA sala (recarrega ao mudar de sala ou se usar Holy Card extra).\n• The Wafer (Quality 4 — Sala do Anjo / Treasure Room): reduz qualquer dano de 1 coração inteiro (Womb, Cathedral, Sheol, Corpse, Sala de Sacrifício, Sharp Plug) para apenas MEIO coração!",
+                                                    "content":  "• Psy Fly (Q4 — Treasure Room / Key Beggar): rebate balas inimigas em pleno ar devolvendo tiros teleguiados; conta 1/3 para Beelzebub.\n• Holy Mantle (Q4 — Anjo / Treasure Room): bloqueia o 1º dano de CADA sala.\n• The Wafer (Q4 — Anjo / Treasure Room): reduz qualquer dano de 1 coração inteiro (Womb+, Sacrifício, Sharp Plug) para meio coração.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Dica de Jogo Quebrado",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• The Wafer + Yum Heart / Habit / Sharp Plug permite cargas infinitas em itens ativos e limpar Salas de Sacrifício até a 11ª pisada gastando metade da vida!",
+                                                    "content":  "• Todos os 3 itens vêm desbloqueados desde o início!\n• (Observação: começar com Holy Mantle no The Lost exige doar 879¢ na Greed Donation Machine.)",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• The Wafer + Sharp Plug / Habit / Yum Heart permite farmar Salas de Sacrifício até a 11ª pisada gastando metade da vida.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Psy Fly resolve quase sozinha as chuvas de projéteis de Hush, Isaac, Mega Satan e Mother; Spindown em Wavy Cap gera Psy Fly.",
                                                     "color":  "green"
                                                 }
                                             ],
-                        "tags":  "psy fly holy mantle the wafer defesa escudo invencibilidade projéteis balas sacrifice room angel room quality 4"
+                        "tags":  "psy fly holy mantle the wafer defesa escudo invencibilidade balas sacrifice room angel room quality 4"
                     },
                     {
                         "id":  24,
-                        "title":  "D6, Eternal D6, D Infinity \u0026 Void/Abyss (Dados \u0026 Ativos Meta)",
-                        "subtitle":  "🎲 Eternal D6 (2 cargas / 30% sumir) • D Infinity copia todos os dados • Buffs Repentance+",
+                        "title":  "D6, Eternal D6, D Infinity \u0026 Void/Abyss (Dados \u0026 Ativos)",
+                        "subtitle":  "🎲 Quality 3–4 • Melhores Itens Ativos de Reroll e Absorção",
                         "category":  "items",
                         "spoiler":  false,
                         "additional_data":  [
@@ -717,26 +949,38 @@
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Dados Principais (D6, Eternal D6 \u0026 D Infinity)",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• The D6 (6 cargas — desbloqueado vencendo Isaac com ???): rerolla pedestais da sala atual com 100% de segurança.\n• Eternal D6 (2 cargas — The Lost / Sala do Anjo): rerolla pedestais em apenas 2 salas de recarga, mas tem 30% de chance de fazer o pedestal desaparecer!\n• D Infinity (Delirium com Isaac — Sala Secreta): permite alternar com Ctrl entre TODOS os dados do jogo (D1, D4, D6, Eternal D6, D7, D8, D10, D12, D20 e D100) compartilhando uma única barra inteligente de cargas!",
+                                                    "content":  "• The D6 (Q4 — Treasure Room / Isaac inicial): rerolla pedestais da sala (6 cargas).\n• Eternal D6 (Q3 — Sala do Anjo / The Lost inicial): rerolla com apenas 2 cargas (⚠️ 30% de apagar o pedestal).\n• D Infinity (Q4 — Sala Secreta): alterna com Ctrl entre todos os dados do jogo (D1, D4, D6, Eternal D6, D7, D8, D10, D12, D20, D100).\n• Void / Abyss (Q3 — Diabo/Secreta): absorvem ativos/passivos em atributos ou gafanhotos.",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Buffs Importantes de Repentance+",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Void (Apollyon): reduzido de 6 para apenas 4 salas de recarga em Repentance+! Absorve ativos para disparar todos juntos e derrete passivos ruins em +2 atributos permanentes.\n• Abyss (Tainted Apollyon): em Repentance+, o dano dos gafanhotos vermelhos agora escala com a Quality (0 a 4) do item devorado, além de dezenas de efeitos elementais exclusivos.\n• Flip (Tainted Lazarus / Sala do Anjo): reduzido para 4 salas de recarga em Repentance+ e permite resgatar o \"item fantasma\" atrás de cada pedestal (2 itens por pedestal!).",
-                                                    "color":  "purple"
+                                                    "content":  "• The D6: derrote Isaac (Cathedral) com ???.\n• Eternal D6: derrote Mother (Corpse II) com ???.\n• D Infinity: derrote Delirium com Isaac.\n• Void: derrote Delirium com Apollyon.\n• Abyss: derrote Delirium com Tainted Apollyon.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• Buffs de Repentance+: Void caiu de 6 para 4 cargas; Abyss escala o dano dos gafanhotos com a Quality (0–4) do item devorado; Flip caiu para 4 cargas.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Use D Infinity alternando entre D6 (para itens) e D20 (para pickups/baús no Greed Mode ou salas cheias de moedas).",
+                                                    "color":  "green"
                                                 }
                                             ],
-                        "tags":  "d6 eternal d6 d infinity void abyss flip dados reroll apollyon lazarus isaac the lost repentance+"
+                        "tags":  "d6 eternal d6 d infinity void abyss flip dados reroll apollyon lazarus isaac ??? the lost repentance+"
                     },
                     {
                         "id":  25,
-                        "title":  "Birthright (Direito de Primogenitura — Melhores Efeitos)",
-                        "subtitle":  "📜 Loja (15¢) • Efeito único por personagem • Isaac cicla itens, T. Isaac +4 espaços!",
+                        "title":  "Birthright (Direito de Primogenitura)",
+                        "subtitle":  "📜 Quality 3 • Loja (15¢) • Efeito Único Quebrado por Personagem",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -745,26 +989,38 @@
                                                     "color":  "yellow"
                                                 },
                                                 {
-                                                    "title":  "Personagens Normais (Destaques Tier S)",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Isaac: todos os novos pedestais alternam entre 2 itens (estilo Tainted Isaac sem limite de inventário!).\n• Judas: Book of Belial vira passivo fundido aos seus livros/ativos dando bônus extras e +Dano.\n• Blue Baby (???): cada contêiner de Soul Heart ganho passa a dar +2 Soul Hearts em vez de 1.\n• Eve: Whore of Babylon e Dead Bird ficam ativos permanentemente, independente da sua vida!\n• Azazel: dobra a largura do seu feixe curto de Brimstone.\n• The Lost: remove automaticamente todos os itens inúteis de Vida/Voo/Dano ao ser atingido das piscinas de itens!\n• Lilith: todos os seus familiares se alinham na sua frente mirando direto nos inimigos.",
+                                                    "content":  "• Quality 3 | Passivo | Pools: Loja (15¢), Boss (raro), Treasure Room.\n• Personagens Normais: Isaac (pedestais alternam 2 opções); Judas (Book of Belial funde com livros ativos); ??? (+2 Soul Hearts por item de Soul Heart); Eve (Whore of Babylon/Dead Bird permanentes); Azazel (dobra largura do laser); The Lost (filtra itens inúteis de vida/voo); Lilith (familiares miram à frente).\n• Personagens Tainted: T. Isaac (12 espaços em vez de 8!); T. Lost (1 vida extra revivendo com 200 dano em área); T. Cain (2x pickups); T. Keeper (ímã de moedas).",
                                                     "color":  "cyan"
                                                 },
                                                 {
-                                                    "title":  "Personagens Tainted (Destaques Tier S)",
+                                                    "title":  "Como Desbloquear",
                                                     "type":  "text",
-                                                    "content":  "• Tainted Isaac: expande seu inventário máximo de 8 para 12 itens passivos!\n• Tainted Lost: concede 1 vida extra imediata que revive na mesma sala causando 200 de dano em área!\n• Tainted Cain: dobra a quantidade de pickups gerados ao encostar em pedestais!\n• Tainted Keeper: atrai moedas magneticamente de longe antes que elas pisquem e desapareçam.\n• Tainted Lilith / Tainted Forgotten / Tainted Judas: melhorias drásticas diretas nas habilidades de bolso.",
+                                                    "content":  "• Derrote ??? (Blue Baby no The Chest) jogando com Jacob \u0026 Esau.",
                                                     "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Sinergias",
+                                                    "type":  "text",
+                                                    "content":  "• O efeito acompanha o personagem atual — se reviver como outro personagem (ex.: Judas\u0027 Shadow), o efeito de Birthright muda na hora para o novo personagem.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Sempre junte 15¢ antes de entrar na Loja quando estiver jogando de Isaac, Tainted Isaac, The Lost, Tainted Lost ou Tainted Keeper!",
+                                                    "color":  "green"
                                                 }
                                             ],
-                        "tags":  "birthright direito de primogenitura loja shop 15c efeitos por personagem isaac tainted isaac the lost judas eve azazel"
+                        "tags":  "birthright direito de primogenitura loja shop 15c efeitos por personagem isaac tainted isaac the lost jacob esau"
                     },
                     {
                         "id":  26,
-                        "title":  "Bag of Crafting (Tainted Cain — Pesos \u0026 Receitas Fixas)",
-                        "subtitle":  "🎒 Receitas variam por Seed, exceto 9 fixas • Use Bone/Eternal Hearts para Quality 4!",
+                        "title":  "Bag of Crafting (Bolsa de Fabricação)",
+                        "subtitle":  "🎒 Quality 3 • Cria Qualquer Item a Partir de 8 Pickups (Padrão de T. Cain)",
                         "category":  "items",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -773,15 +1029,27 @@
                                                     "color":  "yellow"
                                                 },
                                                 {
-                                                    "title":  "Como Forçar Quality 4 em Qualquer Seed",
+                                                    "title":  "Efeito \u0026 Pool",
                                                     "type":  "text",
-                                                    "content":  "• Em Repentance, quase todas as receitas mudam a cada Seed, mas o jogo soma o \"Peso de Qualidade\" dos 8 ingredientes e escolhe a piscina pelo tipo de coração especial usado:\n• Bone Heart (Peso 5): puxa itens da Sala Secreta (R Key, Rock Bottom, Glitched Crown, Spindown)!\n• Eternal Heart (Peso 5): puxa itens da Sala do Anjo (Sacred Heart, Godhead, Revelation, Holy Mantle)!\n• Black Heart (Peso 4): puxa itens da Sala do Diabo (Brimstone, Twisted Pair, Incubus)!\n• Melhores recheios de alto peso: Lucky Penny (Peso 8!), Golden Bomb / Golden Key (Peso 7), Giga Bomb (Peso 6/10), Dime (Peso 5), Soul Heart (Peso 4), Nickel (Peso 3).",
+                                                    "content":  "• Quality 3 | Ativo Inicial de Tainted Cain | Pool: Treasure Room (após desbloquear).\n• Recolhe até 8 pickups do chão para fabricar itens passivos/ativos de acordo com o peso total e os corações especiais usados:\n  - Bone Heart = Pool da Sala Secreta | Eternal Heart = Pool do Anjo | Black Heart = Pool do Diabo.\n• Receitas 100% fixas em qualquer Seed: 8x Pennies = Portable Slot | 8x Red Hearts = Yum Heart | 8x Soul Hearts = The Mitre | 8x Black Hearts = Ceremonial Robes | 2x Golden Bombs + 6x Bombs = Mama Mega! | 8x Bone Hearts = Death Certificate.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear",
+                                                    "type":  "text",
+                                                    "content":  "• Tainted Cain já começa com ela desde o início.\n• Para liberar para os demais personagens: derrote Delirium jogando com Tainted Cain.",
                                                     "color":  "yellow"
                                                 },
                                                 {
-                                                    "title":  "Receitas 100% Fixas em Qualquer Partida",
+                                                    "title":  "Mecânica \u0026 Sinergias",
                                                     "type":  "text",
-                                                    "content":  "• 8x Pennies (Moedas de 1¢) = Portable Slot (use dentro da Sala Secreta para explodir/substituir e gerar Bone Hearts!).\n• 8x Red Hearts = Yum Heart | 8x Soul Hearts = The Mitre | 8x Black Hearts = Ceremonial Robes.\n• 8x Bombs = Mr. Boom | 8x Keys = Latch Key | 8x Poop = The Poop.\n• 2x Golden Bombs + 6x Bombs (ou 8x Giga Bombs) = Mama Mega! (garante Boss Rush e Hush sem pressa!).\n• 8x Bone Hearts = Death Certificate!",
+                                                    "content":  "• Pesos maiores: Lucky Penny (8), Golden Bomb/Key (7), Giga Bomb (6/10), Dime/Bone/Eternal Heart (5), Soul/Black Heart (4), Nickel (3).",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Estratégia",
+                                                    "type":  "text",
+                                                    "content":  "• Fabrique um Portable Slot (8 moedas de 1¢) e ative dentro da Sala Secreta/Super Secreta: ao substituir o ativo, ele explode em Bone Hearts para craftar R Key ou Rock Bottom!",
                                                     "color":  "green"
                                                 }
                                             ],
@@ -792,7 +1060,7 @@
                         "title":  "Cartas Invertidas I (0? The Fool? a VII? The Chariot?)",
                         "subtitle":  "🃏 0? Fool? = Pedestais na Secreta • VI? Lovers? = +1 Item • VII? Chariot? = 4x Tears",
                         "category":  "cards_trinkets",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "0? The Fool? até III? The Empress?",
@@ -820,7 +1088,7 @@
                         "title":  "Cartas Invertidas II (VIII? Justice? a XIV? Temperance?)",
                         "subtitle":  "🃏 VIII? Justice? = 2–4 Baús Dourados • IX? Hermit? = Vende Itens • XI? Strength? = 2x Dano",
                         "category":  "cards_trinkets",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "VIII? Justice? até XI? Strength?",
@@ -842,7 +1110,7 @@
                         "title":  "Cartas Invertidas III (XV? The Devil? a XXI? The World?)",
                         "subtitle":  "🃏 XVII? Stars? = 2 Itens na Sala • XVIII? Moon? = Ultra Secret • XX? Judgement? = Reroll!",
                         "category":  "cards_trinkets",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "XV? The Devil? até XVIII? The Moon?",
@@ -908,7 +1176,7 @@
                         "title":  "Soul Stones I (Pedras de Alma — Isaac a Lazarus)",
                         "subtitle":  "💎 Soul of Isaac cicla item • Soul of Cain abre Red Rooms • Soul of Lazarus = Vida Extra!",
                         "category":  "cards_trinkets",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Isaac, Magdalene, Cain, Judas \u0026 ???",
@@ -930,7 +1198,7 @@
                         "title":  "Soul Stones II (Pedras de Alma — Eden a Jacob \u0026 Esau)",
                         "subtitle":  "💎 Soul of Eden = Reroll Chaos! • Soul of Lilith = Familiar Grátis • Soul of Lost = Escudo",
                         "category":  "cards_trinkets",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Eden, The Lost, Lilith \u0026 Keeper",
@@ -1084,7 +1352,7 @@
                         "title":  "Progressão de Rotas Clássicas (Polaroid, Negative, ??? \u0026 Lamb)",
                         "subtitle":  "🗺️ 11x Mom\u0027s Heart ➔ It Lives! • 5x Isaac = Polaroid • 5x Satan = Negative",
                         "category":  "routes_unlocks",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ordem de Desbloqueio no Save Novo",
@@ -1106,7 +1374,7 @@
                         "title":  "Boss Rush (\u003c 20 min) \u0026 Hush / Blue Womb (\u003c 30 min)",
                         "subtitle":  "⏱️ Boss Rush = Mom em \u003c 20m (ou \u003c 25m no Mausoleum) • Hush = It Lives em \u003c 30m",
                         "category":  "routes_unlocks",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Limites Exatos de Cronômetro",
@@ -1128,7 +1396,7 @@
                         "title":  "Mega Satan \u0026 Delirium (The Void — Chances de Portal)",
                         "subtitle":  "😈 Mega Satan = 2 Key Pieces ou Dad\u0027s Key • Delirium = 100% após Hush (e finais em Rep+!)",
                         "category":  "routes_unlocks",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Como Abrir a Porta Dourada do Mega Satan",
@@ -1262,6 +1530,652 @@
                                                 }
                                             ],
                         "tags":  "the lost missing poster holy mantle 879 moedas keeper 1000 greed mode the forgotten broken shovel pa quebrada 1 minuto azazel jacob esau"
+                    },
+                    {
+                        "id":  47,
+                        "title":  "Visão Geral: Personagens, Post-It \u0026 Modo Hard",
+                        "subtitle":  "👤 17 Normais + 17 Tainted (34 total) • Jogue no Modo Hard para não refazer marcas!",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Marcas de Conclusão (Post-It Note)",
+                                                    "type":  "text",
+                                                    "content":  "• Cada personagem possui 12 marcas no papelzinho de seleção (contorno preto = Normal | contorno vermelho = Hard):\n  1. Mom\u0027s Heart / It Lives (exige Hard para desbloquear Coop Baby)\n  2. Isaac (Cathedral) | 3. ??? (The Chest)\n  4. Satan (Sheol) | 5. The Lamb (Dark Room)\n  6. Mega Satan | 7. Boss Rush (\u003c20m)\n  8. Hush (\u003c30m) | 9. Ultra Greed / Greedier (Hard do Greed)\n  10. Delirium (The Void) | 11. Mother (Corpse II) | 12. The Beast (Home).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Diferença nos 17 Personagens Tainted",
+                                                    "type":  "text",
+                                                    "content":  "• Cada Tainted tem apenas 7 desbloqueios (em vez de 15): 4 chefes tradicionais juntos (Isaac/???/Satan/Lamb = 1 Trinket), Boss Rush+Hush (= 1 Soul Stone), Mega Satan (= Objeto/Máquina/Pickup), Greedier (= Carta Invertida ?), Mother (= Trinket), Delirium (= Item assinatura) e The Beast (= Item especial).\n• Para desbloquear qualquer Tainted: leve o personagem normal até Home e use Red Key / Cracked Key na parede à esquerda antes do quarto da Mamãe!",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Regra de Ouro (Hard Mode)",
+                                                    "type":  "text",
+                                                    "content":  "• Jogue SEMPRE no modo Hard desde o início (ou assim que pegar o jeito): marcas no Hard liberam os desbloqueios do Normal juntos, e itens finais como Godhead, Mega Mush e Death Certificate exigem 100% no Hard!",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "personagens characters post-it marcas conclusao completion marks hard mode tainted 34 mega mush death certificate"
+                    },
+                    {
+                        "id":  48,
+                        "title":  "Isaac \u0026 Tainted Isaac",
+                        "subtitle":  "👤 Normal: Começa com The D6 • Tainted: Pedestais Alternam 2 Itens (Máx. 8 Passivos)",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Isaac: 3 Corações Vermelhos | 3.50 Dano | 1.00 Tears | 1.00 Vel. | 0 Sorte | Começa com 1 Bomba e The D6 (após desbloquear).\n• Tainted Isaac: 3 Corações Vermelhos | Mesmos atributos base | Limite de 8 itens passivos simultâneos (pode trocar itens soltando os antigos no chão!).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Isaac: desbloqueado desde o início.\n• Tainted Isaac: abra o armário secreto em Home jogando com Isaac.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Todo pedestal gerado alterna entre 2 opções. Itens que aumentam HP (ou transformações ao tocar) continuam dando seus efeitos/transformações mesmo após soltá-los (Birthright sobe o limite de 8 para 12!).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Isaac (Normal): Mom\u0027s Knife (Satan), The D20 (???), Missing Poster (The Lamb — libera The Lost!), D Infinity (Delirium), Options? (The Beast), Meat Cleaver (Mother).\n• Tainted Isaac: Glitched Crown (The Beast!), Spindown Dice (Delirium!), Mega Chest (Mega Satan), Soul of Isaac (Boss Rush+Hush), The Stars? (Greedier), Mom\u0027s Lock (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "isaac tainted isaac d6 glitched crown spindown dice moms knife d20 missing poster d infinity options completion marks"
+                    },
+                    {
+                        "id":  49,
+                        "title":  "Magdalene \u0026 Tainted Magdalene",
+                        "subtitle":  "👤 Normal: 4 Corações + Yum Heart • Tainted: Abraço Mortal + Vida Drena Acima de 2",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Magdalene: 4 Corações Vermelhos | 3.50 Dano | 1.00 Tears | 0.85 Vel. (lenta até completar Desafio #32 Aprils Fool que dá pílula Full Health) | Começa com Yum Heart.\n• Tainted Magdalene: 4 Corações Vermelhos (os 2 extras drenam com o tempo) | Ataque de abraço corpo a corpo + Yum Heart no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Magdalene: acumule 7 ou mais contêineres de Coração Vermelho ao mesmo tempo em uma partida.\n• Tainted Magdalene: abra o armário secreto em Home jogando com Magdalene.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Inimigos mortos pelo abraço soltam meios corações temporários que curam na hora. Excelente para farmar Salas de Sacrifício logo no Basement I e combar com Sharp Plug / Habit!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Magdalene (Normal): Guardian Angel (Satan), Maggy\u0027s Bow (Boss Rush), Purity (Hush), Eucharist (Delirium!), Censer (Greed), Glyph of Balance (Greedier).\n• Tainted Magdalene: Queen of Hearts (Mega Satan), Belly Jelly (The Beast), Hypercoagulation (Delirium), Soul of Magdalene (Boss Rush+Hush), The Lovers? (Greedier!).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "magdalene maggy tainted magdalene yum heart eucharist purity lovers? belly jelly queen of hearts completion marks"
+                    },
+                    {
+                        "id":  50,
+                        "title":  "Cain \u0026 Tainted Cain",
+                        "subtitle":  "👤 Normal: 1.2x Dano + Lucky Foot (Pílulas Boas!) • Tainted: Fabrica Itens na Bolsa",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Cain: 2 Corações Vermelhos | 4.20 Dano (1.2x) | 1.30 Vel. | 5.25 Alcance | 1 Sorte | Começa com Lucky Foot (converte TODAS as pílulas ruins em boas e melhora máquinas!) e Paperclip (abre Baús Dourados sem gastar chave após doar 68¢ na Greed Machine!).\n• Tainted Cain: 2 Corações Vermelhos | 1.2x Dano | Começa com Bag of Crafting no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Cain: segure 55 ou mais moedas ao mesmo tempo em uma partida.\n• Tainted Cain: abra o armário secreto em Home jogando com Cain.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Não consegue pegar nenhum item normal de pedestal — todo pedestal vira um monte de pickups no chão para você coletar e misturar na Bag of Crafting (veja entrada #26 para receitas fixas!).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Cain (Normal): A Bag of Pennies (Isaac), Abel (The Lamb), Silver Dollar (Delirium), Guppy\u0027s Eye (Mother!), A Pound of Flesh (The Beast).\n• Tainted Cain: Bag of Crafting (Delirium), Gold Pill (Mega Satan!), Soul of Cain (Boss Rush+Hush!), Wheel of Fortune? (Greedier), Gilded Key (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "cain tainted cain lucky foot paperclip bag of crafting gold pill soul of cain guppys eye completion marks"
+                    },
+                    {
+                        "id":  51,
+                        "title":  "Judas \u0026 Tainted Judas",
+                        "subtitle":  "👤 Normal: 1.35x Dano + Book of Belial • Tainted: Dark Arts (Fatia Atravessando Balas!)",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Judas: 1 Coração Vermelho (muito frágil!) | 4.72 Dano (1.35x) | 1.10 Vel. | Começa com The Book of Belial (+2.0 Dano na sala e +12.5% chance de Pacto) e 3 moedas.\n• Tainted Judas: 2 Black Hearts (sem contêiner vermelho!) | 1.35x Dano | Começa com Dark Arts no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Judas: derrote Satan (Sheol) pela primeira vez.\n• Tainted Judas: abra o armário secreto em Home jogando com Judas.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Usar Dark Arts deixa você invulnerável e veloz por 1 segundo para atravessar inimigos e balas — ao voltar, todos os atravessados levam dano altíssimo e aumentam seu Dano na sala!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Judas (Normal): Curved Horn (The Lamb — trinket +2 Dano!), Judas\u0027 Shadow (Boss Rush), Eye of Belial (Greedier), Redemption (The Beast), Akeldama (Mother).\n• Tainted Judas: Dark Arts (Delirium), Sanguine Bond (The Beast), Black Sack (Mega Satan), Soul of Judas (Boss Rush+Hush), The Magician? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "judas tainted judas book of belial dark arts curved horn eye of belial sanguine bond completion marks"
+                    },
+                    {
+                        "id":  52,
+                        "title":  "??? (Blue Baby) \u0026 Tainted ???",
+                        "subtitle":  "👤 Normal: Só Soul Hearts (Libera The D6!) • Tainted: Cocôs Arremessáveis",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• ???: 3 Soul Hearts (impossível ter Coração Vermelho) | 3.67 Dano (1.05x) | 1.10 Vel. | Começa com The Poop (em Repentance+, destruir cocô com ele cria moscas).\n• Tainted ???: 3 Soul Hearts | Sem bombas tradicionais! Usa 9 tipos de cocôs arremessáveis/explosivos no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• ???: derrote Mom\u0027s Heart 10 vezes.\n• Tainted ???: abra o armário secreto em Home jogando com ???.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Bombas normais viram cocôs de reserva. Combine cocô verde venenoso + cocô de fogo para explodir a sala inteira, ou use cocô sagrado para ganhar +Fire Rate e +Dano na aura!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• ??? (Normal): The D6 (Isaac — prioridade nº 1 do jogo!), Eternal D6 (Mother!), Forget Me Now (Satan), Fate (???), Fate\u0027s Reward (Hush), Montezuma\u0027s Revenge (The Beast).\n• Tainted ???: IBS (Delirium), The Swarm (The Beast), Charming Poop (Mega Satan), Soul of ??? (Boss Rush+Hush), The Emperor? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "??? blue baby tainted ??? the d6 eternal d6 forget me now fate montezumas revenge completion marks"
+                    },
+                    {
+                        "id":  53,
+                        "title":  "Eve \u0026 Tainted Eve",
+                        "subtitle":  "👤 Normal: Whore of Babylon em \u003c=1 Coração • Tainted: Exército de Coágulos de Sangue",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Eve: 2 Corações Vermelhos | 2.62 Dano base (0.75x) -\u003e vira 1.0x quando em \u003c=1 Coração Vermelho | 1.24 Vel. | Começa com Whore of Babylon (ativa sempre em \u003c=1 Coração Vermelho na Eve!), Dead Bird e Razor Blade (após doar 439¢ na Greed Machine).\n• Tainted Eve: 2 Corações Vermelhos | Começa com Sumptorium no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Eve: complete 2 andares seguidos sem pegar nenhum coração do chão.\n• Tainted Eve: abra o armário secreto em Home jogando com Eve.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Atirar por 2 segundos consome meio coração para criar um Coágulo aliado que dispara junto com você (inclusive copiando efeitos das suas lágrimas!). Use Sumptorium para puxar todos os coágulos de volta e recuperar a vida!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Eve (Normal): Sacrificial Dagger (???), Eve\u0027s Mascara (Boss Rush), Athame (Hush), Dull Razor (Delirium), Cracked Orb (The Beast).\n• Tainted Eve: Sumptorium (Delirium), Heartbreak (The Beast), Horse Pill (Mega Satan!), Soul of Eve (Boss Rush+Hush), The Empress? (Greedier), Strange Key (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "eve tainted eve whore of babylon sumptorium coagulos athame sacrificial dagger horse pill heartbreak completion marks"
+                    },
+                    {
+                        "id":  54,
+                        "title":  "Samson \u0026 Tainted Samson",
+                        "subtitle":  "👤 Normal: Ganha Dano ao Tomar Hit • Tainted: Fúria Berserk com Clava de Osso",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Samson: 3 Corações Vermelhos | 3.50 Dano | -0.1 Tears | 1.10 Vel. | Começa com Bloody Lust (ganha até +6.5 Dano no andar ao sofrer dano) e Child\u0027s Heart.\n• Tainted Samson: 3 Corações Vermelhos | Fúria Berserk automática ao causar/receber dano.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Samson: complete 2 andares seguidos sem sofrer dano.\n• Tainted Samson: abra o armário secreto em Home jogando com Samson.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Quando a barra de fúria enche, Tainted Samson troca as lágrimas por uma clava pesada corpo a corpo que atravessa inimigos com velocidade e dano absurdos (matar inimigos prolonga o Berserk!).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Samson (Normal): Samson\u0027s Chains (Boss Rush), Lusty Blood (Ultra Greed), Bloody Gust (Mother), Samson\u0027s Lock (The Lamb).\n• Tainted Samson: Crane Game (Mega Satan — prioridade máxima!), Berserk! (Delirium), Larynx (The Beast), Soul of Samson (Boss Rush+Hush), Strength? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "samson tainted samson bloody lust berserk crane game larynx lusty blood bloody gust completion marks"
+                    },
+                    {
+                        "id":  55,
+                        "title":  "Azazel \u0026 Tainted Azazel",
+                        "subtitle":  "👤 Normal: Voo + Brimstone Curto • Tainted: Espirro de Maldição + Feixe Longo Estreito",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Azazel: 3 Black Hearts (sem contêiner vermelho!) | 5.25 Dano (1.5x) | 1.25 Vel. | Voo nativo | Brimstone curto + carta 0 - The Fool.\n• Tainted Azazel: 3 Black Hearts | Sem voo! | Dispara um Brimstone longo e fino + Espirro (Hemoptysis) que amaldiçoa inimigos.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Azazel: faça 3 Pactos com o Diabo na mesma partida.\n• Tainted Azazel: abra o armário secreto em Home jogando com Azazel.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Inimigos atingidos pelo espirro de perto recebem uma marca roxa: ao levar dano do feixe fino de Brimstone, sofrem 2x de dano e explodem em sangue ao morrer!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Azazel (Normal): The Nail (Boss Rush), Abaddon (???), Maw of the Void (Hush!), Satanic Bible (Isaac), Lilith (Ultra Greed!), Lil Abaddon (The Beast), Devil\u0027s Crown (Mother).\n• Tainted Azazel: Azazel\u0027s Rage (The Beast), Hemoptysis (Delirium), Hell Game (Mega Satan), Soul of Azazel (Boss Rush+Hush), The Devil? (Greedier), Wicked Crown (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "azazel tainted azazel brimstone voo abaddon maw of the void satanic bible lilith lil abaddon hell game completion marks"
+                    },
+                    {
+                        "id":  56,
+                        "title":  "Lazarus \u0026 Tainted Lazarus",
+                        "subtitle":  "👤 Normal: Revive Mais Forte Todo Andar • Tainted: Alterna Entre Vivo e Morto (Flip!)",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Lazarus: 3 Corações Vermelhos | 3.50 Dano | 1.00 Vel. | -1 Sorte | Pílula aleatória.\n• Ao morrer, revive como Lazarus Risen com 1.4x Dano, +0.25 Vel. e Anemic — em Repentance, recupera a vida extra em TODO início de andar (e mantém +0.5 Dano permanente a cada morte!).\n• Tainted Lazarus: alterna automaticamente entre Lazarus (Vivo) e Dead Lazarus (1.5x Dano) a cada sala limpa + Flip no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Lazarus: tenha 4 ou mais Soul/Black Hearts ao mesmo tempo.\n• Tainted Lazarus: abra o armário secreto em Home jogando com Lazarus.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Vivo e Morto têm inventários e vidas separados! Use o ativo Flip (4 cargas em Repentance+) em frente aos pedestais para resgatar o 2º item fantasma para a forma oposta.",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Lazarus (Normal): Plan C (Greedier), Compound Fracture (Delirium), Empty Vessel (Hush), Pandora\u0027s Box (The Lamb), Bethany (Vencer Mom\u0027s Heart/It Lives no Hard sem morrer!).\n• Tainted Lazarus: Flip (Delirium!), Salvation (The Beast), Wooden Chest (Mega Satan), Soul of Lazarus (Boss Rush+Hush — vida extra!), Judgement? (Greedier!).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "lazarus tainted lazarus flip bethany salvation soul of lazarus judgement? wooden chest compound fracture completion marks"
+                    },
+                    {
+                        "id":  57,
+                        "title":  "Eden \u0026 Tainted Eden",
+                        "subtitle":  "👤 Normal: Build Inicial Aleatória (Custa 1 Token) • Tainted: Todo Dano Rerolla Seus Itens!",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Eden: vida, atributos, 1 item ativo, 1 item passivo e trinket totalmente aleatórios (requer 1 Eden Token ganho ao matar Mom\u0027s Heart/It Lives/Greed).\n• Tainted Eden: começa com atributos e itens aleatórios, e CADA dano sofrido rerolla TODOS os seus itens e vida mantendo o pool de origem de cada item!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Eden: derrote Mom\u0027s Heart pela primeira vez.\n• Tainted Eden: abra o armário secreto em Home jogando com Eden.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Truque clássico (D4 Bug/Pool Lock): antes de pegar itens na Sala do Anjo, Diabo ou Secreta, deixe um item ruim de Treasure Room fechado — se todos os seus itens vierem do pool de Anjo/Diabo, todo hit só rerolla em itens de Anjo/Diabo!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Eden (Normal): Blank Card (Isaac!), Eden\u0027s Blessing (Hush — dá 1 item extra grátis na próxima run!), Eden\u0027s Soul (Delirium), Metronome (Greedier), Everything Jar (The Beast).\n• Tainted Eden: TMTRAINER (The Beast), Wild Card (Mega Satan!), Corrupted Data (Delirium), Soul of Eden (Boss Rush+Hush), The World? (Greedier), Nuh Uh! (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "eden tainted eden blank card edens blessing wild card tmtrainer soul of eden world? completion marks"
+                    },
+                    {
+                        "id":  58,
+                        "title":  "The Lost \u0026 Tainted Lost",
+                        "subtitle":  "👤 Normal: Voo + Holy Mantle (0 Vida!) • Tainted: Sem Itens Defensivos + Itens Melhores",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Ícone do Personagem",
+                                                    "type":  "image",
+                                                    "content":  "the_lost.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• The Lost: 0 Vida (morre em 1 hit após quebrar o escudo!) | Voo + Lágrimas Espectrais | 1.10 Vel. | Eternal D6 + Holy Mantle (após doar 879¢ na Greed Machine).\n• Tainted Lost: 0 Vida + SEM Holy Mantle recorrente! Começa com 1.3x Dano, Holy Card e passiva oculta que remove itens inúteis de HP/defesa e tem 20% de rerollar itens Quality 0–2 para melhores!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• The Lost: em Repentance, morra dentro de uma Sala de Sacrifício (pisando nos espinhos) enquanto segura o trinket Missing Poster (desbloqueado vencendo The Lamb com Isaac).\n• Tainted Lost: abra o armário secreto em Home jogando com The Lost.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• O desafio supremo do jogo: não pode pegar Dead Cat, Holy Mantle nem vidas extras normais (exceto Birthright e Soul of Lazarus!). Pactos com o Diabo são 100% GRÁTIS (escolha apenas 1 item por sala do Diabo nos dois Lost!).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• The Lost (Normal): Godhead (todas as 12 marcas no Hard!), The Mind (Satan), The Body (???), The Soul (The Lamb), The D100 (Boss Rush), Holy Card (Delirium), Lost Soul (Mother).\n• Tainted Lost: Sacred Orb (The Beast!), Haunted Chest (Mega Satan), Crystal Key (Mother!), Ghost Bombs (Delirium), Soul of the Lost (Boss Rush+Hush), The Fool? (Greedier!), Kid\u0027s Drawing (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "the lost tainted lost godhead sacred orb holy mantle missing poster crystal key kids drawing fool? completion marks"
+                    },
+                    {
+                        "id":  59,
+                        "title":  "Lilith \u0026 Tainted Lilith",
+                        "subtitle":  "👤 Normal: Cega, Atira pelo Incubus • Tainted: Dispara o Feto Gello em Chicote!",
+                        "category":  "characters",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Lilith: 1 Coração Vermelho + 2 Black Hearts | 3.50 Dano | 2 Sorte | Cega (não atira pelos olhos: usa Incubus + Box of Friends que dobra familiares na sala + Cambion Conception).\n• Tainted Lilith: 1 Vermelho + 2 Black Hearts | Dispara o feto Gello preso por cordão umbilical dando chicotadas de 3x Dano!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Lilith: vença o Greed Mode jogando com Azazel.\n• Tainted Lilith: abra o armário secreto em Home jogando com Lilith.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Tocar rapidamente no botão de tiro estica o Gello para dar um golpe chicoteado fortíssimo (3x Dano!) que também bloqueia alguns projéteis; segurar o tiro faz o feto atirar lágrimas contínuas.",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Lilith (Normal): Incubus (Hush!), C Section (The Beast!), Succubus (The Lamb!), Cambion Conception (???), Immaculate Conception (Boss Rush), Duality (Greedier), Rune Bag (Isaac).\n• Tainted Lilith: Twisted Pair (The Beast!), Gello (Delirium), Fool\u0027s Gold (Mega Satan), Soul of Lilith (Boss Rush+Hush!), The High Priestess? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "lilith tainted lilith incubus c section twisted pair succubus gello box of friends greed azazel completion marks"
+                    },
+                    {
+                        "id":  60,
+                        "title":  "Keeper \u0026 Tainted Keeper",
+                        "subtitle":  "👤 Normal: 3 Moedas de Vida (Tiro Triplo) • Tainted: 2 Moedas de Vida + Quádruplo + Lojas Turbinadas!",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Keeper: 3 Coin Hearts (após derrotar Hush; começa com 2 antes) | Tiro Triplo (0.80 Fire Rate) | 4.20 Dano (1.2x) | 0.85 Vel. | -2 Sorte | Wooden Nickel (após matar Isaac) + Store Key (Satan).\n• Tainted Keeper: máx. 2 Coin Hearts! Tiro Quádruplo, todo inimigo morto solta moedas temporárias (somem em ~2.5s!) e TODAS as lojas vendem itens de Boss/Treasure/Anjo/Diabo!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Keeper: doe 1.000 moedas no total na Greed Donation Machine (no fim do Greed/Greedier Mode).\n• Tainted Keeper: abra o armário secreto em Home jogando com Keeper.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Cada inimigo abatido solta dinheiro rápido; quase todas as salas de item (Treasure, Boss, Anjo, Diabo) passam a COBRAR 15¢–30¢ em moedas, mas o dinheiro abundante compensa e cria runs riquíssimas!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Keeper (Normal): Deep Pockets (??? — permite até 999¢!), Crooked Penny (Delirium), Keeper\u0027s Sack (Mother!), Keeper\u0027s Box (The Beast), Rib of Greed (Greed).\n• Tainted Keeper: Golden Penny (Mega Satan!), Keeper\u0027s Kin (Delirium), Strawman (The Beast), Soul of the Keeper (Boss Rush+Hush), The Hanged Man? (Greedier), Keeper\u0027s Bargain (4 chefes).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "keeper tainted keeper greed machine 1000 moedas deep pockets golden penny keepers sack crooked penny completion marks"
+                    },
+                    {
+                        "id":  61,
+                        "title":  "Apollyon \u0026 Tainted Apollyon",
+                        "subtitle":  "👤 Normal: Começa com Void • Tainted: Começa com Abyss (Transforma Itens em Gafanhotos!)",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Apollyon: 2 Corações Vermelhos | 3.50 Dano | 1.00 Vel. | Começa com Void (4 cargas em Repentance+!).\n• Tainted Apollyon: 2 Corações Vermelhos | Começa com Abyss no bolso (devora pedestais em troca de gafanhotos ofensivos permanentes que atravessam obstáculos).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Apollyon: derrote Mega Satan pela primeira vez.\n• Tainted Apollyon: abra o armário secreto em Home jogando com Apollyon.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Em Repentance+, os gafanhotos criados com Abyss escalam seu dano com a Quality do item consumido e ganham propriedades únicas (teleguiados, explosivos, venenosos, laser, etc.) conforme o item absorvido!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Apollyon (Normal): Void (Delirium), Black Rune (Greedier!), Locust of Wrath/Famine/Pestilence/Death/Conquest, Lil Portal (Mother), Worm Friend (The Beast).\n• Tainted Apollyon: Echo Chamber (The Beast!), Abyss (Delirium), Rotten Beggar (Mega Satan), Soul of Apollyon (Boss Rush+Hush), The Tower? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "apollyon tainted apollyon void abyss echo chamber black rune mega satan completion marks"
+                    },
+                    {
+                        "id":  62,
+                        "title":  "The Forgotten \u0026 Tainted Forgotten",
+                        "subtitle":  "👤 Normal: Esqueleto (Clava) + Alma (Lágrimas) • Tainted: Alma Arremessa o Esqueleto!",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Ícone do Personagem",
+                                                    "type":  "image",
+                                                    "content":  "the_forgotten.webp",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• The Forgotten: 2 Bone Hearts + 1 Soul Heart na Alma | 5.25 Dano (1.5x) | Clava corpo a corpo capaz de quebrar pedras (segurar tiro arremessa o osso) | Aperte Ctrl para alternar para The Soul (voo com corrente presa!).\n• Tainted Forgotten: controla apenas a Alma voadora (sem tiros); precisa pegar e arremessar a pilha de ossos imortal como projétil gigante!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• The Forgotten: 1) Mate o Boss do Basement I em \u003c 1 minuto; 2) Exploda o chão da sala inicial para pegar Broken Shovel; 3) Desvie dos pisões constantes da Mamãe até vencer a Boss Rush e montar Mom\u0027s Shovel; 4) Use a pá no túmulo do Dark Room!\n• Tainted Forgotten: abra o armário secreto em Home jogando com The Forgotten.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• O corpo de osso é 100% imune a dano (bloqueia projéteis e entra de graça em Curse Rooms!) — toda a vida fica apenas nos Soul Hearts da Alma voadora.",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• The Forgotten (Normal): Book of the Dead (Delirium!), Brittle Bones (The Lamb), Hallowed Ground (Hush), Spirit Shackles (The Beast), Bone Spurs (Mother).\n• Tainted Forgotten: Golden Battery (Mega Satan), Decap Attack (Delirium), Isaac\u0027s Tomb (The Beast), Soul of the Forgotten (Boss Rush+Hush), Death? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "the forgotten tainted forgotten pa quebrada broken shovel dark room book of the dead brittle bones completion marks"
+                    },
+                    {
+                        "id":  63,
+                        "title":  "Bethany \u0026 Tainted Bethany",
+                        "subtitle":  "👤 Normal: Book of Virtues (Cargas de Soul Heart) • Tainted: Lemegeton (Gera Fogos de Itens!)",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Bethany: 3 Corações Vermelhos (Soul/Black Hearts viram cargas extras para ativos!) | 3.50 Dano | Começa com Book of Virtues (invoca Wisps orbitais ao usar ativos).\n• Tainted Bethany: 3 Soul Hearts (não ganha Corações Vermelhos: corações vermelhos viram cargas de sangue!) | Começa com Lemegeton no bolso.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Bethany: vença uma run completa (Mom\u0027s Heart / It Lives) no MODO HARD jogando com Lazarus SEM morrer nenhuma vez!\n• Tainted Bethany: abra o armário secreto em Home jogando com Bethany.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Cada uso de Lemegeton gera um Wisp que concede temporariamente o efeito REAL de um item passivo da piscina da sala! (⚠️ Itens passivos normais pegos em pedestais rendem apenas 75% de aumento de atributos nela.)",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Bethany (Normal): Revelation (Mother!), Star of Bethlehem (Delirium!), Book of Virtues (Isaac), Blessed Penny (???), Urn of Souls (Satan), Jar of Wisps (The Beast).\n• Tainted Bethany: Lemegeton (Delirium!), Confessional (Mega Satan!), Vengeful Spirit (The Beast), Soul of Bethany (Boss Rush+Hush), The Hierophant? (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "bethany tainted bethany book of virtues lemegeton revelation star of bethlehem confessional lazarus hard completion marks"
+                    },
+                    {
+                        "id":  64,
+                        "title":  "Jacob \u0026 Esau \u0026 Tainted Jacob",
+                        "subtitle":  "👤 Normal: Controle Duplo (2 Itens nas Escolhas!) • Tainted: Perseguido por Dark Esau Imortal",
+                        "category":  "characters",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Atributos Iniciais \u0026 Itens",
+                                                    "type":  "text",
+                                                    "content":  "• Jacob \u0026 Esau: 2 personagens simultâneos! Jacob (3 Vermelhos, 2.75 Dano, mais Tears/Sorte) e Esau (1 Vermelho + 1 Soul, 3.75 Dano, mais largo). Podem pegar AMBOS os pedestais de rotas alternativas (Downpour/Mines) andando alinhados!\n• Tainted Jacob: 3 Corações Vermelhos | Anima Sola no bolso (acorrenta Dark Esau e solta para ele investir atropelando chefes!).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Como Desbloquear (Normal \u0026 Tainted)",
+                                                    "type":  "text",
+                                                    "content":  "• Jacob \u0026 Esau: derrote Mother (Corpse II) pela primeira vez.\n• Tainted Jacob: abra o armário secreto em Home jogando com Jacob \u0026 Esau.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Forma Tainted (Mecânica)",
+                                                    "type":  "text",
+                                                    "content":  "• Se Dark Esau encostar em você, você vira The Lost sem escudo pelo resto do andar! Porém em Repentance Dark Esau não morre mais para inimigos e seu dash ignora armadura causando dano gigantesco em chefes!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Principais Itens Desbloqueados (Completion Marks)",
+                                                    "type":  "text",
+                                                    "content":  "• Jacob \u0026 Esau (Normal): Rock Bottom (Boss Rush!), Birthright (???), Damocles (The Lamb!), The Stairway (Isaac!), Red Stew (Satan!), Genesis (Greedier!), Magic Skin (Mother!), Vanishing Twin (Hush).\n• Tainted Jacob: Golden Trinket (Mega Satan!), Anima Sola (Delirium), Esau Jr. (The Beast), Soul of Jacob \u0026 Esau (Boss Rush+Hush), The Sun and the Moon (Greedier).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "jacob esau tainted jacob anima sola dark esau rock bottom birthright damocles stairway red stew genesis magic skin completion marks"
+                    },
+                    {
+                        "id":  65,
+                        "title":  "Conquistas \u0026 Desafios Prioritários (O Que Liberar Primeiro)",
+                        "subtitle":  "🏆 Melhores Desafios (#2, #6, #9, #17, #37, #39), Marcas \u0026 Máquinas",
+                        "category":  "routes_unlocks",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Desafios (Challenges) Imperdíveis",
+                                                    "type":  "text",
+                                                    "content":  "• #2 High Brow ➔ Runa Jera (duplica baús e pickups).\n• #6 Solar System ➔ Runa Perthro (reroll estilo D6).\n• #9 Demo Man ➔ Chaos Card (mata quase qualquer chefe em 1 hit!).\n• #17 Waka Waka ➔ Death\u0027s Touch (foices gigantes perfurantes +1.5 Dano!).\n• #18 The Host ➔ Technology .5 | #19 The Family Man ➔ Epic Fetus.\n• #23 Blue Bomber ➔ Golden Bombs.\n• #32 Aprils Fool ➔ Magdalene começa com pílula Full Health (fácil de farmar Sacrifício no Andar 1!).\n• #37 Bloody Mary ➔ Sigil of Baphomet (melhor trinket defensivo).\n• #39 Isaac\u0027s Awakening ➔ Spirit Sword!",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Top Marcas de Conclusão para Buscar Cedo",
+                                                    "type":  "text",
+                                                    "content":  "• 1. ??? ➔ Isaac (libera The D6 no Isaac!).\n• 2. Azazel ➔ Greed Mode (libera Lilith) -\u003e Lilith ➔ Hush (Incubus) \u0026 The Beast (C Section!).\n• 3. Isaac ➔ The Lamb (Missing Poster para The Lost).\n• 4. Jacob \u0026 Esau ➔ Boss Rush (Rock Bottom), Isaac (The Stairway), ??? (Birthright) e The Lamb (Damocles).\n• 5. Tainted Isaac ➔ The Beast (Glitched Crown) \u0026 Delirium (Spindown Dice).",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "title":  "Máquinas de Doação (Loja \u0026 Greed Mode)",
+                                                    "type":  "text",
+                                                    "content":  "• Greed Donation Machine: 500¢ (Greedier Mode), 68¢ (Cain começa com Paperclip), 439¢ (Eve começa com Razor Blade), 879¢ (The Lost começa com Holy Mantle!), 1.000¢ (libera Keeper!).\n• Donation Machine da Loja (até 999¢): evolui o estoque e descontos da Loja até o nível máximo em 600¢ (não chegue a 1.000¢ ou ela explode e zera!).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "conquistas desafios challenges jera perthro chaos card deaths touch epic fetus spirit sword sigil of baphomet greed machine donation"
                     }
                 ]
 }
