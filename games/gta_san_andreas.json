@@ -1,0 +1,690 @@
+{
+    "game_id":  "gta_san_andreas",
+    "title":  "GTA: San Andreas (PC)",
+    "version":  "1.0",
+    "updated_at":  "2026-11-27T19:45:00Z",
+    "categories":  [
+                       {
+                           "id":  "all",
+                           "label":  "Todos"
+                       },
+                       {
+                           "id":  "cheats",
+                           "label":  "🎮 Cheats \u0026 Códigos (PC)"
+                       },
+                       {
+                           "id":  "progression",
+                           "label":  "🏆 História, Dinheiro \u0026 100%"
+                       },
+                       {
+                           "id":  "missions_schools",
+                           "label":  "🚗 Missões Secundárias \u0026 Escolas"
+                       },
+                       {
+                           "id":  "collectibles",
+                           "label":  "🗺️ Colecionáveis \u0026 Namoradas"
+                       },
+                       {
+                           "id":  "weapons_vehicles",
+                           "label":  "🔫 Armas, Status \u0026 Veículos Raros"
+                       }
+                   ],
+    "entries":  [
+                    {
+                        "id":  1,
+                        "title":  "Cheats Essenciais: Vida, Dinheiro, Armas \u0026 Munição (PC)",
+                        "subtitle":  "⌨️ Digite direto no teclado durante o jogo (sem pausar!)",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Pacotes de Armas",
+                                                    "content":  "minigun.webp",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Sobrevivência, Dinheiro \u0026 Munição",
+                                                    "content":  "• `HESOYAM`: Vida máxima + Colete máximo + $250.000 + conserta o veículo atual instantaneamente!\n• `BAGUVIX`: Saúde semi-infinita (imune a tiros, fogo e socos — ⚠️ ainda morre para explosões, quedas altas, atropelamentos e afogamento).\n• `CVWKXAM`: Oxigênio infinito debaixo d\u0027água (nunca se afoga).\n• `WANRLTW` ou `FULLCLIP`: Munição infinita sem precisar recarregar.\n• `NCSGDAG` ou `PROFESSIONALKILLER`: Nível Assassino (Hitman) em todas as armas (arma dupla automática!).\n• `OUIQDMW`: Mira livre completa de dentro de veículos (drive-by).\n• `SZCMAWO`: Suicídio instantâneo (útil se ficar preso em algum bug).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "3 Pacotes Completos de Armas (PC)",
+                                                    "content":  "• `LXGIWYL` (Kit 1 — Capanga): Soco inglês, Taco de beisebol, 9mm, Escopeta comum, Micro SMG, AK-47, Rifle comum, Lança-foguetes (RPG), Coquetel Molotov e Lata de Spray.\n• `KJKSZPJ` ou `PROFESSIONALSKIT` (Kit 2 — Profissional): Faca, Desert Eagle, Cano Serrano (Sawn-Off), Tec-9, M4, Rifle Sniper, Lança-chamas, Extintor e Granadas.\n• `UZUMYMW` (Kit 3 — Louco): Motosserra, Pistola Silenciada, Escopeta de Combate (SPAZ-12), MP5, M4, Lança-foguetes Teleguiado e Bombas C4 (Satchel Charges).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Como Usar no PC Sem Danificar Seu Save",
+                                                    "content":  "• Basta digitar as letras direto no teclado com o jogo rolando — ao aceitar, aparece \u0027Cheat Activated\u0027 no canto superior esquerdo.\n• Na Definitive Edition, cheats bloqueiam conquistas naquele save. Mantenha sempre um save limpo separado e NUNCA salve após ligar cheats de pedestres/caos (`STATEOFEMERGENCY`, etc.).",
+                                                    "color":  "red"
+                                                }
+                                            ],
+                        "tags":  "cheats codigos pc hesoyam baguvix cvwkxam wanrltw fullclip ncsgdag professionallkiller professionakiller professionalkiller ouiqdmw szcmawo lxgiwyl kjkszpj professionalskit uzumymw armas vida dinheiro municao infinita"
+                    },
+                    {
+                        "id":  2,
+                        "title":  "Cheats de Polícia \u0026 Nível de Procurado (PC)",
+                        "subtitle":  "🚨 Nunca ser procurado, zerar estrelas ou chamar 6 estrelas",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Controle de Estrelas (Procurado)",
+                                                    "content":  "• `AEZAKMI`: Nunca procurado — trava seu nível de procurado em 0 permanentemente (ótimo para explorar áreas restritas como a Área 69 e a Base Naval).\n• `ASNAEB` ou `TURNDOWNTHEHEAT`: Limpa imediatamente todas as estrelas atuais.\n• `OSRBLHH` ou `TURNUPTHEHEAT`: Aumenta o nível de procurado em +2 estrelas.\n• `LJSPQK` ou `BRINGITON`: Ativa o nível máximo de procurado (6 estrelas — Exército e Tanques Rhino).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica Tática",
+                                                    "content":  "• Digite `AEZAKMI` novamente se quiser desativar o bloqueio e voltar a ganhar estrelas normalmente.\n• Ao pegar ostras dentro da Base Naval ou invadir Las Venturas cedo, `AEZAKMI` evita as 5 estrelas automáticas.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "policia estrelas procurado wanted aezakmi asnaeb turndowntheheat osrblhh turnuptheheat ljspqk bringiton pc cheats"
+                    },
+                    {
+                        "id":  3,
+                        "title":  "Cheats de Atributos, Corpo \u0026 Superpoderes do CJ (PC)",
+                        "subtitle":  "🦾 Jetpack, Músculo, Respeito, Sex Appeal, Super Pulo \u0026 Super Soco",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Jetpack (YECGAA / ROCKETMAN)",
+                                                    "content":  "jetpack.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Equipamentos Pessoais \u0026 Poderes",
+                                                    "content":  "• `YECGAA` ou `ROCKETMAN`: Invoca um Jetpack nas costas do CJ na hora!\n• `AIYPWZQP`: Entrega um Paraquedas equipado.\n• `KANGAROO`: Super Pulo (CJ salta por cima de prédios — ⚠️ cuidado ao cair sem paraquedas ou vida infinita).\n• `CJPHONEHOME`: Super Pulo gigante em bicicletas BMX.\n• `IAVENJQ`: Mega Soco (arremessa inimigos e explode carros com um golpe; também faz pedestres baterem mais forte).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Corpo \u0026 Status Máximos",
+                                                    "content":  "• `BUFFMEUP` ou `JYSDSOD`: Músculo no máximo (100%).\n• `BTCDBCB`: Gordura no máximo (útil para namorar Barbara/Michelle rapidamente).\n• `KVGYZQK`: CJ magro (zera músculo e gordura).\n• `AEDUWNV`: Nunca sentir fome (útil enquanto explora ou farma territórios).\n• `OGXSDAG` ou `WORSHIPME`: Respeito no máximo (permite recrutar até 7 membros da Grove!).\n• `EHIBXQS` ou `HELLOLADIES`: Sex Appeal no máximo.\n• `VQIMAHA` ou `NATURALTALENT`: Perícia máxima em todos os veículos (Carro, Moto, Bicicleta e Aviação).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "cj atributos musculo respeito yecgaa rocketman aiypwzqp kangaroo cjphonehome iavenjq buffmeup jysdsod btcdbcb kvgyzqk aeduwnv ogxsdag worshipme ehibxqs helloladies vqimaha naturaltalent jetpack paraquedas pc"
+                    },
+                    {
+                        "id":  4,
+                        "title":  "Cheats de Veículos Militares, Aviões \u0026 Especiais (PC)",
+                        "subtitle":  "🛩️ Rhino, Hydra, Hunter, Vortex, Monster, Quad \u0026 Mais",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Códigos de Invocação (Aeronaves \u0026 Blindados)",
+                                                    "content":  "• `AIWPRTON`: Invoca Tanque de Guerra **Rhino**.\n• `JUMPJET`: Invoca Caça Militar **Hydra** (jato VTOL que paira no ar!).\n• `OHDUDE`: Invoca Helicóptero de Ataque **Hunter** (com mísseis e metralhadora!).\n• `URKQSRK`: Invoca Avião de Acrobacias **Stuntplane**.\n• `KGGGDKP`: Invoca Hovercraft **Vortex** (anda na terra e na água).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Off-Road \u0026 Utilitários Pesados",
+                                                    "content":  "• `AGBDLCID`: Invoca Monster Truck (**Monster**).\n• `AKJJYGLC`: Invoca Quadriciclo (**Quad**).\n• `EEGCYXT`: Invoca Trator Escavadeira (**Dozer**).\n• `AMOMHRER`: Invoca Caminhão-Tanque com Reboque (**Tanker Truck**).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Invocação",
+                                                    "content":  "• Fique em uma rua aberta ou espaço amplo antes de digitar para o veículo não surgir preso em paredes ou esmagar o CJ.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "veiculos militares avioes rhino aiwprton hydra jumpjet hunter ohdude stuntplane urkqsrk vortex kgggdkp monster agbdlcid quad akjjyglc dozer eegcyxt tanker amomhrer pc"
+                    },
+                    {
+                        "id":  5,
+                        "title":  "Cheats de Carros de Corrida \u0026 Especiais (PC)",
+                        "subtitle":  "🏎️ Hotring Racer, Bloodring, Rancher, Limusine, Trashmaster \u0026 Caddy",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Códigos de Carros (PC)",
+                                                    "content":  "• `PDNEJOH`: Invoca **Hotring Racer** (Variante 1 — carro de NASCAR).\n• `VPJTQWV`: Invoca **Hotring Racer** (Variante 2).\n• `CQZIJMB`: Invoca **Bloodring Banger** (carro blindado de arena).\n• `JQNTDMH`: Invoca **Rancher** (caminhonete off-road).\n• `AQTBCODX`: Invoca **Romero** (carro funerário).\n• `KRIJEBR`: Invoca **Stretch** (limusine branca).\n• `UBHYZHQ`: Invoca **Trashmaster** (caminhão de lixo).\n• `RZHSUEW`: Invoca **Caddy** (carrinho de golfe).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "carros corrida hotring pdnejoh vpjtqwv bloodring cqzijmb rancher jqntdmh romero aqtbcodx stretch krijebr trashmaster ubhyzhq caddy rzhsuew pc"
+                    },
+                    {
+                        "id":  6,
+                        "title":  "Cheats de Física de Veículos \u0026 Trânsito (PC)",
+                        "subtitle":  "🚗 Carros Voadores, Nitro Infinito, Direção Perfeita \u0026 Semáforos Verdes",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Física \u0026 Modificações nos Carros",
+                                                    "content":  "• `RIPAZHA`: **Carros voam!** (acelere como um avião e decole pelos céus).\n• `AFSNMSMW`: **Barcos voam!**\n• `COXEFGU` ou `SPEEDFREAK`: Todos os carros do jogo ganham Nitro.\n• `PGGOMOY`: Direção perfeita e suspensão mais ágil + pulo leve no carro (aperte buzina/controle).\n• `CPKTNWT`: Explode todos os carros próximos ao mesmo tempo!\n• `JCNRUAD`: Carros batidos explodem quase instantaneamente (o seu fica indestrutível a colisões).\n• `BSXSGGC`: Carros saem flutuando no ar ao encostar neles.\n• `XICWMD`: Carros invisíveis (apenas as rodas aparecem).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Trânsito \u0026 Estilo das Ruas",
+                                                    "content":  "• `ZEIIVG`: Todos os semáforos sempre verdes.\n• `YLTEICZ`: Motoristas agressivos.\n• `THGLOJ`: Menos trânsito nas ruas.\n• `GUSNHDE` ou `EVERYONEISRICH`: Apenas carros rápidos e esportivos nas ruas.\n• `BGKGTJH` ou `EVERYONEISPOOR`: Apenas carros baratos e velhos nas ruas.\n• `FVTMNBZ`: Trânsito estilo interior/rural.\n• `LLQPFBN`: Todos os carros ficam rosa.\n• `IOWDLAC`: Todos os carros ficam pretos.",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "fisica carros voam ripazha afsnmsmw coxefgu speedfreak nitro pggomoy cpktnwt jcnruad bsxsggc xicwmd zeiivg ylteicz thgloj gusnhde everyoneisrich bgkgtjh everyoneispoor fvtmnbz llqpfbn iowdlac"
+                    },
+                    {
+                        "id":  7,
+                        "title":  "Cheats de Clima, Horário \u0026 Velocidade do Jogo (PC)",
+                        "subtitle":  "☀️ Sol, Chuva, Neblina, Tempestade de Areia, Câmera Lenta \u0026 Turbo",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Clima",
+                                                    "content":  "• `AFZLLQLL` ou `PLEASANTLYWARM`: Dia ensolarado e limpo.\n• `ICIKPYH` ou `TOODAMNHOT`: Dia muito quente / sol intenso.\n• `ALNSFMZO`: Tempo nublado.\n• `AUIFRVQS`: Chuva.\n• `CFVFGMJ`: Neblina densa.\n• `MGHXYRM` ou `SCOTTISHSUMMER`: Tempestade com raios e trovões.\n• `CWJXUOC`: Tempestade de areia (ótimo efeito em todo o mapa).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Horário \u0026 Velocidade",
+                                                    "content":  "• `XJVSNAJ` ou `NIGHTPROWLER`: Sempre meia-noite (relógio congelado em 00:00).\n• `OFVIAC`: Céu laranja congelado às 21:00.\n• `YSOHNUL`: Relógio do jogo avança muito rápido.\n• `PPGWJHT` ou `SPEEDITUP`: Acelera a velocidade do jogo (pode digitar múltiplas vezes).\n• `LIYOAAY` ou `SLOWITDOWN`: Câmera lenta no jogo inteiro.",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "clima tempo chuva sol afzllqll pleasantlywarm icikpyh toodamnhot alnsfmzo auifrvqs cfvfgmj mghxyrm cwjxuoc xjvsnaj nightprowler ofviac ysohnul ppgwjht speeditup liyoaay slowitdown"
+                    },
+                    {
+                        "id":  8,
+                        "title":  "Cheats de Pedestres, Gangues \u0026 Caos (⚠️ Cuidado ao Salvar!)",
+                        "subtitle":  "🔥 Recrutar qualquer NPC, Modo Revolta, Elvis, Ninja \u0026 Recompensa",
+                        "category":  "cheats",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Recrutamento \u0026 Gangues",
+                                                    "content":  "• `SJMAHPE`: Permite recrutar qualquer pedestre (dá uma 9mm a ele).\n• `ZSOXFSQ`: Permite recrutar qualquer pedestre com Lança-Foguetes (RPG!).\n• `BIFBUZZ`: Gangues dominam as ruas e não há civis comuns.\n• `MROEMZH`: Membros de gangue aparecem em qualquer lugar (bom para provocar guerras de território sem esperar spawn).\n• `FOOOXFT`: Todos os pedestres carregam armas.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Temas \u0026 Caos Total",
+                                                    "content":  "• `IOJUFZN` ou `STATEOFEMERGENCY`: Modo Revolta / Caos total na cidade.\n• `AJLOJYQY`: Pedestres se atacam com tacos de golfe.\n• `BAGOWPG`: Você tem um prêmio pela cabeça (pedestres te atacam).\n• `BGLUAWML`: Pedestres te atacam com armas e RPGs.\n• `BLUESUEDESHOES`: Todo pedestre vira sósia do Elvis.\n• `NINJATOWN`: Tema Ninja (pedestres com katanas e motos/carros pretos).\n• `CIKGCGX`: Tema Praia (pedestres em trajes de banho).\n• `PRIEBJ`: Tema Parque de Diversões (palhaços e food trucks).\n• `BEKKNQV`: Modo Ímã (atrai mulheres).",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "🚨 ALERTA CRÍTICO DE SAVE (PC)",
+                                                    "content":  "• NUNCA salve seu progresso depois de ativar `STATEOFEMERGENCY`, `AJLOJYQY`, `BAGOWPG` ou `BGLUAWML`! Esses códigos gravam o estado de revolta no save e quebram permanentemente missões da história (como o salto de **Madd Dogg**, que pula instantaneamente antes de você chegar na caminhonete).",
+                                                    "color":  "red"
+                                                }
+                                            ],
+                        "tags":  "pedestres gangues caos sjmahpe zsoxfsq bifbuzz mroemzh foooxft iojufzn stateofemergency ajlojyqy bagowpg bgluawml bluesuedeshoes ninjatown cikgcgx priebj bekknqv bug madd dogg save"
+                    },
+                    {
+                        "id":  9,
+                        "title":  "Dicas Técnicas da Versão de PC (FPS, Física \u0026 Bugs)",
+                        "subtitle":  "⚙️ Frame Limiter, natação rápida, Madd Dogg e diferenças das edições",
+                        "category":  "progression",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Carl Johnson (CJ)",
+                                                    "content":  "cj_carl_johnson.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Regra do FPS no PC (Versão Clássica 2005)",
+                                                    "content":  "• A engine clássica do PC foi projetada para **25–30 FPS**. Rodar acima de 60 FPS (Frame Limiter OFF) causa bugs famosos:\n  - CJ nada muito devagar e mergulha com dificuldade.\n  - Carros desaceleram rápido ao soltar o acelerador e barcos mal dobram na Escola Náutica.\n  - Pessoas caem antes do tempo (inclusive na missão **Madd Dogg**).\n• Solução: ative o **Frame Limiter** nas Opções Gráficas (ou trave a 30/60 FPS com SilentPatch).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Clássico (2005/Steam) vs Definitive Edition",
+                                                    "content":  "• Os cheats clássicos listados funcionam na versão original de PC e quase todos foram mantidos na Definitive Edition (alguns com comportamento visual diferente ou desativando conquistas).\n• Na versão clássica do PC você pode usar controles modernos e mods essenciais de correção (como SilentPatch) sem alterar a experiência original.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Atalhos Úteis de Teclado no PC",
+                                                    "content":  "• Recrutar aliado de gangue: mire com botão direito do mouse e aperte **G** (ou **H** para dispensar / dar ordem).\n• Câmera de Fotos: Botão Direito mira + Botão Esquerdo tira a foto.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "pc fps frame limiter bugs natacao madd dogg silentpatch definitive edition atalhos teclado g h"
+                    },
+                    {
+                        "id":  10,
+                        "title":  "Como Ficar Milionário Sem Cheats (Apostas \u0026 Cassinos)",
+                        "subtitle":  "💵 Método dos Cavalos (Inside Track) no início do jogo + Cassinos",
+                        "category":  "progression",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "1. Truque das Corridas de Cavalos (Inside Track)",
+                                                    "content":  "• Vá até a casa de apostas em **Downtown Los Santos** (sob o viaduto perto de Mulholland Intersection) ou em **Montgomery**.\n• Salve o jogo em uma casa próxima (ex.: casa comprável em Jefferson ou safe house em Red County).\n• Aposte TODO o seu dinheiro no cavalo **roxo/azul** com maior retorno (**11/1 ou 12/1**). Se perder, recarregue o save. Se ganhar, seu dinheiro multiplica em 12x e você salva de novo!\n• Em 15 minutos no começo do jogo você passa facilmente de **$10.000.000** para comprar todas as propriedades.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "2. Outras Fontes Rápidas de Dinheiro",
+                                                    "content":  "• Traficantes de Los Santos: NPCs de casaco preto ou regata branca com braços cruzados dão ~$2.000 cada ao morrer (ótimo no começo!).\n• Bombeiro Nível 12: paga cerca de $40.000+ no total logo na primeira cidade.\n• Cassino Four Dragons (Las Venturas): após coletar as 50 Ferraduras (Sorte máxima), jogue Blackjack/Roleta apostando alto após salvar.",
+                                                    "color":  "yellow"
+                                                }
+                                            ],
+                        "tags":  "dinheiro rico milionario sem cheats inside track apostas cavalos blackjack cassino traficantes bombeiro"
+                    },
+                    {
+                        "id":  11,
+                        "title":  "Checklist Completo de 100% \u0026 Recompensas Finais",
+                        "subtitle":  "🏆 O que é obrigatório vs opcional + Hydra e Rhino grátis em Grove Street",
+                        "category":  "progression",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Hydra no Telhado do Sweet (100%)",
+                                                    "content":  "hydra_jet.webp",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "O Que Conta para os 100%",
+                                                    "content":  "• Todas as missões principais da história (até **End of the Line**).\n• Todas as missões de Assets (Zero\u0027s RC Shop, Wang Cars, Verdant Meadows, etc.) + propriedades compráveis.\n• Sub-missões de veículos: **Paramédico** (Nv. 12), **Bombeiro** (Nv. 12), **Vigilante** (Nv. 12), **Táxi** (50 corridas), **Cafetão/Pimping** (Nv. 10), **Trem/Freight** (Nv. 2) e entregas de **Bike/Moto/Caminhão** (LS/SF/LV + Quarry + Trucking).\n• As **4 Escolas** (Direção, Aviação, Moto e Barco — basta Bronze em tudo!) e os **3 Estilos de Luta** nas academias.\n• Todos os **4 Eventos de Estádio** (8-Track, Blood Bowl, Dirt Track, Kickstart), desafios de corrida, **Mount Chiliad**, **BMX/NRG-500** e **Tiro ao Alvo (Ammu-Nation)**.\n• As **3 listas de Exportação** (30 veículos em Easter Basin) + todos os **250 colecionáveis** (100 Pichações, 50 Fotos, 50 Ferraduras, 50 Ostras).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "O Que NÃO é Obrigatório para 100%",
+                                                    "content":  "• 70 Saltos Únicos (Unique Stunt Jumps) — contam nos status gerais, mas não exigem para 100%.\n• Missão de Roubo (Burglary — dá Sprint Infinito, vale muito fazer!).\n• Conquistar 100% das Namoradas ou dominar todos os territórios além dos 35% da história.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Recompensas ao Atingir 100%",
+                                                    "content":  "• **+$1.000.000** na conta.\n• **Munição Infinita** em todas as armas (ainda precisa recarregar, mas as balas nunca acabam).\n• **Dobro de resistência** em qualquer veículo que CJ dirigir.\n• **Hydra** no telhado da casa do Sweet e **Tanque Rhino** debaixo da ponte de Ganton!",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "100% checklist recompensas hydra tank rhino grove street municao infinita dinheiro requisitos"
+                    },
+                    {
+                        "id":  12,
+                        "title":  "Guerra de Gangues \u0026 Territórios de Los Santos",
+                        "subtitle":  "🟢 53 Territórios • 3 Ondas de Inimigos • Regra dos 35% no Ato Final",
+                        "category":  "progression",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Grove Street Families",
+                                                    "content":  "grove_street.webp",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Como Funciona a Tomada de Território",
+                                                    "content":  "• Liberada após a missão **Doberman** (e reaberta no fim do jogo em **Home Coming**). Existem **53 territórios** em Los Santos divididos entre Ballas (roxo) e Los Santos Vagos (amarelo).\n• Para iniciar a guerra: mate pelo menos **3 membros** da gangue inimiga em sequência dentro da área colorida (mesmo se estiver em um carro — saia para garantir a contagem).\n• Vença **3 ondas crescentes** de ataque para conquistar o bairro (cada território conquistado gera renda automática na frente da casa dos Johnson).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Requisito Obrigatório da História \u0026 Dicas",
+                                                    "content":  "• Na reta final do jogo, a última missão (**End of the Line**) exige ter pelo menos **35% dos territórios** sob domínio da Grove Street (cerca de 19–20 bairros).\n• Dica de ouro: use **M4 / AK-47** ou **Minigun**, posicione-se de costas para um muro em becos longos para os inimigos virem em linha reta, e tenha feito **Vigilante (150 Colete)** e **Paramédico (150 HP)** antes!\n• ⚠️ Territórios minúsculos (como o hotel em Jefferson ou calçadão em Verona Beach) têm spawn difícil: estacione longe e ande a pé olhando para fora do quarteirão para os inimigos nascerem.",
+                                                    "color":  "yellow"
+                                                }
+                                            ],
+                        "tags":  "territorios guerra gangues ballas vagos grove street 35% end of the line 53 bairros"
+                    },
+                    {
+                        "id":  13,
+                        "title":  "Roteiro de Progressão \u0026 Desbloqueio das Cidades (Atos)",
+                        "subtitle":  "🗺️ Los Santos ➔ Badlands ➔ San Fierro ➔ Deserto ➔ Las Venturas ➔ Final",
+                        "category":  "progression",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Ordem das Regiões \u0026 Marcos",
+                                                    "content":  "• **Ato 1 — Los Santos**: começa em Ganton; termina na emboscada de **The Green Sabre**.\n• **Ato 2 — Zona Rural (Badlands) \u0026 San Fierro**: libera após The Green Sabre; garagem de Doherty, missões do Woozie/Zero/Toreno.\n• **Ato 3 — Deserto \u0026 Las Venturas**: libera após completar o arco de San Fierro (**Yay Ka-Boom-Boom**) e comprar o aeródromo **Verdant Meadows** (exige concluir a Escola de Aviação).\n• **Ato 4 — Retorno a Los Santos**: missões finais a partir de **Home Coming** até **End of the Line**.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ O Que Fazer Antes de \u0027The Green Sabre\u0027",
+                                                    "content":  "• Ao concluir **The Green Sabre**, você perde TODAS as armas, territórios conquistados (eles resetam até o Ato 4!) e fica bloqueado de voltar a Los Santos livremente sem estrelas por um bom tempo.\n• Não perca horas dominando 100% dos bairros no Ato 1 — foque nas **100 Pichações**, **Paramédico/Bombeiro**, dinheiro nas apostas e status básicos, deixando os territórios para o Ato 4!",
+                                                    "color":  "red"
+                                                }
+                                            ],
+                        "tags":  "historia cidades ato 1 2 3 4 san fierro las venturas green sabre verdant meadows end of the line"
+                    },
+                    {
+                        "id":  14,
+                        "title":  "Missões de Emergência: Paramédico, Bombeiro \u0026 Vigilante",
+                        "subtitle":  "❤️ 150 HP Máximo • 🔥 Imune a Fogo • 🛡️ 150 Colete Máximo",
+                        "category":  "missions_schools",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Hunter (Melhor Veículo para Vigilante)",
+                                                    "content":  "hunter_heli.webp",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "1. Paramédico (Ambulância — Nível 12)",
+                                                    "content":  "• **Recompensa**: aumenta o **HP máximo para 150**!\n• **Melhor local disparado**: cidadezinha de **Angel Pine** (Whetstone/Badlands — liberada logo após The Green Sabre)! A vila é minúscula e todos os pacientes nascem a poucos metros do hospital. Em 10 minutos você fecha o Nível 12 sem risco de capotar longe.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "2. Bombeiro (Caminhão de Bombeiro — Nível 12)",
+                                                    "content":  "• **Recompensa**: deixa o CJ **100% IMUNE AO FOGO** (invaluable para a missão final **End of the Line** e uso do Lança-chamas/Molotov!).\n• Dica: pode ser feito facilmente logo no início em Los Santos (ou com Firetruck que não tem escada, mais ágil). Lembre de molhar os passageiros em chamas depois que saírem do carro.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "3. Vigilante (Veículo Policial — Nível 12)",
+                                                    "content":  "• **Recompensa**: aumenta o **Colete máximo para 150**!\n• Dica fácil: faça usando o **Hunter** (Ouro na Escola de Aviação) ou **Tanque Rhino** (6 estrelas/Área 69). Se tentar cedo com moto da polícia (HPV-1000), estoque milhares de balas de **MP5/Micro SMG** fazendo o truque da Ammu-Nation antes.",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "paramedico bombeiro vigilante 150 hp vida maxima colete imune fogo angel pine hunter rhino"
+                    },
+                    {
+                        "id":  15,
+                        "title":  "Roubo (Burglary), Táxi \u0026 Cafetão (Pimping)",
+                        "subtitle":  "🏃 Sprint Infinito no Roubo • 🚕 Táxis com Nitro + Pulo",
+                        "category":  "missions_schools",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "1. Missão de Roubo (Burglary — Sprint Infinito!)",
+                                                    "content":  "• Liberada após a missão **Home Invasion** (Ryder).\n• **Onde pegar o caminhão Boxville preto**: estacionado entre os prédios azuis em **Ganton**, bem em frente à academia (Ganton Gym) em Los Santos!\n• **Objetivo**: entre 20:00 e 06:00, roube **$10.000 acumulados** em TVs/aparelhos (não precisa ser na mesma noite — pode sair entrando e saindo da mesma casa perto do depósito para resetar os móveis rápido!).\n• **Recompensa**: **Fôlego/Sprint Infinito** para correr, nadar e pedalar sem nunca cansar!",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "2. Táxi (50 Corridas) \u0026 Cafetão (Pimping)",
+                                                    "content":  "• **Táxi**: entregue **50 passageiros** (cumulativos; não precisa ser seguidos!). **Recompensa**: todos os táxis e Cabbies do jogo ganham **Nitro** e pulam ao apertar a buzina.\n• **Pimping**: entre em um **Broadway** (conversível clássico) e complete **10 níveis**. **Recompensa**: passa a receber dinheiro ao contratar serviços em vez de pagar (necessário para 100%).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "burglary roubo sprint infinito folego boxville ganton taxi 50 nitro pimping cafetao broadway"
+                    },
+                    {
+                        "id":  16,
+                        "title":  "As 4 Escolas: Direção, Aviação, Motos \u0026 Barcos",
+                        "subtitle":  "🏫 Localizações e veículos bônus por medalhas Bronze, Prata e Ouro",
+                        "category":  "missions_schools",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "1. Escola de Direção (Doherty — San Fierro)",
+                                                    "content":  "• 12 lições (obrigatória para liberar missões da garagem Wang Cars).\n• Recompensas estacionadas na porta (média geral): **Bronze** = **Super GT** | **Prata** = **Bullet** | **Ouro (todas)** = **Hotknife**.\n• Dica PC: ative o Frame Limiter se o carro estiver lento ou travando na rampa.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "2. Escola de Aviação (Verdant Meadows — Deserto)",
+                                                    "content":  "• 10 lições (obrigatória para avançar a história!).\n• Recompensas na pista do aeroporto: **Bronze** = **Rustler** | **Prata** = **Stuntplane** | **Ouro (todas)** = **Hunter** (helicóptero de ataque!).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "3. Escola de Motos (Las Venturas) \u0026 4. Barcos (Bayside)",
+                                                    "content":  "• **Motos (Blackfield, Las Venturas — 6 lições)**: Bronze = **Freeway** | Prata = **FCR-900** | Ouro = **NRG-500**.\n• **Barcos (Bayside Marina, Tierra Robada — 5 lições)**: Bronze = **Marquis** | Prata = **Squalo** | Ouro = **Jetmax**.",
+                                                    "color":  "purple"
+                                                }
+                                            ],
+                        "tags":  "escolas direcao aviacao motos barcos ouro prata bronze bullet hotknife hunter nrg500 jetmax doherty verdant meadows bayside"
+                    },
+                    {
+                        "id":  17,
+                        "title":  "Academias \u0026 Os 3 Estilos de Luta",
+                        "subtitle":  "🥊 Boxe (LS), Kung-Fu (SF) \u0026 Kickboxing (LV) — Exige 35% Músculo",
+                        "category":  "missions_schools",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Onde Aprender Cada Estilo",
+                                                    "content":  "• Requisito obrigatório: CJ precisa ter pelo menos **35% de Músculo** para desafiar o mestre da academia (necessário para 100%!).\n• **1. Ganton Gym (Los Santos)**: ensina **Boxe** (socos rápidos, jabs e esquiva curta).\n• **2. Cobra Martial Arts (Garcia, San Fierro)**: ensina **Kung-Fu** (chutes ágeis e combos giratórios — ótimo alcance!).\n• **3. Below the Belt Gym (Redsands East, Las Venturas)**: ensina **Kickboxing / Muay Thai** (joelhadas pesadas e golpes fortes).\n• Você pode voltar a qualquer treinador depois se quiser trocar de estilo.",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "academias luta boxe kung fu kickboxing ganton cobra martial arts below the belt 35% musculo"
+                    },
+                    {
+                        "id":  18,
+                        "title":  "Exportação \u0026 Importação (Docas de Easter Basin — 30 Carros)",
+                        "subtitle":  "🚢 3 Listas de 10 Veículos • Desbloqueia Compra no Navio",
+                        "category":  "missions_schools",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Como Liberar \u0026 Entregar",
+                                                    "content":  "• Liberado após comprar a concessionária **Wang Cars** (San Fierro) e concluir a missão **Customs Fast Track**.\n• Em Easter Basin há um navio com guindaste e um quadro-negro com 3 listas consecutivas de **10 veículos cada (30 no total)**.\n• Basta dirigir o veículo até o círculo vermelho ou içar com o guindaste; o preço pago reduz proporcionalmente se o carro estiver batido.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Benefícios (Importação)",
+                                                    "content":  "• Além do dinheiro altíssimo por carro raro (Infernus, Patriot, Stretch, Euros, etc.), cada carro entregue passa a poder ser comprado no quadro por dia da semana!\n• Dica rápida: se algum carro raro não spawnar no trânsito, ele geralmente aparece estacionado em pontos fixos (ex.: **Euros** debaixo da esfinge do hotel The Camel\u0027s Toe em Las Venturas).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "exportacao importacao easter basin wang cars quadro navio 30 carros euros patrior stretch infernus"
+                    },
+                    {
+                        "id":  19,
+                        "title":  "100 Pichações / Spray Tags (Los Santos)",
+                        "subtitle":  "🎨 Grove Street Armada (Deagle/SMG) + Arsenal na Casa dos Johnson",
+                        "category":  "collectibles",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Como Coletar (Missão \u0027Tagging Up Turf\u0027)",
+                                                    "content":  "• Existem **100 pichações** espalhadas pelos bairros de Los Santos.\n• Use a Lata de Spray até ouvir o som de conclusão e a mensagem de contagem subir (segure por ~1–2s bem de perto para economizar tinta; há spray grátis no quarto do andar de cima na casa do CJ).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Recompensas",
+                                                    "content":  "• Na cozinha/sala da casa do CJ (Grove Street) passam a surgir grátis: **AK-47, Cano Serrano (Sawed-Off), Tec-9 e Coquetel Molotov**.\n• Todos os aliados da Grove Street passam a carregar **Desert Eagle, SMG e Faca** (ajudando muito nas guerras de território!).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "pichacoes spray tags 100 los santos grove street ak47 molotov tec9 desert eagle"
+                    },
+                    {
+                        "id":  20,
+                        "title":  "50 Fotos / Snapshots (San Fierro)",
+                        "subtitle":  "📷 $100.000 de Bônus + Sniper, Micro SMG, Granadas e Escopeta em Doherty",
+                        "category":  "collectibles",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Como Encontrar \u0026 Fotografar",
+                                                    "content":  "• **50 ícones flutuantes** em San Fierro que só aparecem claramente ao mirar através da **Câmera** (Botão Direito do mouse + clique esquerdo).\n• **Dica visual**: durante a **noite** (20:00–06:00), os pontos de Snapshot emitem um brilho roxo visível mesmo a olho nu, facilitando localizar os pontos no alto de pontes e prédios!",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Recompensas",
+                                                    "content":  "• **$100** por foto + **$100.000** extras ao completar as 50.\n• Surge arsenal gratuito na frente da garagem **Doherty**: **Rifle Sniper, Micro SMG, Granadas e Escopeta**.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "fotos snapshots 50 san fierro doherty 100000 sniper granadas brilho roxo"
+                    },
+                    {
+                        "id":  21,
+                        "title":  "50 Ferraduras / Horseshoes (Las Venturas)",
+                        "subtitle":  "🍀 Sorte Máxima (Cassinos) + M4, Satchel, Combat Shotgun \u0026 SMG",
+                        "category":  "collectibles",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Localização \u0026 Dicas",
+                                                    "content":  "• **50 Ferraduras** espalhadas exclusivamente por Las Venturas e entorno próximo — muitas ficam em **telhados altos**, letreiros de cassinos, marquises e dentro dos túneis de trem.\n• Leve um **Jetpack** (Verdant Meadows) para economizar dezenas de minutos.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Recompensas",
+                                                    "content":  "• Sobe o atributo oculto **Sorte (Luck)** ao máximo (**100/100** — melhora ganhos nos cassinos!) e dá um pequeno bônus de Sex Appeal.\n• Surge arsenal gratuito na porta do cassino **The Four Dragons**: **M4, Escopeta de Combate (SPAZ-12), SMG e Bombas C4 (Satchel Charges)**.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "ferraduras horseshoes 50 las venturas sorte luck four dragons m4 spaz12 c4 jetpack"
+                    },
+                    {
+                        "id":  22,
+                        "title":  "50 Ostras / Oysters \u0026 70 Saltos Únicos",
+                        "subtitle":  "🦪 Fôlego Infinito + Namorar Sem Requisitos • 🏍️ 70 Saltos ($35.000)",
+                        "category":  "collectibles",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "50 Ostras Submersas (Obrigatório para 100%)",
+                                                    "content":  "• Espalhadas embaixo d\u0027água por **todo o estado de San Andreas** (rios, lagos, canais e costa — use **Jetpack** ou **Vortex/Barco** para ir rápido de ponto a ponto).\n• ⚠️ **Cuidado (#28 e #29)**: ficam dentro da doca fechada da **Base Naval de Easter Basin** (San Fierro), dando 5 estrelas na hora! Mergulhe rápido pelo canal e saia nadando por baixo d\u0027água.\n• **Recompensas**: **Capacidade Pulmonar Máxima**, +$100 por ostra e **TODAS as namoradas aceitam sair com o CJ** independente de Músculo, Gordura ou Sex Appeal!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "70 Saltos Únicos (Unique Stunt Jumps — Opcional)",
+                                                    "content":  "• **NÃO contam** para os 100%, mas rendem **$500 cada** ($35.000 no total) e estatísticas extras.\n• Melhor veículo para acertar a distância/pouso exigidos: moto **NRG-500**.",
+                                                    "color":  "gray"
+                                                }
+                                            ],
+                        "tags":  "ostras oysters 50 folego namoradas base naval 70 saltos unicos unique stunt jumps nrg500"
+                    },
+                    {
+                        "id":  23,
+                        "title":  "Guia das 6 Namoradas (Localização, Bônus \u0026 Recompensas)",
+                        "subtitle":  "❤️ Manter armas ao morrer (Katie) e ao ser preso (Barbara)!",
+                        "category":  "collectibles",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "As 2 Melhores Habilidades do Jogo (Katie \u0026 Barbara)",
+                                                    "content":  "• **Katie Zhan** (Garcia, San Fierro — perto do campo de golfe; prefere Músculo): bônus passivo IMEDIATO de **manter TODAS as armas e dinheiro ao morrer (Wasted)**! Em 50% libera carro Romero; em 100% Traje de Médica.\n• **Barbara Schternvart** (Delegacia de El Quebrados — Deserto; prefere Gordura/50 Ostras): bônus passivo de **manter TODAS as armas e dinheiro ao ser preso (Busted)**! Em 50% Police Ranger; em 100% Uniforme Policial.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Outras 3 Namoradas Úteis",
+                                                    "content":  "• **Michelle Cannes** (dentro da Auto-Escola em San Fierro; prefere Gordura): deixa a oficina **Pay \u0027n\u0027 Spray anexa à casa dela 100% GRÁTIS**! Em 50% Monster Truck; em 100% Macacão de Corrida.\n• **Helena Wankstein** (sacada ao lado da Ammu-Nation de Blueberry; prefere magro/baixo músculo): libera galpão na fazenda dela com **Lança-chamas, Motosserra, Molotov e 9mm**. Em 50% Bandito; em 100% Traje Rural.\n• **Denise Robinson** (história \u0027Burning Desire\u0027 em Ganton): em 50% Hustler; em 100% Pimp Suit.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Millie Perkins (Cassino Caligula — Las Venturas)",
+                                                    "content":  "• Conhecida na missão **Key to Her Heart** (precisa do cartão de acesso dela para o assalto ao Caligula\u0027s).\n• Dica: vista o **Gimp Suit** durante o encontro para subir +20% direto, ou chegue a **35%** — alternativa rápida sem spoiler de espera: eliminar Millie já derruba o cartão e o Woozie liga avisando onde pegar!",
+                                                    "color":  "purple"
+                                                }
+                                            ],
+                        "tags":  "namoradas katie zhan barbara michelle helena denise millie perks manter armas wasted busted pay n spray keycard caligula"
+                    },
+                    {
+                        "id":  24,
+                        "title":  "Perícia em Armas (Hitman) \u0026 Armas Gratuitas no Mapa",
+                        "subtitle":  "🔫 Dual Wield em 4 Armas • Localização grátis de Minigun, RPG \u0026 Colete",
+                        "category":  "weapons_vehicles",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Desert Eagle / Arsenal Hitman",
+                                                    "content":  "desert_eagle.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Nível Assassino (Hitman) \u0026 Dual Wield",
+                                                    "content":  "• Ao atingir 1000/1000 (Hitman), você passa a atirar andando, dobra o alcance e ganha **2 armas ao mesmo tempo (Dual Wield)** nestas 4 categorias: **Pistola 9mm**, **Escopeta Cano Serrano (Sawed-Off)**, **Micro SMG** e **Tec-9**!\n• **Treino rápido**: estacione um carro qualquer dentro da sua garagem e fique atirando nele com a arma desejada — quando sair fumaça, afaste-se para a porta fechar (conserta o carro na hora!) e repita!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Melhores Armas Grátis Pelo Mapa (Sem Comprar)",
+                                                    "content":  "• **Minigun**: 4 locais — destaque na **obra de construção em Roca Escalante (LV)**, no **topo da ponte ferroviária de Kincaid Bridge** (SF -\u003e LV) e no **Rancho do Mike Toreno** (após a missão *Vertical Bird*!).\n• **M4 / Tec-9 / AK-47**: atrás do aeroporto de Los Santos (M4 entre rampas), telhados de Ganton (Tec-9), Mulholland (M4/Colete).\n• **Lança-Foguetes Teleguiado**: no **Aeroporto de San Fierro**, entre tanques de combustível na ponta sul da pista.\n• **Truque de munição infinita na Ammu-Nation**: entre e saia repetidamente do desafio de Tiro ao Alvo (Shooting Range) mantendo a arma para duplicar munição!",
+                                                    "color":  "yellow"
+                                                }
+                                            ],
+                        "tags":  "hitman pericia armas dual wield minigun m4 rpg teleguiado garagem ammu-nation"
+                    },
+                    {
+                        "id":  25,
+                        "title":  "Veículos Raros, Secretos \u0026 Melhores Transportes",
+                        "subtitle":  "🏍️ NRG-500 • 🚁 Hunter • 🛩️ Hydra • 🚀 Jetpack • 🏎️ Bullet \u0026 Infernus",
+                        "category":  "weapons_vehicles",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "NRG-500 (Moto Mais Rápida)",
+                                                    "content":  "nrg_500.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Motos \u0026 Carros Esportivos",
+                                                    "content":  "• **NRG-500 (Moto mais rápida do jogo)**: spawn fixo no topo da garagem multinível em **East Beach (Los Santos)** e dentro da doca seca em **Easter Basin (San Fierro)** — funciona logo desde o Ato 1!\n• **Bullet / Turismo / Infernus / Banshee**: circulam em bairros ricos (Vinewood/Rodeo e Las Venturas The Strip) e em **Doherty/Escola**.\n• **Vortex (Hovercraft)**: na praia oeste de **Bayside** ou atrás do Pirates in Men\u0027s Pants em LV (após concluir *Cut Throat Business*).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Aeronaves, Jetpack \u0026 Blindados",
+                                                    "content":  "• **Jetpack**: surge grátis permanentemente na pista de **Verdant Meadows** após a missão **Black Project**.\n• **Hydra**: no hangar do porta-aviões da Base Naval (easter basin) ou no telhado do Sweet após **100%** (e em Verdant Meadows após *Vertical Bird*).\n• **Hunter**: Ouro na Escola de Aviação (Verdant Meadows) ou na **Área 69 / Base Naval**.\n• **Tanque Rhino**: Área 69 (Deserto) ou debaixo da ponte de Ganton após **100%**.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "veiculos raros nrg500 nrg-500 jetpack hydra hunter rhino vortex east beach easter basin verdant meadows"
+                    },
+                    {
+                        "id":  26,
+                        "title":  "Atributos do CJ \u0026 Recrutamento de Gangue (Teclas PC)",
+                        "subtitle":  "💪 Músculo, Fôlego, Respeito \u0026 Como Recrutar até 7 Aliados",
+                        "category":  "weapons_vehicles",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Atributos Principais do CJ",
+                                                    "content":  "• **Músculo (Muscle)**: aumenta dano corpo a corpo e exige **35%+** para aprender os 3 estilos de luta. Academia só treina até o limite diário (depois precisa comer/dormir ou voltar no dia seguinte).\n• **Gordura (Fat)**: protege levemente na stamina extra, mas reduz velocidade de corrida e impede certas namoradas (se ficar obeso demais, queime com bicicleta/esteira!).\n• **Capacidade Pulmonar**: nade debaixo d\u0027água com frequência (ou colete as **50 Ostras**). Missão **Amphibious Assault** exige ter nível mínimo de fôlego para iniciar!",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Respeito \u0026 Limite de Gangue (Botões no PC)",
+                                                    "content":  "• Quanto maior seu **Respeito**, mais membros da Grove Street pode recrutar (máximo de **7 aliados** aos 100% de Respeito).\n• **Como recrutar no PC**: chegue perto de um membro vestido de verde, segure **Botão Direito do Mouse** para mirar nele e aperte **G** (ou **H** para mandar ficar parado / segure H para dispensar).\n• Aliados podem entrar em carros de 4 portas (Sultan, Huntley, Limusine, etc.) com você e dão cobertura nas guerras de território!",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "atributos cj musculo gordura respeito folego amphibious assault recrutar aliados g h grove street"
+                    }
+                ]
+}
