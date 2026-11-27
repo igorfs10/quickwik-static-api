@@ -1,179 +1,352 @@
 {
-  "id": "minecraft",
-  "title": "Minecraft",
-  "icon": "⛏️",
-  "updated_at": "2026-11-27T16:40:00Z",
-  "sources": [
-    {
-      "name": "Minecraft Wiki",
-      "url": "https://minecraft.wiki/",
-      "license": "CC BY-NC-SA 3.0 — Referência factual com redação própria"
-    },
-    {
-      "name": "Minecraft Wiki (Fandom)",
-      "url": "https://minecraft.fandom.com/",
-      "license": "CC BY-SA 3.0 — Referência factual e sprites oficiais do jogo"
-    },
-    {
-      "name": "PCGamingWiki — Minecraft",
-      "url": "https://www.pcgamingwiki.com/wiki/Minecraft",
-      "license": "CC BY-NC-SA 3.0 — Referência técnica de executáveis"
-    }
-  ],
-  "process_keywords": [
-    "minecraft",
-    "minecraftlauncher",
-    "javaw"
-  ],
-  "categories": [
-    { "id": "all", "label": "Todos" },
-    { "id": "mining_gear", "label": "⛏️ Minérios, Netherita & Maça" },
-    { "id": "enchantments", "label": "✨ Encantamentos" },
-    { "id": "brewing", "label": "🧪 Poções & Alquimia" },
-    { "id": "villagers_mechanics", "label": "🏡 Aldeões, Beacon & Mecânicas" },
-    { "id": "bosses_structures", "label": "🐉 Chefes & Estruturas" }
-  ],
-  "entries": [
-    {
-      "id": 1,
-      "title": "Distribuição de Minérios (Melhores Camadas Y — 1.21)",
-      "subtitle": "⛏️ Diamante Y=-59 • Detritos Ancestrais Y=15 • Ferro Y=16 e Y=232",
-      "category": "mining_gear",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Diamond)", "type": "image", "content": "diamond.webp", "color": "cyan" },
-        { "title": "Visual (Ancient Debris)", "type": "image", "content": "ancient_debris.webp", "color": "red" },
-        { "title": "Tabela das Melhores Camadas (Y)", "type": "text", "content": "• Diamante (Diamond): Y = -59 (faixa -64 a 16 — Y=-53 evita mais lagos de lava!). Menor chance se exposto ao ar.\n• Detritos Ancestrais (Ancient Debris — Nether): Y = 15 (faixa 8 a 119 — use Camas ou TNT!).\n• Ferro (Iron): Y = 16 (subsolo) e Y = 232 (picos de montanhas altas!).\n• Carvão (Coal): Y = 96 (colinas e montanhas — não gera abaixo de Y=0).\n• Cobre (Copper): Y = 48 (veios gigantes em cavernas de Dripstone).\n• Ouro (Gold): Y = -16 (subsolo geral) ou até Y = 256 no bioma Badlands (Mesa).\n• Lápis-Lazúli: Y = 0 (faixa -64 a 64).\n• Redstone: Y = -59 (faixa -64 a 16).\n• Esmeralda: Y = 232 (apenas biomas de Montanha).", "color": "yellow" },
-        { "title": "Fortuna III vs. Toque Suave (Silk Touch)", "type": "text", "content": "• Minere Diamante, Carvão, Esmeralda, Redstone e Lápis com Silk Touch para economizar inventário e quebre na base com Fortuna III (multiplica até 4×!).\n• Ferro, Cobre e Ouro Bruto (Raw Ore) também multiplicam com Fortuna III; Ancient Debris NÃO multiplica com Fortuna.", "color": "green" }
-      ],
-      "tags": "minerios camadas y level diamante diamond ferro iron ancient debris ouro gold esmeralda fortuna silk touch"
-    },
-    {
-      "id": 2,
-      "title": "Netherita & Moldes de Ferraria (Smithing Templates — 1.20+)",
-      "subtitle": "⛏️ Molde em Bastions + 4 Fragmentos + 4 Barras de Ouro = 1 Netherita",
-      "category": "mining_gear",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Netherite Ingot)", "type": "image", "content": "netherite_ingot.webp", "color": "gray" },
-        { "title": "Como Evoluir Equipamento de Diamante", "type": "text", "content": "• 1. Encontre o Molde 'Netherite Upgrade' nos baús dos Bastion Remnants (100% garantido na sala do tesouro!).\n• 2. Duplique o Molde na bancada antes de gastar o último: 1× Molde + 7× Diamantes + 1× Netherrack = 2 Moldes.\n• 3. Asse Ancient Debris -> Netherite Scrap. Combine 4× Scrap + 4× Gold Ingot = 1× Netherite Ingot.\n• 4. Na Smithing Table: Molde + Item de Diamante + 1× Netherite Ingot (mantém todos os encantamentos!).", "color": "yellow" },
-        { "title": "Dica", "type": "text", "content": "• Equipamentos de Netherita NÃO queimam se caírem na lava e dão resistência extra a repulsão (knockback) na armadura.", "color": "green" }
-      ],
-      "tags": "netherita netherite upgrade smithing template bastion remnant scrap diamante ouro"
-    },
-    {
-      "id": 3,
-      "title": "A Maça (The Mace) & Câmaras do Julgamento (1.21)",
-      "subtitle": "⛏️ Núcleo Pesado + Vara de Breeze • Dano infinito por altura de queda!",
-      "category": "mining_gear",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Mace)", "type": "image", "content": "mace.webp", "color": "purple" },
-        { "title": "Visual (Heavy Core)", "type": "image", "content": "heavy_core.webp", "color": "gray" },
-        { "title": "Como Achar Trial Chambers & Fabricar a Maça", "type": "text", "content": "• Localização (Y = -20 a -40): compre o Mapa de Explorador do Julgamento com um Aldeão Cartógrafo (nível Journeyman).\n• Breeze Rod: cai ao derrotar o mob Breeze nos Trial Spawners.\n• Heavy Core (~8–15% de chance): só sai dos COFRES SINISTROS (Ominous Vaults)! Beba uma Ominous Bottle (drop de Raid Captains ou cofres normais) antes de iniciar o Trial Spawner para ganhar Ominous Trial Keys.\n• Craft: 1× Heavy Core acima de 1× Breeze Rod.", "color": "yellow" },
-        { "title": "Mecânica & Encantamentos Exclusivos da Maça", "type": "text", "content": "• Ao acertar um golpe após cair >1,5 bloco, você ANULA TODO o dano de queda e multiplica o dano pela altura!\n• Density V (Densidade): aumenta drasticamente o dano por bloco caído (melhor para PvE/Chefes).\n• Breach IV (Brecha): ignora 15% da armadura por nível (até 60% no IV — rei no PvP!). ⚠️ Incompatível com Density.\n• Wind Burst III (Rajada de Vento): lança você de volta para o alto após o impacto para encadear golpes (sai apenas de Ominous Vaults — combina com Density ou Breach!).", "color": "cyan" }
-      ],
-      "tags": "maca mace heavy core breeze rod trial chambers 1.21 tricky trials density breach wind burst ominous vault"
-    },
-    {
-      "id": 4,
-      "title": "Encantamentos I: Armas, Arco, Besta & Tridente",
-      "subtitle": "✨ Melhores combinações de Espada, Machado, Arco e Tridente",
-      "category": "enchantments",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Trident)", "type": "image", "content": "trident.webp", "color": "cyan" },
-        { "title": "Combinações Ideais de Armas", "type": "text", "content": "• Espada: Sharpness V (ou Smite V para Wither/mortos-vivos!), Looting III, Sweeping Edge III (Java), Fire Aspect II, Unbreaking III, Mending.\n• Machado de Combate: Sharpness V (ou Smite V), Efficiency V, Unbreaking III, Mending.\n• Arco (Bow): Power V, Punch II, Flame, Unbreaking III + Infinity OU Mending (⚠️ incompatíveis!).\n• Besta (Crossbow): Quick Charge III, Multishot OU Piercing IV, Unbreaking III, Mending.\n• Tridente: Impaling V, Unbreaking III, Mending + Loyalty III & Channeling (volta e invoca raios na tempestade!) OU Riptide III (voa na chuva/água — incompatível com Loyalty/Channeling!).", "color": "cyan" }
-      ],
-      "tags": "encantamentos espada arco besta tridente sharpness smite looting infinity mending riptide loyalty channeling"
-    },
-    {
-      "id": 5,
-      "title": "Encantamentos II: Armadura, Ferramentas, Elytra & Bigorna",
-      "subtitle": "✨ Incompatibilidades críticas e como evitar 'Muito Caro!' na Bigorna",
-      "category": "enchantments",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Elytra)", "type": "image", "content": "elytra.webp", "color": "purple" },
-        { "title": "Armadura, Ferramentas & Elytra", "type": "text", "content": "• Capacete: Protection IV, Respiration III, Aqua Affinity, Unbreaking III, Mending.\n• Peitoral & Elytra: Protection IV (Peitoral), Unbreaking III, Mending (Thorns III opcional, mas gasta durabilidade mais rápido).\n• Calças: Protection IV, Swift Sneak III (só em baús de Ancient City!), Unbreaking III, Mending.\n• Botas: Protection IV, Feather Falling IV (obrigatório!), Depth Strider III (ou Frost Walker II — ⚠️ incompatíveis!), Soul Speed III (troca com Piglins).\n• Picareta / Pá / Enxada: Efficiency V, Unbreaking III, Mending + Fortune III OU Silk Touch.", "color": "cyan" },
-        { "title": "⚠️ Como Evitar 'Muito Caro!' (Too Expensive!) na Bigorna", "type": "text", "content": "• Cada uso na Bigorna dobra a penalidade de trabalho prévio (a partir de 39 níveis trava no sobrevivência).\n• Regra de Ouro: combine os livros em PARES (árvore binária: Livro+Livro -> 2, Item+Livro -> 1) e aplique os encantamentos mais caros primeiro em livros já agrupados.", "color": "red" }
-      ],
-      "tags": "encantamentos armadura ferramentas elytra protection feather falling swift sneak mending anvil bigorna too expensive"
-    },
-    {
-      "id": 6,
-      "title": "Alquimia I: Poções Clássicas & Modificadores",
-      "subtitle": "🧪 Base Awkward Potion (Nether Wart) + ingredientes essenciais",
-      "category": "brewing",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Brewing Stand)", "type": "image", "content": "brewing_stand.webp", "color": "purple" },
-        { "title": "Modificadores & Receitas Úteis (Sobre Awkward Potion)", "type": "text", "content": "• Base (95% das poções): Garrafa de Água + Fungo do Nether (Nether Wart) = Poção Estranha (Awkward Potion).\n• Modificadores: Redstone (+duração) | Glowstone (Nível II) | Pólvora (Arremessável/Splash) | Bafo do Dragão (Prolongada/Lingering) | Olho de Aranha Fermentado (inverte efeito!).\n• Resistência ao Fogo (Obrigatório no Nether!): + Magma Cream.\n• Visão Noturna: + Cenoura Dourada (+ Olho Fermentado vira Invisibilidade!).\n• Cura Instantânea: + Melancia Reluzente (Glistering Melon).\n• Regeneração: + Lágrima de Ghast (Ghast Tear).\n• Força: + Pó de Blaze | Rapidez: + Açúcar | Salto: + Pé de Coelho.\n• Queda Lenta (Slow Falling — contra Dragão/End!): + Membrana de Phantom.\n• Respiração Aquática: + Baiacu (Pufferfish).\n• ⚠️ Fraqueza (Weakness — para curar Aldeão Zumbi!): Água DIRETO + Olho de Aranha Fermentado (SEM Nether Wart!).", "color": "yellow" }
-      ],
-      "tags": "pocoes alquimia brewing stand nether wart resistencia fogo visao noturna slow falling weakness aldeao zumbi"
-    },
-    {
-      "id": 7,
-      "title": "Alquimia II: As 4 Novas Poções da 1.21 (Trial Chambers)",
-      "subtitle": "🧪 Infestação, Gosma, Teia e Carga de Vento (Sobre Awkward Potion)",
-      "category": "brewing",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Receitas Exatas (3:00 base)", "type": "text", "content": "• Poção de Infestação (Infested): Awkward Potion + Pedra (Stone) -> 10% de gerar 1–2 Silverfish ao sofrer dano (ótimo para farm de XP!).\n• Poção de Gosma (Oozing): Awkward Potion + Bloco de Slime -> gera 2 Slimes médios quando o alvo morre (farm infinito de Slime!).\n• Poção de Teia (Weaving): Awkward Potion + Teia de Aranha (Cobweb) -> gera teias ao morrer e permite andar rápido dentro de teias.\n• Poção de Carga de Vento (Wind Charging): Awkward Potion + Vara de Breeze (Breeze Rod) -> explode em rajada de vento ao morrer.", "color": "cyan" }
-      ],
-      "tags": "pocoes 1.21 infested oozing weaving wind charging breeze rod slime farm xp"
-    },
-    {
-      "id": 8,
-      "title": "Aldeões: Todas as 13 Bancadas de Trabalho & Cura Zumbi",
-      "subtitle": "🏡 Lista completa das 13 profissões + descontos permanentes de 1 Esmeralda",
-      "category": "villagers_mechanics",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "As 13 Profissões e Bancadas", "type": "text", "content": "• Bibliotecário (Librarian): Atril (Lectern) — vende Livros Encantados (Mending, Unbreaking III, Protection IV, Sharpness V) e Etiquetas.\n• Flecheiro (Fletcher): Bancada de Arco e Flecha (Fletching Table) — compra Gravetos (32 gravetos = 1 esmeralda, melhor farm inicial!).\n• Fazendeiro (Farmer): Composteira (Composter) — compra plantações e vende Cenouras Douradas.\n• Armeiro / Ferramenteiro / Ferreiro de Armas: Alto-Forno (Blast Furnace), Mesa de Ferraria (Smithing Table) e Rebolo (Grindstone) — vendem armaduras/ferramentas/armas de Diamante.\n• Clérigo: Suporte de Poções (Brewing Stand) — compra Carne Podre e vende Lápis-Lazúli, Ender Pearls e Redstone.\n• Cartógrafo: Cartography Table | Açougueiro: Defumador (Smoker) | Pescador: Barril | Coureiro: Caldeirão | Pedreiro: Cortador de Pedra | Pastor: Tear.", "color": "yellow" },
-        { "title": "Curar Aldeão Zumbi (Descontos Permanentes)", "type": "text", "content": "• 1. Jogue uma Poção Arremessável de Fraqueza (Splash Weakness) no Aldeão Zumbi.\n• 2. Dê 1 Maçã Dourada (Golden Apple comum) com o botão direito (espere 2–5 min tremendo).\n• Dica: coloque grades/camas perto para acelerar; após 1 cura (Java 1.20.2+) os preços caem drasticamente para 1 esmeralda em vários livros!", "color": "green" }
-      ],
-      "tags": "aldeoes villagers bancadas profissoes lectern mending fletcher esmeralda curar zumbi"
-    },
-    {
-      "id": 9,
-      "title": "Sinalizador (Beacon) & Condutor (Conduit)",
-      "subtitle": "🏡 Tamanhos exatos das pirâmides (9 a 164 blocos) + base aquática",
-      "category": "villagers_mechanics",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Beacon)", "type": "image", "content": "beacon.webp", "color": "cyan" },
-        { "title": "Visual (Conduit)", "type": "image", "content": "conduit.webp", "color": "cyan" },
-        { "title": "Pirâmides do Beacon (Ferro, Ouro, Esmeralda, Diamante ou Netherita)", "type": "text", "content": "• Nível 1 (3×3): 9 blocos (81 minérios) — Velocidade I ou Pressa I (Haste I) — alcance 20 blocos.\n• Nível 2 (5×5 + 3×3): 34 blocos — libera Resistência I e Super Pulo I — alcance 30 blocos.\n• Nível 3 (7×7 + 5×5 + 3×3): 83 blocos — libera Força I — alcance 40 blocos.\n• Nível 4 Completo (9×9 até 3×3): 164 blocos (1.476 minérios) — libera PRESSA II (Haste II: quebra pedra instantaneamente com Eficiência V!) ou Regeneração I — alcance 50 blocos.", "color": "yellow" },
-        { "title": "Condutor (Conduit — Poder Subaquático)", "type": "text", "content": "• Craft: 1× Coração do Mar (Heart of the Sea — Tesouro Enterrado) + 8× Conchas de Náutilo.\n• Ativação: envolva em uma moldura de anéis 5×5 feita de Prismarino (mínimo 16 blocos submersos até 42 blocos para alcance máximo de 96 blocos com dano automático a mobs aquáticos!).", "color": "cyan" }
-      ],
-      "tags": "beacon sinalizador piramide haste ii pressa 164 blocos conduit condutor prismarino"
-    },
-    {
-      "id": 10,
-      "title": "Coordenadas do Nether (÷8) & Caixas de Shulker",
-      "subtitle": "🏡 Conexão perfeita de portais + Cidades do End (Elytra)",
-      "category": "villagers_mechanics",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Visual (Shulker Box)", "type": "image", "content": "shulker_box.webp", "color": "purple" },
-        { "title": "Matemática de Portais (Overworld <-> Nether)", "type": "text", "content": "• Regra exata: 1 bloco no Nether = 8 blocos no Overworld nos eixos X e Z (Y não muda a proporção!).\n• Para ligar um portal sem errar o destino: anote (X, Y, Z) do portal no Overworld, divida X e Z por 8 (X ÷ 8, Z ÷ 8), entre no Nether, quebre o portal gerado errado se necessário e construa um novo exatamente em (X÷8, Y, Z÷8).", "color": "yellow" },
-        { "title": "Cidades do End (End Cities & Elytra)", "type": "text", "content": "• Após derrotar o Dragão, jogue uma Ender Pearl no portal pequeno flutuante (End Gateway).\n• Procure cidades com Barco do End (End Ship): dentro da cabine fica a Elytra (asas!) e na proa a Cabeça do Dragão.\n• Mate Shulkers para pegar 2× Shulker Shells + 1× Baú = Shulker Box (mochila que guarda itens ao quebrar!).", "color": "green" }
-      ],
-      "tags": "portal nether coordenadas dividir por 8 shulker box end city elytra"
-    },
-    {
-      "id": 11,
-      "title": "Estruturas & Chefes: Fortaleza, Bastion, Dragão, Wither & Warden",
-      "subtitle": "🐉 Dicas de combate, Totem da Imortalidade e sobrevivência em Ancient Cities",
-      "category": "bosses_structures",
-      "spoiler": true,
-      "additional_data": [
-        { "title": "Visual (Wither)", "type": "image", "content": "wither.webp", "color": "red" },
-        { "title": "Visual (Totem of Undying)", "type": "image", "content": "totem_of_undying.webp", "color": "yellow" },
-        { "title": "Guia Rápido das Estruturas & Chefes", "type": "text", "content": "• Bastions (Nether): ⚠️ SEMPRE vista pelo menos 1 peça de Armadura de OURO para Piglins não atacarem (Piglins Brutes atacam mesmo assim — use lava ou torre para eliminá-los!).\n• Fortaleza do Nether: pegue Blaze Rods (para Olhos do End e Suporte de Poções) e 3× Cabeças de Wither Skeleton.\n• Ender Dragon: leve 1 Balde de Água, Poção de Queda Lenta, 5–6 Camas (explodem causando dano massivo quando o Dragão pousa na fonte!) e bolas de neve/arco para quebrar os cristais nas torres.\n• Wither (3 Wither Skulls + 4 Soul Sand/Soil): enfrente em um túnel longo na camada Y=-54 (ou embaixo do portal de saída do End na Bedrock para travá-lo!). Use espada com Smite V.\n• Ancient City & Warden: ande SEMPRE agachado (Shift), cerque sensores com blocos de Lã (Wool) e se invocar o Warden, fuja em silêncio em vez de lutar.\n• Totem of Undying: dropa de Evokers em Woodland Mansions ou Raids (segure na mão secundária para evitar morte!).", "color": "green" }
-      ],
-      "tags": "ender dragon wither warden ancient city bastion fortaleza nether totem of undying raid"
-    }
-  ]
+    "id":  "minecraft",
+    "title":  "Minecraft",
+    "icon":  "⛏️",
+    "updated_at":  "2026-11-27T19:20:00Z",
+    "sources":  [
+                    {
+                        "name":  "Minecraft Wiki",
+                        "url":  "https://minecraft.wiki/",
+                        "license":  "CC BY-NC-SA 3.0 — Referência factual com redação própria"
+                    },
+                    {
+                        "name":  "Minecraft Wiki (Fandom)",
+                        "url":  "https://minecraft.fandom.com/",
+                        "license":  "CC BY-SA 3.0 — Referência factual e sprites oficiais do jogo"
+                    },
+                    {
+                        "name":  "PCGamingWiki — Minecraft",
+                        "url":  "https://www.pcgamingwiki.com/wiki/Minecraft",
+                        "license":  "CC BY-NC-SA 3.0 — Referência técnica de executáveis"
+                    }
+                ],
+    "process_keywords":  [
+                             "minecraft",
+                             "minecraftlauncher",
+                             "javaw"
+                         ],
+    "categories":  [
+                       {
+                           "id":  "all",
+                           "label":  "Todos"
+                       },
+                       {
+                           "id":  "mining_gear",
+                           "label":  "⛏️ Minérios, Netherita \u0026 Maça"
+                       },
+                       {
+                           "id":  "enchantments",
+                           "label":  "✨ Encantamentos"
+                       },
+                       {
+                           "id":  "brewing",
+                           "label":  "🧪 Poções \u0026 Alquimia"
+                       },
+                       {
+                           "id":  "villagers_mechanics",
+                           "label":  "🏡 Aldeões, Beacon \u0026 Mecânicas"
+                       },
+                       {
+                           "id":  "bosses_structures",
+                           "label":  "🐉 Chefes \u0026 Estruturas"
+                       }
+                   ],
+    "entries":  [
+                    {
+                        "id":  1,
+                        "title":  "Distribuição de Minérios (Melhores Camadas Y — 1.21)",
+                        "subtitle":  "⛏️ Diamante Y=-59 • Detritos Ancestrais Y=15 • Ferro Y=16 e Y=232",
+                        "category":  "mining_gear",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Diamond)",
+                                                    "type":  "image",
+                                                    "content":  "diamond.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Visual (Ancient Debris)",
+                                                    "type":  "image",
+                                                    "content":  "ancient_debris.webp",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "title":  "Tabela das Melhores Camadas (Y)",
+                                                    "type":  "text",
+                                                    "content":  "• Diamante (Diamond): Y = -59 (faixa -64 a 16 — Y=-53 evita mais lagos de lava!). Menor chance se exposto ao ar.\n• Detritos Ancestrais (Ancient Debris — Nether): Y = 15 (faixa 8 a 119 — use Camas ou TNT!).\n• Ferro (Iron): Y = 16 (subsolo) e Y = 232 (picos de montanhas altas!).\n• Carvão (Coal): Y = 96 (colinas e montanhas — não gera abaixo de Y=0).\n• Cobre (Copper): Y = 48 (veios gigantes em cavernas de Dripstone).\n• Ouro (Gold): Y = -16 (subsolo geral) ou até Y = 256 no bioma Badlands (Mesa).\n• Lápis-Lazúli: Y = 0 (faixa -64 a 64).\n• Redstone: Y = -59 (faixa -64 a 16).\n• Esmeralda: Y = 232 (apenas biomas de Montanha).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Fortuna III vs. Toque Suave (Silk Touch)",
+                                                    "type":  "text",
+                                                    "content":  "• Minere Diamante, Carvão, Esmeralda, Redstone e Lápis com Silk Touch para economizar inventário e quebre na base com Fortuna III (multiplica até 4×!).\n• Ferro, Cobre e Ouro Bruto (Raw Ore) também multiplicam com Fortuna III; Ancient Debris NÃO multiplica com Fortuna.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "minerios camadas y level diamante diamond ferro iron ancient debris ouro gold esmeralda fortuna silk touch"
+                    },
+                    {
+                        "id":  2,
+                        "title":  "Netherita \u0026 Moldes de Ferraria (Smithing Templates — 1.20+)",
+                        "subtitle":  "⛏️ Molde em Bastions + 4 Fragmentos + 4 Barras de Ouro = 1 Netherita",
+                        "category":  "mining_gear",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Netherite Ingot)",
+                                                    "type":  "image",
+                                                    "content":  "netherite_ingot.webp",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Como Evoluir Equipamento de Diamante",
+                                                    "type":  "text",
+                                                    "content":  "• 1. Encontre o Molde \u0027Netherite Upgrade\u0027 nos baús dos Bastion Remnants (100% garantido na sala do tesouro!).\n• 2. Duplique o Molde na bancada antes de gastar o último: 1× Molde + 7× Diamantes + 1× Netherrack = 2 Moldes.\n• 3. Asse Ancient Debris -\u003e Netherite Scrap. Combine 4× Scrap + 4× Gold Ingot = 1× Netherite Ingot.\n• 4. Na Smithing Table: Molde + Item de Diamante + 1× Netherite Ingot (mantém todos os encantamentos!).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Dica",
+                                                    "type":  "text",
+                                                    "content":  "• Equipamentos de Netherita NÃO queimam se caírem na lava e dão resistência extra a repulsão (knockback) na armadura.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "netherita netherite upgrade smithing template bastion remnant scrap diamante ouro"
+                    },
+                    {
+                        "id":  3,
+                        "title":  "A Maça (The Mace) \u0026 Câmaras do Julgamento (1.21)",
+                        "subtitle":  "⛏️ Núcleo Pesado + Vara de Breeze • Dano infinito por altura de queda!",
+                        "category":  "mining_gear",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Mace)",
+                                                    "type":  "image",
+                                                    "content":  "mace.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Visual (Heavy Core)",
+                                                    "type":  "image",
+                                                    "content":  "heavy_core.webp",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "title":  "Como Achar Trial Chambers \u0026 Fabricar a Maça",
+                                                    "type":  "text",
+                                                    "content":  "• Localização (Y = -20 a -40): compre o Mapa de Explorador do Julgamento com um Aldeão Cartógrafo (nível Journeyman).\n• Breeze Rod: cai ao derrotar o mob Breeze nos Trial Spawners.\n• Heavy Core (~8–15% de chance): só sai dos COFRES SINISTROS (Ominous Vaults)! Beba uma Ominous Bottle (drop de Raid Captains ou cofres normais) antes de iniciar o Trial Spawner para ganhar Ominous Trial Keys.\n• Craft: 1× Heavy Core acima de 1× Breeze Rod.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Mecânica \u0026 Encantamentos Exclusivos da Maça",
+                                                    "type":  "text",
+                                                    "content":  "• Ao acertar um golpe após cair \u003e1,5 bloco, você ANULA TODO o dano de queda e multiplica o dano pela altura!\n• Density V (Densidade): aumenta drasticamente o dano por bloco caído (melhor para PvE/Chefes).\n• Breach IV (Brecha): ignora 15% da armadura por nível (até 60% no IV — rei no PvP!). ⚠️ Incompatível com Density.\n• Wind Burst III (Rajada de Vento): lança você de volta para o alto após o impacto para encadear golpes (sai apenas de Ominous Vaults — combina com Density ou Breach!).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "maca mace heavy core breeze rod trial chambers 1.21 tricky trials density breach wind burst ominous vault"
+                    },
+                    {
+                        "id":  4,
+                        "title":  "Encantamentos I: Armas, Arco, Besta \u0026 Tridente",
+                        "subtitle":  "✨ Melhores combinações de Espada, Machado, Arco e Tridente",
+                        "category":  "enchantments",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Trident)",
+                                                    "type":  "image",
+                                                    "content":  "trident.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Combinações Ideais de Armas",
+                                                    "type":  "text",
+                                                    "content":  "• Espada: Sharpness V (ou Smite V para Wither/mortos-vivos!), Looting III, Sweeping Edge III (Java), Fire Aspect II, Unbreaking III, Mending.\n• Machado de Combate: Sharpness V (ou Smite V), Efficiency V, Unbreaking III, Mending.\n• Arco (Bow): Power V, Punch II, Flame, Unbreaking III + Infinity OU Mending (⚠️ incompatíveis!).\n• Besta (Crossbow): Quick Charge III, Multishot OU Piercing IV, Unbreaking III, Mending.\n• Tridente: Impaling V, Unbreaking III, Mending + Loyalty III \u0026 Channeling (volta e invoca raios na tempestade!) OU Riptide III (voa na chuva/água — incompatível com Loyalty/Channeling!).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "encantamentos espada arco besta tridente sharpness smite looting infinity mending riptide loyalty channeling"
+                    },
+                    {
+                        "id":  5,
+                        "title":  "Encantamentos II: Armadura, Ferramentas, Elytra \u0026 Bigorna",
+                        "subtitle":  "✨ Incompatibilidades críticas e como evitar \u0027Muito Caro!\u0027 na Bigorna",
+                        "category":  "enchantments",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Elytra)",
+                                                    "type":  "image",
+                                                    "content":  "elytra.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Armadura, Ferramentas \u0026 Elytra",
+                                                    "type":  "text",
+                                                    "content":  "• Capacete: Protection IV, Respiration III, Aqua Affinity, Unbreaking III, Mending.\n• Peitoral \u0026 Elytra: Protection IV (Peitoral), Unbreaking III, Mending (Thorns III opcional, mas gasta durabilidade mais rápido).\n• Calças: Protection IV, Swift Sneak III (só em baús de Ancient City!), Unbreaking III, Mending.\n• Botas: Protection IV, Feather Falling IV (obrigatório!), Depth Strider III (ou Frost Walker II — ⚠️ incompatíveis!), Soul Speed III (troca com Piglins).\n• Picareta / Pá / Enxada: Efficiency V, Unbreaking III, Mending + Fortune III OU Silk Touch.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "⚠️ Como Evitar \u0027Muito Caro!\u0027 (Too Expensive!) na Bigorna",
+                                                    "type":  "text",
+                                                    "content":  "• Cada uso na Bigorna dobra a penalidade de trabalho prévio (a partir de 39 níveis trava no sobrevivência).\n• Regra de Ouro: combine os livros em PARES (árvore binária: Livro+Livro -\u003e 2, Item+Livro -\u003e 1) e aplique os encantamentos mais caros primeiro em livros já agrupados.",
+                                                    "color":  "red"
+                                                }
+                                            ],
+                        "tags":  "encantamentos armadura ferramentas elytra protection feather falling swift sneak mending anvil bigorna too expensive"
+                    },
+                    {
+                        "id":  6,
+                        "title":  "Alquimia I: Poções Clássicas \u0026 Modificadores",
+                        "subtitle":  "🧪 Base Awkward Potion (Nether Wart) + ingredientes essenciais",
+                        "category":  "brewing",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Brewing Stand)",
+                                                    "type":  "image",
+                                                    "content":  "brewing_stand.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Modificadores \u0026 Receitas Úteis (Sobre Awkward Potion)",
+                                                    "type":  "text",
+                                                    "content":  "• Base (95% das poções): Garrafa de Água + Fungo do Nether (Nether Wart) = Poção Estranha (Awkward Potion).\n• Modificadores: Redstone (+duração) | Glowstone (Nível II) | Pólvora (Arremessável/Splash) | Bafo do Dragão (Prolongada/Lingering) | Olho de Aranha Fermentado (inverte efeito!).\n• Resistência ao Fogo (Obrigatório no Nether!): + Magma Cream.\n• Visão Noturna: + Cenoura Dourada (+ Olho Fermentado vira Invisibilidade!).\n• Cura Instantânea: + Melancia Reluzente (Glistering Melon).\n• Regeneração: + Lágrima de Ghast (Ghast Tear).\n• Força: + Pó de Blaze | Rapidez: + Açúcar | Salto: + Pé de Coelho.\n• Queda Lenta (Slow Falling — contra Dragão/End!): + Membrana de Phantom.\n• Respiração Aquática: + Baiacu (Pufferfish).\n• ⚠️ Fraqueza (Weakness — para curar Aldeão Zumbi!): Água DIRETO + Olho de Aranha Fermentado (SEM Nether Wart!).",
+                                                    "color":  "yellow"
+                                                }
+                                            ],
+                        "tags":  "pocoes alquimia brewing stand nether wart resistencia fogo visao noturna slow falling weakness aldeao zumbi"
+                    },
+                    {
+                        "id":  7,
+                        "title":  "Alquimia II: As 4 Novas Poções da 1.21 (Trial Chambers)",
+                        "subtitle":  "🧪 Infestação, Gosma, Teia e Carga de Vento (Sobre Awkward Potion)",
+                        "category":  "brewing",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Receitas Exatas (3:00 base)",
+                                                    "type":  "text",
+                                                    "content":  "• Poção de Infestação (Infested): Awkward Potion + Pedra (Stone) -\u003e 10% de gerar 1–2 Silverfish ao sofrer dano (ótimo para farm de XP!).\n• Poção de Gosma (Oozing): Awkward Potion + Bloco de Slime -\u003e gera 2 Slimes médios quando o alvo morre (farm infinito de Slime!).\n• Poção de Teia (Weaving): Awkward Potion + Teia de Aranha (Cobweb) -\u003e gera teias ao morrer e permite andar rápido dentro de teias.\n• Poção de Carga de Vento (Wind Charging): Awkward Potion + Vara de Breeze (Breeze Rod) -\u003e explode em rajada de vento ao morrer.",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "pocoes 1.21 infested oozing weaving wind charging breeze rod slime farm xp"
+                    },
+                    {
+                        "id":  8,
+                        "title":  "Aldeões: Todas as 13 Bancadas de Trabalho \u0026 Cura Zumbi",
+                        "subtitle":  "🏡 Lista completa das 13 profissões + descontos permanentes de 1 Esmeralda",
+                        "category":  "villagers_mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "As 13 Profissões e Bancadas",
+                                                    "type":  "text",
+                                                    "content":  "• Bibliotecário (Librarian): Atril (Lectern) — vende Livros Encantados (Mending, Unbreaking III, Protection IV, Sharpness V) e Etiquetas.\n• Flecheiro (Fletcher): Bancada de Arco e Flecha (Fletching Table) — compra Gravetos (32 gravetos = 1 esmeralda, melhor farm inicial!).\n• Fazendeiro (Farmer): Composteira (Composter) — compra plantações e vende Cenouras Douradas.\n• Armeiro / Ferramenteiro / Ferreiro de Armas: Alto-Forno (Blast Furnace), Mesa de Ferraria (Smithing Table) e Rebolo (Grindstone) — vendem armaduras/ferramentas/armas de Diamante.\n• Clérigo: Suporte de Poções (Brewing Stand) — compra Carne Podre e vende Lápis-Lazúli, Ender Pearls e Redstone.\n• Cartógrafo: Cartography Table | Açougueiro: Defumador (Smoker) | Pescador: Barril | Coureiro: Caldeirão | Pedreiro: Cortador de Pedra | Pastor: Tear.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Curar Aldeão Zumbi (Descontos Permanentes)",
+                                                    "type":  "text",
+                                                    "content":  "• 1. Jogue uma Poção Arremessável de Fraqueza (Splash Weakness) no Aldeão Zumbi.\n• 2. Dê 1 Maçã Dourada (Golden Apple comum) com o botão direito (espere 2–5 min tremendo).\n• Dica: coloque grades/camas perto para acelerar; após 1 cura (Java 1.20.2+) os preços caem drasticamente para 1 esmeralda em vários livros!",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "aldeoes villagers bancadas profissoes lectern mending fletcher esmeralda curar zumbi"
+                    },
+                    {
+                        "id":  9,
+                        "title":  "Sinalizador (Beacon) \u0026 Condutor (Conduit)",
+                        "subtitle":  "🏡 Tamanhos exatos das pirâmides (9 a 164 blocos) + base aquática",
+                        "category":  "villagers_mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Beacon)",
+                                                    "type":  "image",
+                                                    "content":  "beacon.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Visual (Conduit)",
+                                                    "type":  "image",
+                                                    "content":  "conduit.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "title":  "Pirâmides do Beacon (Ferro, Ouro, Esmeralda, Diamante ou Netherita)",
+                                                    "type":  "text",
+                                                    "content":  "• Nível 1 (3×3): 9 blocos (81 minérios) — Velocidade I ou Pressa I (Haste I) — alcance 20 blocos.\n• Nível 2 (5×5 + 3×3): 34 blocos — libera Resistência I e Super Pulo I — alcance 30 blocos.\n• Nível 3 (7×7 + 5×5 + 3×3): 83 blocos — libera Força I — alcance 40 blocos.\n• Nível 4 Completo (9×9 até 3×3): 164 blocos (1.476 minérios) — libera PRESSA II (Haste II: quebra pedra instantaneamente com Eficiência V!) ou Regeneração I — alcance 50 blocos.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Condutor (Conduit — Poder Subaquático)",
+                                                    "type":  "text",
+                                                    "content":  "• Craft: 1× Coração do Mar (Heart of the Sea — Tesouro Enterrado) + 8× Conchas de Náutilo.\n• Ativação: envolva em uma moldura de anéis 5×5 feita de Prismarino (mínimo 16 blocos submersos até 42 blocos para alcance máximo de 96 blocos com dano automático a mobs aquáticos!).",
+                                                    "color":  "cyan"
+                                                }
+                                            ],
+                        "tags":  "beacon sinalizador piramide haste ii pressa 164 blocos conduit condutor prismarino"
+                    },
+                    {
+                        "id":  10,
+                        "title":  "Coordenadas do Nether (÷8) \u0026 Caixas de Shulker",
+                        "subtitle":  "🏡 Conexão perfeita de portais + Cidades do End (Elytra)",
+                        "category":  "villagers_mechanics",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Shulker Box)",
+                                                    "type":  "image",
+                                                    "content":  "shulker_box.webp",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "title":  "Matemática de Portais (Overworld \u003c-\u003e Nether)",
+                                                    "type":  "text",
+                                                    "content":  "• Regra exata: 1 bloco no Nether = 8 blocos no Overworld nos eixos X e Z (Y não muda a proporção!).\n• Para ligar um portal sem errar o destino: anote (X, Y, Z) do portal no Overworld, divida X e Z por 8 (X ÷ 8, Z ÷ 8), entre no Nether, quebre o portal gerado errado se necessário e construa um novo exatamente em (X÷8, Y, Z÷8).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Cidades do End (End Cities \u0026 Elytra)",
+                                                    "type":  "text",
+                                                    "content":  "• Após derrotar o Dragão, jogue uma Ender Pearl no portal pequeno flutuante (End Gateway).\n• Procure cidades com Barco do End (End Ship): dentro da cabine fica a Elytra (asas!) e na proa a Cabeça do Dragão.\n• Mate Shulkers para pegar 2× Shulker Shells + 1× Baú = Shulker Box (mochila que guarda itens ao quebrar!).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "portal nether coordenadas dividir por 8 shulker box end city elytra"
+                    },
+                    {
+                        "id":  11,
+                        "title":  "Estruturas \u0026 Chefes: Fortaleza, Bastion, Dragão, Wither \u0026 Warden",
+                        "subtitle":  "🐉 Dicas de combate, Totem da Imortalidade e sobrevivência em Ancient Cities",
+                        "category":  "bosses_structures",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "title":  "Visual (Wither)",
+                                                    "type":  "image",
+                                                    "content":  "wither.webp",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "title":  "Visual (Totem of Undying)",
+                                                    "type":  "image",
+                                                    "content":  "totem_of_undying.webp",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "title":  "Guia Rápido das Estruturas \u0026 Chefes",
+                                                    "type":  "text",
+                                                    "content":  "• Bastions (Nether): ⚠️ SEMPRE vista pelo menos 1 peça de Armadura de OURO para Piglins não atacarem (Piglins Brutes atacam mesmo assim — use lava ou torre para eliminá-los!).\n• Fortaleza do Nether: pegue Blaze Rods (para Olhos do End e Suporte de Poções) e 3× Cabeças de Wither Skeleton.\n• Ender Dragon: leve 1 Balde de Água, Poção de Queda Lenta, 5–6 Camas (explodem causando dano massivo quando o Dragão pousa na fonte!) e bolas de neve/arco para quebrar os cristais nas torres.\n• Wither (3 Wither Skulls + 4 Soul Sand/Soil): enfrente em um túnel longo na camada Y=-54 (ou embaixo do portal de saída do End na Bedrock para travá-lo!). Use espada com Smite V.\n• Ancient City \u0026 Warden: ande SEMPRE agachado (Shift), cerque sensores com blocos de Lã (Wool) e se invocar o Warden, fuja em silêncio em vez de lutar.\n• Totem of Undying: dropa de Evokers em Woodland Mansions ou Raids (segure na mão secundária para evitar morte!).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "ender dragon wither warden ancient city bastion fortaleza nether totem of undying raid"
+                    }
+                ]
 }

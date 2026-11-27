@@ -1,1165 +1,1165 @@
 {
-  "id": "ready_or_not",
-  "title": "Ready or Not",
-  "icon": "🚓",
-  "updated_at": "2026-11-24T23:10:00Z",
-  "sources": [
-    {
-      "name": "Ready or Not Wiki (Fandom) — Missions, Weapons & Mechanics",
-      "url": "https://ready-or-not.fandom.com/wiki/Ready_or_Not_Wiki",
-      "license": "CC BY-SA 3.0 — Referência factual e imagens oficiais do jogo com redação própria"
-    },
-    {
-      "name": "SteamDB / PCGamingWiki — Ready or Not",
-      "url": "https://steamdb.info/app/1144200/",
-      "license": "Referência técnica de executáveis do jogo"
-    },
-    {
-      "name": "Steam Community Guides — Ready or Not S-Rank & Soft Objectives",
-      "url": "https://steamcommunity.com/app/1144200/guides/",
-      "license": "Referência factual de objetivos secundários e conquistas com redação própria"
-    }
-  ],
-  "process_keywords": [
-    "readyornot-win64-shipping",
-    "readyornotsteam-win64-shipping",
-    "readyornot",
-    "ready or not"
-  ],
-  "categories": [
-    {
-      "id": "all",
-      "label": "Todos"
-    },
-    {
-      "id": "missions",
-      "label": "🗺️ Missões & Soft Objectives"
-    },
-    {
-      "id": "weapons",
-      "label": "🔫 Armas & Equipamentos"
-    },
-    {
-      "id": "mechanics",
-      "label": "⚙️ Mecânicas & Rank S"
-    },
-    {
-      "id": "achievements",
-      "label": "🏆 Conquistas"
-    }
-  ],
-  "entries": [
-    {
-      "id": 1,
-      "title": "Thank You, Come Again (4U Gas Station)",
-      "subtitle": "🗺️ Missão 01 • 1 Soft Objective (Veterano Ferido)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "thank_you_come_again.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Assalto em andamento no posto de gasolina 4U e lanchonete anexa.\n• Mapa compacto de introdução ideal para treinar limpeza de cômodos e rendição menos-letal.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Veterano Ferido (Wounded Veteran): localize e reporte pelo rádio o veterano ferido próximo à área da lanchonete / frente do estabelecimento.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Feche os acessos externos com cunhas de porta (Door Wedges) para impedir que suspeitos fujam pelo estacionamento.\n• Limpe primeiro a loja principal e depois a cozinha/depósito nos fundos com granadas de luz (Flashbang).",
-          "color": "green"
-        }
-      ],
-      "tags": "thank you come again 4u gas station posto gasolina missao 1 soft objective veterano ferido wounded veteran rank s"
-    },
-    {
-      "id": 2,
-      "title": "23 Megabytes a Second (San Uriel Condominiums)",
-      "subtitle": "🗺️ Missão 02 • 3 Soft Objectives (Servidores, SSD e Mídia Ilegal)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "23_megabytes_a_second.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Incursão no condomínio San Uriel após chamada de emergência envolvendo o apartamento de um streamer no 2º andar.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Fazenda de Servidores Ilegal (Illegal Server Farm): reporte os racks de servidores/cripto no 2º andar.\n• SSD de Evidência: reporte o SSD próximo ao teclado na mesa do streamer.\n• Imagens Proibidas: reporte o material ilegal próximo à cama no quarto do streamer.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Cuidado com a escadaria aberta e varandas: suspeitos costumam atirar através das janelas do pátio.\n• Antes de avançar para o apartamento-alvo, verifique as portas adjacentes com o Mirrorgun.",
-          "color": "green"
-        }
-      ],
-      "tags": "23 megabytes a second san uriel condominiums streamer missao 2 soft objective server farm ssd imagens proibidas rank s"
-    },
-    {
-      "id": 3,
-      "title": "Twisted Nerve (213 Park Homes)",
-      "subtitle": "🗺️ Missão 03 • 2 Soft Objectives (Dinheiro e Menor Incapacitado)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "twisted_nerve.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Duas casas conectadas usadas como laboratório e ponto de metanfetamina em bairro residencial.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Reserva de Dinheiro (Stash of Money): encontre e reporte o dinheiro escondido no andar superior da primeira casa.\n• Menor Incapacitado: localize e reporte a criança incapacitada no andar superior.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Use óculos de visão noturna (NVG) ou lanterna de arma, pois vários cômodos têm pouca iluminação.\n• Suspeitos sob efeito de drogas resistem a gritos de rendição; tenha Taser ou gás CS prontos.",
-          "color": "green"
-        }
-      ],
-      "tags": "twisted nerve 213 park homes metanfetamina casas missao 3 soft objective dinheiro menor incapacitado stash of money rank s"
-    },
-    {
-      "id": 4,
-      "title": "The Spider (Brixley Talent Time)",
-      "subtitle": "🗺️ Missão 04 • Sem Soft Objectives • Estúdio e Escritórios",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "the_spider.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Mandado contra a agência Brixley Talent Time. Foco em prender o alvo principal vivo e proteger civis nos escritórios.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão. Cumpra os objetivos do tablet e recolha todas as armas caídas.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• O pátio dos fundos e o telhado permitem rotas de flanqueamento para os seguranças; isole corredores internos com Door Wedges.\n• Use munição menos-letal ou Taser ao abordar George Brixley caso queira garantir a prisão sem risco.",
-          "color": "green"
-        }
-      ],
-      "tags": "the spider brixley talent time missao 4 sem soft objective rank s george brixley"
-    },
-    {
-      "id": 5,
-      "title": "A Lethal Obsession (Sullivan's Slope)",
-      "subtitle": "🗺️ Missão 05 • ⚠️ Armadilhas Explosivas • 1 Soft Objective",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "a_lethal_obsession.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Armadilhas Explosivas (Tripwires)",
-          "content": "• Quase todas as portas da cabana possuem fios de armadilha ligados a granadas de fragmentação (HE).\n• NUNCA abra ou arrombe portas diretamente sem checar o rodapé com o Mirrorgun ou entreabrindo (Peek) a porta.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Documentos Federais Roubados: localize e reporte os arquivos federais escondidos dentro da residência.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Entreabra a porta (Peek), mire no fio esticado próximo ao chão e desarme antes de entrar.\n• Limpe os túneis/porão com gás CS para forçar a saída de Gerard Scott sem troca de tiros em corredores estreitos.",
-          "color": "green"
-        }
-      ],
-      "tags": "a lethal obsession sullivans slope gerard scott armadilhas tripwire explosivo missao 5 soft objective documentos federais"
-    },
-    {
-      "id": 6,
-      "title": "Ides of March (Brisa Cove)",
-      "subtitle": "🗺️ Missão 06 • ⚠️ Armadilhas Explosivas • Sem Soft Objectives",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "ides_of_march.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Armadilhas e Veteranos Armados",
-          "content": "• As portas dos apartamentos frequentemente têm armadilhas explosivas (tripwires).\n• Os suspeitos usam fuzis de alto calibre e armadura pesada; munição JHP terá baixo rendimento aqui.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão. Garanta que os 3 suspeitos principais e todas as evidências sejam assegurados.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Trave o corredor central com Door Wedges enquanto limpa apartamento por apartamento no sentido horário.\n• Sempre cheque o rodapé com Mirrorgun antes de dar ordem de invasão para sua equipe.",
-          "color": "green"
-        }
-      ],
-      "tags": "ides of march brisa cove hotel apartamentos armadilhas tripwire veteranos missao 6 sem soft objective"
-    },
-    {
-      "id": 7,
-      "title": "Sinuous Trail (Mindjot Data Center)",
-      "subtitle": "🗺️ Missão 07 • Sem Soft Objectives • Salas de Servidores",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "sinuous_trail.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Centro de dados com amplas salas de servidores, passarelas elevadas e diversos seguranças armados em linha de visão longa.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Os corredores entre racks permitem disparos através de frestas e vidros; use gás CS ou Flashbangs antes de cruzar áreas abertas.\n• Isole as escadas de acesso ao mezanino com cunhas de porta para evitar emboscadas pelas costas.",
-          "color": "green"
-        }
-      ],
-      "tags": "sinuous trail mindjot data center servidores missao 7 sem soft objective rank s"
-    },
-    {
-      "id": 8,
-      "title": "Ends of the Earth (Kawayu Beach)",
-      "subtitle": "🗺️ Missão 08 • 1 Soft Objective (Bolsa de Dinheiro no 2º Andar)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "ends_of_the_earth.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Residência costeira de vários andares usada para fabricação ilegal de peças de armas.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Bolsa de Dinheiro Roubado: localize e reporte a mochila com dinheiro no 2º andar da casa.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• O sótão e as escadas estreitas são os pontos mais perigosos; use lançador M320 ou flashbangs antes de subir.\n• Os suspeitos não costumam usar blindagem pesada, facilitando rendições rápidas com Beanbag ou VPL-25.",
-          "color": "green"
-        }
-      ],
-      "tags": "ends of the earth kawayu beach casa praia missao 8 soft objective bolsa dinheiro bag of stolen money rank s"
-    },
-    {
-      "id": 9,
-      "title": "Greased Palms (Los Sueños Postal Service)",
-      "subtitle": "🗺️ Missão 09 • 2 Soft Objectives (Atirador Caído e Armas na Doca)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "greased_palms.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Linhas de Tiro Longas nos Correios",
-          "content": "• O galpão central de triagem tem dezenas de ângulos abertos entre esteiras e prateleiras, onde inimigos atiram por frestas estreitas.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Atirador Suspeito Caído: siga o rastro de sangue do policial ferido na área externa para dentro do prédio e reporte o suspeito caído no chão.\n• Carregamento de Armas (Weapons Cache): encontre e reporte o lote de armas ilegais na van/doca de carregamento externa.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Limpe primeiro todo o perímetro externo e as docas antes de entrar no salão principal de triagem.\n• Use bastante gás CS no galpão e avance pelo lado dos escritórios superiores para ganhar vantagem de altura.",
-          "color": "green"
-        }
-      ],
-      "tags": "greased palms los suenos postal service correios fisa missao 9 soft objective atirador rastro sangue weapons cache van rank s"
-    },
-    {
-      "id": 10,
-      "title": "Valley of the Dolls (Voll Health House)",
-      "subtitle": "🗺️ Missão 10 • 2 Soft Objectives (Porão e Quarto Principal)",
-      "category": "missions",
-      "spoiler": true,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "valley_of_the_dolls.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Mansão luxuosa em encosta com três pavimentos, área de piscina externa e estrutura subterrânea oculta.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Evidência no Porão: reporte os registros ilegais encontrados na sala escondida no nível do porão/túnel.\n• Fitas de Vídeo: reporte as fitas comprometedoras localizadas no quarto principal (Master Bedroom).",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• As grandes paredes de vidro permitem que seguranças de fora atirem para dentro; limpe o pátio da festa após dominar os andares superiores.\n• Muitos seguranças usam coletes; em partidas letais priorize munição AP.",
-          "color": "green"
-        }
-      ],
-      "tags": "valley of the dolls voll health house mansao amos voll missao 10 soft objective porao fitas quarto rank s"
-    },
-    {
-      "id": 11,
-      "title": "Elephant (Watt Community College)",
-      "subtitle": "🗺️ Missão 11 • ⚠️ Atiradores Ativos + Bombas com Temporizador",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "elephant.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Urgência Máxima: Reféns e Bombas",
-          "content": "• Os atiradores começam a executar reféns se demorarem muito para ser neutralizados.\n• Há 2 bombas plantadas no campus com contagem regressiva: se explodirem, a missão falha imediatamente.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Prioridade 1: corra pelos corredores em dupla/equipe para neutralizar os 4 atiradores ativos rapidamente (não perca tempo algemando civis no início).\n• Prioridade 2: escute o bipe sonoro para localizar e desarmar as 2 bombas.\n• Prioridade 3: só depois faça a varredura final para algemar civis e coletar armas.",
-          "color": "green"
-        }
-      ],
-      "tags": "elephant watt community college faculdade escola bombas temporizador refens atiradores missao 11 sem soft objective"
-    },
-    {
-      "id": 12,
-      "title": "Rust Belt (Costa Vino Border Reserve)",
-      "subtitle": "🗺️ Missão 12 • 2 Soft Objectives (Passaportes e Barcaça no Túnel)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "rust_belt.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Complexo de fronteira composto por rancho na superfície conectado a uma rede escura de túneis subterrâneos de contrabando.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Passaportes Confiscados: localize e reporte os passaportes dentro da casa do rancho.\n• Barcaça no Túnel de Acesso: reporte a embarcação na caverna subterrânea inundada ao final dos túneis.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Equipar visão noturna (NVG) ou lanternas fortes é indispensável na descida aos túneis.\n• Mantenha o esquadrão agrupado nas bifurcações da caverna para evitar fogo amigo e flanqueios.",
-          "color": "green"
-        }
-      ],
-      "tags": "rust belt costa vino border reserve tuneis fronteira missao 12 soft objective passaportes barcaca way out west rank s"
-    },
-    {
-      "id": 13,
-      "title": "Sins of the Father (Clemente Hotel)",
-      "subtitle": "🗺️ Missão 13 • ⚠️ Armadilhas de Flashbang • Sem Soft Objectives",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "sins_of_the_father.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Armadilhas de Flashbang nas Portas",
-          "content": "• As portas do hotel possuem armadilhas (tripwires) ligadas a granadas de luz (Flashbang). Embora não matem diretamente, cegam e atordoam toda a equipe na entrada.\n• Os suspeitos são ex-agentes bem equipados com blindagem e fuzis.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Use óculos anti-flash (Anti-Flash Goggles) ou máscara de gás com proteção visual e inspecione portas com o Mirrorgun.\n• Cunhe as portas do saguão e do elevador para controlar de onde os reforços inimigos podem aparecer.",
-          "color": "green"
-        }
-      ],
-      "tags": "sins of the father clemente hotel armadilhas flashbang tripwire missao 13 sem soft objective rank s"
-    },
-    {
-      "id": 14,
-      "title": "Neon Tomb (Neon Nightclub)",
-      "subtitle": "🗺️ Missão 14 • ⚠️ Homens-Bomba + Armadilhas • Sem Soft Objectives",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "neon_tomb.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Coletes Explosivos e Luz Estroboscópica",
-          "content": "• Alguns suspeitos vestem coletes explosivos e podem se detonar se chegarem muito perto da equipe.\n• Também pode haver armadilhas explosivas (tripwires) em portas internas.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Mantenha distância de suspeitos que correm em direção ao esquadrão sem arma em punho ou gritando; atordoe imediatamente com Flashbang, gás CS ou Beanbag.\n• Iluminação forte (lanterna) ajuda a enxergar através da fumaça e das luzes da pista de dança.",
-          "color": "green"
-        }
-      ],
-      "tags": "neon tomb nightclub boate homens bomba colete explosivo armadilhas tripwire missao 14 sem soft objective rank s"
-    },
-    {
-      "id": 15,
-      "title": "Buy Cheap, Buy Twice (Caesar's Cars Dealership)",
-      "subtitle": "🗺️ Missão 15 • 2 Soft Objectives (Contrabando e Registros)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "buy_cheap_buy_twice.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Concessionária de carros usada como fachada para contrabando de armas, narcóticos e tráfico humano.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Contrabando no Depósito: localize e reporte as caixas de narcóticos/armas ilegais nas garagens e salas de armazenamento.\n• Registros de Tráfico: encontre e reporte os documentos/registros financeiros nas salas de escritório.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• O pátio externo de veículos tem muitos pontos cegos atrás dos carros; avance usando cobertura lateral e gás CS.\n• Garanta o andar superior dos escritórios antes de cruzar o showroom envidraçado.",
-          "color": "green"
-        }
-      ],
-      "tags": "buy cheap buy twice caesars cars concessionaria missao 15 soft objective contrabando registros trafico rank s"
-    },
-    {
-      "id": 16,
-      "title": "Carriers of the Vine (Cherryessa Farm)",
-      "subtitle": "🗺️ Missão 16 • 1 Soft Objective (Evidência de Conspiração)",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "carriers_of_the_vine.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Fazenda isolada ocupada por uma seita armada em área aberta com vinhedos, igreja e construções de pedra.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Evidência de Conspiração: encontre e reporte os documentos/provas ligados à conspiração e pessoas desaparecidas dentro das instalações da fazenda.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Como há bastante vegetação e combate em média distância no pátio, prefira o fuzil pepperball VPL-25 em vez da escopeta Beanbag para Rank S.\n• Limpe a torre/passarela e os prédios ao redor antes de entrar no pátio central da igreja.",
-          "color": "green"
-        }
-      ],
-      "tags": "carriers of the vine cherryessa farm fazenda seita missao 16 soft objective conspiracao evidencia rank s"
-    },
-    {
-      "id": 17,
-      "title": "Relapse (Coastal Grove Medical Center)",
-      "subtitle": "🗺️ Missão 17 • ⚠️ 2 Bombas com Temporizador • Sem Soft Objectives",
-      "category": "missions",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "relapse.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção: Mapa Extenso e 2 Bombas Ativas",
-          "content": "• Hospital de múltiplos pavimentos e duas alas interligadas por passarela.\n• Existem 2 bombas com temporizador que precisam ser desarmadas antes do fim da contagem.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives",
-          "content": "• Nenhum soft objective oculto nesta missão.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Avance com ritmo constante pelas alas principais seguindo o som dos bipes para localizar e desarmar as duas bombas primeiro.\n• Trave portas laterais desnecessárias com cunhas para não ser cercado pelos corredores do hospital.",
-          "color": "green"
-        }
-      ],
-      "tags": "relapse coastal grove medical center hospital bombas temporizador missao 17 sem soft objective rank s"
-    },
-    {
-      "id": 18,
-      "title": "Hide and Seek (Port Hokan)",
-      "subtitle": "🗺️ Missão 18 (Final) • Soft Objectives nos Contêineres Laranja",
-      "category": "missions",
-      "spoiler": true,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Imagem do Local",
-          "content": "hide_and_seek.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Resumo da Operação",
-          "content": "• Missão final da campanha base no porto de contêineres e grande armazém de Port Hokan, com visibilidade reduzida pela chuva e atiradores em plataformas altas.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Soft Objectives (Obrigatório para Rank S)",
-          "content": "• Contêineres de Tráfico (Símbolo de Aranha): vasculhe o pátio externo e o galpão para encontrar os contêineres laranja marcados com o símbolo de aranha, abra-os e reporte as vítimas/evidências no interior.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia",
-          "content": "• Use mira óptica ou VPL-25 com atenção redobrada nas passarelas elevadas do armazém.\n• Após neutralizar os suspeitos, faça uma varredura sistemática em todos os contêineres laranja abertos ou fechados pelo pátio para não esquecer nenhum reporte.",
-          "color": "green"
-        }
-      ],
-      "tags": "hide and seek port hokan porto conteineres laranja aranha missao 18 final soft objective vitimas rank s"
-    },
-    {
-      "id": 101,
-      "title": "VPL-25 (Fuzil Pepperball — Menos-Letal)",
-      "subtitle": "🔫 Principal Menos-Letal • Padrão Ouro para Rank S em Equipe",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Visual no Jogo",
-          "content": "vpl_25.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Fuzil menos-letal baseado na plataforma AR que dispara cápsulas de pimenta (.68 Pepperball), criando uma pequena nuvem irritante ao impactar.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Atributos & Mecânica",
-          "content": "• Carregador de 25 disparos com cadência semiautomática rápida e ótimo alcance.\n• Força rendição mesmo acertando perto da cobertura ou no peito protegido por colete.\n• Praticamente elimina o risco de morte acidental causado pelos bots da IA.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Equipe seus 4 oficiais da IA com o VPL-25 + vários carregadores extras (removendo munição letal de pistola) em tentativas de Rank S.\n• Lembre-se de usar máscara de gás (Gas Mask) em todo o esquadrão para não sofrer efeito das nuvens de pimenta.",
-          "color": "green"
-        }
-      ],
-      "tags": "vpl-25 vpl25 pepperball pimenta menos letal non lethal rank s fuzil rifle"
-    },
-    {
-      "id": 102,
-      "title": "Beanbag Shotgun (Escopeta Menos-Letal)",
-      "subtitle": "🔫 Principal Menos-Letal • Stun Instantâneo (⚠️ Nunca Mire na Cabeça)",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Escopeta de ação por bombeamento carregada com sacos de chumbinho (Beanbag) para derrubar e atordoar suspeitos imediatamente.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção (Risco de Morte Acidental)",
-          "content": "• Disparos na CABEÇA com a Beanbag Shotgun matam o alvo na hora, anulando seu Rank S.\n• Disparos repetidos em sequência muito rápida em alvos sem colete também podem incapacitar fatalmente.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Excelente nas mãos do jogador em curtas distâncias: mire sempre no centro do tronco (peito/abdômen) e grite para render-se logo após o primeiro impacto.",
-          "color": "green"
-        }
-      ],
-      "tags": "beanbag shotgun escopeta menos letal non lethal rank s stun cabeca letal"
-    },
-    {
-      "id": 103,
-      "title": "Taser (Dispositivo Tático Menos-Letal)",
-      "subtitle": "⚡ Equipamento Tático • Incapacita Alvos Isolados Instantaneamente",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Visual no Jogo",
-          "content": "taser.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Arma de eletrochoque equipada no slot tático, capaz de paralisar e forçar a rendição imediata de suspeitos e civis rebeldes a curta distância.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Atributos & Mecânica",
-          "content": "• Ocupa espaço de equipamento tático (sem substituir a pistola secundária).\n• Possui cartuchos limitados por missão e pode falhar caso atinja placas de blindagem muito pesadas.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Ideal quando você joga com fuzil letal, mas precisa capturar um alvo vivo ou impedir um civil em pânico de fugir.",
-          "color": "green"
-        }
-      ],
-      "tags": "taser choque menos letal tatico equipamento non lethal"
-    },
-    {
-      "id": 104,
-      "title": "M320 / Lançadores Táticos (Flash, Stinger e Gás CS)",
-      "subtitle": "💥 Tático Longo • Controle de Área Seguro Antes da Invasão",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Lançadores táticos de 40mm (como o M320 mono-tiro e o M32A1 múltiplo) usados para projetar granadas de luz, borracha (Stinger) ou gás CS à distância.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Mecânica e Vantagens",
-          "content": "• Dispara granadas com trajetória direta e detonação quase imediata ao entrar em salas grandes.\n• Ocupa o slot tático longo (substituindo o Mirrorgun ou o Aríete quando equipado).",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Em esquadrão, deixe 1 operador com Mirrorgun para checar portas e outro com lançador M320 Flash/CS para neutralizar salas amplas (como Greased Palms e Mindjot) sem expor o corpo.",
-          "color": "green"
-        }
-      ],
-      "tags": "m320 m32a1 lancador granada flash stinger gas cs tatico longo"
-    },
-    {
-      "id": 105,
-      "title": "SA-58 OSW (Fuzil de Batalha 7.62×51mm)",
-      "subtitle": "🔫 Fuzil de Batalha • Poder de Parada Máximo Contra Colete Pesado",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Visual no Jogo",
-          "content": "sa_58.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Fuzil de batalha calibre .308 / 7.62×51mm capaz de derrubar inimigos fortemente blindados com 1 a 2 disparos no tronco.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Atenção (Recuo e Sobre-Penetração)",
-          "content": "• Possui recuo elevado no modo automático e altíssima penetração em paredes.\n• Cuidado ao atirar na direção de cômodos com civis atrás de portas ou drywall.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Utilize em modo semiautomático com munição AP nas missões de alto risco (Ides of March, Relapse, Neon Tomb) quando não estiver buscando Rank S.",
-          "color": "green"
-        }
-      ],
-      "tags": "sa-58 sa58 osw fal 7.62 308 fuzil batalha ap letal"
-    },
-    {
-      "id": 106,
-      "title": "ARN-180 (Fuzil de Assalto 5.56mm)",
-      "subtitle": "🔫 Fuzil de Assalto • Equilibrado, Compacto e Versátil em CQB",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Visual no Jogo",
-          "content": "arn_180.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Carabina/fuzil moderno em calibre 5.56×45mm NATO com perfil curto, ótimo controle de recuo e excelente manobrabilidade perto de batentes.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Configuração Recomendada",
-          "content": "• Munição: AP (para atravessar coletes em mapas médios e finais).\n• Acessórios: mira holográfica/red dot leve, empunhadura vertical e lanterna + laser IR (se usar NVG).",
-          "color": "green"
-        }
-      ],
-      "tags": "arn-180 arn180 5.56 fuzil assalto carabina cqb"
-    },
-    {
-      "id": 107,
-      "title": "LVAR (Carabina .300 BLK Silenciada)",
-      "subtitle": "🔫 Fuzil de Assalto • Supressor Integrado + Alto Impacto .300 BLK",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "image",
-          "title": "Visual no Jogo",
-          "content": "lvar.webp",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Descrição",
-          "content": "• Carabina tática baseada na plataforma MCX equipada com supressor integrado de fábrica e câmara para munição .300 Blackout.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Atributos & Mecânica",
-          "content": "• Comprimento total reduzido mesmo silenciada, evitando que o cano levante ao encostar em portas e corredores estreitos.\n• O calibre .300 BLK entrega energia superior em curta e média distância comparado a submetralhadoras 9mm.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Uso",
-          "content": "• Excelente para limpezas silenciosas em mapas escuros e fechados (Twisted Nerve, Rust Belt, Dorms) com menos alerta acústico aos cômodos vizinhos.",
-          "color": "green"
-        }
-      ],
-      "tags": "lvar 300 blk blackout silenciada supressor mcx carabina cqb"
-    },
-    {
-      "id": 108,
-      "title": "Equipamentos Táticos (Mirrorgun, Cunhas, C2 e Escudo)",
-      "subtitle": "🛡️ Ferramentas de Invasão • Controle de Portas e Reconhecimento",
-      "category": "weapons",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Mirrorgun (Optiwand) & Cunhas (Door Wedges)",
-          "content": "• Mirrorgun: câmera flexível para espiar por baixo da porta, identificar inimigos, civis e detectar fios de armadilhas antes de abrir.\n• Door Wedge: trava qualquer porta fechada, bloqueando flanqueios e isolando setores inteiros.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "C2 & Escudo Balístico (Ballistic Shield)",
-          "content": "• Carga C2: explode portas trancadas, atordoando fortemente quem estiver logo atrás (⚠️ pode matar civis ou suspeitos colados na porta).\n• Escudo Balístico: protege o operador na linha de frente ao cruzar corredores abertos usando apenas a pistola secundária.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Dica de Composição de Esquadrão",
-          "content": "• Leve pelo menos 1 Mirrorgun no líder ou em um operador da IA e distribua 2 a 4 Door Wedges entre os membros do time.",
-          "color": "green"
-        }
-      ],
-      "tags": "mirrorgun optiwand door wedge cunha porta c2 escudo balistico ballistic shield equipamentos taticos"
-    },
-    {
-      "id": 201,
-      "title": "Sistema de Rank S (Regras e Requisitos)",
-      "subtitle": "⚙️ Guia Completo • Zero Mortes, 100% Evidências e Soft Objectives",
-      "category": "mechanics",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Regras Obrigatórias para Rank S",
-          "content": "• Concluir 100% dos objetivos principais do tablet.\n• Concluir e reportar 100% dos Soft Objectives ocultos do mapa.\n• Prender/algemar todos os suspeitos e civis VIVOS (nenhuma morte ou incapacitação letal).\n• Recolher e ensacar todas as armas caídas e evidências do cenário.\n• Zero mortes ou incapacitações na sua equipe e zero uso de força não autorizada.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Penalidades que Quebram o Rank S",
-          "content": "• Matar um único suspeito (mesmo armado e atirando) reduz a pontuação máxima de 35 pontos para 5 pontos por suspeito, impedindo o Rank S.\n• Acertar um suspeito que já se rendeu, usar C2 em cima de alguém atrás da porta ou atingir aliados com granadas gera penalidade de força não autorizada / fogo amigo.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia Padrão",
-          "content": "• Use equipe 100% menos-letal (VPL-25 ou Beanbag), máscaras de gás + granadas CS/Flashbang e inspecione cada cômodo antes de avançar.",
-          "color": "green"
-        }
-      ],
-      "tags": "rank s s rank pontuacao menos letal regras requisitos evidencias soft objectives"
-    },
-    {
-      "id": 202,
-      "title": "Blindagem: Kevlar vs. Cerâmica vs. Aço",
-      "subtitle": "⚙️ Equipamento Defensivo • Mobilidade, Quebra e Fragmentação",
-      "category": "mechanics",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Comparativo de Materiais de Placa",
-          "content": "• Kevlar (Nível IIIA): mais leve e sem penalidade de velocidade; reduz ~50% de calibres de pistola (9mm), mas quase não segura fuzis (5.56/7.62).\n• Cerâmica (Nível IV): bloqueia 100% do dano enquanto a placa estiver íntegra e é bem mais leve que aço, porém estilhaça e perde proteção após ~4 a 8 impactos fortes.\n• Aço (Steel): indestrutível (nunca quebra) e reduz ~60–70% de dano de fuzil continuamente.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Cuidado com Placas de Aço (Spalling)",
-          "content": "• Placas de aço pesam muito na movimentação e geram fragmentação (spalling) ao serem atingidas, causando dano leve no operador ou aliados próximos e aumentando o efeito de supressão.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Qual Escolher?",
-          "content": "• Padrão recomendado: Colete Leve ou Pesado com placas de Cerâmica (Frente e Costas) — proteção máxima contra primeiros tiros letais com boa mobilidade.",
-          "color": "green"
-        }
-      ],
-      "tags": "blindagem colete kevlar ceramica aco steel spalling heavy armor light armor"
-    },
-    {
-      "id": 203,
-      "title": "Munição: JHP vs. AP (Penetração e Dano)",
-      "subtitle": "⚙️ Balística • Escolha Certa por Nível de Proteção dos Suspeitos",
-      "category": "mechanics",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "JHP (Jacketed Hollow Point)",
-          "content": "• Expande ao atingir tecidos desprotegidos, causando maior dano bruto, sangramento e incapacitação rápida em alvos SEM colete.\n• Penetração muito baixa contra blindagem e paredes/portas.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "AP (Armor Piercing)",
-          "content": "• Núcleo rígido projetado para perfurar coletes balísticos (Kevlar e placas) e atravessar portas/coberturas leves.\n• Causa dano levemente menor em alvos sem colete e tem maior chance de atravessar o corpo do alvo (over-penetration).",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Quando Usar Cada Uma",
-          "content": "• Use JHP apenas nos mapas iniciais onde suspeitos quase não usam coletes (4U Gas Station, Twisted Nerve).\n• Use AP como padrão da metade da campanha em diante (Ides of March, Greased Palms, Valley of the Dolls, Relapse, Port Hokan).",
-          "color": "green"
-        }
-      ],
-      "tags": "municao jhp ap armor piercing hollow point penetracao dano balistica colete"
-    },
-    {
-      "id": 204,
-      "title": "Armadilhas de Porta (Tripwires) — Detecção e Desarme",
-      "subtitle": "⚙️ Sobrevivência • Lista de Mapas com Fios Explosivos e Flash",
-      "category": "mechanics",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Missões Oficiais com Armadilhas (Tripwires)",
-          "content": "• A Lethal Obsession (Sullivan's Slope): granadas explosivas (HE) na maioria das portas.\n• Ides of March (Brisa Cove): granadas explosivas (HE).\n• Sins of the Father (Clemente Hotel): granadas de luz (Flashbang).\n• Neon Tomb (Neon Nightclub): armadilhas explosivas (HE).",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Regra de Ouro Antes de Abrir Portas",
-          "content": "• Se um operador (ou você) abrir completamente ou chutar uma porta com armadilha ativa, o fio é puxado e detona na hora.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Como Detectar e Desarmar com Segurança",
-          "content": "• 1. Olhe por baixo da porta com o Mirrorgun procurando um fio esticado perto da soleira.\n• 2. Caso já tenha certeza ou não tenha Mirrorgun, use a opção Entreabrir (Peek Door) — a fresta pequena NÃO dispara o fio.\n• 3. Mire na parte inferior da fresta até aparecer a ação de cortar/desarmar (Multitool) ou mande seu esquadrão desarmar.",
-          "color": "green"
-        }
-      ],
-      "tags": "armadilhas tripwire porta bomba flashbang desarmar peek mirrorgun a lethal obsession ides of march sins of the father neon tomb"
-    },
-    {
-      "id": 205,
-      "title": "Traços de Oficiais (Officer Traits — Modo Comandante)",
-      "subtitle": "⚙️ Modo Comandante • Melhores Passivas Acumuláveis para o Esquadrão",
-      "category": "mechanics",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Melhores Traços para Rank S e Menos-Letal",
-          "content": "• Pacifier: aumenta a chance de suspeitos se renderem ao sofrer impacto menos-letal (acumula entre membros da equipe).\n• Negotiator: faz suspeitos hesitarem por mais tempo antes de atirar e facilita rendições no grito.\n• Intimidator: quebra a moral dos suspeitos mais depressa quando o esquadrão ordena rendição.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Melhores Traços de Sobrevivência e Estresse",
-          "content": "• Armorer: reduz o dano sofrido pela equipe da IA (excelente com placas de Cerâmica).\n• Nutritionist / Veteran / Paramedic: aumentam resistência e ajudam a preservar a equipe e reduzir estresse pós-missão.",
-          "color": "gray"
-        },
-        {
-          "type": "text",
-          "title": "Composição Recomendada",
-          "content": "• Os bônus dos traços são liberados conforme você completa missões sem perder os oficiais.\n• Para Rank S, busque combinar 2× Pacifier + 1–2× Negotiator + 1× Intimidator ou Armorer.",
-          "color": "green"
-        }
-      ],
-      "tags": "tracos oficiais officer traits modo comandante commander mode pacifier negotiator intimidator armorer nutritionist"
-    },
-    {
-      "id": 301,
-      "title": "The Hermit (Modo Ironman sem Perder Oficiais)",
-      "subtitle": "🏆 Conquista • Campanha Completa no Modo Ironman sem Baixas ou Demissões",
-      "category": "achievements",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Requisito Oficial",
-          "content": "• Concluir toda a campanha principal no modo Ironman (dificuldade Padrão ou superior) sem perder nenhum oficial — nem por morte em combate nem por demissão causada por estresse crítico (Crisis).",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Pontos Críticos de Falha",
-          "content": "• Se um oficial atingir o estado mental 'Crisis' e pedir demissão, a conquista é perdida.\n• Fique atento a armadilhas em A Lethal Obsession, Ides of March, Sins of the Father e Neon Tomb.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Estratégia Segura",
-          "content": "• Alterne oficiais cansados enviando-os para Terapia antes de chegarem a 'Stressed/Crisis'.\n• Rejogue missões mais curtas e limpas (como 4U Gas Station) com abordagem menos-letal para recuperar o moral do elenco.\n• Use Armadura Pesada (Cerâmica) nos bots e Escudo Balístico nas entradas perigosas.",
-          "color": "green"
-        }
-      ],
-      "tags": "the hermit conquista trofeu ironman modo comandante sem perder oficiais terapia stress crisis"
-    },
-    {
-      "id": 302,
-      "title": "Way Out West (Rust Belt Apenas com .357 Magnum)",
-      "subtitle": "🏆 Conquista • Completar Rust Belt Usando Somente o Revólver .357",
-      "category": "achievements",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Requisito Oficial",
-          "content": "• Concluir a missão Rust Belt (Costa Vino Border Reserve) em dificuldade Padrão ou superior utilizando apenas o revólver .357 Magnum.",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Restrições Rígidas (Evite Anular a Conquista)",
-          "content": "• Remova TODOS os acessórios do .357 Magnum (sem lanterna nem mira) e leve ZERO munição na arma primária.\n• NÃO equipe Escudo Balístico, NÃO ligue óculos de visão noturna (NVG), NÃO puxe Mirrorgun/táticos longos e NÃO abra o tablet tático durante a missão.\n• Não tente combinar esta conquista com Rank S, pois o revólver é letal.",
-          "color": "red"
-        },
-        {
-          "type": "text",
-          "title": "Passo a Passo",
-          "content": "• 1. Logo ao iniciar a fase, troque imediatamente para o .357 Magnum e nunca mais troque de item.\n• 2. Dispare ao menos um tiro com o revólver (ou abata um alvo com segurança) para garantir o registro da arma.\n• 3. Deixe seu esquadrão de IA (equipado com fuzis pesados como SA-58) abrir portas, limpar salas, algemar e ensacar evidências via comandos rápidos.",
-          "color": "green"
-        }
-      ],
-      "tags": "way out west conquista trofeu rust belt 357 magnum revolver sem tablet sem nvg"
-    },
-    {
-      "id": 303,
-      "title": "Loadout Meta para Rank S (Esquadrão Completo)",
-      "subtitle": "🏆 Guia Prático • Configuração Pronta para Copiar Antes da Missão",
-      "category": "achievements",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "Equipamento do Líder (Você)",
-          "content": "• Primária: VPL-25 (ou Beanbag Shotgun se preferir stun imediato mirando no peito).\n• Secundária: 0 carregadores (remova toda munição letal de pistola para a IA/você nunca atirarem letal).\n• Tático Longo: Mirrorgun (checar portas e armadilhas).\n• Colete: Cerâmica Pesada + Máscara de Gás (Gas Mask).",
-          "color": "cyan"
-        },
-        {
-          "type": "text",
-          "title": "Equipamento dos 4 Oficiais de IA",
-          "content": "• Primária: VPL-25 com 6 a 8 carregadores de Pepperball.\n• Secundária: 0 carregadores letais (deixe todo o espaço extra para gás/flash e munição de pimenta).\n• Granadas: 3–4 Gás CS ou Flashbangs por operador.\n• Tático: distribuir 2× Door Wedges no time A e 2× no time B + 1× Lançador CS/Flash.",
-          "color": "green"
-        },
-        {
-          "type": "text",
-          "title": "⚠️ Checklist Rápido de Segurança",
-          "content": "• Máscara de gás em TODOS os 5 operadores (inclusive você).\n• Nenhuma granada Stinger/C2 em mapas apertados para evitar morte acidental de civis.",
-          "color": "red"
-        }
-      ],
-      "tags": "loadout meta rank s esquadrao ia vpl-25 gas mask cs beanbag zero municao letal"
-    },
-    {
-      "id": 304,
-      "title": "DLCs: Home Invasion & Dark Waters (Soft Objectives)",
-      "subtitle": "🏆 Conteúdo Extra • Mapa Rápido dos Objetivos Ocultos nas Expansões",
-      "category": "achievements",
-      "spoiler": false,
-      "additional_data": [
-        {
-          "type": "text",
-          "title": "DLC Home Invasion",
-          "content": "• Dorms: reporte o esconderijo de contrabando no 2º andar (em um dos quartos voltados ao corredor).\n• Narcos: reporte os múltiplos pontos de evidência/contrabando divididos entre as casas (dois na primeira casa e um na casa à esquerda).\n• Lawmaker: sem soft objectives ocultos.",
-          "color": "yellow"
-        },
-        {
-          "type": "text",
-          "title": "DLC Dark Waters",
-          "content": "• Mirage at Sea (Iate): reporte os dois pontos de contrabando a bordo (um próximo à cozinha no convés intermediário e outro em uma sala na proa/convés superior).\n• Leviathan (Plataforma de Petróleo): reporte os dados de inteligência na sala de controle central do setor de perfuração.\n• 3 Letter Triad: sem soft objectives ocultos.",
-          "color": "purple"
-        },
-        {
-          "type": "text",
-          "title": "Dica Tática",
-          "content": "• Em Dorms e Narcos, avance com cunhas de porta e gás CS pelos corredores e quintais antes de recolher provas.",
-          "color": "green"
-        }
-      ],
-      "tags": "dlc home invasion dark waters dorms narcos lawmaker mirage at sea leviathan 3 letter triad soft objectives"
-    }
-  ]
+    "id":  "ready_or_not",
+    "title":  "Ready or Not",
+    "icon":  "🚓",
+    "updated_at":  "2026-11-27T19:20:00Z",
+    "sources":  [
+                    {
+                        "name":  "Ready or Not Wiki (Fandom) — Missions, Weapons \u0026 Mechanics",
+                        "url":  "https://ready-or-not.fandom.com/wiki/Ready_or_Not_Wiki",
+                        "license":  "CC BY-SA 3.0 — Referência factual e imagens oficiais do jogo com redação própria"
+                    },
+                    {
+                        "name":  "SteamDB / PCGamingWiki — Ready or Not",
+                        "url":  "https://steamdb.info/app/1144200/",
+                        "license":  "Referência técnica de executáveis do jogo"
+                    },
+                    {
+                        "name":  "Steam Community Guides — Ready or Not S-Rank \u0026 Soft Objectives",
+                        "url":  "https://steamcommunity.com/app/1144200/guides/",
+                        "license":  "Referência factual de objetivos secundários e conquistas com redação própria"
+                    }
+                ],
+    "process_keywords":  [
+                             "readyornot-win64-shipping",
+                             "readyornotsteam-win64-shipping",
+                             "readyornot",
+                             "ready or not"
+                         ],
+    "categories":  [
+                       {
+                           "id":  "all",
+                           "label":  "Todos"
+                       },
+                       {
+                           "id":  "missions",
+                           "label":  "🗺️ Missões \u0026 Soft Objectives"
+                       },
+                       {
+                           "id":  "weapons",
+                           "label":  "🔫 Armas \u0026 Equipamentos"
+                       },
+                       {
+                           "id":  "mechanics",
+                           "label":  "⚙️ Mecânicas \u0026 Rank S"
+                       },
+                       {
+                           "id":  "achievements",
+                           "label":  "🏆 Conquistas"
+                       }
+                   ],
+    "entries":  [
+                    {
+                        "id":  1,
+                        "title":  "Thank You, Come Again (4U Gas Station)",
+                        "subtitle":  "🗺️ Missão 01 • 1 Soft Objective (Veterano Ferido)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "thank_you_come_again.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Assalto em andamento no posto de gasolina 4U e lanchonete anexa.\n• Mapa compacto de introdução ideal para treinar limpeza de cômodos e rendição menos-letal.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Veterano Ferido (Wounded Veteran): localize e reporte pelo rádio o veterano ferido próximo à área da lanchonete / frente do estabelecimento.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Feche os acessos externos com cunhas de porta (Door Wedges) para impedir que suspeitos fujam pelo estacionamento.\n• Limpe primeiro a loja principal e depois a cozinha/depósito nos fundos com granadas de luz (Flashbang).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "thank you come again 4u gas station posto gasolina missao 1 soft objective veterano ferido wounded veteran rank s"
+                    },
+                    {
+                        "id":  2,
+                        "title":  "23 Megabytes a Second (San Uriel Condominiums)",
+                        "subtitle":  "🗺️ Missão 02 • 3 Soft Objectives (Servidores, SSD e Mídia Ilegal)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "23_megabytes_a_second.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Incursão no condomínio San Uriel após chamada de emergência envolvendo o apartamento de um streamer no 2º andar.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Fazenda de Servidores Ilegal (Illegal Server Farm): reporte os racks de servidores/cripto no 2º andar.\n• SSD de Evidência: reporte o SSD próximo ao teclado na mesa do streamer.\n• Imagens Proibidas: reporte o material ilegal próximo à cama no quarto do streamer.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Cuidado com a escadaria aberta e varandas: suspeitos costumam atirar através das janelas do pátio.\n• Antes de avançar para o apartamento-alvo, verifique as portas adjacentes com o Mirrorgun.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "23 megabytes a second san uriel condominiums streamer missao 2 soft objective server farm ssd imagens proibidas rank s"
+                    },
+                    {
+                        "id":  3,
+                        "title":  "Twisted Nerve (213 Park Homes)",
+                        "subtitle":  "🗺️ Missão 03 • 2 Soft Objectives (Dinheiro e Menor Incapacitado)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "twisted_nerve.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Duas casas conectadas usadas como laboratório e ponto de metanfetamina em bairro residencial.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Reserva de Dinheiro (Stash of Money): encontre e reporte o dinheiro escondido no andar superior da primeira casa.\n• Menor Incapacitado: localize e reporte a criança incapacitada no andar superior.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Use óculos de visão noturna (NVG) ou lanterna de arma, pois vários cômodos têm pouca iluminação.\n• Suspeitos sob efeito de drogas resistem a gritos de rendição; tenha Taser ou gás CS prontos.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "twisted nerve 213 park homes metanfetamina casas missao 3 soft objective dinheiro menor incapacitado stash of money rank s"
+                    },
+                    {
+                        "id":  4,
+                        "title":  "The Spider (Brixley Talent Time)",
+                        "subtitle":  "🗺️ Missão 04 • Sem Soft Objectives • Estúdio e Escritórios",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "the_spider.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Mandado contra a agência Brixley Talent Time. Foco em prender o alvo principal vivo e proteger civis nos escritórios.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão. Cumpra os objetivos do tablet e recolha todas as armas caídas.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• O pátio dos fundos e o telhado permitem rotas de flanqueamento para os seguranças; isole corredores internos com Door Wedges.\n• Use munição menos-letal ou Taser ao abordar George Brixley caso queira garantir a prisão sem risco.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "the spider brixley talent time missao 4 sem soft objective rank s george brixley"
+                    },
+                    {
+                        "id":  5,
+                        "title":  "A Lethal Obsession (Sullivan\u0027s Slope)",
+                        "subtitle":  "🗺️ Missão 05 • ⚠️ Armadilhas Explosivas • 1 Soft Objective",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "a_lethal_obsession.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Armadilhas Explosivas (Tripwires)",
+                                                    "content":  "• Quase todas as portas da cabana possuem fios de armadilha ligados a granadas de fragmentação (HE).\n• NUNCA abra ou arrombe portas diretamente sem checar o rodapé com o Mirrorgun ou entreabrindo (Peek) a porta.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Documentos Federais Roubados: localize e reporte os arquivos federais escondidos dentro da residência.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Entreabra a porta (Peek), mire no fio esticado próximo ao chão e desarme antes de entrar.\n• Limpe os túneis/porão com gás CS para forçar a saída de Gerard Scott sem troca de tiros em corredores estreitos.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "a lethal obsession sullivans slope gerard scott armadilhas tripwire explosivo missao 5 soft objective documentos federais"
+                    },
+                    {
+                        "id":  6,
+                        "title":  "Ides of March (Brisa Cove)",
+                        "subtitle":  "🗺️ Missão 06 • ⚠️ Armadilhas Explosivas • Sem Soft Objectives",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "ides_of_march.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Armadilhas e Veteranos Armados",
+                                                    "content":  "• As portas dos apartamentos frequentemente têm armadilhas explosivas (tripwires).\n• Os suspeitos usam fuzis de alto calibre e armadura pesada; munição JHP terá baixo rendimento aqui.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão. Garanta que os 3 suspeitos principais e todas as evidências sejam assegurados.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Trave o corredor central com Door Wedges enquanto limpa apartamento por apartamento no sentido horário.\n• Sempre cheque o rodapé com Mirrorgun antes de dar ordem de invasão para sua equipe.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "ides of march brisa cove hotel apartamentos armadilhas tripwire veteranos missao 6 sem soft objective"
+                    },
+                    {
+                        "id":  7,
+                        "title":  "Sinuous Trail (Mindjot Data Center)",
+                        "subtitle":  "🗺️ Missão 07 • Sem Soft Objectives • Salas de Servidores",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "sinuous_trail.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Centro de dados com amplas salas de servidores, passarelas elevadas e diversos seguranças armados em linha de visão longa.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Os corredores entre racks permitem disparos através de frestas e vidros; use gás CS ou Flashbangs antes de cruzar áreas abertas.\n• Isole as escadas de acesso ao mezanino com cunhas de porta para evitar emboscadas pelas costas.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "sinuous trail mindjot data center servidores missao 7 sem soft objective rank s"
+                    },
+                    {
+                        "id":  8,
+                        "title":  "Ends of the Earth (Kawayu Beach)",
+                        "subtitle":  "🗺️ Missão 08 • 1 Soft Objective (Bolsa de Dinheiro no 2º Andar)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "ends_of_the_earth.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Residência costeira de vários andares usada para fabricação ilegal de peças de armas.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Bolsa de Dinheiro Roubado: localize e reporte a mochila com dinheiro no 2º andar da casa.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• O sótão e as escadas estreitas são os pontos mais perigosos; use lançador M320 ou flashbangs antes de subir.\n• Os suspeitos não costumam usar blindagem pesada, facilitando rendições rápidas com Beanbag ou VPL-25.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "ends of the earth kawayu beach casa praia missao 8 soft objective bolsa dinheiro bag of stolen money rank s"
+                    },
+                    {
+                        "id":  9,
+                        "title":  "Greased Palms (Los Sueños Postal Service)",
+                        "subtitle":  "🗺️ Missão 09 • 2 Soft Objectives (Atirador Caído e Armas na Doca)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "greased_palms.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Linhas de Tiro Longas nos Correios",
+                                                    "content":  "• O galpão central de triagem tem dezenas de ângulos abertos entre esteiras e prateleiras, onde inimigos atiram por frestas estreitas.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Atirador Suspeito Caído: siga o rastro de sangue do policial ferido na área externa para dentro do prédio e reporte o suspeito caído no chão.\n• Carregamento de Armas (Weapons Cache): encontre e reporte o lote de armas ilegais na van/doca de carregamento externa.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Limpe primeiro todo o perímetro externo e as docas antes de entrar no salão principal de triagem.\n• Use bastante gás CS no galpão e avance pelo lado dos escritórios superiores para ganhar vantagem de altura.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "greased palms los suenos postal service correios fisa missao 9 soft objective atirador rastro sangue weapons cache van rank s"
+                    },
+                    {
+                        "id":  10,
+                        "title":  "Valley of the Dolls (Voll Health House)",
+                        "subtitle":  "🗺️ Missão 10 • 2 Soft Objectives (Porão e Quarto Principal)",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "valley_of_the_dolls.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Mansão luxuosa em encosta com três pavimentos, área de piscina externa e estrutura subterrânea oculta.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Evidência no Porão: reporte os registros ilegais encontrados na sala escondida no nível do porão/túnel.\n• Fitas de Vídeo: reporte as fitas comprometedoras localizadas no quarto principal (Master Bedroom).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• As grandes paredes de vidro permitem que seguranças de fora atirem para dentro; limpe o pátio da festa após dominar os andares superiores.\n• Muitos seguranças usam coletes; em partidas letais priorize munição AP.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "valley of the dolls voll health house mansao amos voll missao 10 soft objective porao fitas quarto rank s"
+                    },
+                    {
+                        "id":  11,
+                        "title":  "Elephant (Watt Community College)",
+                        "subtitle":  "🗺️ Missão 11 • ⚠️ Atiradores Ativos + Bombas com Temporizador",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "elephant.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Urgência Máxima: Reféns e Bombas",
+                                                    "content":  "• Os atiradores começam a executar reféns se demorarem muito para ser neutralizados.\n• Há 2 bombas plantadas no campus com contagem regressiva: se explodirem, a missão falha imediatamente.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Prioridade 1: corra pelos corredores em dupla/equipe para neutralizar os 4 atiradores ativos rapidamente (não perca tempo algemando civis no início).\n• Prioridade 2: escute o bipe sonoro para localizar e desarmar as 2 bombas.\n• Prioridade 3: só depois faça a varredura final para algemar civis e coletar armas.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "elephant watt community college faculdade escola bombas temporizador refens atiradores missao 11 sem soft objective"
+                    },
+                    {
+                        "id":  12,
+                        "title":  "Rust Belt (Costa Vino Border Reserve)",
+                        "subtitle":  "🗺️ Missão 12 • 2 Soft Objectives (Passaportes e Barcaça no Túnel)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "rust_belt.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Complexo de fronteira composto por rancho na superfície conectado a uma rede escura de túneis subterrâneos de contrabando.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Passaportes Confiscados: localize e reporte os passaportes dentro da casa do rancho.\n• Barcaça no Túnel de Acesso: reporte a embarcação na caverna subterrânea inundada ao final dos túneis.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Equipar visão noturna (NVG) ou lanternas fortes é indispensável na descida aos túneis.\n• Mantenha o esquadrão agrupado nas bifurcações da caverna para evitar fogo amigo e flanqueios.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "rust belt costa vino border reserve tuneis fronteira missao 12 soft objective passaportes barcaca way out west rank s"
+                    },
+                    {
+                        "id":  13,
+                        "title":  "Sins of the Father (Clemente Hotel)",
+                        "subtitle":  "🗺️ Missão 13 • ⚠️ Armadilhas de Flashbang • Sem Soft Objectives",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "sins_of_the_father.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Armadilhas de Flashbang nas Portas",
+                                                    "content":  "• As portas do hotel possuem armadilhas (tripwires) ligadas a granadas de luz (Flashbang). Embora não matem diretamente, cegam e atordoam toda a equipe na entrada.\n• Os suspeitos são ex-agentes bem equipados com blindagem e fuzis.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Use óculos anti-flash (Anti-Flash Goggles) ou máscara de gás com proteção visual e inspecione portas com o Mirrorgun.\n• Cunhe as portas do saguão e do elevador para controlar de onde os reforços inimigos podem aparecer.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "sins of the father clemente hotel armadilhas flashbang tripwire missao 13 sem soft objective rank s"
+                    },
+                    {
+                        "id":  14,
+                        "title":  "Neon Tomb (Neon Nightclub)",
+                        "subtitle":  "🗺️ Missão 14 • ⚠️ Homens-Bomba + Armadilhas • Sem Soft Objectives",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "neon_tomb.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Coletes Explosivos e Luz Estroboscópica",
+                                                    "content":  "• Alguns suspeitos vestem coletes explosivos e podem se detonar se chegarem muito perto da equipe.\n• Também pode haver armadilhas explosivas (tripwires) em portas internas.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Mantenha distância de suspeitos que correm em direção ao esquadrão sem arma em punho ou gritando; atordoe imediatamente com Flashbang, gás CS ou Beanbag.\n• Iluminação forte (lanterna) ajuda a enxergar através da fumaça e das luzes da pista de dança.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "neon tomb nightclub boate homens bomba colete explosivo armadilhas tripwire missao 14 sem soft objective rank s"
+                    },
+                    {
+                        "id":  15,
+                        "title":  "Buy Cheap, Buy Twice (Caesar\u0027s Cars Dealership)",
+                        "subtitle":  "🗺️ Missão 15 • 2 Soft Objectives (Contrabando e Registros)",
+                        "category":  "missions",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "buy_cheap_buy_twice.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Concessionária de carros usada como fachada para contrabando de armas, narcóticos e tráfico humano.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Contrabando no Depósito: localize e reporte as caixas de narcóticos/armas ilegais nas garagens e salas de armazenamento.\n• Registros de Tráfico: encontre e reporte os documentos/registros financeiros nas salas de escritório.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• O pátio externo de veículos tem muitos pontos cegos atrás dos carros; avance usando cobertura lateral e gás CS.\n• Garanta o andar superior dos escritórios antes de cruzar o showroom envidraçado.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "buy cheap buy twice caesars cars concessionaria missao 15 soft objective contrabando registros trafico rank s"
+                    },
+                    {
+                        "id":  16,
+                        "title":  "Carriers of the Vine (Cherryessa Farm)",
+                        "subtitle":  "🗺️ Missão 16 • 1 Soft Objective (Evidência de Conspiração)",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "carriers_of_the_vine.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Fazenda isolada ocupada por uma seita armada em área aberta com vinhedos, igreja e construções de pedra.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Evidência de Conspiração: encontre e reporte os documentos/provas ligados à conspiração e pessoas desaparecidas dentro das instalações da fazenda.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Como há bastante vegetação e combate em média distância no pátio, prefira o fuzil pepperball VPL-25 em vez da escopeta Beanbag para Rank S.\n• Limpe a torre/passarela e os prédios ao redor antes de entrar no pátio central da igreja.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "carriers of the vine cherryessa farm fazenda seita missao 16 soft objective conspiracao evidencia rank s"
+                    },
+                    {
+                        "id":  17,
+                        "title":  "Relapse (Coastal Grove Medical Center)",
+                        "subtitle":  "🗺️ Missão 17 • ⚠️ 2 Bombas com Temporizador • Sem Soft Objectives",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "relapse.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção: Mapa Extenso e 2 Bombas Ativas",
+                                                    "content":  "• Hospital de múltiplos pavimentos e duas alas interligadas por passarela.\n• Existem 2 bombas com temporizador que precisam ser desarmadas antes do fim da contagem.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives",
+                                                    "content":  "• Nenhum soft objective oculto nesta missão.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Avance com ritmo constante pelas alas principais seguindo o som dos bipes para localizar e desarmar as duas bombas primeiro.\n• Trave portas laterais desnecessárias com cunhas para não ser cercado pelos corredores do hospital.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "relapse coastal grove medical center hospital bombas temporizador missao 17 sem soft objective rank s"
+                    },
+                    {
+                        "id":  18,
+                        "title":  "Hide and Seek (Port Hokan)",
+                        "subtitle":  "🗺️ Missão 18 (Final) • Soft Objectives nos Contêineres Laranja",
+                        "category":  "missions",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Imagem do Local",
+                                                    "content":  "hide_and_seek.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Resumo da Operação",
+                                                    "content":  "• Missão final da campanha base no porto de contêineres e grande armazém de Port Hokan, com visibilidade reduzida pela chuva e atiradores em plataformas altas.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Soft Objectives (Obrigatório para Rank S)",
+                                                    "content":  "• Contêineres de Tráfico (Símbolo de Aranha): vasculhe o pátio externo e o galpão para encontrar os contêineres laranja marcados com o símbolo de aranha, abra-os e reporte as vítimas/evidências no interior.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia",
+                                                    "content":  "• Use mira óptica ou VPL-25 com atenção redobrada nas passarelas elevadas do armazém.\n• Após neutralizar os suspeitos, faça uma varredura sistemática em todos os contêineres laranja abertos ou fechados pelo pátio para não esquecer nenhum reporte.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "hide and seek port hokan porto conteineres laranja aranha missao 18 final soft objective vitimas rank s"
+                    },
+                    {
+                        "id":  101,
+                        "title":  "VPL-25 (Fuzil Pepperball — Menos-Letal)",
+                        "subtitle":  "🔫 Principal Menos-Letal • Padrão Ouro para Rank S em Equipe",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Visual no Jogo",
+                                                    "content":  "vpl_25.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Fuzil menos-letal baseado na plataforma AR que dispara cápsulas de pimenta (.68 Pepperball), criando uma pequena nuvem irritante ao impactar.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Atributos \u0026 Mecânica",
+                                                    "content":  "• Carregador de 25 disparos com cadência semiautomática rápida e ótimo alcance.\n• Força rendição mesmo acertando perto da cobertura ou no peito protegido por colete.\n• Praticamente elimina o risco de morte acidental causado pelos bots da IA.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Equipe seus 4 oficiais da IA com o VPL-25 + vários carregadores extras (removendo munição letal de pistola) em tentativas de Rank S.\n• Lembre-se de usar máscara de gás (Gas Mask) em todo o esquadrão para não sofrer efeito das nuvens de pimenta.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "vpl-25 vpl25 pepperball pimenta menos letal non lethal rank s fuzil rifle"
+                    },
+                    {
+                        "id":  102,
+                        "title":  "Beanbag Shotgun (Escopeta Menos-Letal)",
+                        "subtitle":  "🔫 Principal Menos-Letal • Stun Instantâneo (⚠️ Nunca Mire na Cabeça)",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Escopeta de ação por bombeamento carregada com sacos de chumbinho (Beanbag) para derrubar e atordoar suspeitos imediatamente.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção (Risco de Morte Acidental)",
+                                                    "content":  "• Disparos na CABEÇA com a Beanbag Shotgun matam o alvo na hora, anulando seu Rank S.\n• Disparos repetidos em sequência muito rápida em alvos sem colete também podem incapacitar fatalmente.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Excelente nas mãos do jogador em curtas distâncias: mire sempre no centro do tronco (peito/abdômen) e grite para render-se logo após o primeiro impacto.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "beanbag shotgun escopeta menos letal non lethal rank s stun cabeca letal"
+                    },
+                    {
+                        "id":  103,
+                        "title":  "Taser (Dispositivo Tático Menos-Letal)",
+                        "subtitle":  "⚡ Equipamento Tático • Incapacita Alvos Isolados Instantaneamente",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Visual no Jogo",
+                                                    "content":  "taser.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Arma de eletrochoque equipada no slot tático, capaz de paralisar e forçar a rendição imediata de suspeitos e civis rebeldes a curta distância.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Atributos \u0026 Mecânica",
+                                                    "content":  "• Ocupa espaço de equipamento tático (sem substituir a pistola secundária).\n• Possui cartuchos limitados por missão e pode falhar caso atinja placas de blindagem muito pesadas.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Ideal quando você joga com fuzil letal, mas precisa capturar um alvo vivo ou impedir um civil em pânico de fugir.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "taser choque menos letal tatico equipamento non lethal"
+                    },
+                    {
+                        "id":  104,
+                        "title":  "M320 / Lançadores Táticos (Flash, Stinger e Gás CS)",
+                        "subtitle":  "💥 Tático Longo • Controle de Área Seguro Antes da Invasão",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Lançadores táticos de 40mm (como o M320 mono-tiro e o M32A1 múltiplo) usados para projetar granadas de luz, borracha (Stinger) ou gás CS à distância.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Mecânica e Vantagens",
+                                                    "content":  "• Dispara granadas com trajetória direta e detonação quase imediata ao entrar em salas grandes.\n• Ocupa o slot tático longo (substituindo o Mirrorgun ou o Aríete quando equipado).",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Em esquadrão, deixe 1 operador com Mirrorgun para checar portas e outro com lançador M320 Flash/CS para neutralizar salas amplas (como Greased Palms e Mindjot) sem expor o corpo.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "m320 m32a1 lancador granada flash stinger gas cs tatico longo"
+                    },
+                    {
+                        "id":  105,
+                        "title":  "SA-58 OSW (Fuzil de Batalha 7.62×51mm)",
+                        "subtitle":  "🔫 Fuzil de Batalha • Poder de Parada Máximo Contra Colete Pesado",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Visual no Jogo",
+                                                    "content":  "sa_58.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Fuzil de batalha calibre .308 / 7.62×51mm capaz de derrubar inimigos fortemente blindados com 1 a 2 disparos no tronco.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Atenção (Recuo e Sobre-Penetração)",
+                                                    "content":  "• Possui recuo elevado no modo automático e altíssima penetração em paredes.\n• Cuidado ao atirar na direção de cômodos com civis atrás de portas ou drywall.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Utilize em modo semiautomático com munição AP nas missões de alto risco (Ides of March, Relapse, Neon Tomb) quando não estiver buscando Rank S.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "sa-58 sa58 osw fal 7.62 308 fuzil batalha ap letal"
+                    },
+                    {
+                        "id":  106,
+                        "title":  "ARN-180 (Fuzil de Assalto 5.56mm)",
+                        "subtitle":  "🔫 Fuzil de Assalto • Equilibrado, Compacto e Versátil em CQB",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Visual no Jogo",
+                                                    "content":  "arn_180.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Carabina/fuzil moderno em calibre 5.56×45mm NATO com perfil curto, ótimo controle de recuo e excelente manobrabilidade perto de batentes.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Configuração Recomendada",
+                                                    "content":  "• Munição: AP (para atravessar coletes em mapas médios e finais).\n• Acessórios: mira holográfica/red dot leve, empunhadura vertical e lanterna + laser IR (se usar NVG).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "arn-180 arn180 5.56 fuzil assalto carabina cqb"
+                    },
+                    {
+                        "id":  107,
+                        "title":  "LVAR (Carabina .300 BLK Silenciada)",
+                        "subtitle":  "🔫 Fuzil de Assalto • Supressor Integrado + Alto Impacto .300 BLK",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "image",
+                                                    "title":  "Visual no Jogo",
+                                                    "content":  "lvar.webp",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Descrição",
+                                                    "content":  "• Carabina tática baseada na plataforma MCX equipada com supressor integrado de fábrica e câmara para munição .300 Blackout.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Atributos \u0026 Mecânica",
+                                                    "content":  "• Comprimento total reduzido mesmo silenciada, evitando que o cano levante ao encostar em portas e corredores estreitos.\n• O calibre .300 BLK entrega energia superior em curta e média distância comparado a submetralhadoras 9mm.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Uso",
+                                                    "content":  "• Excelente para limpezas silenciosas em mapas escuros e fechados (Twisted Nerve, Rust Belt, Dorms) com menos alerta acústico aos cômodos vizinhos.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "lvar 300 blk blackout silenciada supressor mcx carabina cqb"
+                    },
+                    {
+                        "id":  108,
+                        "title":  "Equipamentos Táticos (Mirrorgun, Cunhas, C2 e Escudo)",
+                        "subtitle":  "🛡️ Ferramentas de Invasão • Controle de Portas e Reconhecimento",
+                        "category":  "weapons",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Mirrorgun (Optiwand) \u0026 Cunhas (Door Wedges)",
+                                                    "content":  "• Mirrorgun: câmera flexível para espiar por baixo da porta, identificar inimigos, civis e detectar fios de armadilhas antes de abrir.\n• Door Wedge: trava qualquer porta fechada, bloqueando flanqueios e isolando setores inteiros.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "C2 \u0026 Escudo Balístico (Ballistic Shield)",
+                                                    "content":  "• Carga C2: explode portas trancadas, atordoando fortemente quem estiver logo atrás (⚠️ pode matar civis ou suspeitos colados na porta).\n• Escudo Balístico: protege o operador na linha de frente ao cruzar corredores abertos usando apenas a pistola secundária.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica de Composição de Esquadrão",
+                                                    "content":  "• Leve pelo menos 1 Mirrorgun no líder ou em um operador da IA e distribua 2 a 4 Door Wedges entre os membros do time.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "mirrorgun optiwand door wedge cunha porta c2 escudo balistico ballistic shield equipamentos taticos"
+                    },
+                    {
+                        "id":  201,
+                        "title":  "Sistema de Rank S (Regras e Requisitos)",
+                        "subtitle":  "⚙️ Guia Completo • Zero Mortes, 100% Evidências e Soft Objectives",
+                        "category":  "mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Regras Obrigatórias para Rank S",
+                                                    "content":  "• Concluir 100% dos objetivos principais do tablet.\n• Concluir e reportar 100% dos Soft Objectives ocultos do mapa.\n• Prender/algemar todos os suspeitos e civis VIVOS (nenhuma morte ou incapacitação letal).\n• Recolher e ensacar todas as armas caídas e evidências do cenário.\n• Zero mortes ou incapacitações na sua equipe e zero uso de força não autorizada.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Penalidades que Quebram o Rank S",
+                                                    "content":  "• Matar um único suspeito (mesmo armado e atirando) reduz a pontuação máxima de 35 pontos para 5 pontos por suspeito, impedindo o Rank S.\n• Acertar um suspeito que já se rendeu, usar C2 em cima de alguém atrás da porta ou atingir aliados com granadas gera penalidade de força não autorizada / fogo amigo.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia Padrão",
+                                                    "content":  "• Use equipe 100% menos-letal (VPL-25 ou Beanbag), máscaras de gás + granadas CS/Flashbang e inspecione cada cômodo antes de avançar.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "rank s s rank pontuacao menos letal regras requisitos evidencias soft objectives"
+                    },
+                    {
+                        "id":  202,
+                        "title":  "Blindagem: Kevlar vs. Cerâmica vs. Aço",
+                        "subtitle":  "⚙️ Equipamento Defensivo • Mobilidade, Quebra e Fragmentação",
+                        "category":  "mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Comparativo de Materiais de Placa",
+                                                    "content":  "• Kevlar (Nível IIIA): mais leve e sem penalidade de velocidade; reduz ~50% de calibres de pistola (9mm), mas quase não segura fuzis (5.56/7.62).\n• Cerâmica (Nível IV): bloqueia 100% do dano enquanto a placa estiver íntegra e é bem mais leve que aço, porém estilhaça e perde proteção após ~4 a 8 impactos fortes.\n• Aço (Steel): indestrutível (nunca quebra) e reduz ~60–70% de dano de fuzil continuamente.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Cuidado com Placas de Aço (Spalling)",
+                                                    "content":  "• Placas de aço pesam muito na movimentação e geram fragmentação (spalling) ao serem atingidas, causando dano leve no operador ou aliados próximos e aumentando o efeito de supressão.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Qual Escolher?",
+                                                    "content":  "• Padrão recomendado: Colete Leve ou Pesado com placas de Cerâmica (Frente e Costas) — proteção máxima contra primeiros tiros letais com boa mobilidade.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "blindagem colete kevlar ceramica aco steel spalling heavy armor light armor"
+                    },
+                    {
+                        "id":  203,
+                        "title":  "Munição: JHP vs. AP (Penetração e Dano)",
+                        "subtitle":  "⚙️ Balística • Escolha Certa por Nível de Proteção dos Suspeitos",
+                        "category":  "mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "JHP (Jacketed Hollow Point)",
+                                                    "content":  "• Expande ao atingir tecidos desprotegidos, causando maior dano bruto, sangramento e incapacitação rápida em alvos SEM colete.\n• Penetração muito baixa contra blindagem e paredes/portas.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "AP (Armor Piercing)",
+                                                    "content":  "• Núcleo rígido projetado para perfurar coletes balísticos (Kevlar e placas) e atravessar portas/coberturas leves.\n• Causa dano levemente menor em alvos sem colete e tem maior chance de atravessar o corpo do alvo (over-penetration).",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Quando Usar Cada Uma",
+                                                    "content":  "• Use JHP apenas nos mapas iniciais onde suspeitos quase não usam coletes (4U Gas Station, Twisted Nerve).\n• Use AP como padrão da metade da campanha em diante (Ides of March, Greased Palms, Valley of the Dolls, Relapse, Port Hokan).",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "municao jhp ap armor piercing hollow point penetracao dano balistica colete"
+                    },
+                    {
+                        "id":  204,
+                        "title":  "Armadilhas de Porta (Tripwires) — Detecção e Desarme",
+                        "subtitle":  "⚙️ Sobrevivência • Lista de Mapas com Fios Explosivos e Flash",
+                        "category":  "mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Missões Oficiais com Armadilhas (Tripwires)",
+                                                    "content":  "• A Lethal Obsession (Sullivan\u0027s Slope): granadas explosivas (HE) na maioria das portas.\n• Ides of March (Brisa Cove): granadas explosivas (HE).\n• Sins of the Father (Clemente Hotel): granadas de luz (Flashbang).\n• Neon Tomb (Neon Nightclub): armadilhas explosivas (HE).",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Regra de Ouro Antes de Abrir Portas",
+                                                    "content":  "• Se um operador (ou você) abrir completamente ou chutar uma porta com armadilha ativa, o fio é puxado e detona na hora.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Como Detectar e Desarmar com Segurança",
+                                                    "content":  "• 1. Olhe por baixo da porta com o Mirrorgun procurando um fio esticado perto da soleira.\n• 2. Caso já tenha certeza ou não tenha Mirrorgun, use a opção Entreabrir (Peek Door) — a fresta pequena NÃO dispara o fio.\n• 3. Mire na parte inferior da fresta até aparecer a ação de cortar/desarmar (Multitool) ou mande seu esquadrão desarmar.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "armadilhas tripwire porta bomba flashbang desarmar peek mirrorgun a lethal obsession ides of march sins of the father neon tomb"
+                    },
+                    {
+                        "id":  205,
+                        "title":  "Traços de Oficiais (Officer Traits — Modo Comandante)",
+                        "subtitle":  "⚙️ Modo Comandante • Melhores Passivas Acumuláveis para o Esquadrão",
+                        "category":  "mechanics",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Melhores Traços para Rank S e Menos-Letal",
+                                                    "content":  "• Pacifier: aumenta a chance de suspeitos se renderem ao sofrer impacto menos-letal (acumula entre membros da equipe).\n• Negotiator: faz suspeitos hesitarem por mais tempo antes de atirar e facilita rendições no grito.\n• Intimidator: quebra a moral dos suspeitos mais depressa quando o esquadrão ordena rendição.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Melhores Traços de Sobrevivência e Estresse",
+                                                    "content":  "• Armorer: reduz o dano sofrido pela equipe da IA (excelente com placas de Cerâmica).\n• Nutritionist / Veteran / Paramedic: aumentam resistência e ajudam a preservar a equipe e reduzir estresse pós-missão.",
+                                                    "color":  "gray"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Composição Recomendada",
+                                                    "content":  "• Os bônus dos traços são liberados conforme você completa missões sem perder os oficiais.\n• Para Rank S, busque combinar 2× Pacifier + 1–2× Negotiator + 1× Intimidator ou Armorer.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "tracos oficiais officer traits modo comandante commander mode pacifier negotiator intimidator armorer nutritionist"
+                    },
+                    {
+                        "id":  301,
+                        "title":  "The Hermit (Modo Ironman sem Perder Oficiais)",
+                        "subtitle":  "🏆 Conquista • Campanha Completa no Modo Ironman sem Baixas ou Demissões",
+                        "category":  "achievements",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Requisito Oficial",
+                                                    "content":  "• Concluir toda a campanha principal no modo Ironman (dificuldade Padrão ou superior) sem perder nenhum oficial — nem por morte em combate nem por demissão causada por estresse crítico (Crisis).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Pontos Críticos de Falha",
+                                                    "content":  "• Se um oficial atingir o estado mental \u0027Crisis\u0027 e pedir demissão, a conquista é perdida.\n• Fique atento a armadilhas em A Lethal Obsession, Ides of March, Sins of the Father e Neon Tomb.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Estratégia Segura",
+                                                    "content":  "• Alterne oficiais cansados enviando-os para Terapia antes de chegarem a \u0027Stressed/Crisis\u0027.\n• Rejogue missões mais curtas e limpas (como 4U Gas Station) com abordagem menos-letal para recuperar o moral do elenco.\n• Use Armadura Pesada (Cerâmica) nos bots e Escudo Balístico nas entradas perigosas.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "the hermit conquista trofeu ironman modo comandante sem perder oficiais terapia stress crisis"
+                    },
+                    {
+                        "id":  302,
+                        "title":  "Way Out West (Rust Belt Apenas com .357 Magnum)",
+                        "subtitle":  "🏆 Conquista • Completar Rust Belt Usando Somente o Revólver .357",
+                        "category":  "achievements",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Requisito Oficial",
+                                                    "content":  "• Concluir a missão Rust Belt (Costa Vino Border Reserve) em dificuldade Padrão ou superior utilizando apenas o revólver .357 Magnum.",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Restrições Rígidas (Evite Anular a Conquista)",
+                                                    "content":  "• Remova TODOS os acessórios do .357 Magnum (sem lanterna nem mira) e leve ZERO munição na arma primária.\n• NÃO equipe Escudo Balístico, NÃO ligue óculos de visão noturna (NVG), NÃO puxe Mirrorgun/táticos longos e NÃO abra o tablet tático durante a missão.\n• Não tente combinar esta conquista com Rank S, pois o revólver é letal.",
+                                                    "color":  "red"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Passo a Passo",
+                                                    "content":  "• 1. Logo ao iniciar a fase, troque imediatamente para o .357 Magnum e nunca mais troque de item.\n• 2. Dispare ao menos um tiro com o revólver (ou abata um alvo com segurança) para garantir o registro da arma.\n• 3. Deixe seu esquadrão de IA (equipado com fuzis pesados como SA-58) abrir portas, limpar salas, algemar e ensacar evidências via comandos rápidos.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "way out west conquista trofeu rust belt 357 magnum revolver sem tablet sem nvg"
+                    },
+                    {
+                        "id":  303,
+                        "title":  "Loadout Meta para Rank S (Esquadrão Completo)",
+                        "subtitle":  "🏆 Guia Prático • Configuração Pronta para Copiar Antes da Missão",
+                        "category":  "achievements",
+                        "spoiler":  false,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Equipamento do Líder (Você)",
+                                                    "content":  "• Primária: VPL-25 (ou Beanbag Shotgun se preferir stun imediato mirando no peito).\n• Secundária: 0 carregadores (remova toda munição letal de pistola para a IA/você nunca atirarem letal).\n• Tático Longo: Mirrorgun (checar portas e armadilhas).\n• Colete: Cerâmica Pesada + Máscara de Gás (Gas Mask).",
+                                                    "color":  "cyan"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Equipamento dos 4 Oficiais de IA",
+                                                    "content":  "• Primária: VPL-25 com 6 a 8 carregadores de Pepperball.\n• Secundária: 0 carregadores letais (deixe todo o espaço extra para gás/flash e munição de pimenta).\n• Granadas: 3–4 Gás CS ou Flashbangs por operador.\n• Tático: distribuir 2× Door Wedges no time A e 2× no time B + 1× Lançador CS/Flash.",
+                                                    "color":  "green"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "⚠️ Checklist Rápido de Segurança",
+                                                    "content":  "• Máscara de gás em TODOS os 5 operadores (inclusive você).\n• Nenhuma granada Stinger/C2 em mapas apertados para evitar morte acidental de civis.",
+                                                    "color":  "red"
+                                                }
+                                            ],
+                        "tags":  "loadout meta rank s esquadrao ia vpl-25 gas mask cs beanbag zero municao letal"
+                    },
+                    {
+                        "id":  304,
+                        "title":  "DLCs: Home Invasion \u0026 Dark Waters (Soft Objectives)",
+                        "subtitle":  "🏆 Conteúdo Extra • Mapa Rápido dos Objetivos Ocultos nas Expansões",
+                        "category":  "achievements",
+                        "spoiler":  true,
+                        "additional_data":  [
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "DLC Home Invasion",
+                                                    "content":  "• Dorms: reporte o esconderijo de contrabando no 2º andar (em um dos quartos voltados ao corredor).\n• Narcos: reporte os múltiplos pontos de evidência/contrabando divididos entre as casas (dois na primeira casa e um na casa à esquerda).\n• Lawmaker: sem soft objectives ocultos.",
+                                                    "color":  "yellow"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "DLC Dark Waters",
+                                                    "content":  "• Mirage at Sea (Iate): reporte os dois pontos de contrabando a bordo (um próximo à cozinha no convés intermediário e outro em uma sala na proa/convés superior).\n• Leviathan (Plataforma de Petróleo): reporte os dados de inteligência na sala de controle central do setor de perfuração.\n• 3 Letter Triad: sem soft objectives ocultos.",
+                                                    "color":  "purple"
+                                                },
+                                                {
+                                                    "type":  "text",
+                                                    "title":  "Dica Tática",
+                                                    "content":  "• Em Dorms e Narcos, avance com cunhas de porta e gás CS pelos corredores e quintais antes de recolher provas.",
+                                                    "color":  "green"
+                                                }
+                                            ],
+                        "tags":  "dlc home invasion dark waters dorms narcos lawmaker mirage at sea leviathan 3 letter triad soft objectives"
+                    }
+                ]
 }
