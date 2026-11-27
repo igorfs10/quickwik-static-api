@@ -2,10 +2,10 @@
   "id": "elden_ring",
   "title": "Elden Ring",
   "icon": "💍",
-  "updated_at": "2026-11-15T20:15:00Z",
+  "updated_at": "2026-11-27T02:15:00Z",
   "sources": [
     {
-      "name": "Fextralife — Elden Ring Wiki",
+      "name": "Fextralife — Elden Ring & Shadow of the Erdtree Wiki",
       "url": "https://eldenring.wiki.fextralife.com/",
       "license": "Referência factual com redação própria"
     },
@@ -13,8 +13,14 @@
       "name": "Elden Ring Wiki (Fandom)",
       "url": "https://eldenring.fandom.com/",
       "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "PCGamingWiki — Elden Ring",
+      "url": "https://www.pcgamingwiki.com/wiki/Elden_Ring",
+      "license": "CC BY-NC-SA 3.0 — Referência factual de executável"
     }
-  ],  "process_keywords": [
+  ],
+  "process_keywords": [
     "eldenring",
     "elden_ring",
     "elden ring"
@@ -26,231 +32,1421 @@
     },
     {
       "id": "heal",
-      "label": "🧪 Cura & Frascos"
+      "label": "🧪 Cura, Frascos & Grandes Runas"
     },
     {
       "id": "upgrade",
-      "label": "⚙️ Melhorias & Forja"
+      "label": "⚙️ Forja, Sinos & Atributos"
+    },
+    {
+      "id": "weapons",
+      "label": "⚔️ Armas & Talismãs Meta"
     },
     {
       "id": "key",
-      "label": "🗝️ Itens-Chave"
+      "label": "🗝️ Itens-Chave, Quests & Finais"
     },
     {
       "id": "defense",
-      "label": "🛡️ Defesas"
+      "label": "🛡️ Defesas & Contra-Medidas de Chefes"
     }
   ],
   "entries": [
     {
       "id": 101,
       "title": "Golden Seed (Semente Dourada)",
-      "subtitle": "Aumenta o número total de usos do Frasco de Lágrimas",
+      "subtitle": "🌱 Aumenta cargas totais de Frascos até o limite máximo de 14 usos",
       "category": "heal",
       "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Entregue nos Locais de Graça para ganhar mais cargas de cura e mana (até 14 frascos).",
+          "content": "Entregue nos Locais de Graça (menu Frascos) para adicionar cargas permanentes ao Frasco de Lágrimas Carmesins (HP) ou Cerúleas (FP).",
           "color": "cyan"
         },
         {
-          "title": "Mecânica",
+          "title": "Mecânica e Limite Máximo",
           "type": "text",
-          "content": "Item primordial para a sobrevivência. Cada Golden Seed adiciona usos ao seu Flask of Crimson Tears (vida) ou Cerulean Tears (FP/mana). Conforme o número de frascos aumenta, mais sementes são necessárias por nível (até o máximo de 14 frascos no total).",
+          "content": "• Limite absoluto: 14 frascos somados (ou 13 caso não escolha Golden Seed como lembrança inicial antes de coletar mais).\n• Custo escalonado por melhoria:\n  - Primeiras 4 melhorias: 1 semente cada\n  - Melhorias 5 e 6: 2 sementes cada\n  - Melhorias 7 e 8: 3 sementes cada\n  - Melhorias 9 e 10: 4 sementes cada\n  - Melhoria final (14 frascos): 5 sementes\n• Total necessário: 30 sementes (o mapa base oferece mais de 42 sementes, então não é preciso pegar todas).",
           "color": "gray"
         },
         {
-          "title": "Localização",
+          "title": "Onde Encontrar Rapidamente",
           "type": "text",
-          "content": "• Encontradas sob pequenas árvores douradas brilhantes (Minor Erdtree Saplings):\n  - Stormhill (na subida do portão antes do castelo)\n  - Weeping Peninsula (perto do castelo Morne)\n  - Liurnia of the Lakes (ao longo dos caminhos centrais e ruínas)\n  - Caelid e Leyndell.",
+          "content": "• Sempre brilham sob pequenas mudas douradas (Illusory Trees) na beira de estradas principais ou caem de chefes Ulcerated Tree Spirit:\n  - Limgrave: subida de Stormhill (antes da Cabana de Roderika), Castelo Stormveil (pátio antes do elevador de Godrick) e recompensa da quest de Kenneth Haight + Nepheli.\n  - Weeping Peninsula: estrada sul antes do Castelo Morne.\n  - Liurnia: cidade da Academia (Academy Gate Town), entrada de Caria Manor e desfiladeiro norte.\n  - Caelid / Dragonbarrow: encruzilhada sul para Redmane, entrada de Sellia e subida para o Bestial Sanctum.\n  - Altus Plateau & Leyndell: até 8 sementes ao longo das avenidas principais da estrada real (muitas vêm em pares!).",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Ao explorar qualquer região nova, siga a estrada principal: praticamente todas as rotas principais têm uma muda dourada visível de longe com uma Golden Seed gratuita aos seus pés!",
+          "content": "• Escolha Golden Seed como Lembrança Inicial (Keepsake) na criação de personagem para já começar a aventura com 1 frasco extra contra os primeiros chefes.\n• Assim que liberar o cavalo Torrent, percorra as estradas principais de Limgrave, Weeping Peninsula, Liurnia e Caelid para chegar facilmente a 8–9 frascos sem lutar contra nenhum chefe!",
           "color": "green"
         }
       ],
-      "tags": "elden ring golden seed frasco cura cargas flask erdtree item"
+      "tags": "elden ring golden seed semente dourada frasco cura cargas flask erdtree limite 14"
     },
     {
       "id": 102,
       "title": "Sacred Tear (Lágrima Sagrada)",
-      "subtitle": "Aumenta a quantidade de HP e FP curada por cada gole (+1 a +12)",
+      "subtitle": "💧 Eleva a potência de cura de cada gole de +1 até +12 (810 HP por uso)",
       "category": "heal",
       "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Melhora a eficiência de cura de cada gole. Essencial para sobreviver a chefes!",
+          "content": "Aumenta permanentemente quanto HP ou FP cada gole recupera. Existem exatamente 12 Lágrimas Sagradas nas Terras Intermédias.",
           "color": "cyan"
         },
         {
           "title": "Mecânica",
           "type": "text",
-          "content": "Usadas no menu do Local de Graça para subir o nível do frasco (+1, +2 ... até +12). No nível máximo, um único gole restaura quase a totalidade de uma barra de vida com 60 de Vigor.",
+          "content": "• Frasco Base (+0): recupera apenas 250 HP.\n• Frasco +6: recupera 670 HP.\n• Frasco Máximo (+12): recupera 810 HP por gole (ou 220 FP no frasco azul), curando mais de 40% da barra de 60 de Vigor em um único uso.",
           "color": "gray"
         },
         {
-          "title": "Localização",
+          "title": "Localização das 12 Igrejas",
           "type": "text",
-          "content": "• Sempre localizadas aos pés da estátua de Marika dentro de Igrejas em ruínas:\n  - Terceira Igreja de Marika (leste de Limgrave)\n  - Igreja da Peregrinação (norte da Weeping Peninsula)\n  - Igreja Batismal de Callu (centro da Weeping Peninsula)\n  - Quarta Igreja de Marika (oeste da Weeping Peninsula)\n  - Igreja de Irith (saída sul de Liurnia).",
+          "content": "• Limgrave (1): Third Church of Marika (leste de Mistwood — também contém o Elixir Magnífico).\n• Weeping Peninsula (3): Church of Pilgrimage (extremo norte), Fourth Church of Marika (penhasco oeste) e Callu Baptismal Church (centro da península).\n• Liurnia of the Lakes (3): Church of Irith (saída sul de Stormveil), Bellum Church (estrada norte rumo ao Elevador de Dectus) e Church of Inhibition (nordeste, acima da Vila da Chama Frenética).\n• Caelid (1): Church of the Plague (platô acima de Sellia).\n• Altus Plateau (2): Second Church of Marika (norte do cruzamento principal) e Stormcaller Church (oeste das muralhas externas).\n• Mountaintops of the Giants (2): Church of Repose (sudoeste da Forja dos Gigantes) e First Church of Marika (sul do lago congelado).",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Segredo de Início de Jogo: A Península das Lamentações (ao sul de Limgrave) possui TRÊS Igrejas com Sacred Tears fáceis de pegar sem precisar enfrentar chefes obrigatórios! Colete as 3 antes de lutar contra Margit!",
+          "content": "• Rota Expressa Nível 1: Colete a lágrima da Third Church of Marika e desça direto para a Weeping Peninsula pegar mais 3 igrejas livres. Você enfrentará Margit já com Frasco +4!",
           "color": "green"
         }
       ],
-      "tags": "elden ring sacred tear igreja marika potencia cura flask item"
+      "tags": "elden ring sacred tear lagrima sagrada igreja church marika potencia cura flask +12"
     },
     {
-      "id": 103,
-      "title": "Margit's Shackle (Grilhões de Margit)",
-      "subtitle": "Imobiliza Margit e Morgott na Fase 1 por 4 a 5 segundos",
-      "category": "key",
-      "spoiler": true,
+      "id": 107,
+      "title": "Flask of Wondrous Physick (Elixir Magnífico & Melhores Lágrimas)",
+      "subtitle": "🧪 Frasco customizável de 2 efeitos combinados recarregável na Graça",
+      "category": "heal",
+      "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Atordoa e bate o chefe contra o chão até 2 vezes na primeira fase!",
-          "color": "orange"
+          "content": "Terceiro frasco recarregável nos Locais de Graça que mistura até 2 Lágrimas de Cristal (Crystal Tears) para conceder buffs poderosos antes de chefes.",
+          "color": "cyan"
         },
         {
-          "title": "Mecânica",
+          "title": "Onde Pegar o Frasco",
           "type": "text",
-          "content": "Item reutilizável que canaliza poder sagrado dourado para forçar Margit, the Fell Omen e Morgott, the Omen King ao chão. Durante o atordoamento, o chefe fica indefeso para receber ataques pesados carregados que quebram a postura.",
+          "content": "• Third Church of Marika (leste de Limgrave, ao norte de Mistwood), em uma bacia brilhante logo ao lado do Local de Graça.",
+          "color": "yellow"
+        },
+        {
+          "title": "Melhores Lágrimas do Jogo Base",
+          "type": "text",
+          "content": "• Opaline Hardtear (-15% de todo dano recebido por 3 min): derrotar Putrid Avatar na Minor Erdtree de Dragonbarrow (nordeste de Caelid).\n• Greenburst Crystal Tear (+15/s regeneração de Vigor por 3 min): derrotar Erdtree Avatar na Minor Erdtree oeste de Caelid.\n• Cerulean Hidden Tear (custo ZERO de FP por 15s — combo supremo com Comet Azur): derrotar Ulcerated Tree Spirit na Minor Erdtree de Mt. Gelmir.\n• Magic-Shrouding Cracked Tear (+20% dano mágico por 3 min): Erdtree Avatar no nordeste de Liurnia.\n• Flame-Shrouding Cracked Tear (+20% dano de fogo por 3 min): Erdtree Avatar no oeste de Caelid.\n• Lightning-Shrouding Cracked Tear (+20% dano elétrico por 3 min): Erdtree Avatar no nordeste de Liurnia.\n• Stonebarb Cracked Tear (+30% dano de postura por 30s): Putrid Avatar em Dragonbarrow.",
           "color": "gray"
         },
         {
-          "title": "Localização",
+          "title": "Estratégia",
           "type": "text",
-          "content": "• Comprado com o NPC Patches na Caverna de Murkwater (Murkwater Cave) em Limgrave por 5.000 Runas, após derrotá-lo até a metade da vida e aceitar a rendição dele.",
+          "content": "• Combinação Universal de Sobrevivência: Opaline Hardtear + Greenburst Crystal Tear duram 3 minutos inteiros (praticamente toda a luta contra qualquer chefe).\n• Para builds elementais ou híbridas, troque a Greenburst pela lágrima Shrouding correspondente ao elemento da sua arma (+20% de dano multiplicativo!).",
+          "color": "green"
+        }
+      ],
+      "tags": "flask wondrous physick elixir magnifico crystal tear lagrima cristal opaline hardtear greenburst cerulean hidden shrouding"
+    },
+    {
+      "id": 108,
+      "title": "Deflecting Hardtear & Bloodsucking Cracked Tear (Lágrimas da DLC)",
+      "subtitle": "🔥 Lágrimas meta de Shadow of the Erdtree: Deflexão estilo Sekiro e +20% ATK",
+      "category": "heal",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "As duas Lágrimas de Cristal mais transformadoras da expansão Shadow of the Erdtree, obtidas ao derrubar Golens da Fornalha (Furnace Golems).",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica Detalhada",
+          "type": "text",
+          "content": "• Deflecting Hardtear (dura 5 min): bloquear no instante exato do impacto (Spontaneous Guard) reduz drasticamente o consumo de vigor, nega 100% do dano físico até segurando armas de duas mãos sem escudo e acumula até +80% de dano e +39% de quebra de postura nos Contra-Ataques de Guarda (Guard Counters)!\n• Bloodsucking Cracked Tear (dura 3 min): concede +20% de dano global para absolutamente todos os ataques físicos, mágicos e habilidades, ao custo de drenar 0,2% + 20 HP por segundo.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização Exata (DLC)",
+          "type": "text",
+          "content": "• Deflecting Hardtear: derrotar o primeiro Furnace Golem que patrulha a estrada aberta logo ao norte da Graça Scorched Ruins em Gravesite Plain (início da DLC).\n• Bloodsucking Cracked Tear: derrotar o Furnace Golem apagado que bloqueia a entrada das Ruins of Unte (acessível pelo caixão secreto na cachoeira inferior de Shadow Keep). Arremesse um Hefty Furnace Pot dentro da cesta dele para reativá-lo e então derrote-o.",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Utilidade Secreta Fora de Chefes: O Shackle emite uma onda de colisão invisível que atinge centenas de metros: use-o dentro de masmorras e catacumbas para desarmar pilares de fogo e revelar paredes ilusórias sem precisar bater nelas!",
+          "content": "• Para matar Golens da Fornalha rápido: ataque repetidamente o mesmo tornozelo pulando as ondas de fogo a cavalo com Torrent; após cair 3 vezes, acerte o golpe crítico na máscara metálica para causar mais de 50% do HP máximo!\n• Deflecting Hardtear trivializa combos longos de chefes agressivos da DLC (como Rellana, Messmer e Consort Radahn).",
           "color": "green"
         }
       ],
-      "tags": "elden ring margit shackle patches stun muralha ilusoria segredo item"
+      "tags": "deflecting hardtear bloodsucking cracked tear dlc shadow of the erdtree furnace golem sekiro guard counter"
+    },
+    {
+      "id": 109,
+      "title": "Grandes Runas (Great Runes), Torres Divinas & Arcos de Runa",
+      "subtitle": "👑 Buffs supremos até morrer: Godrick (+40 atributos), Radahn e Morgott (+25% HP)",
+      "category": "heal",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Ao derrotar Semideuses, você precisa restaurar a Grande Runa na respectiva Torre Divina (Divine Tower), equipá-la na Graça e consumir um Arco de Runa (Rune Arc) para ativar o efeito até morrer.",
+          "color": "cyan"
+        },
+        {
+          "title": "Melhores Grandes Runas e Torres Divinas",
+          "type": "text",
+          "content": "• Godrick's Great Rune (+5 em TODOS os 8 atributos = 40 níveis grátis!): restaurada na Torre Divina de Limgrave (ponte leste dentro do Castelo Stormveil). Melhor opção até o nível 120.\n• Radahn's Great Rune (+15% HP, +15% FP e +15% Vigor): restaurada na Torre Divina de Caelid (escalada externa em Dragonbarrow).\n• Morgott's Great Rune (+25% de HP máximo!): restaurada na Torre Divina Leste de Altus (no caminho do Elevador de Rold). Melhor opção para endgame e DLC com 60 de Vigor.\n• Rykard's Great Rune (restaura 80 + 7% HP ao matar inimigos): restaurada na Torre Divina Oeste de Altus (através do Sealed Tunnel nos arredores da Capital).",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Conseguir Arcos de Runa (Rune Arcs)",
+          "type": "text",
+          "content": "• Comprados das Gêmeas na Mesa Redonda e de mercadores nômades (4.000 Runas).\n• Recompensa garantida no coop online ao ajudar outro jogador a vencer um chefe ou ao derrotar anfitriões em invasões.\n• Farm Offline: caem de Ratos Gigantes (ex.: Caverna de Earthbore na Weeping Peninsula ou esgotos de Leyndell).",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Nunca ative um Rune Arc na primeira tentativa contra um chefe desconhecido! Aprenda os padrões primeiro e use o Arco quando já estiver consistente para fechar a vitória.",
+          "color": "green"
+        }
+      ],
+      "tags": "great rune grande runa godrick radahn morgott rykard rune arc arco de runa divine tower torre divina"
     },
     {
       "id": 104,
-      "title": "Somber Smithing Stones [1] a [9]",
-      "subtitle": "Pedras de forja para armas especiais e lendárias (+1 a +10)",
+      "title": "Somber Smithing Stones [1] a [10] (Pedras de Forja Sombrias)",
+      "subtitle": "💎 Rota expressa para armas especiais +9 cedo e Pedras +10 fáceis",
       "category": "upgrade",
       "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Apenas UMA pedra de cada nível é necessária por melhoria, até +9 e +10!",
+          "content": "Melhoram armas únicas e de chefes de +1 até +10. Exigem apenas 1 pedra de cada nível (ao contrário das armas comuns que exigem 12 pedras por patamar).",
           "color": "purple"
         },
         {
-          "title": "Mecânica",
+          "title": "Rota Expressa para Arma +9 Cedo",
           "type": "text",
-          "content": "Diferente das pedras normais (que exigem dezenas de pedras por patamar), armas especiais (como Bloodhound's Fang, Moonveil, Blasphemous Blade) precisam de apenas 1 Somber Stone por nível. Isso permite turbinar o dano do seu personagem de forma muito rápida.",
-          "color": "gray"
+          "content": "• Somber [1] a [4]: vendidas pelo ferreiro gigante Mestre Iji na estrada oeste de Liurnia (Road to the Manor).\n• Somber [5]: no chão do pântano de Caelid (perto da parede sul de Sellia) ou em Volcano Manor.\n• Somber [6]: drop do chefe Fallingstar Beast no Sellia Crystal Tunnel ou nos telhados de Volcano Manor.\n• Somber [7]: em Volcano Manor (após derrotar o Godskin Noble no Templo de Eiglay, suba a sacada e pule na ponte de engrenagem) ou nos esgotos de Leyndell.\n• Somber [8] e [9]: lado a lado em Dragonbarrow (Caelid)! Somber [8] cai de um escaravelho explosivo no morro a oeste da Torre Divina de Caelid; Somber [9] está em um cadáver cercado de cadeiras na base abaixo da mesma torre.",
+          "color": "yellow"
         },
         {
-          "title": "Localização",
+          "title": "Onde Pegar Somber Ancient Dragon (+10) Rápido",
           "type": "text",
-          "content": "• Somber [1] a [4]: Vendidas infinitamente pelo ferreiro Mestre Iji na estrada oeste de Liurnia (Road to the Manor).\n• Somber [5] e [6]: Túnel de Altus e Mt. Gelmir.\n• Somber [7], [8] e [9]: Dragonbarrow (nordeste de Caelid) e Farum Azula.",
+          "content": "• Existem 8 no jogo base + 6 na DLC (limitadas por jornada):\n  - Mais fácil e precoce: Palácio de Mohgwyn, dentro do baú no altar guardado por Sanguine Noble antes do elevador de Mohg (acessível cedo via quest do Varré!).\n  - Consecrated Snowfield: recompensa final da arqueira Latenna na Apostate Derelict ou matando o invasor Anastacia no rio congelado.\n  - Elphael (Haligtree): 2 unidades próximas à Prayer Room.\n  - DLC Shadow of the Erdtree: caem dos Ghostflame Dragons (Gravesite Plain, Scadu Altus e Cerulean Coast).",
+          "color": "orange"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Uma arma Somber +9 obtida antes mesmo da metade do jogo multiplica seu dano base e permite atropelar Radahn, Morgott e Mohg sem dificuldade!",
+          "color": "green"
+        }
+      ],
+      "tags": "elden ring somber smithing stone pedra de forja sombria +9 +10 ancient dragon iji dragonbarrow mohgwyn upgrade"
+    },
+    {
+      "id": 110,
+      "title": "Somberstone Miner's Bell Bearings [1] a [5] (Sinos Sombrios)",
+      "subtitle": "🔔 Desbloqueia compra INFINITA de Pedras Sombrias [1] a [9] na Mesa Redonda",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Entregue estes 5 Sinos às Donzelas Gêmeas (Twin Maiden Husks) na Mesa Redonda para comprar quantas Somber Smithing Stones [1]–[9] quiser — o desbloqueio é mantido permanentemente no NG+!",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização Exata dos 5 Sinos",
+          "type": "text",
+          "content": "• Sino Sombrio [1] (Pedras 1 e 2): derrotar o chefe Fallingstar Beast no final do Sellia Crystal Tunnel (Caelid).\n• Sino Sombrio [2] (Pedras 3 e 4): derrotar a dupla Crystalian (Lança e Anel) no final do Altus Tunnel (ao sul da Minor Erdtree de Altus Plateau).\n• Sino Sombrio [3] (Pedras 5 e 6): em um cadáver logo na entrada externa da First Church of Marika, ao sul do lago congelado em Mountaintops of the Giants (sem chefe!).\n• Sino Sombrio [4] (Pedras 7 e 8): em um cadáver na beira do penhasco bem ao lado da Graça Tempest-Facing Balcony em Crumbling Farum Azula.\n• Sino Sombrio [5] (Pedra 9): em Crumbling Farum Azula; da Graça Beside the Great Bridge, volte pelo elevador, desça as escadas e pegue no altar da capela lateral guardada por um Azula Beastman.",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Se você usa a Bloodhound's Fang (adquirida no Forlorn Hound Evergaol), visite Iji em Liurnia logo após o início do jogo: compre as Somber 1, 2, 3 e 4 para colocar sua arma no +4 instantaneamente!",
+          "content": "• Antes de iniciar o New Game Plus (Jornada 2) ou entrar na DLC Shadow of the Erdtree, colete todos os 5 sinos para poder testar qualquer arma única nova instantaneamente no +9!",
           "color": "green"
         }
       ],
-      "tags": "elden ring somber smithing stone pedras armas upgrade melhorias forja iji item"
+      "tags": "somberstone miner bell bearing sino pedra sombria mesa redonda twin maiden husks compra infinita farum azula"
+    },
+    {
+      "id": 111,
+      "title": "Smithing-Stone Miner's Bell Bearings [1] a [4] (Sinos Comuns & +25)",
+      "subtitle": "🔨 Desbloqueia compra INFINITA de Pedras Comuns [1] a [8] para armas +24",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Armas comuns customizáveis com Cinzas da Guerra exigem 12 pedras de cada nível (96 pedras ao todo para chegar a +24). Estes 4 Sinos liberam todas na loja da Mesa Redonda.",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização Exata dos 4 Sinos",
+          "type": "text",
+          "content": "• Sino Comum [1] (Pedras 1 e 2): derrotar o chefe Crystalian no Raya Lucaria Crystal Tunnel (nordeste do lago de Liurnia). Use armas de concussão/martelo para quebrar a armadura de cristal dele!\n• Sino Comum [2] (Pedras 3 e 4): dentro de um baú logo no início do Sealed Tunnel (lago ao sul das muralhas externas de Leyndell, em Altus Plateau) — não precisa matar o chefe!\n• Sino Comum [3] (Pedras 5 e 6): dentro de um baú no porão subterrâneo das Zamor Ruins, logo na chegada em Mountaintops of the Giants.\n• Sino Comum [4] (Pedras 7 e 8): recompensa obrigatória ao derrotar o chefe principal Godskin Duo em Crumbling Farum Azula.",
+          "color": "yellow"
+        },
+        {
+          "title": "Ancient Dragon Smithing Stones (+25)",
+          "type": "text",
+          "content": "• Existem 13 no jogo base + 8 na DLC para o upgrade final +25:\n  - Concluir as quests de Nepheli Loux + Kenneth Haight + Gostoc na sala do trono de Godrick (rende 2 pedras +25 de uma vez!).\n  - Apoiar Jerren contra Sellen na Academia Raya Lucaria.\n  - Comprar de Gurranq ao entregar todas as 9 Deathroots no Bestial Sanctum.",
+          "color": "gray"
+        }
+      ],
+      "tags": "smithing stone miner bell bearing sino pedra comum forja +24 +25 raya lucaria sealed tunnel zamor godskin duo"
+    },
+    {
+      "id": 112,
+      "title": "Glovewort & Ghost-Glovewort Bell Bearings (Sinos de Lírio do Vale)",
+      "subtitle": "👻 Compra infinita de Lírios [1] a [9] para evoluir Cinzas de Espírito com Roderika",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Libera a compra ilimitada de Ghost Gloveworts (espíritos lendários/especiais) e Grave Gloveworts (espíritos comuns) na Mesa Redonda. Lembre-se de concluir o diálogo entre Roderika e o ferreiro Hewg para destravar o aprimoramento de espíritos!",
+          "color": "cyan"
+        },
+        {
+          "title": "Ghost-Glovewort Bell Bearings [1]–[3] (Espíritos Especiais)",
+          "type": "text",
+          "content": "• Ghost Sino [1] (Níveis 1–3): Nokron, Eternal City — em um cadáver no gazebo central logo na entrada da cidade (após derrotar Radahn).\n• Ghost Sino [2] (Níveis 4–6): Nokstella, Eternal City — dentro de um baú na sala à esquerda na base da grande escadaria vigiada por lágrimas prateadas com escudo.\n• Ghost Sino [3] (Níveis 7–9): Elphael, Brace of the Haligtree — desça pelo elevador perto da Drainage Channel, saia no cemitério infestado e pegue no túmulo à esquerda.\n• Great Ghost Glovewort (+10): baú abaixo do trono gigante em Nokstella, baú em Night's Sacred Ground (Nokron) e rio de sangue do Palácio de Mohgwyn.",
+          "color": "yellow"
+        },
+        {
+          "title": "Glovewort Bell Bearings [1]–[3] (Espíritos Comuns)",
+          "type": "text",
+          "content": "• Grave Sino [1] (Níveis 1–3): derrotar Erdtree Burial Watchdog nas Wyndham Catacombs (Altus Plateau / encosta de Mt. Gelmir).\n• Grave Sino [2] (Níveis 4–6): derrotar Ulcerated Tree Spirit nas Giant's Mountaintop Catacombs.\n• Grave Sino [3] (Níveis 7–9): Crumbling Farum Azula — volte pelo elevador antes da Tempest-Facing Balcony e pegue no gazebo sobre o lago raso.",
+          "color": "gray"
+        }
+      ],
+      "tags": "ghost glovewort grave glovewort picker bell bearing lirio do vale cinzas de espirito roderika nokron nokstella"
+    },
+    {
+      "id": 113,
+      "title": "Melhores Cinzas de Espírito: Mimic Tear, Black Knife Tiche & Taylew",
+      "subtitle": "👥 As 3 invocações mais apelonas do jogo base e da expansão DLC",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Três invocações de elite que cobrem qualquer estilo de jogo: clone perfeito sem gastar FP, assassina ágil que derrete barras de vida com Morte Destinada e tanque imortal da DLC.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Encontrar Cada Uma",
+          "type": "text",
+          "content": "• Mimic Tear Ashes (custa 660 HP, 0 FP!): em Night's Sacred Ground (Nokron, Eternal City), dentro de um baú trancado por 1 Stonesword Key nos telhados acima da rua principal.\n• Black Knife Tiche (custa 132 FP): derrotar Alecto, Black Knife Ringleader no Ringleader's Evergaol, no extremo noroeste de Moonlight Altar (platô final da quest da Ranni em Liurnia).\n• Taylew the Golem Smith (custa 102 FP — DLC): interagir com a forja principal no topo de Taylew's Ruined Forge em Rauh Base (norte da Graça Ancient Ruins Base).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia e Truques de Uso",
+          "type": "text",
+          "content": "• Truque do Mimic Tear: coloque Raw Meat Dumplings (Bolinhos de Carne Crua) no cinto rápido! O Mimic usa consumíveis infinitamente sem gastar os seus e sem sofrer veneno, curando 50% do próprio HP três vezes por luta!\n• Tiche esquiva constantemente e lança projéteis de Destined Death que reduzem o HP máximo do chefe em 10% + dano contínuo (perfeita contra Malenia e Elden Beast).\n• Taylew recebe dano mínimo pelas costas/frente (só tem ponto fraco na joia das costas) e pode ser curado com Heal from Afar enquanto tanka Promised Consort Radahn!",
+          "color": "green"
+        }
+      ],
+      "tags": "mimic tear lagrima imitadora black knife tiche taylew golem smith spirit ashes cinzas de espirito invocacao"
+    },
+    {
+      "id": 114,
+      "title": "Soft Caps de Atributos & Renascimento (Larval Tears — Rennala)",
+      "subtitle": "📊 Limites exatos de retorno de status (Vigor 40/60, Status 60/80) e Respec",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Após derrotar Rennala na Academia Raya Lucaria, entregue 1 Larval Tear (Lágrima Larval) para redistribuir todos os seus níveis. Respeitar os Soft Caps evita desperdiçar dezenas de níveis com ganho quase nulo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Tabela Oficial de Soft Caps",
+          "type": "text",
+          "content": "• Vigor (Vida): 1º cap em 40 (1.450 HP) • 2º cap obrigatório para endgame/DLC em 60 (1.900 HP). Acima de 60 quase não sobe (+6 HP por ponto).\n• Mind (Mana/FP): 38 de Mind (221 FP) — valor exato recuperado por 1 gole de Frasco Azul +12! Cap final em 55–60.\n• Endurance (Vigor/Peso): Stamina trava em 50 • Peso de Equipamento tem caps em 25 e 60 (mantenha sempre carga <= 69,9% para Medium Roll).\n• Strength (Força): caps de arma em 55 e 80 (⚠️ segurar com 2 mãos multiplica Força por 1,5x, então 54 STR em duas mãos já equivale a 81 STR!).\n• Dexterity / Intelligence / Faith: ataques de armas batem cap em 50/80; Catalisadores e Feitiços escalam forte até 80.\n• Arcane: dano físico/oculto em 60/80; acúmulo de Sangramento/Veneno trava duro em 45 e 60!",
+          "color": "gray"
+        },
+        {
+          "title": "Onde Achar Larval Tears (18 no Base + 9 na DLC)",
+          "type": "text",
+          "content": "• Limgrave: mate o Urso Rúnico disfarçado de nobre a leste da Graça Agheel Lake South.\n• Liurnia: cemitério da Village of the Albinaurics, venda de Pidia em Caria Manor (3.000 runas) e Lagostim disfarçado perto de Fallen Ruins of the Lake.\n• Nokron & Nokstella: mais de 7 unidades garantidas matando as Esferas Gigantes prateadas rolantes e mímicos!\n• DLC Shadow of the Erdtree: aparecem à noite dentro de círculos brilhantes de lápides fantasmagóricas azuis em Gravesite Plain e Scadu Altus.",
+          "color": "yellow"
+        },
+        {
+          "title": "Regra de Ouro de Build",
+          "type": "text",
+          "content": "• Priorize SEMPRE Vigor 40 (meio do jogo) e Vigor 60 (Montanha dos Gigantes / DLC) antes de maximizar atributo de dano para 80 — melhorias de forja dão muito mais dano inicial que atributos!",
+          "color": "green"
+        }
+      ],
+      "tags": "soft caps atributos status vigor mind endurance strength dexterity faith intelligence arcane larval tear rennala respec"
+    },
+    {
+      "id": 115,
+      "title": "Bênçãos da DLC: Scadutree Fragments & Revered Spirit Ashes",
+      "subtitle": "🌳 Sistema exclusivo do Reino das Sombras: até +105% ATK e -51% dano recebido",
+      "category": "upgrade",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Na expansão Shadow of the Erdtree, seu nível de runas pouco importa sem evoluir a Bênção da Umbrárvore (Scadutree Blessing, máx. Nv. 20) e a Bênção de Cinzas Reverenciadas (Revered Spirit Ash, máx. Nv. 10) nos Locais de Graça.",
+          "color": "cyan"
+        },
+        {
+          "title": "Curva de Escalonamento e Soft Cap (Pós-Patch 1.12.2)",
+          "type": "text",
+          "content": "• Existem exatamente 50 Scadutree Fragments (Nv. 20) e 25 Revered Spirit Ashes (Nv. 10) na DLC.\n• Curva da Scadutree Blessing (Personagem):\n  - Nível 5: +35% de Dano Causado e -26% de Dano Recebido.\n  - Nível 12 (Soft Cap Principal!): +85% de Dano Causado e -45,9% de Dano Recebido — o ganho por nível desacelera bastante depois do 12!\n  - Nível 20 (Máximo): +105% de Dano Causado (2,05x) e -51,2% de Dano Recebido.\n• Revered Spirit Ash Nível 10 (Espíritos & Torrent): dobra o dano das invocações (+100%) e corta pela metade o dano que elas e o cavalo Torrent sofrem.",
+          "color": "gray"
+        },
+        {
+          "title": "Onde Encontrar Fragmentos Facilmente",
+          "type": "text",
+          "content": "• Aos pés de todas as Cruzes de Miquella (Miquella's Crosses) e estátuas decapitadas de Marika.\n• Sombras com potes brilhantes na cabeça (Pot Shadows) em acampamentos e cemitérios — mate rápido antes que desapareçam!\n• Hipopótamos Dourados (Shadow Keep + 4 hipopótamos menores em Charo's Hidden Grave, Recluses' River e Rauh Base).",
+          "color": "yellow"
+        },
+        {
+          "title": "Meta de Nível por Chefe na DLC",
+          "type": "text",
+          "content": "• Dancing Lion / Rellana: Nível 4 a 6.\n• Messmer / Romina / Bayle: Nível 10 a 14.\n• Promised Consort Radahn (Final): Nível 16 a 20 altamente recomendado!",
+          "color": "green"
+        }
+      ],
+      "tags": "scadutree fragment blessing umbrarvore revered spirit ash dlc shadow of the erdtree nivel 12 20 soft cap"
+    },
+    {
+      "id": 116,
+      "title": "Bloodhound's Fang (Presa do Cão de Caça)",
+      "subtitle": "⚔️ Espada Curva Grande • DEX/STR • Sangramento + Encantável + Esquiva I-Frame",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Considerada a melhor arma de progressão do início ao fim do jogo: combina dano bruto altíssimo, sangramento nativo (55), bônus oculto em ataques pulando (+10%) e é uma das raríssimas armas Somber que aceita resinas e encantamentos (como Bloodflame Blade)!",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Escalonamento",
+          "type": "text",
+          "content": "• Requisitos: 18 STR • 17 DEX (pode ser usada com apenas 12 STR segurando em duas mãos!).\n• Escalonamento em +10: STR C • DEX B (build Quality focada primeiro em DEX até 55–60 e depois STR).\n• Pedra de Melhoria: Somber Smithing Stones [1]–[10].",
+          "color": "gray"
+        },
+        {
+          "title": "Localização (Primeiros 15 Minutos de Jogo)",
+          "type": "text",
+          "content": "• Derrotar Bloodhound Knight Darriwil no Forlorn Hound Evergaol, no extremo sul de Limgrave (antes da ponte para Weeping Peninsula).\n• Dica fácil: ouça o uivo nas Mistwood Ruins, pegue o gesto Finger Snap com o mercador Kalé na Igreja de Elleh, use-o sob o lobo Blaidd nas ruínas e invoque Blaidd dentro do Evergaol — ele sola o chefe para você!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia de Combate",
+          "type": "text",
+          "content": "• Habilidade Bloodhound's Finesse: aperte L2/LT para cortar e dar um mortal para trás, depois aperte R2/RT imediatamente para avançar invisível com frames de invulnerabilidade e acertar um corte devastador!\n• Aplique o encantamento Bloodflame Blade (12 FTH, 10 ARC) na lâmina para somar +40 de sangramento em chamas a cada golpe.",
+          "color": "green"
+        }
+      ],
+      "tags": "bloodhound fang presa cao de caca darriwil blaidd limgrave dex str bleed bloodflame blade arma meta"
+    },
+    {
+      "id": 117,
+      "title": "Moonveil (Véu da Lua)",
+      "subtitle": "🌙 Katana Mágica • INT/DEX • Saque rápido com feixes de luz de alto alcance",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "A katana favorita de magos de batalha (Spellblades). Dispara lâminas de energia mágica velocíssimas a média distância enquanto aplica sangramento (50) no corpo a corpo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Escalonamento",
+          "type": "text",
+          "content": "• Requisitos: 12 STR • 18 DEX • 23 INT.\n• Escalonamento em +10: INT B • DEX B (o feixe mágico de Transient Moonlight escala puramente com Inteligência!).\n• Pedra de Melhoria: Somber Smithing Stones.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Derrotar o chefe Magma Wyrm no final do Gael Tunnel, exatamente na fronteira oeste entre Limgrave e Caelid.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia e Sinergias",
+          "type": "text",
+          "content": "• Use Transient Moonlight + R2 (corte vertical) para alcance máximo e alto dano de postura contra chefes; use L2 + R1 (corte horizontal) contra grupos.\n• Combine com Shard of Alexander (+15%), Rellana's Cameo da DLC (+45% após segurar a postura por 1s!) e Magic-Shrouding Cracked Tear (+20%).",
+          "color": "green"
+        }
+      ],
+      "tags": "moonveil veu da lua katana int dex mago gael tunnel magma wyrm transient moonlight rellana cameo"
+    },
+    {
+      "id": 118,
+      "title": "Blasphemous Blade (Lâmina Blasfema)",
+      "subtitle": "🔥 Espada Grande • FTH/STR/DEX • Cura sua vida ao matar inimigos e com L2!",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "A arma definitiva de sustentação em PvE para builds de Fé: cura passivamente ao abater qualquer inimigo e dispara uma coluna de fogo que regenera enorme quantidade de HP a cada acerto.",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Mecânica de Cura",
+          "type": "text",
+          "content": "• Requisitos: 22 STR • 15 DEX • 21 FTH (Escalonamento +10: FTH B • STR C • DEX C).\n• Passiva: recupera 4% + 40 HP para cada inimigo morto no mapa (mesmo segurando na mão esquerda nas costas!).\n• Habilidade Taker's Flames (30 FP): projétil linear de fogo no chão que escala 100% com Fé e cura 10% + 150 HP ao atingir cada alvo!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Trocar a Remembrance of the Blasphemous (obtida ao derrotar Rykard, Lord of Blasphemy na Volcano Manor em Mt. Gelmir) com a Leitora de Dedos Enia na Mesa Redonda.",
+          "color": "yellow"
+        },
+        {
+          "title": "Sinergia Absurda",
+          "type": "text",
+          "content": "• Equipe Shard of Alexander (+15%), Fire Scorpion Charm (+12%), Talisman of the Dread da DLC (+15% em habilidades de magma!) e Flame-Shrouding Cracked Tear (+20%) para derreter Radagon, Malenia e quase toda a DLC sem gastar frascos!",
+          "color": "green"
+        }
+      ],
+      "tags": "blasphemous blade lamina blasfema rykard faith fe cura roubo de vida taker flames talisman of the dread"
+    },
+    {
+      "id": 119,
+      "title": "Dark Moon Greatsword (Espada Grande da Lua Sombria)",
+      "subtitle": "❄️ Espada Lendária • INT • Feixes de Gelo com custo ZERO de FP após ativar",
+      "category": "weapons",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Arma Lendária (necessária para conquista de Platina) e o presente de casamento da Bruxa Ranni. Uma das armas mais econômicas e destrutivas para builds puras de Inteligência.",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Funcionamento",
+          "type": "text",
+          "content": "• Requisitos: 16 STR • 11 DEX • 38 INT (Escalonamento +10: INT B).\n• Habilidade Moonlight Greatsword (32 FP por 60 segundos): encanta a lâmina com +65 de dano mágico e eleva o Congelamento (Frostbite); enquanto encantada, TODOS os ataques pesados R2/RT disparam ondas de energia congelante gastando apenas Vigor e ZERO de FP!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Recompensa final da Quest da Ranni: após derrotar Astel, Naturalborn of the Void e subir ao Moonlight Altar (sudoeste de Liurnia), desça no buraco dentro da Cathedral of Manus Celes e coloque o Dark Moon Ring nos dedos de Ranni.",
+          "color": "yellow"
+        },
+        {
+          "title": "Combinação de Talismãs",
+          "type": "text",
+          "content": "• Os feixes carregados de R2/RT recebem simultaneamente os bônus de Godfrey Icon (+15% em ataques/feitiços carregados) E Shard of Alexander (+15% de habilidade), além de Magic Scorpion Charm (+12%)!",
+          "color": "green"
+        }
+      ],
+      "tags": "dark moon greatsword espada grande lua sombria ranni moonlight int frostbite gelo arma lendaria godfrey icon"
+    },
+    {
+      "id": 120,
+      "title": "Nagakiba & Rivers of Blood (Katanas de Sangramento)",
+      "subtitle": "🩸 Dupla lendária de Katanas: alcance colossal customizável e Corpse Piler",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "As duas melhores katanas para builds de Destreza e Arcano. A Nagakiba possui o maior alcance da categoria e aceita qualquer Cinza da Guerra; a Rivers of Blood brilha em cortes múltiplos de fogo e sangue.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Encontrar Ambas",
+          "type": "text",
+          "content": "• Nagakiba (18 STR, 22 DEX — Pedras Comuns): obtida na quest de Bloody Finger Hunter Yura (na Second Church of Marika em Altus Plateau) ou caída no último acampamento dele em Limgrave/Liurnia quando Shabriri assume seu corpo em Mountaintops.\n• Rivers of Blood (12 STR, 18 DEX, 20 ARC — Pedras Sombrias): derrotar o invasor NPC Bloody Finger Okina na frente da Church of Repose (leste de Mountaintops of the Giants). Funciona mesmo após derrotar o Fire Giant desde os patches atuais!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia e Infusões Meta",
+          "type": "text",
+          "content": "• Build DEX Pura (Nagakiba Keen): aplique Cinza da Guerra Double Slash ou Unsheathe + encantamento Bloodflame Blade.\n• Build ARC Pura (Nagakiba Occult com 60–80 ARC): usar infusão Occult (Black Whetblade de Nokron) escala tanto o dano físico quanto o sangramento base simultaneamente!\n• Rivers of Blood: aproxime-se na distância da lâmina física ao usar Corpse Piler (L2) para causar dano completo de sangue + fogo.",
+          "color": "green"
+        }
+      ],
+      "tags": "nagakiba rivers of blood rios de sangue katana yura okina bleed sangramento arcane dex corpse piler"
+    },
+    {
+      "id": 121,
+      "title": "Greatsword (Colossal) & Star Fist (Quebra de Postura)",
+      "subtitle": "💪 As rainhas de Força Bruta e Stance Break para derrubar qualquer chefe",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Duas armas comuns (upadas até +25) que dominam speedruns, desafios de nível 1 e builds de Força pesada pela capacidade absurda de quebrar a postura (Stance Break) dos chefes em segundos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização Exata",
+          "type": "text",
+          "content": "• Greatsword (Espada do Guts — 31 STR, 12 DEX): dentro do baú traseiro da carruagem quebrada cercada de cães gigantes logo na entrada noroeste de Caelid (a oeste da Graça Caelem Ruins — acessível no nível 1!).\n• Star Fist (Punho Estelar — 12 STR, 8 DEX, Sangramento nativo): em Leyndell, Royal Capital (ou Ashen Capital), num cadáver dentro da última alcova arqueada na parede externa esquerda do Coliseu de Leyndell (suba a partir de West Capital Rampart).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia de Build",
+          "type": "text",
+          "content": "• Greatsword Heavy + Lion's Claw (ou Savage Lion's Claw da DLC): hiper-armadura infinita que amassa inimigos no chão com 1 botão.\n• Star Fist Heavy/Occult + Cragblade: os ataques pesados carregados (R2/RT) com as duas mãos são os mais rápidos do jogo inteiro, quebrando a postura de chefes em 2 a 3 golpes enquanto estouram Sangramento! Combine com Axe Talisman (+10% R2 carregado) e Spiked Cracked Tear (+15%).",
+          "color": "green"
+        }
+      ],
+      "tags": "greatsword espada colossal guts star fist punho estelar stance break postura cragblade lion claw forca str"
+    },
+    {
+      "id": 122,
+      "title": "Backhand Blades (Lâminas Reversas — DLC)",
+      "subtitle": "⚡ Nova classe de arma ágil da DLC com esquiva ofensiva Blind Spot",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Uma arma dupla (equipa um par automaticamente ao segurar com as duas mãos) disponível nos primeiros 5 minutos da DLC sem enfrentar nenhum chefe. Escala incrivelmente bem com Destreza (rank S na infusão Keen!).",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Melhoria",
+          "type": "text",
+          "content": "• Requisitos: 10 STR • 13 DEX.\n• Pedras Comuns (+25): aceita trocas de Cinzas da Guerra, infusões de Sangue/Gelo/Keen e encantamentos de lâmina!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização (Gravesite Plain — DLC)",
+          "type": "text",
+          "content": "• Da Graça Scorched Ruins (início do Reino das Sombras), cavalga para nordeste no campo aberto até ver um pequeno mausoléu de pedra vigiado por Inquisidores com chamas; pegue no cadáver ao lado do sarcófago.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• A habilidade nativa Blind Spot desliza instantaneamente para a lateral/costas do alvo com frames de invulnerabilidade e desfere um golpe perfurante que ignora escudos — excelente para punir ataques lentos sem parar de bater!\n• Ativa Rotten Winged Sword Insignia e Millicent's Prosthesis em apenas uma sequência de R1.",
+          "color": "green"
+        }
+      ],
+      "tags": "backhand blade laminas reversas blind spot dlc shadow of the erdtree gravesite plain dex keen sangramento"
+    },
+    {
+      "id": 123,
+      "title": "Milady (Espada Grande Leve — DLC) & Wing Stance",
+      "subtitle": "🪶 Movimentos fluidos e elegantes com o combo devastador da postura Wing Stance",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Estreia a categoria Light Greatsword em Shadow of the Erdtree, encadeando ataques leves e pesados fluidamente como uma dança. Customizável até +25 com Pedras Comuns.",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização da Arma e da Cinza Wing Stance",
+          "type": "text",
+          "content": "• Milady (12 STR, 17 DEX): logo na entrada da masmorra Castle Ensis (Gravesite Plain); suba a escadaria à esquerda após o Troll Cavaleiro e abra o baú no topo da torre de vigia.\n• Cinza da Guerra Wing Stance: mais adiante no mesmo Castle Ensis! A partir da Graça Castle-Lord's Chamber (antes da chefe Rellana), saia pela varanda oeste, pule pelos muros externos até a torre alta nos fundos e abra o baú.",
+          "color": "yellow"
+        },
+        {
+          "title": "Sinergia Suprema com Rellana's Cameo",
+          "type": "text",
+          "content": "• Segure L2 (Wing Stance) por 1 segundo para ativar o brilho vermelho do talismã Rellana's Cameo (+45% de dano após o buff de patch!): use R1 para 3 cortes rápidos que estouram status ou R2 para um mergulho aéreo perfurante com enorme dano de postura!",
+          "color": "green"
+        }
+      ],
+      "tags": "milady light greatsword espada grande leve wing stance castle ensis rellana cameo dlc shadow of the erdtree"
+    },
+    {
+      "id": 124,
+      "title": "Bloodfiend's Arm (Braço do Demônio de Sangue — DLC)",
+      "subtitle": "🍖 Arma Colossal • STR/ARC • Explosão de sangue no R2 carregado (+200 Bleed!)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "A arma colossal mais brutal de Shadow of the Erdtree para builds de Força + Arcano: seu ataque pesado carregado cria um espirro de sangue extra no chão que estoura Hemorragia em quase um único golpe!",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos e Escalonamento",
+          "type": "text",
+          "content": "• Requisitos: 28 STR • 11 DEX • 16 ARC (apenas 19 STR segurando com as duas mãos!).\n• Na infusão Blood (+25 com Pedras Comuns), supera facilmente 200+ de acúmulo de Sangramento com 50–60 de Arcano.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização Garantida (Sem Farm!)",
+          "type": "text",
+          "content": "• Prospect Town (sudoeste de Gravesite Plain, subindo pelos penhascos a sul de Cliffroad Terminus): derrote o grupo de Bloodfiends reunidos no salão superior das ruínas — um deles dropa o Bloodfiend's Arm 100% garantido na primeira morte!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Equipe Cinza da Guerra Cragblade ou Royal Knight's Resolve na infusão Blood, Axe Talisman, Two-Handed Sword Talisman (+15% em armas de 2 mãos na DLC!) e Lord of Blood's Exultation (+20%). Dois R2 carregados derrubam a postura e arrancam metade da vida de quase qualquer chefe!",
+          "color": "green"
+        }
+      ],
+      "tags": "bloodfiend arm braco demonio de sangue prospect town colossal bleed sangramento str arc dlc shadow of the erdtree"
+    },
+    {
+      "id": 125,
+      "title": "Euporia & Fire Knight's Greatsword (Armas Meta de Fé — DLC)",
+      "subtitle": "✨ Lâmina Gêmea Lendária de Luz e a melhor Espada Colossal de Fogo da DLC",
+      "category": "weapons",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Duas joias supremas para builds de Fé em Shadow of the Erdtree: Euporia carrega brilho dourado batendo em inimigos para disparar um megafeixe sagrado, enquanto a Fire Knight's Greatsword possui golpes ágeis exclusivos e dano ígneo massivo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Encontrar",
+          "type": "text",
+          "content": "• Fire Knight's Greatsword (22 STR, 18 DEX, 12 FTH — Pedras Comuns): drop (~4%) dos Cavaleiros de Fogo que empunham a espada grande em Shadow Keep. Melhor farm: Graça Storehouse, First Floor → desça o elevador às suas costas e mate o Fire Knight logo na porta!\n• Euporia (16 STR, 16 DEX, 24 FTH — Pedras Sombrias): oculta em Enir-Ilim; da Graça Spiral Rise, suba as escadas até os conjuradores, pule nas plataformas quebradas abaixo da sacada oeste e siga descendo pelos arcos secretos de volta às torres altas de Belurat.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia de Uso",
+          "type": "text",
+          "content": "• Fire Knight's Greatsword + infusão Flame Art + Cinza Flame Spear ou Flame Skewer: o encantamento extra de fogo recebe o bônus passivo da própria arma, atingindo mais de 1.000 de Poder de Ataque!\n• Euporia: acertar ataques normais em inimigos vivos carrega a lâmina em 2 estágios dourados; no brilho máximo, solte Euporia Vortex (L2) para obliterar chefes à distância.",
+          "color": "green"
+        }
+      ],
+      "tags": "euporia fire knight greatsword flame spear shadow keep enir ilim twinblade faith fe dlc shadow of the erdtree"
+    },
+    {
+      "id": 126,
+      "title": "Shard of Alexander (Fragmento de Alexander)",
+      "subtitle": "🏺 Talismã número 1 de dano ofensivo: +15% de poder em TODAS as habilidades",
+      "category": "weapons",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Aumenta multiplicativamente em +15% todo o dano causado por habilidades de armas e Cinzas da Guerra (L2/LT). Superior ao Warrior Jar Shard (+10%).",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Concluir toda a Quest de Iron Fist Alexander e vencê-lo em duelo honrado em Crumbling Farum Azula (a partir da Graça Dragon Temple Lift, suba com 2 Stonesword Keys, atravesse o pátio de mortos-vivos e pule pelas ruínas sobre o dragão adormecido).",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Atenção Crítica",
+          "type": "text",
+          "content": "• NÃO mate Alexander cedo no mundo aberto! Se você atacá-lo antes do duelo final em Farum Azula, receberá apenas o Warrior Jar Shard (+10%) e perderá o Shard of Alexander (+15%) nesta jornada.",
+          "color": "red"
+        }
+      ],
+      "tags": "shard of alexander fragmento de alexander talisma 15% ash of war habilidade farum azula quest"
+    },
+    {
+      "id": 127,
+      "title": "Dragoncrest Greatshield, Erdtree's Favor +2 & Crimson Amber +3",
+      "subtitle": "🛡️ Os 3 melhores talismãs defensivos (-20% dano físico e +10% HP máximo)",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Trio de sobrevivência indispensável para o final do jogo base e toda a expansão Shadow of the Erdtree.",
+          "color": "cyan"
+        },
+        {
+          "title": "Efeitos Exatos",
+          "type": "text",
+          "content": "• Dragoncrest Greatshield Talisman: reduz todo dano físico recebido em -20% no PvE (Talismã Lendário para conquista).\n• Erdtree's Favor +2: +4% HP máximo, +10% Stamina máxima e +8% Carga de Equipamento (Talismã Lendário para conquista).\n• Crimson Amber Medallion +3 (DLC): aumenta o HP máximo em impressionantes +10% (chega a 2.280 HP somado com 60 Vigor e Morgott's Great Rune!).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização Exata",
+          "type": "text",
+          "content": "• Dragoncrest Greatshield: em Elphael, Brace of the Haligtree; da Graça Drainage Channel, suba pelos contrafortes externos, pule pelo buraco no telhado da igreja nas vigas superiores e abra o baú vigiado por Pestes.\n• Erdtree's Favor +2: em Leyndell, Ashen Capital (após derrotar Maliketh); volte a pé da Graça Forbidden Lands pelo grande elevador de volta à capital coberta de cinzas e pegue num tronco no pátio vigiado por 3 Ulcerated Tree Spirits.\n• Crimson Amber Medallion +3 (DLC): derrotar o chefe Death Knight no final das Fog Rift Catacombs (norte de Gravesite Plain / desfiladeiro oeste de Castle Ensis).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "dragoncrest greatshield talisman erdtree favor +2 crimson amber medallion +3 defesa hp elphael ashen capital fog rift"
+    },
+    {
+      "id": 128,
+      "title": "Two-Headed Turtle Talisman (Tartaruga de Duas Cabeças — DLC)",
+      "subtitle": "🐢 Regeneração suprema de Vigor (+22,5% / +10 por segundo) sem precisar de chefe",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Versão aprimorada definitiva do Green Turtle Talisman (+17,7%). Essencial para manter esquivas, bloqueios e combos pesados nos chefes frenéticos da DLC.",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização (Sem Chefe — Rio Ellac, DLC)",
+          "type": "text",
+          "content": "• Desça até o leito do Ellac River (a partir da caverna Ellac River Cave, acessível descendo pelos penhascos a sudeste da ponte de Castle Ensis).\n• Da Graça Ellac River Downstream, cavalgue para o leste/norte até a grande cachoeira sob a ponte e entre na pequena gruta escondida exatamente atrás da cortina d'água!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Acumula perfeitamente com a lágrima Greenburst Crystal Tear (+15/s) e com o escudo Great Turtle Shell nas costas, recuperando a barra inteira de vigor em menos de 2 segundos!",
+          "color": "green"
+        }
+      ],
+      "tags": "two headed turtle talisman tartaruga duas cabecas stamina vigor ellac river cachoeira dlc shadow of the erdtree"
+    },
+    {
+      "id": 129,
+      "title": "Lord of Blood's Exultation & White Mask (Combo Sangramento)",
+      "subtitle": "🎭 +32% de dano total ao causar Sangramento • ⚠️ White Mask é PERDÍVEL!",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "A combinação obrigatória de todas as builds de Sangramento (Bleed): sempre que Hemorragia ativa perto de você (em um inimigo ou em si mesmo com Seppuku), ambos concedem bônus multiplicativos de ataque por 20 segundos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Valores Acumulados",
+          "type": "text",
+          "content": "• Lord of Blood's Exultation (Talismã): +20% de poder de ataque por 20s.\n• White Mask (Elmo): +10% de poder de ataque por 20s.\n• Acumulados juntos: +32% de dano total (1,20 × 1,10)!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Lord of Blood's Exultation: derrotar Esgar, Priest of Blood no final das Leyndell Catacombs (acessíveis no fundo dos esgotos Subterranean Shunning-Grounds de Leyndell).\n• White Mask: no lago de sangue inferior do Palácio de Mohgwyn, derrotar o invasor específico Nameless White Mask que surge na parte oeste do pântano de corvos gigantes (existem 3 invasores, apenas 1 específico dropa o conjunto).",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Atenção (White Mask Perdível!)",
+          "type": "text",
+          "content": "• Se você matar o chefe principal Mohg, Lord of Blood ANTES de derrotar o invasor Nameless White Mask no lago de sangue, os invasores deixam de aparecer e a White Mask fica bloqueada até o NG+! Pegue a máscara antes de subir o elevador para Mohg!",
+          "color": "red"
+        }
+      ],
+      "tags": "lord of blood exultation white mask mascara branca bleed sangramento mohgwyn leyndell catacombs missable perdivel"
+    },
+    {
+      "id": 130,
+      "title": "Rotten Winged Sword Insignia vs. Millicent's Prosthesis",
+      "subtitle": "⚔️ Talismãs de ataques sucessivos: escolha exclusiva no fim da quest da Millicent",
+      "category": "weapons",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Ambos aumentam seu poder de ataque em 3 estágios conforme você acerta golpes rápidos seguidos (espadas curvas, lâminas gêmeas, garras, katanas, Backhand Blades, Marais Executioner's Sword). Só é possível obter UM dos dois por jornada!",
+          "color": "cyan"
+        },
+        {
+          "title": "Comparativo Exato de Números",
+          "type": "text",
+          "content": "• Rotten Winged Sword Insignia: concede +6% → +8% → +13% de ataque nos 3 estágios (NÃO acumula com a Winged Sword Insignia comum).\n• Millicent's Prosthesis: concede +5 de Destreza fixo + bônus sucessivo de +4% → +6% → +11% nos 3 estágios (ACUMULA com Winged Sword Insignia ou Rotten Winged Sword Insignia!).",
+          "color": "gray"
+        },
+        {
+          "title": "Como Obter (Decisão em Elphael)",
+          "type": "text",
+          "content": "• Avance a Quest da Millicent até derrotar o Ulcerated Tree Spirit perto da Graça Drainage Channel em Elphael (Haligtree):\n  - Para Rotten Winged Sword Insignia (+ Agulha de Ouro Imaculado): toque no sinal DOURADO para ajudar Millicent contra as 4 irmãs.\n  - Para Millicent's Prosthesis: toque no sinal VERMELHO para trair e derrotar Millicent (ou mate-a após o Windmill Village em Altus, embora não seja recomendado pela história).",
+          "color": "yellow"
+        },
+        {
+          "title": "Qual Escolher na 1ª Jornada?",
+          "type": "text",
+          "content": "• Se quiser reverter a Chama Frenética ou maximizar um único slot: ajude Millicent para pegar a Rotten Winged Sword Insignia.\n• Se quiser acumular DOIS talismãs de ataque sucessivo já na 1ª jornada: pegue a Millicent's Prosthesis e combine-a com a Winged Sword Insignia normal (Stillwater Cave, Liurnia) + lágrima Thorny Cracked Tear (+20%!)!",
+          "color": "green"
+        }
+      ],
+      "tags": "rotten winged sword insignia millicent prosthesis ataques sucessivos multi hit elphael haligtree thorny cracked tear"
+    },
+    {
+      "id": 131,
+      "title": "Magic Scorpion Charm (Amuleto do Escorpião Mágico)",
+      "subtitle": "🦂 +12% de Dano Mágico total • ⚠️ Altamente PERDÍVEL na quest de Seluvis/Ranni!",
+      "category": "weapons",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Aumenta todo dano Mágico causado (feitiços, Moonveil, Dark Moon Greatsword, habilidades mágicas) em +12% no PvE, ao custo de +10% de dano físico recebido.",
+          "color": "cyan"
+        },
+        {
+          "title": "Passo a Passo Seguro (Quest do Seluvis)",
+          "type": "text",
+          "content": "1. Inicie a quest da Ranni em Three Sisters (Caria Manor) e fale com Preceptor Seluvis na torre dele para receber Seluvis's Potion.\n2. Entregue a poção para Gideon Ofnir na Mesa Redonda descartá-la (ou para Dung Eater nos esgotos se quiser a marionete dele — não precisa estragar a quest da Nepheli!).\n3. Descubra o porão secreto de marionetes de Seluvis (parede ilusória no chão das ruínas entre Ranni's Rise e Renna's Rise), leia a mensagem e volte a falar com Seluvis para escolher 1 marionete grátis.\n4. Compre todos os feitiços dele até destravar a opção sobre o plano secreto; ele pedirá um Amber Starlight.\n5. Pegue o Amber Starlight em Altus Plateau (ravina escondida a leste da Graça Altus Highway Junction, aos pés de uma estátua) e entregue a Seluvis para ganhar imediatamente o Magic Scorpion Charm!",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Ponto de Não Retorno Crítico!",
+          "type": "text",
+          "content": "• PARE ANTES de entregar a Fingerslayer Blade (pega em Nokron) para a Bruxa Ranni! Assim que você entrega a Fingerslayer Blade para Ranni, Seluvis morre instantaneamente na torre dele e o Magic Scorpion Charm é perdido para sempre naquela jornada! Também NUNCA dê o Amber Draught para Ranni beber (a menos que faça absolvição na Church of Vows).",
+          "color": "red"
+        }
+      ],
+      "tags": "magic scorpion charm amuleto escorpiao magico seluvis amber starlight ranni fingerslayer blade missable perdivel"
+    },
+    {
+      "id": 103,
+      "title": "Margit's & Mohg's Shackle (Grilhões de Margit e Mohg)",
+      "subtitle": "⛓️ Imobiliza Margit/Morgott e Mohg no chão + Truque de revelar paredes ilusórias!",
+      "category": "key",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Duas ferramentas reutilizáveis (consomem mínimo FP) que prendem os irmãos Agouro contra o chão na Fase 1 de suas lutas, abrindo janela livre para ataques carregados.",
+          "color": "cyan"
+        },
+        {
+          "title": "Funcionamento em Chefes",
+          "type": "text",
+          "content": "• Margit's Shackle: funciona até 2 vezes na Fase 1 contra Margit, the Fell Omen (Stormveil) e Morgott, the Omen King (Leyndell).\n• Mohg's Shackle: funciona até 2 vezes na Fase 1 contra Mohg, the Omen (esgotos) e Mohg, Lord of Blood (antes da contagem NIHIL da Fase 2).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização Exata",
+          "type": "text",
+          "content": "• Margit's Shackle: comprado com Patches na Murkwater Cave (riacho de Limgrave) por 5.000 Runas após poupar a vida dele (ou comprando via Sino dele na Mesa Redonda).\n• Mohg's Shackle: no fundo dos esgotos Subterranean Shunning-Grounds (Leyndell); desça pelos canos gigantes até o piso térreo alagado vigiado por 2 Lagostins Gigantes — está num cadáver encostado na parede perto da entrada das Leyndell Catacombs.",
+          "color": "yellow"
+        },
+        {
+          "title": "Segredo de Exploração (Onda de Choque Invisível)",
+          "type": "text",
+          "content": "• Ao usar qualquer um dos Shackles no chão fora de batalha, o jogo dispara uma caixa de impacto invisível sem dano num raio imenso através das paredes!\n• Isso revela instantaneamente TODAS as paredes ilusórias da sala, aciona/abaixa pilares lançadores de fogo e gelo à distância em catacumbas e até destrói carruagens de Auriza Hero's Grave em certos gatilhos!",
+          "color": "purple"
+        }
+      ],
+      "tags": "elden ring margit shackle mohg shackle grilhoes patches esgotos parede ilusoria catacumba pilar fogo segredo"
     },
     {
       "id": 105,
-      "title": "Golden Scarab (Escaravelho Dourado)",
-      "subtitle": "Talismã que aumenta o ganho de Runas em +20%",
+      "title": "Golden Scarab & Melhor Farm de Runas (Palácio de Mohgwyn)",
+      "subtitle": "🪲 +20% a +56% de Runas + Rota do Pássaro Gigante e Albinaurics (Palace Approach)",
+      "category": "key",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Guia completo de multiplicadores de Runas combinado com o ponto de farm mais rápido e lucrativo de todo o jogo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Multiplicadores Acumuláveis de Runas",
+          "type": "text",
+          "content": "• Golden Scarab (Talismã): +20% (1,20x) — obtido ao derrotar os dois Cleanrot Knights na Abandoned Cave em Caelid (atravesse a raiz gigante sobre o barranco a leste da Graça Smoldering Wall; leve Flame, Cleanse Me!).\n• Gold-Pickled Fowl Foot / Gold Horn Tender (DLC): +30% / +32,5% por 3 minutos — acumulando até +56% a +59% de Runas!\n• Troca Rápida em Chefes: assim que matar um chefe importante, abra o menu durante a fala final dele e equipe o Golden Scarab antes das runas entrarem na conta!",
+          "color": "gray"
+        },
+        {
+          "title": "Melhor Ponto de Farm: Palace Approach Ledge-Road",
+          "type": "text",
+          "content": "• Como chegar cedo: conclua a rápida Quest de White Mask Varré em Liurnia para ganhar o Pureblood Knight's Medal, use-o no inventário e cavalgue pelo lago leste do Palácio de Mohgwyn subindo a rampa até a Graça Palace Approach Ledge-Road.",
+          "color": "yellow"
+        },
+        {
+          "title": "Os 2 Métodos na Mesma Graça",
+          "type": "text",
+          "content": "• Método 1 — Pássaro Gigante (Início/Meio de Jogo): olhe da beira do penhasco ao lado da Graça para o corvo gigante do outro lado do abismo e acerte 1 flecha com qualquer arco. Ele corre enfurecido na sua direção e cai no precipício rendendo ~13.200 Runas (com Scarab) a cada 10 segundos!\n• Método 2 — Albinaurics + Sacred Relic Sword (Endgame/DLC): troque a Lembrança da Elden Beast pela Sacred Relic Sword e dispare Wave of Gold (L2) ladeira abaixo nos ~17 Albinaurics sentados para faturar 50.000+ a 100.000+ Runas por onda em 12 segundos!",
+          "color": "green"
+        }
+      ],
+      "tags": "elden ring golden scarab escaravelho dourado farm runas mohgwyn palace approach passaro albinauric sacred relic sword varre"
+    },
+    {
+      "id": 132,
+      "title": "Medalhões de Dectus & Medalhão Secreto da Árvore Sacra (Haligtree)",
+      "subtitle": "🪙 Onde achar as 4 metades para ativar o Elevador de Dectus e Consecrated Snowfield",
+      "category": "key",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Dois pares de medalhões que destravam regiões inteiras: o Dectus Medallion sobe pacificamente de Liurnia para Altus Plateau; o Haligtree Secret Medallion leva ao Campo de Neve Consagrado (acesso a Malenia e portal reserva de Mohgwyn).",
+          "color": "cyan"
+        },
+        {
+          "title": "Dectus Medallion (Acesso a Altus Plateau)",
+          "type": "text",
+          "content": "• Metade Esquerda: baú no alto da torre de Fort Haight (extremo sudeste de Mistwood, Limgrave).\n• Metade Direita: baú no andar superior de Fort Faroth (Dragonbarrow, Caelid — corra dos morcegos pela escada de mão logo à frente da entrada!).",
+          "color": "yellow"
+        },
+        {
+          "title": "Haligtree Secret Medallion (Acesso a Snowfield & Malenia)",
+          "type": "text",
+          "content": "• Metade Direita: na Village of the Albinaurics (sob o platô sudoeste de Liurnia), suba a rampa e role/bata no vaso grande brilhante encostado na parede do canto para revelar o velho Albus disfarçado!\n• Metade Esquerda: derrotar Commander Niall no topo do Castle Sol (norte de Mountaintops of the Giants) e subir o elevador atrás da arena.\n• Como usar: no Grand Lift of Rold, pressione a seta lateral no aviso da tela para alternar de 'Hoist Medallion' para 'Hoist Secret Medallion', depois resolva o enigma das 4 chamas em Ordina, Liturgical Town (use Sentry's Torch na mão esquerda para enxergar os Black Knife Assassins invisíveis!).",
+          "color": "orange"
+        }
+      ],
+      "tags": "dectus medallion haligtree secret medallion medalhao secreto albus castle sol niall ordina sentry torch malenia"
+    },
+    {
+      "id": 133,
+      "title": "Quest de White Mask Varré (Acesso Precoce a Mohgwyn & DLC)",
+      "subtitle": "🩸 Rota rápida Online OU Offline para chegar em Mohg logo após Godrick!",
+      "category": "key",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "A maneira mais rápida de visitar o Palácio de Mohgwyn muito antes do final do jogo — liberando farm de runas, Pedra Sombria +10 e a entrada da DLC Shadow of the Erdtree!",
+          "color": "cyan"
+        },
+        {
+          "title": "Passo a Passo Completo (Com Rota 100% Offline)",
+          "type": "text",
+          "content": "1. Fale com Varré em First Step (Limgrave), derrote Godrick (ou Rennala) para obter 1 Grande Runa e converse com a Leitora de Dedos Enia na Mesa Redonda.\n2. Encontre Varré em frente à Rose Church (ilha a oeste da Academia no lago de Liurnia) e diga que os Dois Dedos pareceram estranhos; ele dará Festering Bloody Fingers.\n3. Etapa das Invasões (escolha UMA):\n   • Online: use 3 Festering Bloody Fingers para invadir outros jogadores (pode sair imediatamente com Finger Severer ou morrer — não precisa vencer!).\n   • Offline (Sem internet!): vá até Writheblood Ruins (norte de Altus Plateau) e toque no sinal vermelho no chão para invadir e derrotar o NPC Magnus the Beast Claw uma única vez!\n4. Volte a Varré na Rose Church para ganhar o Lord of Blood's Favor (pano branco). Molhe o pano em sangue de Donzela na Church of Inhibition (nordeste de Liurnia) ou na Chapel of Anticipation (via portal de Four Belfries).\n5. Entregue o pano ensanguentado a Varré e receba o Pureblood Knight's Medal: use-o a partir do inventário para teleportar direto ao Palácio de Mohgwyn!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "white mask varre quest mohgwyn palace pureblood knight medal offline magnus writheblood ruins rose church dlc"
+    },
+    {
+      "id": 134,
+      "title": "Quest da Bruxa Ranni (Final Era das Estrelas / Age of the Stars)",
+      "subtitle": "🌌 Passo a passo enxuto para destravar Nokron, Nokstella, Tiche e Dark Moon Greatsword",
       "category": "key",
       "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Aumenta todas as runas ganhas de qualquer inimigo ou chefe derrotado em 20%!",
-          "color": "orange"
+          "content": "A missão mais rica do jogo: abre 3 regiões subterrâneas exclusivas, entrega arma e invocação lendárias e habilita o final Age of the Stars.",
+          "color": "cyan"
         },
         {
-          "title": "Mecânica",
+          "title": "Roteiro Direto Sem Travar",
           "type": "text",
-          "content": "O melhor talismã de progressão do jogo. Multiplica todas as runas obtidas por 1.2x. Acumula multiplicativamente com o consumível Gold-Pickled Fowl Foot (+30%), gerando um total de +56% de runas adicionais.",
-          "color": "gray"
-        },
-        {
-          "title": "Localização",
-          "type": "text",
-          "content": "• Recompensa por derrotar os Cavaleiros de Cleanrot no final da Caverna Abandonada (Abandoned Cave) em Caelid, acessível atravessando um tronco sobre o desfiladeiro de Scarlet Rot.",
+          "content": "1. Atravesse Caria Manor (noroeste de Liurnia), derrote Royal Knight Loretta e entre a serviço de Ranni na torre Ranni's Rise; fale com os fantasmas de Iji, Blaidd e Seluvis no andar de baixo e depois de novo com Ranni.\n2. Derrote Starscourge Radahn no Castelo Redmane (Caelid) para fazer um meteoro abrir uma cratera gigante a oeste de Fort Haight (Mistwood, Limgrave).\n3. Desça pela cratera até Nokron, Eternal City, chegue em Night's Sacred Ground e pegue a Fingerslayer Blade no baú sob a estátua gigante (⚠️ pegue o Magic Scorpion Charm com Seluvis ANTES do próximo passo!).\n4. Entregue a Fingerslayer Blade para Ranni (ganhe a Carian Inverted Statue para Liurnia Divine Tower) e descanse na Graça: a torre Renna's Rise ao norte agora estará destrancada!\n5. Suba em Renna's Rise, entre no portal para Ainsel River Main, pegue o boneco Miniature Ranni no sarcófago logo à frente e escolha 'Talk to Miniature Ranni' TRÊS vezes seguidas sentado na Graça!\n6. Atravesse Nokstella e o Lake of Rot, derrote a Baleful Shadow (ganha Discarded Palace Key) e entre no caixão na Grand Cloister para enfrentar Astel, Naturalborn of the Void.\n7. Vá até a biblioteca de Rennala (Raya Lucaria Grand Library), abra o baú trancado ao lado dela com a Discarded Palace Key para pegar o Dark Moon Ring, volte à arena de Astel, suba o elevador para Moonlight Altar e coloque o anel em Ranni sob a Cathedral of Manus Celes!",
           "color": "yellow"
         },
         {
-          "title": "Estratégia",
+          "title": "Como Ativar o Final",
           "type": "text",
-          "content": "• Dica de Ouro: Durante a animação de morte de chefes de história, troque rapidamente para o Golden Scarab e use um Gold-Pickled Fowl Foot antes da mensagem 'ENEMY FELLED' sumir para faturar um bônus astronômico de runas!",
+          "content": "• Após derrotar a Elden Beast no final do jogo, toque no sinal de invocação AZUL da Ranni no chão antes de interagir com a estátua quebrada de Marika!",
           "color": "green"
         }
       ],
-      "tags": "elden ring golden scarab talisman farm runas xp caelid equipamento equipment"
+      "tags": "ranni quest bruxa ranni age of the stars era das estrelas nokron nokstella astel fingerslayer blade miniature ranni"
     },
     {
-      "id": 106,
-      "title": "Flame, Cleanse Me (Fogo, Limpa-me)",
-      "subtitle": "Encantamento de cura para Scarlet Rot e Poison",
-      "category": "defense",
+      "id": 135,
+      "title": "Quest da Millicent & Agulha de Miquella (Reverter Chama Frenética)",
+      "subtitle": "🪡 Roteiro completo da Millicent e o único meio de cancelar o bloqueio Frenzied Flame!",
+      "category": "key",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Se você abraçou os Três Dedos sob Leyndell, todos os outros 5 finais ficam bloqueados pela Frenzied Flame — exceto se você forjar a Miquella's Needle através da quest da Millicent!",
+          "color": "cyan"
+        },
+        {
+          "title": "Passo a Passo da Quest da Millicent",
+          "type": "text",
+          "content": "1. Fale com Sage Gowry na cabana ao sul de Sellia (Caelid), derrote Commander O'Neil no coração do Swamp of Aeonia para pegar a Unalloyed Gold Needle, entregue a Gowry, recarregue a área e leve a agulha consertada para Millicent na Church of the Plague (ela dá o Prosthesis-Wearer Heirloom); fale com ela de novo na cabana de Gowry.\n2. Pegue a Valkyrie's Prosthesis dentro de um baú nos fundos de The Shaded Castle (norte de Altus Plateau) e entregue para Millicent na colina ao norte da Graça Erdtree-Gazing Hill (Altus).\n3. Derrote o Godskin Apostle no topo de Dominula, Windmill Village (norte de Altus) e esgote o diálogo com Millicent na Graça Windmill Heights.\n4. Fale com ela na Graça Ancient Snow Valley Ruins (Mountaintops) e depois na Prayer Room em Elphael (Haligtree).\n5. Em Elphael, derrote o Ulcerated Tree Spirit no lago apodrecido a oeste da Graça Drainage Channel, recarregue a área, toque no sinal DOURADO para ajudar Millicent contra as 4 irmãs e fale com ela caída (sem pular em cima dela!) para receber a Rotten Winged Sword Insignia e recuperar a Unalloyed Gold Needle após recarregar!",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Reverter a Chama Frenética (Miquella's Needle)",
+          "type": "text",
+          "content": "1. Derrote Malenia, Blade of Miquella na base da Haligtree, descanse na Graça e interaja com a flor gigante escarlate na arena para trocar a Unalloyed Gold Needle pela Miquella's Needle (+ 1 Somber Ancient Dragon Stone!).\n2. Viaje para Crumbling Farum Azula: da Graça Beside the Great Bridge, desça o elevador, saia do templo até a beira do penhasco rochoso, desça pelas plataformas flutuantes e escolha 'Lie Down' na sepultura vazia para entrar na arena temporal de Dragonlord Placidusax.\n3. Use a Miquella's Needle pelo inventário dentro da arena de Placidusax (nem precisa derrotá-lo antes de usar!) para extinguir permanentemente a Chama Frenética!",
+          "color": "green"
+        }
+      ],
+      "tags": "millicent quest miquella needle agulha de miquella frenzied flame chama frenetica reverter gowry malenia placidusax"
+    },
+    {
+      "id": 136,
+      "title": "Quest de Iron Fist Alexander (Guerreiro Jarro)",
+      "subtitle": "🏺 Somente as etapas obrigatórias para garantir o Shard of Alexander (+15%)",
+      "category": "key",
       "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "O feitiço mais importante para atravessar o Lago de Podridão e áreas tóxicas de Caelid.",
+          "content": "Várias aparições iniciais de Alexander (Stormhill, Gael Tunnel e Liurnia com pote de óleo) são 100% opcionais! Você só precisa cumprir 3 paradas obrigatórias a partir do Festival de Radahn.",
+          "color": "cyan"
+        },
+        {
+          "title": "As 3 Etapas Obrigatórias (Nunca Falha!)",
+          "type": "text",
+          "content": "1. Castelo Redmane (Caelid): derrote Starscourge Radahn e esgote todo o diálogo com Alexander ajoelhado no campo de batalha perto da Graça Starscourge Radahn.\n2. Mt. Gelmir (Lago de Magma): a oeste de Fort Laiedd / sul da Graça Seethewater Terminus, derrote o Magma Wyrm na lava e esgote o diálogo com Alexander se temperando dentro da lava (fique em cima da ilha de pedra para não queimar!). Ele lhe dará o elmo Jar.\n3. Crumbling Farum Azula: a partir da Graça Dragon Temple Lift (destrancada com 2 Stonesword Keys), atravesse a praça ensolarada, suba pelos destroços flutuantes sobre o dragão e aceite o duelo final contra Alexander para ganhar o Shard of Alexander (+15% em habilidades) e Alexander's Innards!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "iron fist alexander quest guerreiro jarro shard of alexander radahn mt gelmir farum azula"
+    },
+    {
+      "id": 137,
+      "title": "Como Entrar na DLC Shadow of the Erdtree",
+      "subtitle": "🌑 Pré-requisitos exatos (Radahn + Mohg) e nível recomendado para o Reino das Sombras",
+      "category": "key",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Para viajar ao Reino das Sombras, você deve derrotar exatamente dois chefes portadores de fragmentos no jogo base e tocar no braço ressecado que pende do casulo de Miquella.",
+          "color": "cyan"
+        },
+        {
+          "title": "Os 2 Pré-Requisitos Obrigatórios",
+          "type": "text",
+          "content": "1. Derrotar Starscourge Radahn no Castelo Redmane (sul de Caelid). Para iniciar o Festival de Radahn cedo sem enfrentar chefes de Caelid, basta pisar em qualquer Local de Graça de Altus Plateau (via Elevador de Dectus ou Ruin-Strewn Precipice) ou avançar a quest de Ranni/Blaidd.\n2. Derrotar Mohg, Lord of Blood no topo do Palácio de Mohgwyn (acessível cedo pela Quest de White Mask Varré em Liurnia ou mais tarde pelo portal sangrento a oeste de Consecrated Snowfield).\n3. Recarregue a Graça Cocoon of the Empyrean (arena de Mohg), fale com Needle Knight Leda ao lado do altar e interaja com o braço no casulo!",
+          "color": "yellow"
+        },
+        {
+          "title": "Preparação Recomendada",
+          "type": "text",
+          "content": "• Nível 120 a 150+, Vigor 60, Arma principal no máximo (+10 Somber / +25 Comum) e todos os Sinos de Pedra entregues na Mesa Redonda para testar as dezenas de armas novas da DLC!",
+          "color": "green"
+        }
+      ],
+      "tags": "como entrar dlc shadow of the erdtree miquella cocoon mohg radahn leda reino das sombras requisitos"
+    },
+    {
+      "id": 138,
+      "title": "Quests da DLC & Quebra da Grande Runa de Miquella",
+      "subtitle": "⚠️ Gatilhos de Shadow Keep / Bonny Village e checklist para não perder itens dos NPCs!",
+      "category": "key",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Ao se aproximar do centro de Scadu Altus, surge na tela o aviso sonoro: 'Somewhere, a great rune has broken...' quebrando o encanto de Miquella sobre Leda, Moore, Thiollier, Ansbach, Freyja e Hornsent.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Ficam os Gatilhos Invisíveis da Quebra",
+          "type": "text",
+          "content": "• Aproximar-se do portão frontal de Shadow Keep (norte da Graça Highroad Cross em Scadu Altus).\n• Cruzar a ponte suspensa ao norte/leste de Bonny Village rumo ao Church District.\n• Entrar em Rauh Base pelo norte.",
+          "color": "orange"
+        },
+        {
+          "title": "⚠️ O Que Fazer ANTES de Aproximar-se de Shadow Keep!",
+          "type": "text",
+          "content": "1. Moore & Thiollier (Black Syrup Perdível!): compre ao menos 1 item com Moore em Main Gate Cross (Belurat), converse com Thiollier em Pillar Path Cross (sudeste da ponte de Castle Ensis), volte a Moore para receber o Black Syrup e entregue o Black Syrup para Thiollier ganhar a Thiollier's Concoction!\n2. Forager Brood Cookbooks: colete os livros de receitas com os insetos pacíficos (Forager Broods); naquele caído ao norte da Church of the Crusade, jogue uma Warming Stone no chão, recarregue e pegue o Cookbook [4], depois fale com Moore para ganhar o Cookbook [7]!\n3. Esgote todos os diálogos iniciais de Sir Ansbach (Main Gate Cross), Redmane Freyja (Three-Path Cross), Hornsent (Three-Path e Highroad Cross) e Leda.",
           "color": "red"
         },
         {
-          "title": "Mecânica",
+          "title": "O Que Fazer DEPOIS que a Runa Quebrar",
           "type": "text",
-          "content": "Exige apenas 12 de Fé. Aplica um pequeno calor que queima 15 de HP de si mesmo e remove instantaneamente todo o acúmulo e status ativos de Podridão Escarlate (Scarlet Rot) e Veneno (Poison).",
-          "color": "gray"
+          "content": "• Moore perguntará o que fazer com a tristeza dele: escolha 'Put it behind you' (muda o destino dele para lutar ao lado de Leda no final) ou 'Remain sad forever' (ele falece perto da Church of the Crusade deixando armadura Verdigris + escudo pesado!).\n• Selo Azul Desfeito: vá ao extremo sul de Cerulean Coast (Stone Coffin Fissure) para avançar Thiollier e St. Trina ANTES de queimar a Sealing Tree em Romina!\n• Dentro de Shadow Keep (Storehouse 1st e 7th Floor): entregue o Secret Rite Scroll para Ansbach ANTES de entregar a carta dele para Freyja, caso contrário Ansbach vai embora cedo e você perde o escudo de Freyja!",
+          "color": "green"
+        }
+      ],
+      "tags": "dlc quests miquella great rune broken quebra grande runa shadow keep moore thiollier black syrup ansbach freyja hornsent leda"
+    },
+    {
+      "id": 139,
+      "title": "Guia dos 6 Finais de Elden Ring (Requisitos & Troféus)",
+      "subtitle": "🏆 Como habilitar as 3 conquistas de Final (Elden Lord, Era das Estrelas e Chama Frenética)",
+      "category": "key",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Existem 6 finais no jogo base divididos em 3 Troféus/Conquistas para a Platina: Elden Lord (qualquer uma das 4 variantes no corpo de Marika), Age of the Stars e Lord of Frenzied Flame.",
+          "color": "cyan"
         },
         {
-          "title": "Cura",
+          "title": "Resumo dos 6 Finais",
           "type": "text",
-          "content": "• Cura instantânea: Remove todo o acúmulo e efeito ativo de Podridão Escarlate (Scarlet Rot) e Veneno (Poison) ao custo de 15 HP e mínimo de FP.",
+          "content": "• 🏆 Troféu Elden Lord (4 variações — basta fazer UMA para o troféu):\n  1. Age of Fracture (Padrão): tocar em Fractured Marika sem runa de reparo.\n  2. Age of the Duskborn (Quest de Fia): derrotar Lichdragon Fortissax em Deeproot Depths para obter Mending Rune of the Death-Prince.\n  3. Age of Order (Quest de Corhyn & Goldmask): usar Law of Regression (37 INT) diante da estátua de Radagon em Leyndell antes de queimar a capital e concluir Goldmask em Ashen Capital.\n  4. Blessing of Despair (Quest de Dung Eater): entregar 5 Seedbed Curses ao Dung Eater nos esgotos de Leyndell.\n• 🏆 Troféu Age of the Stars: concluir a Quest da Bruxa Ranni e tocar no sinal azul no chão após a Elden Beast.\n• 🏆 Troféu Lord of Frenzied Flame: descer até o fundo da Frenzied Flame Proscription (atrás do altar de Mohg, the Omen nos esgotos de Leyndell), tirar TODA a armadura equipada e abrir a porta dos Três Dedos!",
+          "color": "yellow"
+        },
+        {
+          "title": "Dica de Platina em 1 Única Jornada",
+          "type": "text",
+          "content": "• Derrote a Elden Beast, descanse na Graça Fractured Marika ANTES de tocar na estátua e faça backup manual do arquivo de progresso salvo no seu PC (`%APPDATA%\\EldenRing`). Assim você pode ativar Era das Estrelas, restaurar o arquivo, ativar Elden Lord, restaurar novamente e ir buscar os Três Dedos para a Chama Frenética!",
+          "color": "green"
+        }
+      ],
+      "tags": "6 finais endings elden lord age of the stars lord of frenzied flame fia goldmask dung eater platina trofeu"
+    },
+    {
+      "id": 140,
+      "title": "Conquistas Lendárias para Platina (Armas, Talismãs, Cinzas & Magias)",
+      "subtitle": "🏆 Lista completa dos 30 colecionáveis de troféu • ⚠️ Atenção ao Bolt of Gransax!",
+      "category": "key",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "⚠️ Alerta Crítico de Arma Perdível (Antes de Maliketh!)",
+          "type": "text",
+          "content": "• BOLT OF GRANSAX (Leyndell, Royal Capital): suba pela asa do dragão gigante petrificado no centro de Leyndell, desça no telhado à esquerda da Graça Erdtree Sanctuary e pule na lança dourada gigante fincada na parede! Se você derrotar Maliketh em Crumbling Farum Azula, Leyndell vira cinzas e o Bolt of Gransax desaparece até o NG+!\n• Devourer's Scepter: derrote o invasor Recusant Bernahl em Crumbling Farum Azula (perto do baú do Old Lord's Talisman) ou em Warmaster's Shack cedo.",
+          "color": "red"
+        },
+        {
+          "title": "9 Armas Lendárias (Legendary Armaments)",
+          "type": "text",
+          "content": "• Grafted Blade Greatsword (Castle Morne) • Sword of Night and Flame (Caria Manor) • Ruins Greatsword (Redmane Castle fora do festival) • Marais Executioner's Sword (The Shaded Castle) • Bolt of Gransax ⚠️ (Leyndell) • Eclipse Shotel (Castle Sol) • Golden Order Greatsword (Cave of the Forlorn, Snowfield) • Dark Moon Greatsword (Quest Ranni) • Devourer's Scepter (Bernahl).",
+          "color": "yellow"
+        },
+        {
+          "title": "8 Talismãs & 6 Cinzas Lendárias",
+          "type": "text",
+          "content": "• 8 Talismãs: Radagon Icon (Raya Lucaria) • Radagon's Soreseal (Fort Faroth) • Godfrey Icon (Golden Lineage Evergaol, Altus) • Moon of Nokstella (Nokstella) • Dragoncrest Greatshield (Elphael) • Marika's Soreseal (Elphael, requer Stonesword Key) • Old Lord's Talisman (Farum Azula) • Erdtree's Favor +2 (Ashen Capital).\n• 6 Cinzas: Banished Knight Oleg (Fringefolk Hero's Grave) • Lhutel the Headless (Tombsward Catacombs) • Redmane Knight Ogha (War-Dead Catacombs na praia norte de Radahn) • Ancient Dragon Knight Kristoff (Sainted Hero's Grave) • Cleanrot Knight Finlay (Elphael) • Black Knife Tiche (Ringleader's Evergaol, Moonlight Altar).",
+          "color": "cyan"
+        },
+        {
+          "title": "7 Feitiços & Encantamentos Lendários",
+          "type": "text",
+          "content": "• Feitiços (3): Flame of the Fell God (Malefactor's Evergaol, Liurnia) • Rennala's Full Moon (Lembrança de Rennala) • Comet Azur (Feiticeiro Azur em Hermit Village, Mt. Gelmir) • Stars of Ruin (Mestre Lusat em Sellia Hideaway durante a quest inicial de Sellen).\n• Encantamentos (3 restantes): Greyoll's Roar (matar a dragoa gigante Greyoll em Fort Faroth e comprar na Catedral da Comunhão em Caelid) • Elden Stars (formigueiro alto de Deeproot Depths) • Placidusax's Ruin (Lembrança de Dragonlord Placidusax).\n• Dica contra bug de conquista: se pegar as 9 armas e o troféu não saltar, guarde todas no Baú do Local de Graça (Sort Chest) e retire-as de volta!",
+          "color": "green"
+        }
+      ],
+      "tags": "platina conquistas lendarias legendary armaments talismans ashen remains sorceries incantations bolt of gransax perdivel"
+    },
+    {
+      "id": 106,
+      "title": "Flame, Cleanse Me & Sistema de Buffs Acumuláveis (Aura vs. Corpo)",
+      "subtitle": "🔥 Purificação de Podridão Escarlate + Regra de Ouro de Golden Vow e Flame Grant Me Strength",
+      "category": "defense",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Flame, Cleanse Me (Cura de Podridão & Veneno)",
+          "type": "text",
+          "content": "• Exige apenas 12 de Fé (14 FP): causa 15 de auto-dano leve e remove 100% do acúmulo e status ativo de Scarlet Rot (Podridão Escarlate) e Poison (Veneno) — indispensável em Caelid, Lake of Rot e Haligtree!\n• Localização: num cadáver no acampamento de Monges do Fogo a sudeste da Church of Vows (leste de Liurnia of the Lakes).",
           "color": "blue"
         },
         {
-          "title": "Localização",
+          "title": "Regra de Categorias de Buff (Como Não Sobrescrever!)",
           "type": "text",
-          "content": "• Acampamento dos Monges do Fogo (Fire Monk Camp) a sudeste da Igreja dos Votos (Church of Vows) em Liurnia of the Lakes, em um corpo ao lado de uma fogueira.",
+          "content": "Elden Ring só permite 1 buff ativo de cada categoria por vez (usar dois da mesma categoria apaga o anterior!):\n• 1. Buff de AURA — Golden Vow: encantamento (25 FTH, baú/cadáver na Corpse-Stench Shack em Mt. Gelmir) dá +15% Dano Global e +10% Defesa por 80s! (Versão Cinza da Guerra em uma adaga leve pesa quase zero e dá +11,5% ATK / +7,5% DEF por 45s sem gastar Fé!).\n• 2. Buff de CORPO (escolha UM conforme a luta):\n  - Ofensivo: Flame, Grant Me Strength (15 FTH, atrás de Fort Gael em Caelid) → +20% de Dano Físico E +20% de Dano de Fogo por 30s!\n  - Defensivo Físico: Boiled Crab (comprado de Boggart por 600 runas → -20% dano físico por 60s!) ou Black Flame's Protection (30 FTH → -35% dano físico por 70s).\n  - Defensivo Sagrado: Lord's Divine Fortification (27 FTH → -60% dano sagrado por 70s).\n• 3. Buff de ARMA (ex.: Bloodflame Blade / Cragblade) + 4. Elixir Magnífico + 5. Grande Runa = TODOS acumulam multiplicativamente!",
+          "color": "gray"
+        },
+        {
+          "title": "Ordem Correta Antes da Névoa do Chefe",
+          "type": "text",
+          "content": "• Sempre conjurar do buff MAIS LONGO para o MAIS CURTO: 1º Elixir Magnífico (3 min) → 2º Golden Vow (80s) → 3º Buff de Arma (60s) → 4º Flame, Grant Me Strength ou Boiled Crab (30–60s) → atravesse a névoa!",
+          "color": "green"
+        }
+      ],
+      "tags": "elden ring flame cleanse me scarlet rot podridao golden vow flame grant me strength buffs acumulaveis aura corpo boiled crab"
+    },
+    {
+      "id": 141,
+      "title": "Contra-Medida: Mohg, Lord of Blood (Purifying Crystal Tear)",
+      "subtitle": "🩸 Anula 90%+ do dano e sangramento do ritual NIHIL! na transição da Fase 2",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Perigo do Chefe",
+          "type": "text",
+          "content": "Ao chegar perto de 50% de HP, Mohg ergue o tridente e grita 'NIHIL!' três vezes seguidas, arrancando 3 barras enormes de sangue da arena inteira enquanto regenera a própria vida.",
+          "color": "red"
+        },
+        {
+          "title": "Onde Pegar a Purifying Crystal Tear",
+          "type": "text",
+          "content": "• Viaje até a Second Church of Marika em Altus Plateau (noroeste da Graça Altus Highway Junction) e derrote a invasora NPC Eleonora, Violet Bloody Finger (também rende a arma Eleonora's Poleblade!).",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "• Mesmo que sua build seja puramente física ou mágica, equipe um Finger Seal básico e invista 12 de Fé (ou use o talismã Two Fingers Heirloom). Esse feitiço evita gastar Preserving Boluses caros no Lake of Rot!",
+          "content": "• Equipe a Purifying Crystal Tear no seu Elixir Magnífico e beba antes da luta (ou quando Mohg colocar o 3º anel vermelho ao seu redor). Uma bolha vermelha protetora cercará seu personagem, anulando a perda de sangue do Nihil e permitindo bater livremente em Mohg durante todo o ritual!\n• Combine com Mohg's Shackle na Fase 1 (2 vezes antes de 50% HP) e armas de Sangramento — apesar de ser o Senhor do Sangue, Mohg é extremamente FRACO contra Sangramento!",
           "color": "green"
         }
       ],
-      "tags": "elden ring flame cleanse me scarlet rot veneno podridao liurnia magia magic"
+      "tags": "mohg lord of blood nihil purifying crystal tear eleonora second church of marika contra medida chefe"
+    },
+    {
+      "id": 142,
+      "title": "Contra-Medida: Rykard, Lord of Blasphemy (Lança Serpent-Hunter)",
+      "subtitle": "🐍 Pegue a lança gratuita na entrada da arena e até evolua-a na Mesa Redonda!",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Rykard fica cercado por uma poça permanente de lava escaldante e possui HP colossal, mas o jogo oferece uma arma especial sem requisitos de atributo que dispara furacões gigantes de luz dentro da arena dele.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Pegar e Truque de Melhoria",
+          "type": "text",
+          "content": "• Serpent-Hunter (0 requisitos de STR/DEX!): brilha num cadáver imediatamente à esquerda assim que você atravessa a névoa de God-Devouring Serpent em Volcano Manor.\n• Segredo: pegue a lança, use Memory of Grace (ou deixe morrer antes de acordar a cobra), vá ao ferreiro Hewg na Mesa Redonda e melhore a Serpent-Hunter para +4 a +7 com Somber Smithing Stones baratas! O dano contra Rykard dobra!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Na Fase 2, se Rykard erguer a espada para invocar a chuva infernal de caveiras vermelhas (Rancor), acerte o 1º golpe da habilidade Great-Serpent Hunt (L2) para cancelar a animação dele imediatamente!\n• Se você invocar o Mimic Tear já segurando a Serpent-Hunter, seu clone também disparará lâminas gigantes de vento sem parar!",
+          "color": "green"
+        }
+      ],
+      "tags": "rykard lord of blasphemy serpent hunter lanca cacador de serpentes volcano manor contra medida chefe"
+    },
+    {
+      "id": 143,
+      "title": "Contra-Medida: Maliketh, the Black Blade (Blasphemous Claw)",
+      "subtitle": "🐾 Apara ataques aéreos com brilho dourado na Fase 2 e atordoa Maliketh!",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "Ferramenta reutilizável (sem custo de FP) imbuída de um fragmento da Runa da Morte, feita sob medida para rebater os saltos mortais de Maliketh na segunda fase.",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização (Crumbling Farum Azula)",
+          "type": "text",
+          "content": "• Da Graça Beside the Great Bridge, volte pela ponte no sentido oposto à porta do chefe (sem subir até Maliketh), desça as escadas à esquerda e siga pela passarela quebrada até a torre isolada: você será invadido por Recusant Bernahl, que dropa a Blasphemous Claw e o Devourer's Scepter!",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Identificar o Momento Exato de Aparar",
+          "type": "text",
+          "content": "• Nem todo golpe de Maliketh pode ser aparado! Fique atento apenas quando a espada dele piscar com um BRILHO DOURADO intenso no ar (geralmente após disparar 3 ondas vermelhas aéreas antes do mergulho rasante ou ao pular do pilar).\n• Aperte o botão de item rápido com a Blasphemous Claw equipada quando ele mergulhar sobre você para cegá-lo e deixá-lo paralisado por 5 segundos inteiros!",
+          "color": "green"
+        }
+      ],
+      "tags": "maliketh black blade blasphemous claw garra blasfema bernahl farum azula parry aparar contra medida chefe"
+    },
+    {
+      "id": 144,
+      "title": "Contra-Medida: Malenia, Blade of Miquella (Pote Congelante)",
+      "subtitle": "❄️ Freezing Pot cancela instantaneamente a Waterfowl Dance ainda no ar!",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Perigo Letal (Waterfowl Dance)",
+          "type": "text",
+          "content": "A partir de ~75% do HP da Fase 1, Malenia salta e flutua no ar preparando 3 rajadas giratórias de cortes que curam a vida dela mesmo se você bloquear com escudo.",
+          "color": "red"
+        },
+        {
+          "title": "Como Criar o Freezing Pot (Pote Congelante)",
+          "type": "text",
+          "content": "• Receita: pegue o Glintstone Craftsman's Cookbook [6] num cadáver dentro da salinha lateral na entrada sul de Caria Manor (noroeste de Liurnia).\n• Ingredientes (super fáceis): requer apenas 1 Ritual Pot + 2 Rimed Crystal Buds (coletados às dezenas pelo chão ao redor de Caria Manor ou nas Consecrated Snowfields!).",
+          "color": "yellow"
+        },
+        {
+          "title": "Tática de Cancelamento e Esquiva",
+          "type": "text",
+          "content": "• Cancelamento no Ar: no exato segundo em que Malenia saltar e pairar para a Waterfowl Dance, trave a mira e arremesse 1 único Freezing Pot! O estalo instantâneo de Frostbite derruba ela de cara no chão e cancela o golpe inteiro (funciona até 2 vezes antes da resistência dela subir)!\n• Esquiva Manual sem Pote: 1ª rajada → corra em linha reta para trás e pule no último instante; 2ª rajada → role PARA DENTRO atravessando ela; 3ª rajada → destrave a mira ou ande para frente e depois para trás!",
+          "color": "green"
+        }
+      ],
+      "tags": "malenia blade of miquella waterfowl dance freezing pot pote congelante frostbite caria manor contra medida chefe"
+    },
+    {
+      "id": 145,
+      "title": "Contra-Medida: Radagon & Elden Beast (Defesa Sagrada + Torrent!)",
+      "subtitle": "🌟 Imunidade a Sangramento, -70% Dano Sagrado e uso liberado do cavalo Torrent!",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "⚠️ Aviso Importante de Imunidades",
+          "type": "text",
+          "content": "• Tanto Radagon quanto a Elden Beast são 100% IMUNES a Sangramento (Hemorragia)! Se você usa Rivers of Blood ou armas Blood, troque para dano de Fogo/Blasphemous Blade (Radagon tem 0% de defesa contra Fogo!) ou armas puramente Físicas/Occult/Black Flame.",
+          "color": "red"
+        },
+        {
+          "title": "Blindagem Contra Dano Sagrado (Anula Quase Tudo!)",
+          "type": "text",
+          "content": "• Quase todos os projéteis, explosões no chão e anéis de luz de ambos causam Dano Sagrado (Holy):\n  - Haligdrake Talisman +2 (-20% Sagrado, pego em Mohgwyn Palace) ou Golden Braid da DLC (-22% Sagrado).\n  - Lord's Divine Fortification (27 FTH, comprado das Gêmeas após derrotar Malenia ou chegar em Farum Azula): corta -60% de TODO dano Sagrado por 70s! (Ou Divine Fortification comum com apenas 10 FTH para -35%).",
+          "color": "yellow"
+        },
+        {
+          "title": "Atualização Vital: Use o Torrent na Elden Beast!",
+          "type": "text",
+          "content": "• Desde o Patch 1.12, você pode invocar o cavalo espectral TORRENT durante toda a luta contra a Elden Beast! Suba no Torrent para pular facilmente os anéis dourados concêntricos no chão, fugir da estrela perseguidora Elden Stars e colar na barriga rachada da fera em segundos!",
+          "color": "green"
+        }
+      ],
+      "tags": "radagon elden beast fera pristina sangramento imune holy damage haligdrake lords divine fortification torrent cavalo"
+    },
+    {
+      "id": 146,
+      "title": "Contra-Medida: Promised Consort Radahn (Chefe Final da DLC)",
+      "subtitle": "🦁 Golden Braid (-22% Sagrado), Deflecting Hardtear ou Escudo Pesado + Estocada!",
+      "category": "defense",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Perigos da Fase 2 (Luz de Miquella)",
+          "type": "text",
+          "content": "Na Fase 2 em Enir-Ilim, cada espadada física de Radahn cria pilares atrasados de Luz Sagrada que punem rolagens para trás, além do meteoro orbital quando o HP dele desce de ~25% e do agarrão que rouba seu coração se acertar duas vezes.",
+          "color": "red"
+        },
+        {
+          "title": "Itens-Chave de Sobrevivência na DLC",
+          "type": "text",
+          "content": "• Golden Braid (-22% Dano Sagrado): na árvore oca no topo da Shaman Village em Hinterland (use o gesto 'O Mother' diante da estátua sem cabeça na capela lateral da Graça Shadow Keep, Back Gate!).\n• Miquella's Great Rune (item reutilizável obtido ao derrotar Scadutree Avatar): se Radahn te agarrar na Fase 2 e colocar a coroa dourada sobre sua cabeça, use a Miquella's Great Rune pelo inventário para limpar o encanto e não morrer instantaneamente num 2º agarrão!",
+          "color": "yellow"
+        },
+        {
+          "title": "As 3 Melhores Táticas para Vencer",
+          "type": "text",
+          "content": "• 1. Tática de Esquiva Pura: role SEMPRE colado na diagonal esquerda (para dentro do quadril direito de Radahn) — isso evita simultaneamente a lâmina e os feixes de luz atrasados!\n• 2. Tática Sekiro: beba o Elixir com Deflecting Hardtear + arma colossal/espada pesada em duas mãos + Two-Handed Sword Talisman e Curved Sword Talisman (+20% Guard Counter) para defletir os combos inteiros e quebrar a postura dele!\n• 3. Tática Fortaleza Impenetrável (100% Consistente): equipe Verdigris Greatshield (quest de Moore) ou Fingerprint Stone Shield + Sword Lance / Antspur Rapier (Podridão Escarlate + Sangramento) + Greatshield Talisman + Pearl Shield Talisman (DLC): segure o escudo levantado e cutuque com R1 sem jamais soltar o bloqueio!",
+          "color": "green"
+        }
+      ],
+      "tags": "promised consort radahn miquella chefe final dlc golden braid shaman village verdigris fingerprint shield antspur rapier"
     }
   ]
 }
