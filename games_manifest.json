@@ -55,7 +55,14 @@
       "icon": "🌳",
       "url": "games/terraria.json",
       "updated_at": "2026-11-27T16:35:00Z"
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "icon": "⛏️",
+      "url": "games/minecraft.json",
+      "updated_at": "2026-11-27T16:40:00Z"
     }
   ],
-  "updated_at": "2026-11-27T16:35:00Z"
+  "updated_at": "2026-11-27T16:40:00Z"
 }
