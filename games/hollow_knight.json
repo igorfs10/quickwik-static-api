@@ -2,127 +2,1369 @@
   "id": "hollow_knight",
   "title": "Hollow Knight",
   "icon": "🪲",
-  "updated_at": "2026-11-15T20:15:00Z",
+  "updated_at": "2026-11-27T02:15:00Z",
   "sources": [
+    {
+      "name": "Hollow Knight Wiki (Independent Wiki)",
+      "url": "https://hollowknight.wiki/",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    },
     {
       "name": "Hollow Knight Wiki (Fandom)",
       "url": "https://hollowknight.fandom.com/",
       "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "Hollow Knight Wiki (Fextralife)",
+      "url": "https://hollowknight.wiki.fextralife.com/",
+      "license": "Referência factual com redação própria"
+    },
+    {
+      "name": "PCGamingWiki — Hollow Knight",
+      "url": "https://www.pcgamingwiki.com/wiki/Hollow_Knight",
+      "license": "CC BY-NC-SA 3.0 — Referência técnica de executável"
+    },
+    {
+      "name": "SteamDB — Hollow Knight (App 367520)",
+      "url": "https://steamdb.info/app/367520/",
+      "license": "Referência factual de pacotes e executável"
     }
-  ],  "process_keywords": [
+  ],
+  "process_keywords": [
     "hollow_knight",
-    "hollow knight",
-    "hollowknight"
+    "hollowknight",
+    "hollow knight"
   ],
   "categories": [
-    { "id": "all", "label": "Todos" },
-    { "id": "charms", "label": "💎 Amuletos" },
-    { "id": "skills", "label": "⚔️ Habilidades" },
-    { "id": "bosses", "label": "👑 Chefes" },
-    { "id": "lore", "label": "📜 Segredos" }
+    {
+      "id": "all",
+      "label": "Todos"
+    },
+    {
+      "id": "charms",
+      "label": "💎 Amuletos & Builds"
+    },
+    {
+      "id": "skills",
+      "label": "⚔️ Habilidades & Ferrão"
+    },
+    {
+      "id": "collectibles",
+      "label": "🪲 Upgrades & Colecionáveis"
+    },
+    {
+      "id": "bosses",
+      "label": "👑 Chefes & Panteões"
+    },
+    {
+      "id": "quests",
+      "label": "📜 Segredos, Finais & 112%"
+    }
   ],
   "entries": [
     {
       "id": 201,
-      "title": "Wayward Compass (Bússola)",
-      "subtitle": "Mostra a localização do Cavaleiro no mapa",
+      "title": "Wayward Compass (Bússola Caprichosa)",
+      "subtitle": "🧭 1 Encaixe • Exibe o ícone exato do Cavaleiro no mapa • 220 Geo",
       "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Revela em tempo real a posição do Cavaleiro dentro de qualquer mapa regional já comprado e atualizado com a Pena (Quill).",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 1 Encaixe (Notch).\n• Contribui com 1% para a conclusão de 112%.\n• Sem efeito em salas pertencentes a áreas cujo mapa de Cornifer ainda não foi adquirido.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Dirtmouth: vendido na loja de cartografia da Iselda por 220 Geo.\n• A loja abre assim que você encontra Cornifer pela primeira vez em Forgotten Crossroads (ou derrota o False Knight).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Indispensável para explorar biomas labirínticos como Deepnest, Royal Waterways e Kingdom's Edge.\n• Desequipe no banco antes de enfrentar chefes difíceis ou Panteões para usar esse 1 Encaixe em Grubsong ou Nailmaster's Glory.",
+          "color": "green"
+        }
+      ],
+      "tags": "wayward compass bussola caprichosa mapa amuleto charm dirtmouth iselda cornifer exploracao 1 encaixe notch"
+    },
+    {
+      "id": 202,
+      "title": "Shaman Stone (Pedra do Xamã)",
+      "subtitle": "🔮 3 Encaixes • Aumenta em 33% a 51% o dano e o tamanho das magias",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Amplia drasticamente a área de acerto e o dano de todos os três feitiços ofensivos (normais e sombrios).",
+          "color": "purple"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 3 Encaixes (Notches).\n• Vengeful Spirit: 15 -> 20 de dano | Shade Soul: 30 -> 40 de dano (+projétil gigante que acerta chefes grandes 2 vezes).\n• Desolate Dive: 35 -> 51 de dano | Descending Dark: 60–65 -> 88 de dano.\n• Howling Wraiths: 30 -> 45 de dano | Abyss Shriek: 80 -> 120 de dano total (4 acertos de 30).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Forgotten Crossroads (sudeste): vendido por Salubra por 220 Geo.\n• É possível comprá-lo cedo usando o Mothwing Cloak (ou pulando na própria sombra/mosca Gruz) para alcançar a Vila Gruz.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Melhor aumento bruto de dano no início e meio do jogo, quando o Ferrão ainda causa pouco dano.\n• Combine com Spell Twister (2 Encaixes) para disparar até 4 feitiços seguidos com o medidor principal de Alma cheio.",
+          "color": "green"
+        }
+      ],
+      "tags": "shaman stone pedra do xama xamã magia feitico spell dano salubra alma soul shade soul abyss shriek descending dark amuleto charm"
+    },
+    {
+      "id": 203,
+      "title": "Mothwing Cloak & Shade Cloak (Mantos de Esquiva)",
+      "subtitle": "💨 Esquiva horizontal rápida (Dash) e travessia invencível pelas sombras",
+      "category": "skills",
       "spoiler": false,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Aponta onde você está no mapa desenhado de Hallownest.",
+          "content": "• Mothwing Cloak (Manto de Asa de Mariposa): libera a investida horizontal (Dash) no chão ou no ar.\n• Shade Cloak (Manto Sombrio): evolução definitiva que envolve o Dash em Vazio, permitindo atravessar inimigos, chefes, projéteis e Portões Sombrios (Shade Gates) sem sofrer dano.",
           "color": "cyan"
         },
         {
           "title": "Mecânica",
           "type": "text",
-          "content": "Custa 1 espaço de amuleto (encaixe). Essencial para exploração nas primeiras horas até decorar os caminhos e bancos de descanso de cada bioma.",
+          "content": "• Mothwing Cloak tem recarga de ~0,6s (reduzida para ~0,4s com Dashmaster).\n• A invencibilidade sombria do Shade Cloak tem seu próprio tempo de recarga de ~1,5s (indicado pelas partículas pretas voltando ao corpo do Cavaleiro).\n• Ambos somam 2% cada (4% no total) para os 112%.",
           "color": "gray"
         },
         {
           "title": "Localização",
           "type": "text",
-          "content": "Vendido por Iselda na loja de Dirtmouth por 220 Geo logo após encontrar Cornifer em Forgotten Crossroads.",
+          "content": "• Mothwing Cloak: Greenpath (oeste), no cadáver de um receptáculo após derrotar Hornet Protector.\n• Shade Cloak: The Abyss (extremo leste). Exige abrir a porta do Abismo com a Marca do Rei (King's Brand), subir o farol para desligar o feixe nas trevas, atravessar o mar de Vazio e entrar na tigela da estátua antiga.",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "Retire o amuleto antes de enfrentar chefes difíceis para liberar 1 espaço para amuletos de combate como Quick Slash ou Fragile Strength.",
+          "content": "• Guarde o tempo do Shade Cloak para atravessar ataques de varredura larga em chefes como Traitor Lord, Pure Vessel e Nightmare King Grimm.\n• Combine com o amuleto Sharp Shadow para transformar sua esquiva sombria em um ataque perfurante.",
           "color": "green"
         }
       ],
-      "tags": "hollow knight bussola mapa compass amuleto dirtmouth iselda equipamento equipment"
+      "tags": "mothwing cloak shade cloak manto mariposa sombrio dash esquiva sombra hornet greenpath abyss abismo kings brand habilidade skill"
     },
     {
-      "id": 202,
-      "title": "Shaman Stone (Pedra do Xamã)",
-      "subtitle": "Aumenta drasticamente o dano de magias (Vengeful Spirit, etc.)",
+      "id": 204,
+      "title": "Unbreakable / Fragile Strength (Força Inquebrável / Frágil)",
+      "subtitle": "💪 3 Encaixes • +50% de dano no Ferrão • Upgrade definitivo com Divine (15.000 Geo)",
       "category": "charms",
       "spoiler": false,
       "additional_data": [
         {
-          "title": "Descrição",
+          "title": "Efeito",
           "type": "text",
-          "content": "Aumenta o poder e tamanho dos feitiços em cerca de 33% a 50%!",
-          "color": "purple"
+          "content": "• Aumenta o dano de todos os golpes básicos do Ferrão em +50% (arredondado para cima).\n• Com o Ferrão Puro (Pure Nail, 21 de dano), cada golpe passa a causar 32 de dano!",
+          "color": "cyan"
         },
         {
-          "title": "Mecânica",
+          "title": "Dados Técnicos",
           "type": "text",
-          "content": "Faz Vengeful Spirit / Shade Soul causar 20 a 40 de dano por acerto (podendo acertar chefes grandes mais de uma vez). O melhor amuleto ofensivo do jogo para builds focadas em alma.",
+          "content": "• Custo: 3 Encaixes (Notches).\n• NÃO multiplica o dano das Nail Arts (Great Slash, Dash Slash e Cyclone Slash) nem do amuleto Sharp Shadow, mas multiplica os feixes da Grubberfly's Elegy.\n• Versão Frágil quebra ao morrer (exceto em lutas no Mundo dos Sonhos e Godhome!), exigindo reparo no Leg Eater.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização & Upgrade Inquebrável",
+          "type": "text",
+          "content": "• Fragile Strength: vendido por Leg Eater no norte de Fungal Wastes por 600 Geo (480 Geo usando Defender's Crest).\n• Unbreakable Strength: equipe a versão Frágil (inteira) e fale com Divine na tenda menor da Trupe Grimm em Dirtmouth. Ela engole o amuleto e o devolve permanente por 15.000 Geo.",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Atenção (Perdível)",
+          "type": "text",
+          "content": "• Se você banir a Trupe Grimm com Brumm antes de comprar os amuletos Inquebráveis na Divine, eles permanecerão Frágeis para sempre neste jogo salvo (e se um amuleto estiver na barriga da Divine no momento do banimento, ele cai no chão de Dirtmouth na forma Frágil).",
+          "color": "red"
+        }
+      ],
+      "tags": "unbreakable strength fragile strength forca inquebravel fragil leg eater divine 15000 geo ferrao nail dano trupe grimm amuleto charm"
+    },
+    {
+      "id": 205,
+      "title": "Quick Slash (Corte Rápido)",
+      "subtitle": "⚡ 3 Encaixes • Acelera drasticamente os ataques do Ferrão • Kingdom's Edge",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Reduz enormemente o tempo de espera entre um golpe e outro do Ferrão, elevando tanto seu DPS físico quanto sua geração de Alma por segundo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 3 Encaixes (Notches).\n• Reduz o intervalo entre cortes de 0,41s para 0,25s (~64% mais golpes por segundo).\n• Permite encaixar 2 a 3 acertos seguros em janelas onde normalmente caberia apenas 1 golpe.",
           "color": "gray"
         },
         {
           "title": "Localização",
           "type": "text",
-          "content": "Compre com Salubra em Forgotten Crossroads por 220 Geo.",
+          "content": "• Kingdom's Edge (sudeste): vá até a cabana do Mestre do Ferrão Oro.\n• Na sala do boneco de treino ao lado da cabana, use Desolate Dive / Descending Dark no piso quebradiço à direita e siga o túnel secreto até a câmara do antigo ferreiro gigante.",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "Combine com Spell Twister (reduz custo de alma de 33 para 24) para lançar até 4 feitiços seguidos com a reserva de alma cheia.",
+          "content": "• Combinado com Unbreakable Strength e Steady Body (Corpo Firme, 1 Encaixe), você cola nos chefes sem recuo e derrete barras de vida em segundos.",
           "color": "green"
         }
       ],
-      "tags": "hollow knight shaman stone magia feitiço dano salubra alma soul equipamento equipment"
+      "tags": "quick slash corte rapido velocidade ataque dps ferrao kingdom edge oro desolate dive amuleto charm"
     },
     {
-      "id": 203,
-      "title": "Mothwing Cloak (Manto de Mariposa)",
-      "subtitle": "Habilidade essencial de esquiva rápida (Dash horizontal)",
-      "category": "skills",
+      "id": 206,
+      "title": "Mark of Pride & Longnail (Alcance do Ferrão)",
+      "subtitle": "📏 3 / 2 Encaixes • Aumentam o alcance do Ferrão em +25% e +15% (acumuláveis)",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Ampliam o comprimento da lâmina nos cortes laterais, superiores e inferiores (pogo), mantendo distância segura de inimigos agressivos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Longnail (Ferrão Longo): 2 Encaixes -> +15% de alcance.\n• Mark of Pride (Marca de Orgulho): 3 Encaixes -> +25% de alcance.\n• Equipar os dois juntos (5 Encaixes) soma +40% de alcance total.\n• Não afetam o tamanho das Nail Arts.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Longnail: vendido por Salubra em Forgotten Crossroads por 300 Geo.\n• Mark of Pride: dentro de um baú na sala de tesouro a nordeste de Mantis Village, desbloqueada imediatamente após vencer as Mantis Lords.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Mark of Pride facilita imensamente o pogo (ataque para baixo no ar) em espinhos, serras do Palácio Branco e chefes velozes como Sisters of Battle e Pure Vessel.",
+          "color": "green"
+        }
+      ],
+      "tags": "mark of pride longnail marca de orgulho ferrao longo alcance range pogo mantis lords salubra amuleto charm"
+    },
+    {
+      "id": 207,
+      "title": "Spell Twister (Dobrador de Feitiços)",
+      "subtitle": "🌀 2 Encaixes • Reduz o custo das magias de 33 para 24 de Alma • Soul Sanctum",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Diminui o consumo de Alma de todos os feitiços ofensivos, permitindo conjurações em sequência muito mais longas.",
+          "color": "purple"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 2 Encaixes (Notches).\n• Reduz o custo por magia de 33 para 24 de Alma (-27% de consumo).\n• Com o receptáculo principal cheio (99 de Alma), você lança 4 feitiços seguidos em vez de 3 (sobrando ainda 3 de Alma).\n• Não reduz o custo de Alma do Foco (cura continua custando 33).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• City of Tears (Soul Sanctum): suba até o topo do Santuário das Almas.\n• Na sala imediatamente anterior à arena do Soul Master, escale pela abertura secreta no teto à direita (cheia de Mistakes/Follies) até o gerador arcano.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Dupla obrigatória com Shaman Stone: 4 disparos de Abyss Shriek derretem chefes voadores como Radiance, Markoth e Galien antes mesmo de reagirem.",
+          "color": "green"
+        }
+      ],
+      "tags": "spell twister dobrador de feiticos alma soul custo soul sanctum city of tears magia amuleto charm"
+    },
+    {
+      "id": 208,
+      "title": "Quick Focus (Foco Rápido)",
+      "subtitle": "💚 3 Encaixes • Dobra a velocidade de cura (Foco) • 800 Geo (Salubra)",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Reduz pela metade o tempo de canalização para recuperar 1 Máscara de vida, criando janelas seguras de cura no meio de chefes rápidos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 3 Encaixes (Notches).\n• Tempo por cura cai de ~1,14s para ~0,59s.\n• Sinergia: com Deep Focus (Foco Profundo, 4 Encaixes), você cura 2 Máscaras pelo preço de 33 de Alma na mesma velocidade de uma cura normal!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Forgotten Crossroads (sudeste): vendido por Salubra por 800 Geo.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Combine com Shape of Unn (Forma de Unn, 2 Encaixes) para rastejar rapidamente enquanto se cura — excelente para desviar dos pilares de fogo do Nightmare King Grimm e das lanças da Radiance.",
+          "color": "green"
+        }
+      ],
+      "tags": "quick focus foco rapido cura heal vida mascara salubra shape of unn deep focus amuleto charm"
+    },
+    {
+      "id": 209,
+      "title": "Sharp Shadow (Sombra Afiada)",
+      "subtitle": "🌑 2 Encaixes • Shade Cloak causa 1x dano do Ferrão e avança +40% • Deepnest",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Transforma a esquiva do Manto Sombrio (Shade Cloak) em uma lâmina de Vazio que atravessa e fere inimigos no caminho, além de aumentar a distância da esquiva sombria.",
+          "color": "purple"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 2 Encaixes (Notches).\n• Dano: 1,0x o dano base do seu Ferrão atual (21 de dano com Pure Nail).\n• Sinergia com Dashmaster: aumenta o dano da sombra para 1,5x o dano do Ferrão (~32 de dano)!\n• Aumenta a distância do Dash Sombrio em ~39% (atenção em trechos curtos de plataforma!).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Deepnest (sudeste): desça a partir da Fonte Termal (Hot Spring) de Deepnest e atravesse o Portão Sombrio (Shade Gate) usando o Shade Cloak.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Perfeito contra Traitor Lord, Watcher Knights e Nightmare King Grimm: você causa dano constante toda vez que atravessa as investidas deles.\n• Remova antes de entrar no Palácio Branco (White Palace) para não errar saltos milimétricos por causa da distância maior do dash.",
+          "color": "green"
+        }
+      ],
+      "tags": "sharp shadow sombra afiada shade cloak dash dano deepnest dashmaster amuleto charm"
+    },
+    {
+      "id": 210,
+      "title": "Grubsong (Canção das Larvas)",
+      "subtitle": "🐛 1 Encaixe • Recupera 15 de Alma sempre que você sofre dano • 10 Larvas",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Converte qualquer dano recebido (inimigos, espinhos ou ácido) em Alma imediata para curar ou contra-atacar com feitiços.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 1 Encaixe (Notch).\n• Gera 15 de Alma por acerto sofrido (quase metade de uma cura de 33 de Alma).\n• Sinergia oculta com Grubberfly's Elegy: sobe o ganho para 25 de Alma por dano recebido!\n• Sinergia oculta com Weaversong (Canção das Tecelãs): cada mordida das aranhas gera 3 de Alma para você passivamente!",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Forgotten Crossroads (noroeste): recompensa entregue pelo Pai das Larvas (Grubfather) após resgatar 10 Larvas (Grubs).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Melhor amuleto de 1 Encaixe para fechar builds de 11 espaços e indispensável junto com Hiveblood no Palácio Branco.",
+          "color": "green"
+        }
+      ],
+      "tags": "grubsong cancao das larvas alma soul dano grubfather 10 larvas weaversong hiveblood 1 encaixe amuleto charm"
+    },
+    {
+      "id": 211,
+      "title": "Nailmaster's Glory (Glória do Mestre do Ferrão)",
+      "subtitle": "🥋 1 Encaixe • Reduz carga das Nail Arts de 1,35s para 0,75s • Presente de Sly",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito",
+          "type": "text",
+          "content": "• Acelera quase pela metade o carregamento das três Artes do Ferrão (Great Slash, Dash Slash e Cyclone Slash).",
+          "color": "cyan"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• Custo: 1 Encaixe (Notch).\n• Tempo de carga cai de 1,35s para 0,75s.\n• Essencial para usar Great Slash (2,5x dano do Ferrão = 52 de dano com Pure Nail) em combate aéreo.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Aprenda todas as 3 Nail Arts com os mestres Mato (Howling Cliffs), Sheo (Greenpath) e Oro (Kingdom's Edge).\n• Volte a Dirtmouth, desça ao porão da loja do Sly e fale com o Grande Sábio do Ferrão.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Obrigatório na Prova do Tolo (Colosseum of Fools — Trial 3): um único Great Slash carregado elimina Primal Aspids e Armored Squits instantaneamente assim que surgem das gaiolas!",
+          "color": "green"
+        }
+      ],
+      "tags": "nailmasters glory gloria do mestre do ferrao nail arts sly oro mato sheo coliseu primal aspid 1 encaixe amuleto charm"
+    },
+    {
+      "id": 212,
+      "title": "Kingsoul & Void Heart (Alma do Rei & Coração Vazio)",
+      "subtitle": "🖤 5 -> 0 Encaixes • Unifica o Vazio e destrava os Finais Verdadeiros",
+      "category": "charms",
       "spoiler": true,
       "additional_data": [
         {
           "title": "Descrição",
           "type": "text",
-          "content": "Permite disparar em investida rápida (dash) para frente no chão ou no ar.",
+          "content": "• Kingsoul (Alma do Rei): amuleto branco sagrado formado por duas metades que regenera 4 de Alma a cada 2 segundos, mas custa 5 Encaixes.\n• Void Heart (Coração Vazio): transformação permanente da Kingsoul que custa 0 Encaixes, torna as Sombras/Irmãos do Abismo pacíficos (sua Sombra morre em 1 golpe) e libera os Finais 2, 3, 4 e 5.",
+          "color": "purple"
+        },
+        {
+          "title": "Como Obter as 2 Metades da Kingsoul",
+          "type": "text",
+          "content": "• Metade Esquerda (Queen's Gardens): derrote o Traitor Lord e fale com a Dama Branca (White Lady) no santuário ao fundo.\n• Metade Direita (White Palace): desperte o Ferrão dos Sonhos (Awoken Dream Nail, 1.800 de Essência), acerte a armadura da Guarda Real em Palace Grounds (Ancient Basin) e vença as serras do Palácio Branco até o trono do Rei Pálido.",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Transformar em Void Heart",
+          "type": "text",
+          "content": "• Equipe a Kingsoul completa (5 Encaixes) em um banco.\n• Desça até o fundo de The Abyss: um alçapão no piso central se abrirá para o Local de Nascimento (Birthplace).\n• Percorra o labirinto inferior e use o Awoken Dream Nail no reflexo do Ovo Negro para reviver a memória e obter o Void Heart.",
+          "color": "green"
+        },
+        {
+          "title": "⚠️ Atenção (Perdível)",
+          "type": "text",
+          "content": "• Transformar a Kingsoul em Void Heart é IRREVERSÍVEL e bloqueia para sempre o Final 1 (\"The Hollow Knight\" / conquista básica) neste save! Derrote o Hollow Knight pelo menos uma vez ANTES de criar o Void Heart.",
+          "color": "red"
+        }
+      ],
+      "tags": "kingsoul void heart alma do rei coracao vazio white lady dama branca white palace palacio branco abyss birthplace finais endings amuleto charm"
+    },
+    {
+      "id": 213,
+      "title": "Build: Dano Físico Máximo (Ferrão & Panteões)",
+      "subtitle": "⚔️ 11 Encaixes • DPS implacável corpo a corpo para chefes e Godhome",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Composição (11 Encaixes)",
+          "type": "text",
+          "content": "• Unbreakable Strength (3) + Quick Slash (3) + Mark of Pride (3) + Steady Body (1) + Grubsong ou Nailmaster's Glory (1).\n• Alternativa híbrida: troque Mark of Pride (3) + Steady Body (1) + Grubsong (1) por Shaman Stone (3) + Longnail (2).",
           "color": "cyan"
         },
         {
-          "title": "Mecânica",
+          "title": "Por Que Funciona",
           "type": "text",
-          "content": "Desbloqueia acesso a Greenpath, Fungal Wastes e City of Tears. Crucial para esquivar de ataques de investida e pular abismos com espinhos.",
+          "content": "• Com Pure Nail, cada acerto causa 32 de dano a uma cadência de 4 golpes por segundo (~128 DPS sustentado).\n• Steady Body (Corpo Firme) elimina o recuo do Cavaleiro, permitindo caminhar para frente batendo sem parar enquanto Mark of Pride mantém distância segura de colisões.",
           "color": "gray"
         },
         {
-          "title": "Localização",
+          "title": "Onde Brilha",
           "type": "text",
-          "content": "Derrote Hornet pela primeira vez em Greenpath e colete o manto do cadáver do receptáculo.",
+          "content": "• Panteões 1 a 5 (Godhome), Salão dos Deuses (Radiant/Ascended), Pure Vessel, Sisters of Battle, Lost Kin e Collector.\n• Toda a Alma gerada pelo Quick Slash fica livre para curas entre fases ou para i-frames com Descending Dark.",
+          "color": "green"
+        }
+      ],
+      "tags": "build ferrao nail dps fisico panteao godhome unbreakable strength quick slash mark of pride steady body amuletos"
+    },
+    {
+      "id": 214,
+      "title": "Build: Híbrida de Magia & Explosão de Alma",
+      "subtitle": "🔥 11 Encaixes • Dano explosivo máximo com Abyss Shriek e Descending Dark",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Composição (11 Encaixes)",
+          "type": "text",
+          "content": "• Shaman Stone (3) + Spell Twister (2) + Quick Slash (3) + Unbreakable Strength ou Soul Eater/Catcher (3): escolha Strength (3) para híbrido letal ou Soul Catcher (2) + Dream Wielder (1) para geração pura de Alma.",
+          "color": "purple"
+        },
+        {
+          "title": "Dados Técnicos",
+          "type": "text",
+          "content": "• 4x Abyss Shriek seguidos (96 de Alma com Spell Twister) causam 480 de dano em menos de 3 segundos!\n• Dream Wielder (Portador dos Sonhos, 1 Encaixe) faz 1 acerto do Dream Nail gerar 66 de Alma (2 feitiços imediatos!).",
+          "color": "gray"
+        },
+        {
+          "title": "Onde Brilha",
+          "type": "text",
+          "content": "• The Radiance / Absolute Radiance, Markoth, Watcher Knights (Shade Soul atravessa vários rolando juntos!), Flukemarm e Uumuu.",
+          "color": "green"
+        }
+      ],
+      "tags": "build magia feitico spell alma soul shaman stone spell twister abyss shriek descending dark radiance amuletos"
+    },
+    {
+      "id": 215,
+      "title": "Build: Exploração Segura & Sobrevivência",
+      "subtitle": "🛡️ 11 Encaixes • Cura rápida, orientação, coleta de Geo e travessia de serras",
+      "category": "charms",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Composição para Mapas Hostis (11 Encaixes)",
+          "type": "text",
+          "content": "• Wayward Compass (1) + Gathering Swarm (1) + Quick Focus (3) + Unbreakable Heart (2) + Grubsong (1) + Shaman Stone ou Mark of Pride (3).",
+          "color": "cyan"
+        },
+        {
+          "title": "Variação Imortal para Palácio Branco / Path of Pain",
+          "type": "text",
+          "content": "• Hiveblood (4) + Grubsong (1) + Deep Focus (4) + Longnail ou Mark of Pride (2–3).\n• Hiveblood regenera automaticamente a última máscara perdida em 10s, enquanto Deep Focus + Grubsong garantem Alma infinita caso não queira esperar!",
           "color": "yellow"
         },
         {
           "title": "Estratégia",
           "type": "text",
-          "content": "Depois pode ser aprimorado para Shade Cloak no Abyss, permitindo atravessar inimigos e barreiras de escuridão sem tomar dano.",
+          "content": "• Gathering Swarm (Enxame de Colecionadores) evita perder Geo que cai em espinhos ou ácido.\n• Unbreakable Heart (+2 Máscaras) eleva sua vida máxima de 9 para 11 Máscaras, salvando contra inimigos que tiram 2 de vida.",
           "color": "green"
         }
       ],
-      "tags": "hollow knight dash esquiva manto mothwing cloak hornet greenpath habilidade skill"
+      "tags": "build exploracao sobrevivencia cura hiveblood deep focus grubsong palacio branco path of pain compass gathering swarm amuletos"
+    },
+    {
+      "id": 216,
+      "title": "Mantis Claw (Garra de Louva-a-Deus)",
+      "subtitle": "🧗 Escalada e salto infinito em paredes verticais (Wall Jump) • Mantis Village",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Permite deslizar suavemente por paredes verticais e impulsionar saltos repetidos para escalar poços, torres e paredões de espinhos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Cada toque na parede renova tanto o seu Dash aéreo (Mothwing Cloak) quanto o Salto Duplo (Monarch Wings).\n• Vale 2% para a conclusão de 112%.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Fungal Wastes (sul -> Mantis Village): desça até a Vila dos Louva-a-Deus, acione a alavanca central e explore a câmara superior esquerda da vila (não é necessário enfrentar as Mantis Lords para pegar a garra).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Assim que pegar a Mantis Claw, Quirrel aparecerá sugerindo visitar o Ferreiro em City of Tears, mas você já pode abrir a entrada leste de Fungal Wastes rumo à Cidade das Lágrimas.",
+          "color": "green"
+        }
+      ],
+      "tags": "mantis claw garra de louva a deus wall jump pulo na parede escalar fungal wastes mantis village habilidade skill"
+    },
+    {
+      "id": 217,
+      "title": "Crystal Heart (Coração de Cristal)",
+      "subtitle": "💎 Super Impulso horizontal contínuo (Super Dash) • Crystal Peak",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Carrega cristais no chão ou agarrado em uma parede para disparar o Cavaleiro em voo retilíneo infinito até bater em uma superfície ou cancelar no ar.",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Causa 10 de dano a inimigos fracos no caminho, mas qualquer inimigo maior ou projétil interrompe o voo e fere o Cavaleiro.\n• Libera acesso a Monarch Wings (Ancient Basin), Isma's Grove, Howling Cliffs superior e ao pico de Crystal Peak.\n• Vale 2% para os 112%.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Crystal Peak (centro-leste): entre em Crystal Peak usando Desolate Dive na mina de Myla ou pagando 1.800 Geo pela Lumafly Lantern no Sly.\n• Atravesse as esteiras rolantes e pistões esmagadores a leste do banco do Crystal Guardian até o núcleo de um antigo golem minerador.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Pressione Salto durante o voo para frear instantaneamente no ar antes de bater em espinhos verticais.",
+          "color": "green"
+        }
+      ],
+      "tags": "crystal heart coracao de cristal super dash c-dash voar crystal peak pico de cristal habilidade skill"
+    },
+    {
+      "id": 218,
+      "title": "Monarch Wings (Asas do Monarca)",
+      "subtitle": "🪽 Salto Duplo no ar • Ancient Basin (após derrotar Broken Vessel)",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Concede um segundo salto pleno no ar com asas etéreas brancas, abrindo praticamente todas as rotas altas de Hallownest.",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Recarrega ao tocar no chão, deslizar em paredes (Mantis Claw) ou acertar um ataque para baixo (pogo) em inimigos, espinhos ou serras!\n• Requisitos prévios: Mantis Claw + Crystal Heart.\n• Vale 2% para os 112% (atenção: coletar Monarch Wings ou derrotar um Dreamer transforma Forgotten Crossroads em Infected Crossroads!).",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Ancient Basin (oeste): desça até o fundo da Bacia Antiga, use o Crystal Heart para cruzar o longo túnel de espinhos à esquerda, derrote o chefe Broken Vessel (Receptáculo Quebrado) e siga para a caverna luminosa logo adiante.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Com as Asas do Monarca em mãos, suba até Kingdom's Edge para enfrentar Hornet Sentinel, visitar o Coliseu dos Tolos e pegar o Pale Ore no topo de Crystal Peak.",
+          "color": "green"
+        }
+      ],
+      "tags": "monarch wings asas do monarca pulo duplo salto duplo double jump ancient basin broken vessel habilidade skill"
+    },
+    {
+      "id": 219,
+      "title": "Isma's Tear (Lágrima de Isma)",
+      "subtitle": "🧪 Nado livre e imunidade total a piscinas de ácido • Royal Waterways",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Fruto ácido endurecido que permite nadar em lagos verdes corrosivos sem sofrer dano algum.",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Destrava o acesso fácil a Fog Canyon (Arquivos da Professora / Monomon), entradas secretas de Queen's Gardens, larvas submersas e o Charm Notch de Fog Canyon.\n• Requisitos prévios: derrotar Dung Defender + Crystal Heart.\n• Vale 2% para os 112%.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização",
+          "type": "text",
+          "content": "• Royal Waterways (sudeste — Isma's Grove): derrote o Dung Defender e acione a válvula da bomba na sala à direita dele para drenar o ácido.\n• Desça ao canto sudeste das Hidrovias, use o Crystal Heart sobre o lago ácido até o Bosque de Isma, vença a arena de inimigos e colha o fruto na árvore.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Na luta contra Uumuu nos Arquivos da Professora, a Lágrima de Isma elimina completamente o risco de cair na piscina de ácido no fundo da arena.",
+          "color": "green"
+        }
+      ],
+      "tags": "ismas tear lagrima de isma acido nadar royal waterways dung defender isma grove fog canyon habilidade skill"
+    },
+    {
+      "id": 220,
+      "title": "Dream Nail, Dreamgate & Seer (Ferrão dos Sonhos)",
+      "subtitle": "🌸 Lê mentes, gera Alma e destrava o Portal dos Sonhos + Palácio Branco",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição & Onde Obter",
+          "type": "text",
+          "content": "• Obtido em Resting Grounds (Terra do Descanso) ao inspecionar o memorial dos Sonhadores.\n• Golpear inimigos com o Dream Nail não causa dano, mas extrai 33 de Alma (66 com Dream Wielder) e lê pensamentos.\n• Vale até 3% nos 112%: pegar o Dream Nail (1%), despertá-lo em 1.800 Essência (1%) e ouvir as palavras finais da Seer em 2.400 Essência (1%).",
+          "color": "purple"
+        },
+        {
+          "title": "Tabela Completa de Recompensas da Seer (Essência)",
+          "type": "text",
+          "content": "• 100 Essência: Selo de Hallownest (Relíquia — 450 Geo no Lemm).\n• 200 Essência: Abre a Clareira dos Espíritos (Spirits' Glade).\n• 300 Essência: 1x Minério Pálido (Pale Ore)!\n• 500 Essência: Amuleto Dream Wielder (Portador dos Sonhos).\n• 700 Essência: 1x Fragmento de Receptáculo (Vessel Fragment)!\n• 900 Essência: Habilidade Dreamgate (Portal dos Sonhos)!\n• 1.200 Essência: Ovo Arcano (Relíquia — 1.200 Geo no Lemm).\n• 1.500 Essência: 1x Fragmento de Máscara (Mask Shard)!\n• 1.800 Essência: Awoken Dream Nail (entra no Palácio Branco e memórias seladas)!\n• 2.400 Essência: Ascensão da Seer (conquista + 1% de conclusão)!",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Usar o Dreamgate & Farmar Essência Rápido",
+          "type": "text",
+          "content": "• Dreamgate (900 Essência): Baixo + Dream Nail planta um portal gratuito; Cima + Dream Nail teleporta de qualquer lugar ao custo de 1 Essência (⚠️ proibido usar durante a Missão da Flor Delicada!).\n• Maiores fontes de Essência: Chefes dos Sonhos — White Defender (300), Grey Prince Zote (300), Failed Champion (300), Soul Tyrant (300), Lost Kin (400) — somam 1.600 de Essência sozinhos, mais os 7 Warrior Dreams (100 a 250 cada) e Árvores Sussurrantes.",
+          "color": "green"
+        }
+      ],
+      "tags": "dream nail awoken dream nail dreamgate ferrao dos sonhos portal essencia essence seer vidente resting grounds pale ore mask shard vessel fragment"
+    },
+    {
+      "id": 221,
+      "title": "Magias & Upgrades Sombrios (Shade Soul, Descending Dark & Abyss Shriek)",
+      "subtitle": "🔥 Localização e dano exato dos 3 feitiços base e de suas 3 evoluções de Vazio",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "1. Vengeful Spirit -> Shade Soul (Projétil Horizontal)",
+          "type": "text",
+          "content": "• Dano: 15 (20 c/ Shaman) -> 30 (40 c/ Shaman), atravessando paredes, escudos e múltiplos alvos.\n• Vengeful Spirit: entregue pelo Xamã Caracol no Monte Ancestral (Forgotten Crossroads, após False Knight).\n• Shade Soul: compre a Chave Elegante (Elegant Key, 800 Geo no Sly após entregar a Shopkeeper's Key), abra a porta trancada no Soul Sanctum (City of Tears) e vença o Soul Warrior guardião.",
+          "color": "cyan"
+        },
+        {
+          "title": "2. Desolate Dive -> Descending Dark (Mergulho com Invencibilidade!)",
+          "type": "text",
+          "content": "• Dano: 35 (51 c/ Shaman) -> 60–65 (88 c/ Shaman) + rompe pisos trincados.\n• Mecânica Crítica: concede ~0,4s de invencibilidade total (i-frames) após o impacto — a melhor ferramenta defensiva de emergência nos Panteões!\n• Desolate Dive: derrote o chefe Soul Master no topo do Soul Sanctum.\n• Descending Dark: quebre o cristal do Xamã preso no Monte Cristalizado (Crystallised Mound, leste de Crystal Peak — exige Crystal Heart ou Lantern).",
+          "color": "yellow"
+        },
+        {
+          "title": "3. Howling Wraiths -> Abyss Shriek (Explosão Superior)",
+          "type": "text",
+          "content": "• Dano: 30 (45 c/ Shaman) -> 80 em 4 hits (120 c/ Shaman Stone — maior explosão instantânea do jogo!).\n• Howling Wraiths: no Monte Coberto de Vegetação (Overgrown Mound, oeste de Fog Canyon, acessado via Queen's Station).\n• Abyss Shriek: desça até o extremo oeste de The Abyss, suba no pedestal da sala cheia de rostos petrificados e lance Howling Wraiths para cima!\n• Os 6 feitiços somam 6% (1% cada) nos 112%.",
+          "color": "purple"
+        }
+      ],
+      "tags": "magias feiticos spells vengeful spirit shade soul desolate dive descending dark howling wraiths abyss shriek elegant key iframes dano"
+    },
+    {
+      "id": 222,
+      "title": "Upgrades do Ferrão & Os 6 Minérios Pálidos (Pale Ore)",
+      "subtitle": "🗡️ Tabela de dano (5 -> 21), custos em Geo e localização de todos os 6 Pale Ores",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tabela de Upgrades no Ferreiro (Oeste de City of Tears)",
+          "type": "text",
+          "content": "• 0. Old Nail (Ferrão Velho — Inicial): 5 de dano base.\n• 1. Sharpened Nail (Ferrão Afiado): 9 de dano • Custo: 250 Geo (0 Pale Ore).\n• 2. Channelled Nail (Ferrão Canalizado): 13 de dano • Custo: 800 Geo + 1 Pale Ore.\n• 3. Coiled Nail (Ferrão Espiralado): 17 de dano • Custo: 2.000 Geo + 2 Pale Ores.\n• 4. Pure Nail (Ferrão Puro — Máximo): 21 de dano • Custo: 4.000 Geo + 3 Pale Ores.\n• Total acumulado: 7.050 Geo + todos os 6 Pale Ores (soma 4% nos 112%).",
+          "color": "cyan"
+        },
+        {
+          "title": "Localização Exata dos 6 Minérios Pálidos (Pale Ore)",
+          "type": "text",
+          "content": "• 1. Ancient Basin: à esquerda da Estação de Bonde (Tram), vigiado por dois Lesser Mawleks (pode ser pego bem cedo!).\n• 2. Resting Grounds (Seer): entregue pela Vidente ao atingir 300 de Essência.\n• 3. Crystal Peak (Coroa de Hallownest): cravado na estátua do Radiance no ponto mais alto do Pico de Cristal (exige Mantis Claw + Monarch Wings, ou pogo preciso).\n• 4. Deepnest: atrás de uma parede quebrável à esquerda da Fonte Termal, após derrotar o chefe Nosk.\n• 5. Forgotten Crossroads (Grubfather): recompensa por resgatar 31 Larvas (Grubs).\n• 6. Kingdom's Edge (Coliseu dos Tolos): recompensa por vencer a 2ª prova (Prova do Conquistador / Trial of the Conqueror).",
+          "color": "yellow"
+        },
+        {
+          "title": "Nota sobre Escalonamento & Destino do Ferreiro",
+          "type": "text",
+          "content": "• Alguns Guerreiros dos Sonhos e chefes escalam um pouco de vida conforme o nível do seu Ferrão, tornando suas magias ainda mais fortes proporcionalmente caso você pegue Shaman Stone cedo.\n• Após forjar o Pure Nail, você pode poupar o Ferreiro (não atacá-lo na beira do penhasco!) para vê-lo feliz pintando miniaturas com o Mestre Sheo em Greenpath.",
+          "color": "green"
+        }
+      ],
+      "tags": "ferrao nail upgrades pure nail coiled nail channelled nail sharpened nail pale ore minerio palido ferreiro nailsmith dano geo nosk grubs coliseu"
+    },
+    {
+      "id": 223,
+      "title": "Nail Arts (Artes do Ferrão: Great, Dash & Cyclone Slash)",
+      "subtitle": "🌀 Golpes especiais carregados ensinados pelos 3 Irmãos Mestres do Ferrão",
+      "category": "skills",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Dados de Dano (Baseados no Dano Atual do Ferrão)",
+          "type": "text",
+          "content": "• Great Slash (Grande Corte): 2,5x dano do Ferrão (52 de dano com Pure Nail) em arco frontal enorme.\n• Dash Slash (Corte com Impulso): 2,5x dano do Ferrão (52 de dano) disparado logo após um Dash de longo alcance.\n• Cyclone Slash (Corte Ciclone): 3 a 6 giros causando 1,25x cada (até ~156 de dano total batendo repetidamente no botão de ataque + queda lenta no ar!).\n• Cada uma vale 1% (total 3%) para os 112%.",
+          "color": "gray"
+        },
+        {
+          "title": "Localização dos 3 Mestres",
+          "type": "text",
+          "content": "• Cyclone Slash (Mestre Mato): cabana no oeste de Howling Cliffs (acessível subindo por King's Pass com Mantis Claw).\n• Great Slash (Mestre Sheo): extremo oeste de Greenpath, após um longo corredor de espinhos (exige Crystal Heart).\n• Dash Slash (Mestre Oro): cabana no sudeste de Kingdom's Edge; cobra 800 Geo pelo treinamento.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Após aprender as 3 artes, visite Sly em Dirtmouth para ganhar o amuleto Nailmaster's Glory.\n• Segure repetidamente o botão de ataque durante o Cyclone Slash para estender os giros para 6 hits e gerar uma reserva inteira de Alma!",
+          "color": "green"
+        }
+      ],
+      "tags": "nail arts artes do ferrao great slash dash slash cyclone slash grande corte ciclone mato sheo oro sly habilidade skill"
+    },
+    {
+      "id": 224,
+      "title": "Todos os 8 Encaixes de Amuleto (Charm Notches)",
+      "subtitle": "🔘 Guia completo para subir de 3 para o máximo de 11 Encaixes",
+      "category": "collectibles",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visão Geral & Sobrecarga (Overcharmed)",
+          "type": "text",
+          "content": "• Você começa com 3 Encaixes e pode coletar +8 pelo mundo, atingindo o teto máximo de 11 Encaixes.\n• Dica oculta (Overcharmed): tentar forçar 5 vezes seguidas um amuleto caro no último espaço vazio equipa-o em estado Sobrecarregado (aura roxa), fazendo você sofrer o DOBRO de dano — ótimo em lutas no modo Radiante (Godhome), onde qualquer golpe já é fatal!",
+          "color": "cyan"
+        },
+        {
+          "title": "Encaixes 1 a 4 — Loja da Salubra (Forgotten Crossroads)",
+          "type": "text",
+          "content": "• 1º Encaixe: 120 Geo (exige possuir 5 Amuletos).\n• 2º Encaixe: 500 Geo (exige possuir 10 Amuletos).\n• 3º Encaixe: 900 Geo (exige possuir 18 Amuletos).\n• 4º Encaixe: 1.400 Geo (exige possuir 25 Amuletos).",
+          "color": "yellow"
+        },
+        {
+          "title": "Encaixes 5 a 8 — Mundo, Coliseu e Trupe Grimm",
+          "type": "text",
+          "content": "• 5º (Fungal Wastes): sala de emboscada no centro-norte dos Ermos Fúngicos; derrote os 2 Shrumal Ogres (Ogros Fúngicos).\n• 6º (Fog Canyon): câmara explosiva cheia de ovos Ooma a nordeste do Cânion da Névoa (exige Isma's Tear ou Crystal Heart preciso).\n• 7º (Colosseum of Fools): vença a 1ª prova — Prova do Guerreiro (Trial of the Warrior, inscrição de 100 Geo).\n• 8º (Dirtmouth — Trupe Grimm): derrote Troupe Master Grimm na tenda principal após coletar as duas primeiras rodadas de chamas.",
+          "color": "green"
+        }
+      ],
+      "tags": "charm notches encaixes de amuleto 11 encaixes salubra fungal wastes fog canyon coliseu grimm overcharmed colecionavel"
+    },
+    {
+      "id": 225,
+      "title": "Todas as 4 Chaves Simples (Simple Keys) & Onde Usar",
+      "subtitle": "🗝️ Localização exata das 4 chaves e das 4 portas trancadas do jogo",
+      "category": "collectibles",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Onde Encontrar as 4 Chaves Simples",
+          "type": "text",
+          "content": "• 1. Dirtmouth (Sly): vendida na loja do Sly por 950 Geo desde o início.\n• 2. City of Tears: no grande salão vertical logo abaixo da estação City Storerooms (Armazéns da Cidade), no nicho mais alto à direita.\n• 3. Ancient Basin: no cadáver de um Servo Real dentro do esqueleto gigante de um Mawlurk, a leste da entrada principal.\n• 4. Kingdom's Edge (Coliseu): quebre a parede secreta à direita do banco de descanso do Coliseu dos Tolos e persiga/derrote a Pale Lurker (Espreitadora Pálida).",
+          "color": "yellow"
+        },
+        {
+          "title": "Onde Usar (As 4 Fechaduras — Ordem Recomendada)",
+          "type": "text",
+          "content": "• 1ª Prioridade — Bueiro de City of Tears: abre a entrada principal para Royal Waterways (Hidrovias Reais), Dung Defender e Isma's Tear.\n• 2ª Prioridade — Junk Pit (Fosso de Lixo, sudoeste de Royal Waterways): liberta a Buscadora de Deuses (Godseeker), dando o Godtuner (+1%) e acesso a Godhome!\n• 3ª — Caverna de Dirtmouth (extremo leste do cemitério): abre a cabana da Confessora Jiji (invoca sua Sombra em troca de Ovos Rançosos / Rancid Eggs; Jinn no modo Alma de Aço).\n• 4ª — Pleasure House (Casa dos Prazeres, leste de City of Tears): libera fonte termal, a cantora Marissa e atalho para o banqueiro traidor Millibelle (recupere 1,5x o Geo roubado batendo nela!).",
+          "color": "green"
+        }
+      ],
+      "tags": "simple key chave simples chaves sly city of tears ancient basin pale lurker royal waterways godseeker junk pit jiji millibelle"
+    },
+    {
+      "id": 226,
+      "title": "Fragmentos de Máscara (Mask Shards — Todas as 16 Partes)",
+      "subtitle": "🤍 Checklist completo das 16 partes para atingir o máximo de 9 Máscaras",
+      "category": "collectibles",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Fragmentos 1 a 8 (Lojas, Crossroads e Greenpath)",
+          "type": "text",
+          "content": "• 1 a 4 — Sly (Dirtmouth): comprados por 150, 500, 800 e 1.500 Geo (o 3º e o 4º exigem entregar a Shopkeeper's Key de Crystal Peak).\n• 5 — Grubfather (Crossroads): resgate 5 Larvas.\n• 6 — Brooding Mawlek (Crossroads oeste): derrote o chefe Mawlek Incubador.\n• 7 — Corredor de Goams (Crossroads sul, abaixo da Fonte Termal): atravesse os vermes invencíveis com Mantis Claw/Monarch Wings.\n• 8 — Stone Sanctuary (Greenpath): no fundo do Santuário de Pedra escuro (exige Lumafly Lantern).",
+          "color": "yellow"
+        },
+        {
+          "title": "Fragmentos 9 a 16 (Meio e Fim de Jogo)",
+          "type": "text",
+          "content": "• 9 — Queen's Station (Fungal Wastes): sala de espinhos logo a leste da estação (exige Mantis Claw).\n• 10 — Casa da Bretta (Dirtmouth): resgate Bretta no sul de Fungal Wastes e entre na casa dela na vila.\n• 11 — Royal Waterways (noroeste): nade por baixo das plataformas à esquerda do banco central.\n• 12 — Deepnest (via Fungal Core): caia pelo Núcleo Fúngico até a saída norte de Deepnest, logo acima de Mantis Village.\n• 13 — Crystal Peak (Enraged Guardian): use Monarch Wings acima do banco central e derrote o Guardião Enfurecido.\n• 14 — The Hive (A Colmeia): atraia a investida de um abelhão gigante (Hive Guardian) contra a parede rachada.\n• 15 — Seer (Resting Grounds): acumule 1.500 de Essência.\n• 16 — Grey Mourner (Resting Grounds): conclua a Missão da Flor Delicada.",
+          "color": "cyan"
+        },
+        {
+          "title": "Regra dos 112%",
+          "type": "text",
+          "content": "• Cada grupo de 4 fragmentos forma 1 Máscara completa (+1% de conclusão, somando 4% no total). Fragmentos avulsos não somam % até fechar o conjunto de 4.",
+          "color": "gray"
+        }
+      ],
+      "tags": "mask shards fragmentos de mascara 16 partes vida maxima 9 mascaras sly bretta enraged guardian hive delicate flower seer"
+    },
+    {
+      "id": 227,
+      "title": "Fragmentos de Receptáculo (Vessel Fragments — Todas as 9 Partes)",
+      "subtitle": "🏺 Checklist completo das 9 partes para montar os 3 Receptáculos extras de Alma",
+      "category": "collectibles",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica dos Receptáculos Extras",
+          "type": "text",
+          "content": "• O medidor redondo principal armazena até 99 de Alma (3 feitiços/curas).\n• Cada conjunto de 3 Fragmentos cria 1 Receptáculo Reserva (+33 de Alma cada, chegando a +99 extras no total) e concede +1% nos 112% (total 3%).",
+          "color": "gray"
+        },
+        {
+          "title": "Todas as 9 Localizações Exatas",
+          "type": "text",
+          "content": "• 1 e 2 — Sly (Dirtmouth): vendidos por 550 Geo e 900 Geo (o 2º exige a Shopkeeper's Key).\n• 3 — Forgotten Crossroads: à esquerda do poço do elevador que liga Crossroads a City of Tears (destrancado vindo por baixo).\n• 4 — Greenpath (sudoeste): na rota de transição para Queen's Gardens (sala de blocos de pedra e espinhos).\n• 5 — City of Tears (leste): suba pelo elevador acima da King's Station (Estação do Rei) e vença a arena de sentinelas.\n• 6 — Deepnest: supere o percurso de pogo em cima das centopeias gigantes (Garpedes) logo acima da Estação de Bonde.\n• 7 — Stag Nest (Ninho dos Besouros, Howling Cliffs): desbloqueie TODAS as estações de besouro (Stagways) e viaje com o Último Besouro até o Ninho.\n• 8 — Seer (Resting Grounds): entregue pela Vidente ao acumular 700 de Essência.\n• 9 — Ancient Basin (Fonte do Rei Pálido): doe um total acumulado de 3.000 Geo na fonte da Bacia Antiga.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "vessel fragments fragmentos de receptaculo 9 partes alma soul sly ancient basin 3000 geo fonte stag nest seer deepnest"
+    },
+    {
+      "id": 228,
+      "title": "Larvas Perdidas (46 Grubs) & Recompensas do Grubfather",
+      "subtitle": "🐛 Mapa do Colecionador e marcos principais (Grubsong em 10, Pale Ore em 31)",
+      "category": "collectibles",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Marcos Essenciais das 46 Larvas",
+          "type": "text",
+          "content": "• 5 Larvas: 1x Fragmento de Máscara (Mask Shard).\n• 10 Larvas: Amuleto Grubsong (Canção das Larvas — 1 Encaixe).\n• 16 Larvas: Relíquia Ídolo do Rei (King's Idol — 800 Geo no Lemm).\n• 23 Larvas: Relíquia Selo de Hallownest (450 Geo).\n• 31 Larvas: 1x Minério Pálido (Pale Ore)!\n• 38 Larvas: Ovo Rançoso (Rancid Egg).\n• 46 Larvas (Todas): Amuleto Grubberfly's Elegy (Elegia da Larvamosca — 3 Encaixes, dispara feixes do Ferrão com a vida cheia) + mais de 6.700 Geo somados!",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Revelar Todas as Larvas no Mapa (Mapa do Colecionador)",
+          "type": "text",
+          "content": "• Pegue a Love Key (Chave do Amor) no canto sudeste de Queen's Gardens (exige Isma's Tear).\n• Abra a Tower of Love (Torre do Amor, entre Kingdom's Edge e King's Station), derrote o chefe The Collector e pegue o Collector's Map na sala acima — ele marca no mapa todos os potes de Larvas ainda não quebrados!",
+          "color": "cyan"
+        },
+        {
+          "title": "Dica contra Mímicos (Grub Mimics)",
+          "type": "text",
+          "content": "• Em Crystal Peak, Deepnest e Coliseu existem potes falsos com Mímicos ferozes. Use o Dream Nail através do vidro antes de quebrar: Larvas reais dizem \"...Casa...\", enquanto Mímicos pensam \"...Matar... Vazio...\"!",
+          "color": "green"
+        }
+      ],
+      "tags": "grubs larvas grubfather 46 larvas collector map mapa do colecionador love key tower of love pale ore 31 grubsong grubberfly elegy"
+    },
+    {
+      "id": 229,
+      "title": "Hornet (Protector & Sentinel)",
+      "subtitle": "🪡 Greenpath (libera Dash) & Kingdom's Edge (libera Marca do Rei)",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Resumo dos Dois Encontros",
+          "type": "text",
+          "content": "• Hornet Protector (Greenpath oeste): 225 HP • Libera Mothwing Cloak (+1% chefe, +2% manto).\n• Hornet Sentinel (Kingdom's Edge leste, exige Monarch Wings): 700 HP • Muito mais rápida, usa contra-ataque (parry) e espalha bolas de espinhos suspensas na arena • Libera acesso à Marca do Rei (King's Brand) na Carcaça de Wyrm.",
+          "color": "cyan"
+        },
+        {
+          "title": "Dicas de Combate",
+          "type": "text",
+          "content": "• Não pule sem necessidade: fique no chão, pule apenas sobre a investida rasteira dela (pogo por cima) e afaste-se quando ela girar o fio de seda ao redor do próprio corpo.\n• Contra Hornet Sentinel: um disparo de Shade Soul com Shaman Stone limpa várias armadilhas de espinhos de uma só vez enquanto acerta a chefe!\n• Cure apenas durante o atordoamento (stagger) ou no canto oposto quando ela lançar a agulha presa ao fio.",
+          "color": "green"
+        }
+      ],
+      "tags": "hornet protector sentinel greenpath kingdoms edge mothwing cloak kings brand marca do rei chefe boss"
+    },
+    {
+      "id": 230,
+      "title": "Mantis Lords & Sisters of Battle (Lordes Louva-a-Deus)",
+      "subtitle": "⚔️ Duelo rítmico no fundo de Mantis Village • Libera Deepnest e Mark of Pride",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica das Fases",
+          "type": "text",
+          "content": "• Fase 1: 1 irmã sozinha (210 HP).\n• Fase 2: 2 irmãs sincronizadas (160 HP cada).\n• Sisters of Battle (exclusiva do Panteão 5 / Godhome): na Fase 2, todas as 3 irmãs atacam juntas em ritmo frenético!",
+          "color": "gray"
+        },
+        {
+          "title": "Dica de Ouro (Antes de Enfrentar)",
+          "type": "text",
+          "content": "• Quirrel aparece na entrada sugerindo melhorar seu Ferrão em City of Tears (Sharpened Nail, 250 Geo) antes da luta — passar de 5 para 9 de dano quase reduz o duelo pela metade!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia & Janela Segura de Cura",
+          "type": "text",
+          "content": "• Mergulho vertical: dê um passo curto para o lado (sem gastar Dash à toa) e acerte 1 a 2 golpes.\n• Investida rasteira: pule e faça pogo na cabeça delas.\n• Bumerangues de vento na Fase 2: quando os dois discos se cruzam alto no centro, fique exatamente no meio da arena e cure 1 Máscara de graça sem ser atingido! Se vierem baixos pelo meio, pule uma vez no centro.\n• Recompensa: respeito eterno da tribo Mantis + baú com Mark of Pride e Geo na sala a nordeste.",
+          "color": "green"
+        }
+      ],
+      "tags": "mantis lords sisters of battle lordes louva a deus irmas de batalha mantis village deepnest mark of pride chefe boss"
+    },
+    {
+      "id": 231,
+      "title": "Soul Master & Soul Tyrant (Mestre & Tirano das Almas)",
+      "subtitle": "🔮 Chefe do Soul Sanctum • Libera Desolate Dive e 300 de Essência no sonho",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Resumo & Atalho do Banco",
+          "type": "text",
+          "content": "• Soul Master (275 + 110 HP): topo do Soul Sanctum em City of Tears • Concede o feitiço Desolate Dive.\n• Soul Tyrant (900 + 350 HP): acerte o cadáver dele com o Dream Nail para enfrentar a versão acelerada de 6 orbes e ganhar 300 de Essência.\n• Atalho essencial: quebre a parede ao lado do elevador esquerdo do Sanctum para ligar direto ao banco de Cornifer!",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia por Ataque",
+          "type": "text",
+          "content": "• Orbes teleguiados: faça Dash EM DIREÇÃO a ele por baixo do projétil — assim a bola bate no chão e desaparece em vez de dar a volta.\n• Roda de 4 (ou 6) orbes giratórios: pule sobre um orbe quando ele cruzar a tela e depois fique parado no centro da arena para curar 1 a 2 Máscaras enquanto os orbes voltam pelo alto!\n• Mergulho falso (Finta): pule apenas depois de confirmar que ele realmente desceu; na Fase 2 (piso quebrado), corra e faça Dash contínuo de um lado ao outro nos mergulhos seguidos, depois castigue com Howling Wraiths quando ele parar para lançar orbes.",
+          "color": "green"
+        }
+      ],
+      "tags": "soul master soul tyrant mestre das almas tirano das almas soul sanctum desolate dive 300 essencia city of tears chefe boss"
+    },
+    {
+      "id": 232,
+      "title": "Watcher Knights (Cavaleiros Sentinelas)",
+      "subtitle": "🛡️ Guardiões de Lurien • Segredo do lustre elimina 1 cavaleiro permanentemente!",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Segredo Antes da Arena (5 em vez de 6 Cavaleiros!)",
+          "type": "text",
+          "content": "• Imediatamente à esquerda da entrada da arena (no topo da Torre do Vigia, City of Tears), olhe para o teto ao lado do elevador e quebre a abertura escondida.\n• Suba e corte a corda do lustre gigante: ele despenca esmagando 1 das 6 carcaças para sempre, reduzindo a luta para 5 cavaleiros!",
+          "color": "purple"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Cada cavaleiro tem 220 HP (máximo de 2 ativos ao mesmo tempo na tela).\n• Protegem o Sonhador Lurien the Watcher (+1% do chefe e +1% do Sonhador).",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia Devastadora",
+          "type": "text",
+          "content": "• Antes de iniciar, acerte as armaduras vazias com o Dream Nail para entrar na luta com a Alma 100% cheia.\n• Equipe Shaman Stone + Spell Twister: Descending Dark dá invencibilidade para escapar quando dois cavaleiros rolam e quicam ao mesmo tempo, e Shade Soul atravessa os dois causando até 80 de dano duplo!\n• Se já tiver Shade Cloak, atravessar o rolamento deles torna o posicionamento trivial.",
+          "color": "green"
+        }
+      ],
+      "tags": "watcher knights cavaleiros sentinelas lustre segredo lurien torre do vigia city of tears descending dark shade soul chefe boss"
+    },
+    {
+      "id": 233,
+      "title": "Dung Defender & White Defender (Defensor do Esterco)",
+      "subtitle": "🪲 Guardião alegre de Royal Waterways • Truque do Desolate Dive o desenterra!",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Resumo & Versão dos Sonhos",
+          "type": "text",
+          "content": "• Dung Defender (700 HP): centro-leste de Royal Waterways • Recompensa: amuleto Defender's Crest (Insígnia do Defensor) + acesso à válvula que drena o ácido de Isma's Grove.\n• White Defender (1.600 HP): após derrotar todos os 3 Sonhadores (Dreamers), use Desolate Dive sob a plataforma da válvula à direita da arena para achar a caverna secreta onde Ogrim dorme e use o Dream Nail (300 de Essência).",
+          "color": "cyan"
+        },
+        {
+          "title": "Interação Secreta (Stun Imediato!)",
+          "type": "text",
+          "content": "• Sempre que Dung Defender mergulhar e nadar por baixo da terra, lance Desolate Dive / Descending Dark no chão perto do monte que se move: a onda de choque o expulsa da terra atordoado de barriga para cima por vários segundos!",
+          "color": "purple"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Os cantos inferiores da arena são pontos muito seguros para curar 1 Máscara enquanto as esferas quicam pelo centro.\n• Contra White Defender, não toque o chão nas ondas de espinhos: use Shade Cloak através dele e mantenha-o quicando no ar com Quick Slash quando ele virar bola.",
+          "color": "green"
+        }
+      ],
+      "tags": "dung defender white defender defensor do esterco defensor branco ogrim royal waterways defenders crest desolate dive 300 essencia chefe boss"
+    },
+    {
+      "id": 234,
+      "title": "Nosk & Winged Nosk",
+      "subtitle": "🕷️ Predador metamorfo em Deepnest • Recompensa: 1x Minério Pálido (Pale Ore)",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Encontrar em Deepnest",
+          "type": "text",
+          "content": "• Partindo da Fonte Termal (Hot Spring) no fundo de Deepnest, siga para a esquerda e quebre a parede falsa atrás do cadáver.\n• Continue seguindo o \"clone\" idêntico ao Cavaleiro pelos túneis escuros (quebrando mais uma parede ilusória) até o covil de Nosk (680 HP).",
+          "color": "yellow"
+        },
+        {
+          "title": "Truque do Degrau Seguro na Arena",
+          "type": "text",
+          "content": "• A arena possui uma plataforma central levemente mais alta: encostar bem no cantinho inferior esquerdo (ou direito) colado ao degrau faz a investida horizontal de Nosk passar direto por cima da sua cabeça sem te acertar!\n• Basta dar cortes para cima (Up-slash) ou Abyss Shriek toda vez que ele cruzar o degrau, saindo apenas quando ele pular no teto para pingar ácido laranja (caminhe devagar de um lado para o outro para guiar as gotas).",
+          "color": "green"
+        },
+        {
+          "title": "Winged Nosk (Panteão 5)",
+          "type": "text",
+          "content": "• No Panteão de Hallownest, Nosk assume a forma da Hornet e ganha voo (parecido com Vengefly King): pule e faça pogo na rasante horizontal e lance Shade Soul quando ele cuspir globos ou invocar infecções.",
+          "color": "gray"
+        }
+      ],
+      "tags": "nosk winged nosk aranha clone sósia deepnest pale ore minerio palido degrau seguro chefe boss"
+    },
+    {
+      "id": 235,
+      "title": "Traitor Lord (Lorde Traidor)",
+      "subtitle": "🌿 Chefe letal de 2 Máscaras de dano em Queen's Gardens • Guarda a Dama Branca",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Pré-requisitos & Atalho com Dreamgate",
+          "type": "text",
+          "content": "• Exige obrigatoriamente o Shade Cloak (Manto Sombrio) para atravessar o Portão Sombrio no norte de Queen's Gardens.\n• ⚠️ O caminho desde o banco tem plataformas difíceis de espinhos: plante um Dreamgate logo em frente à entrada da arena para economizar tempo e vida!\n• Cloth: se você salvou Cloth em Ancient Basin antes desta luta, ela aparece para ajudar em combate (concluindo o arco heroico dela).",
+          "color": "yellow"
+        },
+        {
+          "title": "Alerta de Dano Duplo & Ritmo do Shade Cloak",
+          "type": "text",
+          "content": "• Quase todos os ataques e até o contato corporal do Traitor Lord tiram 2 Máscaras de vida!\n• Curiosidade de design: o intervalo entre os golpes dele tem exatamente o tempo de recarga (~1,5s) do seu Shade Cloak!",
+          "color": "red"
+        },
+        {
+          "title": "Estratégia (Fique Colado Nele!)",
+          "type": "text",
+          "content": "• Nunca se afaste: ficar longe faz ele disparar discos duplos de vento irritantes. Fique colado nele com Sharp Shadow + Quick Slash!\n• Se ele recuar no chão -> atravesse com Shade Cloak.\n• Se ele pular -> apenas dê dois passos para frente (não pule!) e ele cairá em diagonal atrás de você.\n• Se ele cravar as garras no chão -> afaste-se um pouco e atravesse o pilar branco gigante de choque com Shade Cloak (não tente pular por cima, o pilar vai até o teto!).",
+          "color": "green"
+        }
+      ],
+      "tags": "traitor lord lorde traidor queens gardens dama branca white lady kingsoul cloth shade cloak sharp shadow 2 mascaras chefe boss"
+    },
+    {
+      "id": 236,
+      "title": "Troupe Master Grimm & Nightmare King Grimm (NKG)",
+      "subtitle": "🔥 Os dois duelos da Trupe Grimm • Encaixe de Amuleto e Grimmchild Nv. 4",
+      "category": "bosses",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Invocar a Trupe Grimm",
+          "type": "text",
+          "content": "• Vá a Howling Cliffs (parede quebrável atrás de paredões falsos no centro do penhasco), use o Dream Nail no cadáver do grande inseto vermelho e golpeie repetidamente o braseiro até acender a Lanterna do Pesadelo.",
+          "color": "yellow"
+        },
+        {
+          "title": "Troupe Master Grimm (1.000 HP — 1x Dano)",
+          "type": "text",
+          "content": "• Regra de Cortesia: NÃO o ataque durante a reverência inicial, senão ele grita e inicia a fase do baiacu de fogo imediatamente!\n• Recompensa: 1x Encaixe de Amuleto (Charm Notch) + evolução do Grimmchild para Nv. 3.",
+          "color": "cyan"
+        },
+        {
+          "title": "Nightmare King Grimm / NKG (1.500 HP — 2x Dano no Sonho)",
+          "type": "text",
+          "content": "• Como é uma luta no sonho (acerte Grimm dormindo na tenda com Dream Nail), amuletos Frágeis NÃO quebram (e o Grimmchild ocupa 2 Encaixes na entrada da luta no mundo real, mas é livre em Godhome).\n• 4 Pilares de Fogo (Melhor janela de dano e cura!): caminhe devagar até passar pelo 4º pilar e solte um Abyss Shriek embaixo dele (ou cure 1–2 Máscaras após o 4º pilar estourar).\n• Morcegos de Fogo: pule sobre o 1º morcego baixo, faça Dash Sombrio pelo meio e acerte 2 cortes.\n• Espinhos do Chão: não pule! Apenas ajuste 1 passo lateral entre as raízes (excelente janela para curar 1 Máscara com Quick Focus).\n• Investida + Chuva de Fogo: use Sharp Shadow através dele ou pule fazendo pogo e pare exatamente ao lado de onde ele subiu.",
+          "color": "green"
+        }
+      ],
+      "tags": "troupe master grimm nightmare king grimm nkg rei do pesadelo trupe grimm howling cliffs charm notch grimmchild chefe boss"
+    },
+    {
+      "id": 237,
+      "title": "The Hollow Knight & The Radiance (A Radiância)",
+      "subtitle": "☀️ Chefes finais do Templo do Ovo Negro • Como acessar o duelo verdadeiro",
+      "category": "bosses",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Acessar A Radiância (Final 3 — Dream No More)",
+          "type": "text",
+          "content": "• Pré-requisito: ter o amuleto Void Heart (0 Encaixes) equipado permanentemente.\n• Enfrente The Hollow Knight normalmente no Templo do Ovo Negro.\n• No final da luta, Hornet saltará na arena prendendo a cabeça do Cavaleiro Vazio com fios: corra até ele e use o Dream Nail ANTES que ele se solte! (Se você bater nele com o Ferrão normal em vez do Dream Nail, ativará o Final 2 — Sealed Siblings).",
+          "color": "yellow"
+        },
+        {
+          "title": "Dica Crucial: Vida & Alma Restauradas!",
+          "type": "text",
+          "content": "• Ao usar o Dream Nail no Hollow Knight para entrar na arena da Radiance (1.700 HP, 2 Máscaras por acerto), TODAS as suas Máscaras de vida são curadas de graça! Portanto, não gaste sua Alma se curando no fim do Hollow Knight — entre na Radiance com os receptáculos cheios para soltar 3 a 4 Abyss Shrieks logo na abertura!",
+          "color": "purple"
+        },
+        {
+          "title": "Estratégia contra The Radiance",
+          "type": "text",
+          "content": "• Build ideal: Shaman Stone + Spell Twister + Unbreakable Strength + Quick Slash.\n• Fase 1–3 (Chão & Chuva de Espadas): priorize desviar de paredes de luz (com Shade Cloak) e orbes teleguiados; despeje Abyss Shriek toda vez que ela teleportar acima de você.\n• Fase 4 (Plataformas Flutuantes): não persiga ela pela tela inteira! Fique nas 2 plataformas centrais inferiores esperando ela aparecer perto e use Descending Dark em cima da plataforma se um orbe ou feixe vier te encurralar.\n• Fase 5 (Escalada Final): suba com calma usando o ritmo dos lasers — quando os feixes ficam mais precisos perto do topo, pule para fora da plataforma para atrair o laser ao vazio e volte com Dash/Monarch Wings para a pedra!",
+          "color": "green"
+        }
+      ],
+      "tags": "the hollow knight cavaleiro vazio the radiance a radiancia chefe final templo ovo negro dream no more void heart abyss shriek chefe boss"
+    },
+    {
+      "id": 238,
+      "title": "Pure Vessel & Panteões de Godhome (P1 a P5)",
+      "subtitle": "🏆 Guia de acesso ao Lar dos Deuses, chefes inéditos e Panteão de Hallownest",
+      "category": "bosses",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Entrar em Godhome (Lar dos Deuses)",
+          "type": "text",
+          "content": "• Quebre o teto/parede a sudoeste do banco de Royal Waterways (atravessando os Flukemungas) para chegar ao Junk Pit (Fosso de Lixo).\n• Use 1 Chave Simples no sarcófago da Godseeker para receber o Godtuner (+1% nos 112%) e acerte-a com o Dream Nail.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estrutura dos 5 Panteões (Quem Conta % nos 112%)",
+          "type": "text",
+          "content": "• P1 — Panteão do Mestre (1%): 10 lutas • Chefe Final: Irmãos Oro & Mato.\n• P2 — Panteão do Artista (1%): 10 lutas • Chefe Final: Mestre da Pintura Sheo.\n• P3 — Panteão do Sábio (1%): 10 lutas • Chefe Final: Grande Sábio do Ferrão Sly (dica: se você nunca salvou Zote em Greenpath/Deepnest, Grey Prince Zote NÃO aparece no P3 nem no P5!).\n• P4 — Panteão do Cavaleiro (1%): 10 lutas • Chefe Final: Pure Vessel (Receptáculo Puro — 1.600 HP, 2x dano).\n• P5 — Panteão de Hallownest (0% nos 112%, mas exigido para os Finais 4 e 5 / Platina): maratona com todos os 42 chefes do jogo seguidos, encerrando com Pure Vessel e Absolute Radiance!",
+          "color": "cyan"
+        },
+        {
+          "title": "Dicas contra Pure Vessel & Treino no Salão dos Deuses",
+          "type": "text",
+          "content": "• Assim que encontrar Pure Vessel (ou NKG / Absolute Radiance) pela primeira vez no Panteão, a estátua dele abre no andar inferior (Hall of Gods) — treine lá até vencer 3 vezes seguidas antes de repetir o Panteão!\n• Contra Pure Vessel: PULE sobre a estocada e o combo triplo (fazer pogo preserva seu Shade Cloak para emergências como o leque de adagas!). Nas espadas do chão, pule levemente pois as lâminas são mais finas no alto. Na cúpula de Foco (33% HP), afaste-se e dispare Shade Soul; nos tentáculos de Vazio finais, pule alto + Monarch Wings + Descending Dark na cabeça dele!",
+          "color": "green"
+        }
+      ],
+      "tags": "godhome lar dos deuses pantheon panteao pure vessel receptaculo puro absolute radiance oro mato sheo sly godseeker godtuner p1 p2 p3 p4 p5 chefe boss"
+    },
+    {
+      "id": 239,
+      "title": "Checklist Completo de 112% de Conclusão",
+      "subtitle": "📊 Matemática exata de tudo que soma % (e o que NÃO conta para os 112%)",
+      "category": "quests",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Jogo Base — 100% Exatos",
+          "type": "text",
+          "content": "• 36% — Amuletos Base (36 amuletos, 1% cada; Kingsoul/Void Heart dividem o mesmo 1%).\n• 14% — Equipamentos de Progressão (7 itens, 2% cada: Mothwing Cloak, Mantis Claw, Crystal Heart, Isma's Tear, Monarch Wings, King's Brand, Shade Cloak).\n• 14% — Chefes Base (1% cada: False Knight, Gruz Mother, Brooding Mawlek, Hornet Protector, Hornet Sentinel, Mantis Lords, Soul Master, Dung Defender, Broken Vessel, Watcher Knights, Uumuu, Nosk, The Collector, Traitor Lord).\n• 7% — Guerreiros dos Sonhos (1% cada: Xero, Gorb, Elder Hu, Marmu, No Eyes, Galien, Markoth).\n• 6% — Feitiços (1% cada: Vengeful Spirit, Shade Soul, Desolate Dive, Descending Dark, Howling Wraiths, Abyss Shriek).\n• 4% — Upgrades do Ferrão (Sharpened, Channelled, Coiled, Pure Nail).\n• 4% — Máscaras Extras (4 máscaras completas = 16 Mask Shards).\n• 3% — Receptáculos Extras (3 receptáculos completos = 9 Vessel Fragments).\n• 3% — Nail Arts (Cyclone, Dash e Great Slash).\n• 3% — Sonhadores (Lurien, Monomon e Herrah).\n• 3% — Ferrão dos Sonhos (Pegar Dream Nail, 1.800 Essência e 2.400 Essência na Seer).\n• 3% — Coliseu dos Tolos (Provas 1, 2 e 3).",
+          "color": "cyan"
+        },
+        {
+          "title": "Pacotes Gratuitos — +12% Exatos (Total 112%)",
+          "type": "text",
+          "content": "• +6% — The Grimm Troupe: 4 novos amuletos (Sprintmaster, Dreamshield, Weaversong e Grimmchild/Carefree Melody = 4%) + Troupe Master Grimm (1%) + Nightmare King Grimm OU Banimento da Trupe (1%).\n• +1% — Lifeblood: derrotar o Hive Knight (Cavaleiro da Colmeia).\n• +5% — Godmaster: pegar o Godtuner no Junk Pit (1%) + concluir os Panteões 1, 2, 3 e 4 (4%).\n• Dica: após inspecionar a tabuleta World Sense dentro do Templo do Ovo Negro, sua porcentagem aparece no inventário! Para a conquista Pure Completion, atinja 112% e vença qualquer chefe final para rolar os créditos.",
+          "color": "yellow"
+        },
+        {
+          "title": "O Que NÃO Conta para os 112% (Armadilhas Comuns)",
+          "type": "text",
+          "content": "• NÃO contam %: Panteão 5 (Panteão de Hallownest), Caminho da Dor (Path of Pain), Diário do Caçador / Marca do Caçador, Larvas (além das recompensas de Mask Shard/Pale Ore/Amuletos), Chaves Simples, Relíquias, Grey Prince Zote, White Defender, Failed Champion, Lost Kin, Soul Tyrant, The Hollow Knight e The Radiance.\n• ⚠️ Pegadinha da Divine: enquanto um amuleto Frágil estiver engolido pela Divine sem ter sido recomprado por Geo, você perde 1% temporariamente até pagar pelo Inquebrável!",
+          "color": "red"
+        }
+      ],
+      "tags": "112% conclusao completion checklist pure completion porcentagem o que conta panteao 5 path of pain world sense platina guia"
+    },
+    {
+      "id": 240,
+      "title": "Guia dos 5 Finais (Como Fazer Todos em 1 Único Save)",
+      "subtitle": "🎬 Requisitos exatos dos 5 finais e como não perder o Final 1",
+      "category": "quests",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "⚠️ Regra Crítica para Fazer os 5 Finais no Mesmo Jogo Salvo",
+          "type": "text",
+          "content": "• Conclua o Final 1 ANTES de transformar a Kingsoul em Void Heart no Abismo! Após derrotar o chefe final, seu save sempre recarrega no último banco antes da luta, permitindo buscar os demais finais livremente.",
+          "color": "red"
+        },
+        {
+          "title": "Finais do Templo do Ovo Negro (1, 2 e 3)",
+          "type": "text",
+          "content": "• Final 1 — The Hollow Knight: destrua os 3 Sonhadores (Dreamers) e derrote The Hollow Knight SEM possuir o Void Heart.\n• Final 2 — Sealed Siblings (Irmãos Selados): tenha o Void Heart. Quando Hornet imobilizar o Hollow Knight no fim da luta, IGNORE o Dream Nail (ou espere Hornet ser jogada longe) e finalize o Hollow Knight com golpes normais do Ferrão.\n• Final 3 — Dream No More (Chega de Sonhar): tenha o Void Heart. Quando Hornet imobilizar o Hollow Knight, acerte-o com o Dream Nail e derrote The Radiance.",
+          "color": "cyan"
+        },
+        {
+          "title": "Finais de Godhome (4 e 5 — Mesma Conquista no PS/Xbox, Duas no PC)",
+          "type": "text",
+          "content": "• Final 4 — Embrace the Void (Abrace o Vazio): vença o Panteão 5 (Pantheon of Hallownest, derrotando Absolute Radiance) ANTES de entregar uma Flor Delicada à Godseeker no Junk Pit.\n• Final 5 — Delicate Flower: pegue uma nova Flor Delicada no túmulo do Filho do Traidor em Queen's Gardens (após já ter concluído a missão da Grey Mourner), leve-a intacta até a Godseeker no Junk Pit e vença o Panteão 5.",
+          "color": "purple"
+        }
+      ],
+      "tags": "finais endings 5 finais the hollow knight sealed siblings dream no more embrace the void delicate flower perdivel missable void heart"
+    },
+    {
+      "id": 241,
+      "title": "Missão da Flor Delicada (Delicate Flower — Rota Segura)",
+      "subtitle": "🌸 Passo a passo sem tomar dano + truque de limpar o caminho sem descansar!",
+      "category": "quests",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Regras & Recompensa (1x Mask Shard)",
+          "type": "text",
+          "content": "• Iniciada na mansão da Pranteadora Cinzenta (Grey Mourner / Ze'mer), atrás de paredes e caixões quebráveis no leste de Resting Grounds.\n• Objetivo: levar a Flor Delicada até o túmulo coberto de espinhos no oeste de Queen's Gardens.\n• A flor quebra imediatamente se você sofrer QUALQUER dano, viajar de Besouro (Stagway) ou usar o Dreamgate! (Bondes elétricos / Trams SÃO permitidos!).",
+          "color": "yellow"
+        },
+        {
+          "title": "O Truque Infalível (Inimigos Fortes NÃO Renascem Sem Banco!)",
+          "type": "text",
+          "content": "• 1. Sente no banco do lado de fora da mansão da Grey Mourner para marcar seu ponto de retorno.\n• 2. Faça o trajeto inteiro de trás para frente (ou da mansão até o túmulo) matando TODOS os inimigos perigosos no caminho.\n• 3. NÃO sente em nenhum banco! Em vez de voltar a pé ou sentar, apenas caminhe de volta (ou plante um Dreamgate na porta da Grey Mourner ANTES de pegar a flor, teleporte para lá, pegue a flor e faça o caminho limpo — só pequenas águas-vivas inofensivas renascem ao trocar de sala!).",
+          "color": "green"
+        },
+        {
+          "title": "Melhor Rota & Build de Segurança",
+          "type": "text",
+          "content": "• Rota mais segura: Resting Grounds -> Blue Lake -> Infected Crossroads inferior -> Fog Canyon (cuidado apenas para não acertar grandes águas-vivas Ooma!) -> Fungal Wastes (Queen's Station) -> entrada inferior de Queen's Gardens -> túmulo.\n• Build recomendada: Grubberfly's Elegy + Shaman Stone + Mark of Pride + Kingsoul (ou Dream Wielder) para abater qualquer inimigo restante à distância.\n• No final no túmulo: há um trecho curto de Dash entre espinhos — use Dash horizontal controlado (sem Sharp Shadow!).",
+          "color": "cyan"
+        }
+      ],
+      "tags": "delicate flower flor delicada grey mourner pranteadora cinzenta zemer queens gardens mask shard rota truque sem dano quest missao"
+    },
+    {
+      "id": 242,
+      "title": "Coliseu dos Tolos (Provas 1, 2 e 3)",
+      "subtitle": "🏟️ Custos em Geo, recompensas (Encaixe + Pale Ore) e guia da Prova do Tolo",
+      "category": "quests",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "As 3 Provas (Nordeste de Kingdom's Edge — 3% nos 112%)",
+          "type": "text",
+          "content": "• 1. Prova do Guerreiro (Trial of the Warrior): Inscrição 100 Geo -> Recompensa: ~1.000 Geo + 1x Encaixe de Amuleto (Charm Notch) + 1%.\n• 2. Prova do Conquistador (Trial of the Conqueror): Inscrição 450 Geo -> Recompensa: ~2.000 Geo + 1x Minério Pálido (Pale Ore) + 1%.\n• 3. Prova do Tolo (Trial of the Fool): Inscrição 800 Geo -> Recompensa: ~3.000 Geo + Conquista + 1%.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia para Vencer a Prova do Tolo (Sem Chão!)",
+          "type": "text",
+          "content": "• Build ideal: Nailmaster's Glory (1) + Shaman Stone (3) + Unbreakable Strength (3) + Mark of Pride (3) + Dream Wielder (1).\n• Entre ondas lentas: deixe 1 inimigo lento vivo (como Shielded Fool ou Mistake), use Dream Nail + Dream Wielder nele até curar todas as 9 Máscaras e encher todos os receptáculos de Alma!\n• Trecho sem chão (Espinheiros + Paredes Estreitas): deslize na parede carregando o Great Slash! Solte um único Great Slash para matar Primal Aspids, Armored Squits e Mantis Petras com 1 golpe assim que saírem da gaiola.\n• Chefe Final (God Tamer / Domadora de Deuses): ignore totalmente a amazona e foque 100% na fera gigante (pogo na cabeça + Descending Dark quando ela cuspir ácido ou rolar). Assim que a fera cai, a domadora desiste na hora!",
+          "color": "green"
+        }
+      ],
+      "tags": "colosseum of fools coliseu dos tolos trial of the warrior conqueror fool prova do tolo pale ore charm notch god tamer primal aspid nailmasters glory"
+    },
+    {
+      "id": 243,
+      "title": "Trupe Grimm: Ritual Completo vs. Banimento",
+      "subtitle": "🎪 Escolha permanente entre Grimmchild Nv. 4 e Carefree Melody (Melodia Despreocupada)",
+      "category": "quests",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Visão Geral (Ambas as Rotas Dão o Mesmo % nos 112%!)",
+          "type": "text",
+          "content": "• Após derrotar Troupe Master Grimm (ganhando o 8º Charm Notch), ele pede mais 3 chamas vermelhas.\n• Você deve escolher entre completar o Ritual (enfrentando Nightmare King Grimm) OU banir a Trupe com Brumm. Ambas as escolhas concedem os mesmos 2% finais do pacote Grimm Troupe (1% do desfecho + 1% do amuleto final), mas dão conquistas e amuletos diferentes.",
+          "color": "cyan"
+        },
+        {
+          "title": "Opção A — Ritual Completo (Grimmchild Nv. 4)",
+          "type": "text",
+          "content": "• Colete 3 chamas dos Grimmkin Nightmares e vença Nightmare King Grimm na tenda.\n• Recompensa: Grimmchild Nv. 4 (2 Encaixes — familiar voador que dispara bolas de fogo de 11 de dano) + Divine permanece em Dirtmouth até você comprar todos os 3 amuletos Inquebráveis.",
+          "color": "purple"
+        },
+        {
+          "title": "Opção B — Banimento com Brumm (Carefree Melody + Nymm)",
+          "type": "text",
+          "content": "• Vá à Caverna Distante (Distant Village, oeste de Deepnest) e fale com Brumm na casa em forma de aranha (ganhando 1 chama de graça).\n• Em vez de lutar com NKG, encontre Brumm ao pé da Lanterna do Pesadelo em Howling Cliffs (onde você invocou a trupe) e quebre o braseiro!\n• Recompensa: o músico Nymm passa a tocar acordeão em Dirtmouth e entrega Carefree Melody (Melodia Despreocupada, 3 Encaixes — chance média de ~22,4% de anular completamente um golpe sofrido, muito útil em chefes Ascendidos de Godhome!).\n• Nota: mesmo banindo a Trupe, Nightmare King Grimm fica disponível para lutar no Salão dos Deuses e no Panteão 5!",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Alerta Antes de Banir",
+          "type": "text",
+          "content": "• Banir a Trupe faz a tenda da Divine sumir de Dirtmouth imediatamente! Certifique-se de pagar pelos seus amuletos Inquebráveis ANTES de quebrar o braseiro com Brumm.",
+          "color": "red"
+        }
+      ],
+      "tags": "trupe grimm ritual banimento banishment brumm nymm carefree melody melodia despreocupada grimmchild divine perdivel missable quest"
+    },
+    {
+      "id": 244,
+      "title": "Caminho da Dor (Path of Pain) & Sr. Cogumelo (Mr. Mushroom)",
+      "subtitle": "🍄 Acesso oculto no Palácio Branco e as 7 localizações em ordem do Sr. Cogumelo",
+      "category": "quests",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Caminho da Dor (Path of Pain — Desafio Secreto do Palácio Branco)",
+          "type": "text",
+          "content": "• Como entrar: no Palácio Branco (White Palace), pegue o elevador acima do átrio central e, logo na primeira sala de subida após o banco, pule e golpeie a parede esquerda aparentemente sólida (não racha visualmente, apenas faz som de pedra quebrando!).\n• Build obrigatória: Hiveblood (4) + Grubsong (1) + Deep Focus (4) + Longnail (2). Há totens de Alma infinita na maioria das paradas, mas na última sala a dupla Kingsoul / Hiveblood garante tentativas ilimitadas.\n• ⚠️ Cuidado no final: após o último corredor de serras, você cai em uma emboscada com 2 Kingsmoulds! Despeje Descending Dark imediatamente ao cair para não morrer e perder todo o percurso!\n• Recompensa: cena secreta de lore + Selo de Ligação (Seal of Binding) no Diário (0% nos 112%).",
+          "color": "purple"
+        },
+        {
+          "title": "Sr. Cogumelo (Passing of the Age — Cena Extra nos Créditos)",
+          "type": "text",
+          "content": "• Pré-requisitos: ter destruído os 3 Sonhadores (Dreamers) E estar usando o amuleto Spore Shroom (Cogumelo de Esporos, 1 Encaixe, encontrado em Fungal Wastes) para entender a língua dele!\n• Você DEVE falar com ele nas 7 salas na ordem exata abaixo (ele voa ao fim de cada diálogo):",
+          "color": "cyan"
+        },
+        {
+          "title": "As 7 Localizações em Ordem Exata do Sr. Cogumelo",
+          "type": "text",
+          "content": "• 1ª — Fungal Wastes (sul de Queen's Station): exatamente onde Cornifer desenhava mapas.\n• 2ª — Kingdom's Edge: na encruzilhada central à direita da passagem para o Bonde Quebrado / Hidrovias.\n• 3ª — Deepnest: logo à direita da arena onde você enfrenta o espírito Galien.\n• 4ª — Howling Cliffs: dentro da cabana do Mestre do Ferrão Mato.\n• 5ª — Ancient Basin: no túnel inferior a caminho de Monarch Wings (logo após a arena de Broken Vessel).\n• 6ª — Fog Canyon: bem em frente à entrada do Overgrown Mound (onde pega Howling Wraiths).\n• 7ª — King's Pass: na primeiríssima sala do jogo onde o Cavaleiro caiu no início da jornada! Após vê-lo decolar rumo ao céu, vença qualquer chefe final para desbloquear a cena secreta e a conquista Passing of the Age.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "path of pain caminho da dor white palace palacio branco seal of binding kingsmould mr mushroom sr cogumelo senhor cogumelo spore shroom passing of the age 7 locais segredo"
     }
   ]
 }

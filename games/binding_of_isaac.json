@@ -1,0 +1,1123 @@
+{
+  "id": "binding_of_isaac",
+  "title": "The Binding of Isaac: Rebirth",
+  "icon": "💧",
+  "updated_at": "2026-11-27T02:15:00Z",
+  "sources": [
+    {
+      "name": "The Binding of Isaac: Rebirth Wiki (Fandom)",
+      "url": "https://bindingofisaacrebirth.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "Platinum God / TBOI Cheat Sheet",
+      "url": "https://tboi.com/",
+      "license": "Referência factual com redação própria"
+    },
+    {
+      "name": "IsaacGuru Database (Repentance & Repentance+)",
+      "url": "https://isaacguru.com/",
+      "license": "Referência factual com redação própria"
+    },
+    {
+      "name": "SteamDB & PCGamingWiki (App ID 250900)",
+      "url": "https://www.pcgamingwiki.com/wiki/The_Binding_of_Isaac:_Rebirth",
+      "license": "CC BY-NC-SA 3.0 — Referência técnica de executável"
+    }
+  ],
+  "process_keywords": [
+    "isaac-ng",
+    "binding of isaac",
+    "bindingofisaac",
+    "rebirth",
+    "repentance"
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "Todos"
+    },
+    {
+      "id": "rooms_mechanics",
+      "label": "⚙️ Salas, Pactos & Mecânicas"
+    },
+    {
+      "id": "items",
+      "label": "💎 Itens Quality 4 & Especiais"
+    },
+    {
+      "id": "cards_trinkets",
+      "label": "🃏 Cartas, Runas & Trinkets"
+    },
+    {
+      "id": "transformations",
+      "label": "🦋 Transformações"
+    },
+    {
+      "id": "routes_unlocks",
+      "label": "🏆 Rotas Finais, Chefes & DLCs"
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Sala de Sacrifício (Sacrifice Room — Tabela 1 a 12+)",
+      "subtitle": "🩸 6ª = 33% Sala do Anjo • 7ª = 33% Item de Anjo • 10ª = 7 Soul Hearts / 30¢",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Tabela de Pisadas (1ª à 6ª)",
+          "type": "text",
+          "content": "• 1ª pisada: 50% de chance de 1 moeda (100% no Capítulo 1 se já usou uma bomba no andar como Judas/Keeper) | 50% nada.\n• 2ª pisada: 50% de chance de 1 moeda | 50% nada.\n• 3ª pisada: 67% \"You feel blessed!\" (+chance de Sala do Anjo no andar) | 33% nada.\n• 4ª pisada: 50% de gerar 1 baú aleatório | 50% nada.\n• 5ª pisada: 67% \"You feel blessed!\" | 33% de soltar 3 moedas.\n• 6ª pisada: 33% de teleporte direto para a Sala do Anjo (ou Diabo, se já entrou nela no andar) | 67% baú aleatório.",
+          "color": "yellow"
+        },
+        {
+          "title": "Tabela de Pisadas (7ª à 12ª+)",
+          "type": "text",
+          "content": "• 7ª pisada: 33% de gerar 1 pedestal da Sala do Anjo (50% de virar Redemption se você já comprou Pacto com o Diabo na partida) | 67% de 1 Soul Heart.\n• 8ª pisada: ⚠️ 100% de soltar 7 Troll Bombs ao redor da sala (saia ou desvie na hora!).\n• 9ª pisada: 100% de invocar o anjo Uriel (solta Key Piece 1 ao morrer).\n• 10ª pisada: 50% de soltar 7 Soul Hearts | 50% de soltar 30 moedas!\n• 11ª pisada: 100% de invocar o anjo Gabriel (solta Key Piece 2 ao morrer).\n• 12ª+ pisada: ⚠️ 50% de teleporte imediato para a Dark Room (pulando o resto da partida!) | 50% nada.",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Cada pisada causa 1 coração inteiro de dano (ou meio coração se tiver The Wafer, Cancer efeito ativo ou Percs!).\n• O contador é exclusivo de cada Sala de Sacrifício e reseta ao mudar de andar.\n• Com Magdalene (Yum Heart), Keeper (moedas no chão) ou Tainted Magdalene, pare sempre na 7ª ou 10ª/11ª pisada para sair rico, cheio de vida e com as duas Key Pieces do Mega Satan logo no Basement!",
+          "color": "green"
+        }
+      ],
+      "tags": "sacrifice room sala de sacrificio espinhos pisadas tabela uriel gabriel key piece angel room dark room soul hearts 30 moedas"
+    },
+    {
+      "id": 2,
+      "title": "Salas de Dado (Dice Rooms — Faces 1 a 6)",
+      "subtitle": "🎲 1 = Seus Itens • 3 = Pickups Andar • 4 = Pedestais Andar • 5 = Reinicia Andar • 6 = Tudo",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito Exato de Cada Número (1 a 6)",
+          "type": "text",
+          "content": "• ⚀ Dado 1 (Efeito D4 / D100): Rerolla TODOS os seus itens passivos equipados no personagem.\n• ⚁ Dado 2 (Efeito D20 local): Rerolla apenas os pickups (moedas, chaves, bombas, baús, corações) dentro da própria Sala de Dado.\n• ⚂ Dado 3 (D20 no Andar): Rerolla todos os pickups e trinkets do andar inteiro (incluindo itens de pickup à venda na Loja).\n• ⚃ Dado 4 (D6 no Andar): Rerolla todos os pedestais de itens já gerados no andar inteiro (Treasure Room, Boss Room, Loja e Secretas).\n• ⚄ Dado 5 (Forget Me Now): Reinicia e gera novamente o andar atual inteiro do zero, mantendo todos os seus itens e atributos!\n• ⚅ Dado 6 (Efeito D100 Total): Combina os Dados 1 + 3 + 4 — rerolla seus itens equipados, todos os pickups do andar e todos os pedestais do andar de uma só vez!",
+          "color": "yellow"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Exige 2 chaves para destrancar a porta dupla.\n• O efeito dispara apenas 1 vez ao pisar no centro do dado gigante (com voo você consegue atravessar as bordas sem ativar por acidente).\n• Os Dados 3, 4 e 6 NÃO alteram itens dentro de Salas do Anjo/Diabo, Bibliotecas, Crawl Spaces ou Black Markets.",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Achou um Dado 5? Limpe o andar todo primeiro (Treasure Room, Loja, Chefe, Pacto e Secretas) e só pise no 5 no final para duplicar o farm do andar — cuidado apenas com o relógio da Boss Rush (< 20 min)!\n• Achou um Dado 4? Abra todas as salas com pedestais ruins do andar antes de pisar nele.",
+          "color": "green"
+        }
+      ],
+      "tags": "dice room sala de dado faces numeros 1 2 3 4 5 6 pips d4 d6 d20 d100 forget me now reroll"
+    },
+    {
+      "id": 3,
+      "title": "Pacto com o Diabo vs. Sala do Anjo (Devil & Angel Rooms)",
+      "subtitle": "😇 Ignore a 1ª Sala do Diabo SEM entrar na porta para garantir 100% Sala do Anjo!",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Regra de Ouro da Sala do Anjo (Repentance)",
+          "type": "text",
+          "content": "• No Basement II (ou Downpour II), o primeiro pacto é sempre 100% Sala do Diabo (salvo se usar Sacrifice Room ou Eucharist).\n• Se você NÃO entrar na porta dessa primeira Sala do Diabo, sua próxima chance de pacto será 100% Sala do Anjo garantida (ícone de cruz branca no HUD)!\n• Se você entrar na Sala do Diabo apenas para olhar e sair sem comprar nada, o próximo pacto cai para 50% Anjo / 50% Diabo.\n• Comprar qualquer item pago em corações no Diabo trava a chance de Sala do Anjo em 0% pelo resto da partida (só reverte com Confessional, Sacrifice Room, Act of Contrition ou Eucharist).",
+          "color": "cyan"
+        },
+        {
+          "title": "Matemática Exata de Aparição",
+          "type": "text",
+          "content": "• Base no andar: 1% + 99% por não sofrer dano em Coração Vermelho no andar (+35% por não tomar dano vermelho no chefe).\n• Penalidade de recarga: se uma porta abriu no andar anterior, a chance total é multiplicada por 0.25x (33.75% base); se abriu há 2 andares, multiplica por 0.5x (67.5% base).\n• Modificadores de Pacto Geral: Pentagram (+10%), Black Candle (+15%), Book of Belial (+12.5%), Book of Revelations (+17.5%), explodir lojista morto (+10%), explodir mendigo normal (+35%), Goat Head / Eucharist (trava em 100% sempre).\n• Modificadores pró-Anjo: Key Piece 1 e 2 (+25% cada), doar 10¢ na máquina da Loja (+50% naquele andar), explodir mendigo demônio, e trinket Rosary Bead (em Repentance+ garante conversão para Sala do Anjo!).",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Proteja seus Corações Vermelhos com Soul Hearts, Black Hearts, Bone Hearts ou Rotten Hearts antes de descer do Basement I.\n• Dano em portas de Curse Room, Blood Donation Machine, IV Bag e Devil Beggar NÃO desconta chance de pacto mesmo tirando vida vermelha!",
+          "color": "green"
+        }
+      ],
+      "tags": "devil room angel room pacto diabo sala do anjo porcentagem chance 100% goat head eucharist rosary bead dano vermelho"
+    },
+    {
+      "id": 4,
+      "title": "Planetário (Planetarium — Desbloqueio & Matemática)",
+      "subtitle": "🪐 1% base + 20% por cada Treasure Room ignorada sem abrir a porta",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear",
+          "type": "text",
+          "content": "• Colete 3 itens com tema astrológico na mesma partida (ex.: qualquer signo do Zodíaco como Capricorn, Leo, Virgo, Cancer, Sagittarius, Scorpio, ou Magic 8 Ball, Crystal Ball, Tiny Planet, Tarot Cloth, Deck of Cards, Starter Deck).",
+          "color": "yellow"
+        },
+        {
+          "title": "Matemática de Geração (Capítulos 1 a 3)",
+          "type": "text",
+          "content": "• Chance inicial em toda partida: 1%.\n• Pular o andar SEM entrar na Treasure Room: +20% acumulativo (1 pular = 21%, 2 pular = 41%, 3 pular = 61%...).\n• Entrar em uma Treasure Room: reduz 20% da chance acumulada (mínimo de 1%).\n• Segurar Telescope Lens (Trinket): +24% fixo (+9% extras se já visitou um Planetário) e permite gerar Planetários também no Womb e Corpse!\n• Crystal Ball: +15% (ou sobe para 100% se você já pulou uma Treasure Room!).\n• Magic 8 Ball: +15% | Sausage: +6.9%.\n• Após entrar em 1 Planetário, a chance trava em 1% pelo resto da run (ou 10% com Telescope Lens).",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Pule a Treasure Room do Basement I quando não tiver chaves ou quando estiver indo para a rota do Ascent (The Beast) — você poderá pegar o item da Treasure Room de graça na subida!\n• Com Dream Catcher na Loja, você vê qual item está na Treasure Room durante a transição de andar e decide se vale a pena entrar ou ganhar +20% de Planetário.",
+          "color": "green"
+        }
+      ],
+      "tags": "planetarium planetario estrelas signos zodiaco uranus terra luna sol pluto neptunus mercurius venus mars jupiter saturnus telescope lens treasure room"
+    },
+    {
+      "id": 5,
+      "title": "Salas Secretas, Super Secretas & Ultra Secretas (Red Key)",
+      "subtitle": "💣 Secreta = 2 a 4 paredes livres • Super = 1 parede perto do Boss • Ultra = Diagonal Vermelha",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Sala Secreta & Super Secreta (Bombas)",
+          "type": "text",
+          "content": "• Sala Secreta Normal (? cinza): sempre encosta em 2, 3 ou 4 salas existentes (formato em \"U\" ou \"L\" no minimapa). TODAS as salas vizinhas precisam ter o centro da parede totalmente livre (sem rochas, buracos, espinhos ou fogueiras bloqueando a passagem) e nunca encosta na Boss Room.\n• Sala Super Secreta (? branco): encosta em APENAS 1 sala normal (nunca encosta em salas especiais como Loja, Treasure ou Curse Room) e costuma ficar no caminho mais longo próximo à Boss Room.",
+          "color": "yellow"
+        },
+        {
+          "title": "Ultra Secret Room (Red Key / Cracked Key)",
+          "type": "text",
+          "content": "• Fora do mapa padrão existe 1 Ultra Secret Room por andar com itens vermelhos raríssimos (Sacred Heart, Brimstone, C Section, Haemolacria, Immaculate Heart).\n• Ela nunca encosta diretamente nas salas normais: fica sempre a 1 \"Sala Vermelha\" (Red Room) de distância.\n• Regra de ouro para achá-la com apenas 1 Cracked Key / Red Key: procure no minimapa um espaço vazio que faria ponte simultânea com 2 ou 3 salas existentes (especialmente encostando na lateral de Salas Especiais como Loja, Treasure Room, Curse Room ou Sala de Sacrifício, mas nunca Boss Room ou Salas Secretas).",
+          "color": "purple"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Sem bombas sobrando? Use inimigos explosivos (Mullibooms), pé da Mamãe (High Priestess?), Sulfuric Acid, Terra, Ipecac, Dr. Fetus ou Stompy para testar paredes de graça.\n• A carta XVIII - The Moon? teleporta direto para a Ultra Secret Room e já cria a Sala Vermelha de saída!",
+          "color": "green"
+        }
+      ],
+      "tags": "secret room super secret ultra secret room sala secreta red key cracked key crystal key bombas mapa onde achar"
+    },
+    {
+      "id": 6,
+      "title": "Maldições do Andar (Curses) & Como Limpá-las",
+      "subtitle": "🕯️ Dagaz, Black Candle e Confessionário removem Curse of the Blind na hora!",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Lista de Maldições (Curses)",
+          "type": "text",
+          "content": "• Curse of the Blind: todos os pedestais de itens aparecem como ponto de interrogação (?) até você pegar.\n• Curse of the Lost: esconde o minimapa completo (equivalente a Amnesia).\n• Curse of the Unknown: esconde sua barra de corações inteira (cuidado redobrado em Pactos com o Diabo!).\n• Curse of the Maze: ao cruzar portas, pode teleportar você aleatoriamente ou trocar pickups de sala (dá para usar para entrar em salas trancadas sem chave!).\n• Curse of Darkness: escurece quase toda a tela.\n• Curse of the Labyrinth (Andar XL): funde os andares I e II com 2 Treasure Rooms (ambas abertas sem chave no Basement XL!) e 2 Chefes seguidos, mas conta como 1 único pacto.",
+          "color": "red"
+        },
+        {
+          "title": "Como Remover Maldições no Meio da Partida",
+          "type": "text",
+          "content": "• Runa Dagaz: remove a maldição do andar imediatamente e concede +1 Soul Heart.\n• Black Candle (Loja — 15¢): remove a maldição atual, imuniza contra TODAS as maldições pelo resto da run, dá +1 Black Heart e +15% de chance de Pacto!\n• Confessionário (Confessional): pode limpar a maldição ativa ao doar vida.\n• Soul of Cain / Ansuz / The Sun: The Sun e Ansuz furam o efeito visual de Curse of the Lost/Darkness no minimapa.",
+          "color": "cyan"
+        }
+      ],
+      "tags": "curses maldicoes curse of the blind lost unknown maze darkness labyrinth xl dagaz black candle limpar remover"
+    },
+    {
+      "id": 7,
+      "title": "Confessionário, Garra, Mendigos & Máquinas",
+      "subtitle": "🎰 Crane Game = 25% por 5¢ • Confessionário remove Broken Hearts e solta itens de Anjo",
+      "category": "rooms_mechanics",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Confessionário & Crane Game (Repentance)",
+          "type": "text",
+          "content": "• Confessionário (Confessional): cobra dano igual à Sala de Sacrifício, mas NÃO tem limite fixo. Pode curar Broken Hearts (Corações Quebrados), limpar Curses, dar \"You feel blessed!\", soltar vários Soul Hearts e, ao explodir por uso contínuo, tem chance de gerar 1 item da Sala do Anjo!\n• Máquina de Garra (Crane Game — Arcade): custa 5¢ por tentativa com 25% de chance fixa de pescar o item exibido no vidro! Entrega até 3 itens diferentes antes de quebrar.",
+          "color": "cyan"
+        },
+        {
+          "title": "Máquinas de Sangue, Doação & Reroll",
+          "type": "text",
+          "content": "• Blood Donation Machine: tira apenas meio coração nos Capítulos 1–3 (1 coração do Womb em diante) e dá 1 a 3 moedas; ao estourar pelo uso, dropa Blood Bag ou IV Bag.\n• Restock Machine (Loja / Sala Secreta): rerolla pedestais da sala ao inserir moedas ou levar explosão de bomba. ⚠️ Cuidado: em Repentance, 1 bomba dá apenas 1 reroll com alta chance de quebrar a máquina na 2ª explosão — prefira pagar moedas!\n• Donation Machine (Loja): explodir com 1 bomba solta de 3 a 5 moedas em emergências (não passe de 999¢ ou ela explode sozinha e zera para 0¢!).",
+          "color": "yellow"
+        },
+        {
+          "title": "Mendigos (Beggars)",
+          "type": "text",
+          "content": "• Mendigo Comum (Moedas): costuma pagar item de HP/Comida após ~6–15¢; explodi-lo dá +35% de chance de Pacto no andar!\n• Devil Beggar (Corações): entrega itens demoníacos/seringas/familiares fortes; explodi-lo aumenta a proporção de Sala do Anjo.\n• Key Beggar / Bomb Beggar / Battery Bum / Rotten Beggar: exigem recursos específicos mas têm piscinas exclusivas (Key Beggar dá Psy Fly se tirar Paper Clip / Mom's Key / baús vermelhos/dourados!).",
+          "color": "gray"
+        }
+      ],
+      "tags": "confessional confessionario crane game maquina de garra mendigo beggar devil beggar blood donation restock machine donation machine broken heart"
+    },
+    {
+      "id": 8,
+      "title": "Spindown Dice (Tabela das Melhores Conversões -1 ID)",
+      "subtitle": "🎲 Tooth Picks ➔ Sacred Heart • Blood Bag ➔ Brimstone • Bot Fly ➔ Death Certificate",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Conversões Tier S (Copie ou Fixe na Tela!)",
+          "type": "text",
+          "content": "• Tooth Picks (183) ➔ Sacred Heart (182)\n• Blood Bag (119) ➔ Brimstone (118)\n• Bot Fly (629) ➔ Death Certificate (628)\n• Lil Abaddon (679) ➔ C Section (678)\n• Knockout Drops (637) ➔ R Key (636)\n• Nancy Bombs (563) ➔ Rock Bottom (562)\n• Belly Jelly (690) ➔ Glitched Crown (689)\n• Lazarus' Rags (332) ➔ Godhead (331)",
+          "color": "yellow"
+        },
+        {
+          "title": "Outras Conversões Fortíssimas (-1 ID)",
+          "type": "text",
+          "content": "• Azazel's Rage (699) ➔ Twisted Pair (698)\n• Consolation Prize (644) ➔ Revelation (643)\n• Wavy Cap (582) ➔ Psy Fly (581)\n• Hypercoagulation (724) ➔ Spindown Dice (723 — gera 2º dado!)\n• Ouija Board (115) ➔ Mom's Knife (114)\n• Thunder Thighs (314) ➔ Holy Mantle (313)\n• Ventricle Razor (396) ➔ Tech X (395)\n• Lachryphagy (532) ➔ Haemolacria (531)\n• Kidney Stone (626) ➔ Mega Mush (625)",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica & Pegadinhas",
+          "type": "text",
+          "content": "• Recarga de 6 salas. Subtrai 1 da numeração interna de todos os pedestais na sala.\n• ⚠️ Se você ainda NÃO desbloqueou o item de destino no seu perfil (ex.: Death Certificate ou Rock Bottom), o Spindown Dice pula automaticamente esse número e cai no item anterior!\n• ⚠️ Usar Spindown em Sad Onion (ID 1) faz o pedestal desaparecer de vez!\n• Com Car Battery, ele subtrai 2 números de uma vez (cuidado para não passar direto pelo item que você quer).",
+          "color": "red"
+        }
+      ],
+      "tags": "spindown dice tabela conversoes id -1 tooth picks sacred heart blood bag brimstone bot fly death certificate lil abaddon c section knockout drops r key nancy bombs rock bottom"
+    },
+    {
+      "id": 9,
+      "title": "Sacred Heart (Coração Sagrado)",
+      "subtitle": "💎 Quality 4 • Multiplicador 2.3x de Dano + Lágrimas Teleguiadas + Cura Total",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Atributos & Efeito",
+          "type": "text",
+          "content": "• Multiplicador brutal de 2.3x no Dano Total + 1.0 de Dano base (o maior multiplicador direto sem desvantagem grave do jogo!).\n• Concede Lágrimas Teleguiadas (Homing Tears).\n• +1 Contêiner de Coração Vermelho e cura todos os seus corações vermelhos na hora.\n• Reduções leves: -0.4 Tears e -0.25 Shot Speed (o Shot Speed menor na verdade melhora a curva do tiro teleguiado!).\n• Conta 1/3 para a transformação Seraphim.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Encontrar & Sinergias",
+          "type": "text",
+          "content": "• Piscinas: Sala do Anjo, Ultra Secret Room e Confessionário.\n• Não acumula o multiplicador 2.3x com Crown of Light ou Immaculate Heart? Acumula SIM! Sacred Heart acumula multiplicador com quase tudo no jogo (exceto 2ª cópia do próprio Sacred Heart), chegando facilmente a 30+ de dano.\n• Pelo Spindown Dice: use em Tooth Picks (item comum de Boss Room)!",
+          "color": "green"
+        }
+      ],
+      "tags": "sacred heart coracao sagrado quality 4 angel room 2.3x dano homing teleguiado seraphim"
+    },
+    {
+      "id": 10,
+      "title": "Godhead (Divindade)",
+      "subtitle": "💎 Quality 4 • Aura Luminosa Teleguiada com 60 DPS Fixos por Segundo",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Atributos & Mecânica da Aura",
+          "type": "text",
+          "content": "• +0.5 Dano, Lágrimas Teleguiadas, -0.3 Tears e -0.3 Shot Speed.\n• Envolve cada lágrima com uma aura brilhante que causa 2.0 de dano fixo por tique (30 tiques por segundo = até 60 DPS puro por projétil!), ignorando seu atributo de Dano se ele estiver baixo.\n• Conta 1/3 para Seraphim.",
+          "color": "cyan"
+        },
+        {
+          "title": "Sinergias & Alertas",
+          "type": "text",
+          "content": "• Desbloqueio: complete TODAS as marcas de conclusão no modo Hard jogando com The Lost.\n• Sinergia absurda com Soy Milk / Almond Milk, Piercing Tears (Cupid's Arrow / Sagittarius) e Shot Speed baixo (a lágrima passa devagar atravessando o chefe e fritando na aura!).\n• ⚠️ Cuidado: Brimstone, Mom's Knife e Tech X sobrescrevem as lágrimas comuns e removem a aura luminosa do Godhead!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "godhead divindade aura luminosa the lost hard marks angel room soy milk piercing quality 4"
+    },
+    {
+      "id": 11,
+      "title": "Brimstone (Laser de Sangue)",
+      "subtitle": "💎 Quality 4 • Feixe de Sangue Carregado com Alcance Infinito e Atravessamento Total",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica em Repentance",
+          "type": "text",
+          "content": "• Substitui lágrimas por um feixe de sangue carregado que atravessa toda a sala, pedras e inimigos, causando 9 tiques do seu Dano atual por disparo.\n• Conta 1/3 para a transformação Leviathan.\n• Pegar um 2º Brimstone (ex.: Diplopia, Crooked Penny ou R Key) dá +1.0x multiplicador extra e transforma o tiro em um Mega Feixe largo de 12 tiques!",
+          "color": "red"
+        },
+        {
+          "title": "Melhores Sinergias",
+          "type": "text",
+          "content": "• Homing (Spoon Bender / Sacred Heart / Brain Worm): o laser entorta inteiro perseguindo todos os inimigos da tela!\n• Soy Milk / Almond Milk: disparo contínuo instantâneo sem precisar carregar!\n• Tammy's Head, Ludovico Technique (anel gigante de sangue controlável), Tech X (anéis de sangue laser) e Haemolacria.",
+          "color": "green"
+        }
+      ],
+      "tags": "brimstone laser sangue pacto diabo devil room leviathan spoon bender blood bag quality 4"
+    },
+    {
+      "id": 12,
+      "title": "Revelation (Revelação)",
+      "subtitle": "💎 Quality 4 • Voo + 2 Soul Hearts + Feixe Sagrado que NÃO substitui suas lágrimas!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica & Vantagem Oculta",
+          "type": "text",
+          "content": "• Concede Voo imediato, +2 Soul Hearts e conta 1/3 para Seraphim (desbloqueado vencendo Mother com Bethany).\n• Enquanto você segura o botão de atirar normalmente, carrega uma barra secundária em 2.35 segundos fixos — ao soltar, dispara um feixe de luz sagrado de 15 tiques do seu dano sem perder suas lágrimas principais!\n• O tempo de recarga de 2.35s ignora seu atributo de Tears: é salvador em builds lentas como Polyphemus, Eve's Mascara ou Monstro's Lung!",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Encontrar",
+          "type": "text",
+          "content": "• Sala do Anjo (ou Spindown Dice em Consolation Prize — ID 644).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "revelation revelacao feixe luz voo soul hearts bethany mother angel room quality 4"
+    },
+    {
+      "id": 13,
+      "title": "C Section (Cesariana)",
+      "subtitle": "💎 Quality 4 • Fetos Teleguiados de Dano Contínuo que herdam Facas, Espadas e Lasers",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Por que é um dos Itens Mais Fortes do Jogo",
+          "type": "text",
+          "content": "• Dispara fetos espectrais e teleguiados que grudam nos inimigos causando 75% do seu dano repetidamente a cada poucos quadros antes de estourar.\n• Desbloqueio: derrotar The Beast jogando com Lilith.\n• Piscinas: Treasure Room e Ultra Secret Room (ou Spindown Dice em Lil Abaddon — ID 679).",
+          "color": "cyan"
+        },
+        {
+          "title": "Sinergias Quebradas",
+          "type": "text",
+          "content": "• Mom's Knife / Spirit Sword: cada feto segura uma faca ou espada girando e retalhando os chefes!\n• Tech X / Brimstone / Godhead: os fetos carregam anéis de laser, disparam mini-lasers de sangue ou brilham com a aura do Godhead!\n• Soy Milk / Twisted Pair: inunda a tela inteira e derrete Hush, Mother e Delirium em segundos.",
+          "color": "green"
+        }
+      ],
+      "tags": "c section cesariana fetos lilith beast treasure room lil abaddon sinergia spirit sword moms knife quality 4"
+    },
+    {
+      "id": 14,
+      "title": "Rock Bottom (Fundo do Poço — Como Funciona de Verdade)",
+      "subtitle": "🪨 Trava seus atributos no maior pico já atingido, mas o cálculo oculto continua!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "A Regra Oculta por Trás dos Panos",
+          "type": "text",
+          "content": "• Desbloqueado vencendo Boss Rush com Jacob & Esau (Piscina: Sala Secreta, ou Spindown em Nancy Bombs).\n• Rock Bottom congela seus atributos efetivos sempre no MAIOR valor que eles já alcançaram na partida e impede qualquer queda.\n• ⚠️ ATENÇÃO À MATEMÁTICA REAL: o jogo continua calculando seus aumentos e reduções reais nos bastidores! Exemplo: se você usou The Devil (+2 DMG, indo de 3.5 para 5.5) e saiu da sala, seu dano visível fica travado em 5.5, mas seu dano \"oculto\" voltou para 3.5 — se pegar um item de +1 DMG depois, ele soma em 3.5 (= 4.5), então seu dano visível continuará 5.5 até o valor oculto ultrapassar 5.5!",
+          "color": "gray"
+        },
+        {
+          "title": "Ordem Certa dos Combos Quebrados",
+          "type": "text",
+          "content": "• Red Stew + Soy Milk + Polyphemus: pegue Red Stew PRIMEIRO (trava ~25 de Dano), depois Soy Milk (trava 27.5 de Fire Rate mantendo os 25 de Dano!), ou pegue Soy Milk antes de Polyphemus/Sacred Heart!\n• Kidney Stone: dispara o pico absurdo de Fire Rate da pedra nos rins e trava aquela metralhadora para sempre!\n• Cartas Strength / Empress / Devil / Star of Bethlehem / Succubus: estoure todos os buffs temporários JUNTOS na mesma sala para cravar um pico inalcançável!",
+          "color": "green"
+        }
+      ],
+      "tags": "rock bottom fundo do poco atributos congelados como funciona matematica oculta soy milk red stew kidney stone secret room jacob esau"
+    },
+    {
+      "id": 15,
+      "title": "Glitched Crown (Coroa Bugada — Truque do Pause)",
+      "subtitle": "👑 Pedestais ciclam 5 itens por segundo • Use o Pause no item anterior para nunca errar!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Desbloqueada vencendo The Beast com Tainted Isaac (Piscina: Sala Secreta; Spindown em Belly Jelly — ID 690).\n• Todo pedestal gerado passa a alternar rapidamente entre 5 itens diferentes daquela sala (0.2s cada item).\n• ⚠️ Aviso de Pool: ver 5 itens de uma vez consome os 5 itens da piscina da sala (esgota a Sala Secreta ou Sala do Anjo muito mais rápido!).",
+          "color": "purple"
+        },
+        {
+          "title": "Passo a Passo do Truque do Pause (100% de Acerto)",
+          "type": "text",
+          "content": "1. Fique parado bem colado ao lado do pedestal (a 1 passo de distância) e decore a ordem dos 5 itens.\n2. Aperte ESC (Pause) exatamente quando aparecer o item IMEDIATAMENTE ANTERIOR ao item que você quer pegar.\n3. Aperte ESC para despausar JÁ segurando a tecla de andar em direção ao pedestal — durante o tempo de caminhada de 0.2s, o pedestal vira exatamente o item desejado!",
+          "color": "green"
+        }
+      ],
+      "tags": "glitched crown coroa bugada pause timing truque como pegar item certo secret room tainted isaac quality 4"
+    },
+    {
+      "id": 16,
+      "title": "R Key (Tecla R)",
+      "subtitle": "💎 Quality 4 • Reinicia a run de volta ao Basement I mantendo TODOS os seus itens!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Descrição & Regras",
+          "type": "text",
+          "content": "• Item ativo de uso único (Sala Secreta — custa 99¢ se aparecer à venda em Greed Mode ou via Member Card).\n• Reinicia a jornada inteira voltando para o Capítulo 1 (Basement I) com todos os seus itens, vida, pickups e transformações intactos!\n• ⚠️ O cronômetro da partida NÃO zera! Portanto Boss Rush (< 20m) e Hush (< 30m) estarão fechados na 2ª volta, a menos que você leve Mama Mega! ou Strange Key.",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia para Marcas de Conclusão",
+          "type": "text",
+          "content": "• Nunca ative na hora! Segure a R Key até derrotar um chefe final sem continuação (como Mother no Corpse II, Mega Satan se o baú não encerrar direto, ???, The Lamb ou Delirium — aperte R Key durante a animação de morte do Delirium antes do baú cair ou logo após abrir!).\n• Na 2ª volta, vá para a rota oposta (ex.: The Beast / Home, que não depende de cronômetro!).\n• Com ? Card (Double Active), usar a ? Card ativa o efeito da R Key SEM consumir a própria R Key, permitindo 3 partidas seguidas na mesma run!",
+          "color": "green"
+        }
+      ],
+      "tags": "r key tecla r reiniciar run secret room marcas completion marks ? card knockout drops quality 4"
+    },
+    {
+      "id": 17,
+      "title": "Death Certificate (Atestado de Óbito)",
+      "subtitle": "📜 Leva a um andar com TODOS os itens do jogo para escolher exatamente 1",
+      "category": "items",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Como Desbloquear & Usar",
+          "type": "text",
+          "content": "• Desbloqueio supremo: conquistar TODAS as marcas de conclusão no modo Hard com todos os 34 personagens (normais e Tainted).\n• Ao ativar, teleporta você para uma versão alternativa de Home contendo dezenas de salas com todos os itens desbloqueados em ordem numérica.\n• Ao encostar em 1 pedestal, os demais somem e você volta para o andar onde estava.",
+          "color": "purple"
+        },
+        {
+          "title": "Dica de Ouro Antes de Pegar o Item",
+          "type": "text",
+          "content": "• Vasculhe TODAS as salas do andar do Death Certificate antes de escolher seu item: há dezenas de baús, pílulas, cartas, moedas e corações espalhados pelo chão que você pode saquear livremente!\n• Como obter antes de desbloquear? Não funciona via Spindown se estiver bloqueado, mas Metronome tem raríssima chance de acionar o efeito.",
+          "color": "green"
+        }
+      ],
+      "tags": "death certificate atestado de obito dead god todos os itens 34 personagens bot fly secret room quality 4"
+    },
+    {
+      "id": 18,
+      "title": "Damocles (Espada de Dâmocles)",
+      "subtitle": "⚠️ Dobra quase todos os pedestais de graça, mas 1 hit inimigo ativa risco de morte súbita!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito & Duplicação",
+          "type": "text",
+          "content": "• Ativo de uso único (Pacto com o Diabo): pendura uma espada sobre a cabeça de Isaac pelo resto da run.\n• Sempre que uma sala gerar pedestais naturais (Treasure Room, Boss Room, Sala do Anjo, Loja, Secretas), ela cria 1 item extra gratuito ao lado de cada pedestal (e você pode pegar OS DOIS!).",
+          "color": "cyan"
+        },
+        {
+          "title": "⚠️ Regra Exata de Morte Súbita",
+          "type": "text",
+          "content": "• Enquanto você NÃO sofrer dano direto de inimigos/armadilhas, a espada tem 0% de chance de cair!\n• Assim que você levar 1 único hit real (mesmo perdendo só Soul Heart — quebrar Holy Mantle NÃO conta!), o jogo rola 1 chance em 10.000 a cada 4 frames (~4 minutos em média, mas pode cair em 2 segundos!) de matar você instantaneamente.\n• O QUE NÃO ATIVA A QUEDA: portas de Curse Room, Blood Donation Machine, IV Bag, Devil Beggar, Confessionário e Razor Blade!\n• Como sobreviver à queda: vidas extras (Dead Cat, 1up!, Lazarus' Rags, Soul of Lazarus) ou estar invulnerável no exato frame da queda (Algiz, Book of Shadows, Gnawed Leaf). Em The Lost e Tainted Lost, Damocles é 100% vantagem pura sem desvantagem!",
+          "color": "red"
+        }
+      ],
+      "tags": "damocles espada de damocles morte subita dobra itens pedestais the lost tainted lost devil room"
+    },
+    {
+      "id": 19,
+      "title": "Mom's Knife (Faca da Mamãe)",
+      "subtitle": "🔪 Quality 4 • Bumerangue Perfurocortante de 2x a 6x Dano que Derrete Chefes",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica de Dano",
+          "type": "text",
+          "content": "• Segurada na mão: causa 2x o seu Dano várias vezes por segundo no corpo a corpo.\n• Arremessada (carregando o tiro): causa até 6x o seu Dano por tique no ponto máximo de retorno do bumerangue, ignorando grande parte do ritmo de luta dos chefes.",
+          "color": "cyan"
+        },
+        {
+          "title": "Sinergias & Alertas",
+          "type": "text",
+          "content": "• Sinergias excelentes: C Section, Brimstone (dispara uma chuva de facas fantasma após arremessar!), Quad Shot / Triple Shot / Loki's Horns / Tiny Planet.\n• ⚠️ Alerta: Mom's Knife anula várias builds divertidas de lágrimas (como Godhead, Trisagion e Lachryphagy). Avalie antes de pegar se sua sinergia atual já for absurda!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "moms knife faca da mamae devil room treasure room bumerangue dano chefes ouija board quality 4"
+    },
+    {
+      "id": 20,
+      "title": "Tech X (Anéis de Laser)",
+      "subtitle": "💎 Quality 4 • Anéis de Laser com Alcance Infinito • Solte tiros curtos para máximo DPS!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Mecânica em Repentance",
+          "type": "text",
+          "content": "• Em Repentance, o dano do anel escala proporcionalmente à carga: carga mínima causa 25% do dano por tique, carga máxima causa 100% do dano por tique.\n• O dano acontece apenas na BORDA luminosa do círculo (o centro oco não dá dano!).",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia & Sinergias",
+          "type": "text",
+          "content": "• Contra salas cheias: carregue 100% para criar um anel gigante que limpa a tela.\n• Contra chefes únicos: dê toques médios/rápidos e reduza seu Shot Speed (ex.: Sacred Heart, Dead Onion, Blue Cap) — quanto mais devagar o anel viajar, mais tiques seguidos a borda acerta no mesmo chefe!\n• Sinergia letal com Brimstone, Spoon Bender (Homing), Continuum e Lump of Coal.",
+          "color": "green"
+        }
+      ],
+      "tags": "tech x aneis de laser treasure room shot speed brimstone homing ventricle razor quality 4"
+    },
+    {
+      "id": 21,
+      "title": "Polyphemus & Haemolacria (Mega Lágrimas)",
+      "subtitle": "👁️ Polyphemus (+4 flat e x2.0 Dano) • Haemolacria (+1 flat, x1.5 Dano e Arco Explosivo)",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Polyphemus (Olho de Ciclope)",
+          "type": "text",
+          "content": "• Fórmula: (Dano + 4) x 2.0, com multiplicador de 0.42x na cadência de tiro (Fire Rate).\n• Overkill Piercing: se sua lágrima matar um inimigo e sobrar dano excedente, ela continua viajando com a diferença de dano restante!\n• Com 20/20, Inner Eye ou Mutant Spider, não reduz a cadência duas vezes — apenas concede +5 de Dano flat extra!",
+          "color": "cyan"
+        },
+        {
+          "title": "Haemolacria (Lágrima de Sangue em Arco)",
+          "type": "text",
+          "content": "• Fórmula: (Dano + 1) x 1.5 (+50% multiplicador real de dano!), disparando em arco parabólico que estoura em dezenas de gotas menores.\n• Multiplica de forma insana Brimstone (estoura uma estrela de lasers de sangue no impacto!), C Section, Tech X, Trisagion e Piercing (cuidado com Ipecac/Dr. Fetus sem Host Hat ou Pyromaniac!).",
+          "color": "red"
+        }
+      ],
+      "tags": "polyphemus haemolacria mega lagrimas ciclope sangue arco multiplicador dano treasure room quality 4"
+    },
+    {
+      "id": 22,
+      "title": "Twisted Pair & Incubus (Duplicadores de Tiro)",
+      "subtitle": "😈 Incubus (75% Dano) • Twisted Pair (2x 37.5% = +75% DPS colado no seu corpo!)",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Comparativo Direto",
+          "type": "text",
+          "content": "• Incubus: familiar na fila que copia exatamente seus tiros, lasers, facas e efeitos causando 75% do seu dano em Repentance (100% de dano se estiver jogando de Lilith!).\n• Twisted Pair (desbloqueado vencendo The Beast com Tainted Lilith): dois demônios que ficam grudados lado a lado na cabeça do personagem (mira perfeita!), causando 37.5% do seu dano cada (= +75% de DPS total + dobro de chance de ativar efeitos por lágrima!).\n• Ambos contam 1/3 para a transformação Conjoined!",
+          "color": "purple"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Sempre priorize ambos em qualquer Pacto com o Diabo (2 corações). Com Forgotten, Incubus e Twisted Pair arremessam ossos à distância enquanto você bate com a clava!",
+          "color": "green"
+        }
+      ],
+      "tags": "twisted pair incubus familiares devil room pacto diabo lilith conjoined duplicar tiros quality 4"
+    },
+    {
+      "id": 23,
+      "title": "Psy Fly, Holy Mantle & The Wafer (Trindade Defensiva)",
+      "subtitle": "🛡️ Psy Fly rebate quase todas as balas • Holy Mantle = 1 hit grátis/sala • Wafer = 1/2 dano",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "O Que Cada Um Faz",
+          "type": "text",
+          "content": "• Psy Fly (Quality 4 — Treasure Room / Key Beggar): mosca veloz que intercepta projéteis inimigos em pleno ar e devolve tiros teleguiados; neutraliza quase sozinha Hush, Isaac, Mega Satan e Mother! Conta 1/3 para Beelzebub.\n• Holy Mantle (Quality 4 — Sala do Anjo / Treasure Room): bloqueia o 1º dano recebido em CADA sala (recarrega ao mudar de sala ou se usar Holy Card extra).\n• The Wafer (Quality 4 — Sala do Anjo / Treasure Room): reduz qualquer dano de 1 coração inteiro (Womb, Cathedral, Sheol, Corpse, Sala de Sacrifício, Sharp Plug) para apenas MEIO coração!",
+          "color": "cyan"
+        },
+        {
+          "title": "Dica de Jogo Quebrado",
+          "type": "text",
+          "content": "• The Wafer + Yum Heart / Habit / Sharp Plug permite cargas infinitas em itens ativos e limpar Salas de Sacrifício até a 11ª pisada gastando metade da vida!",
+          "color": "green"
+        }
+      ],
+      "tags": "psy fly holy mantle the wafer defesa escudo invencibilidade projéteis balas sacrifice room angel room quality 4"
+    }
+    ,{
+      "id": 24,
+      "title": "D6, Eternal D6, D Infinity & Void/Abyss (Dados & Ativos Meta)",
+      "subtitle": "🎲 Eternal D6 (2 cargas / 30% sumir) • D Infinity copia todos os dados • Buffs Repentance+",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Dados Principais (D6, Eternal D6 & D Infinity)",
+          "type": "text",
+          "content": "• The D6 (6 cargas — desbloqueado vencendo Isaac com ???): rerolla pedestais da sala atual com 100% de segurança.\n• Eternal D6 (2 cargas — The Lost / Sala do Anjo): rerolla pedestais em apenas 2 salas de recarga, mas tem 30% de chance de fazer o pedestal desaparecer!\n• D Infinity (Delirium com Isaac — Sala Secreta): permite alternar com Ctrl entre TODOS os dados do jogo (D1, D4, D6, Eternal D6, D7, D8, D10, D12, D20 e D100) compartilhando uma única barra inteligente de cargas!",
+          "color": "cyan"
+        },
+        {
+          "title": "Buffs Importantes de Repentance+",
+          "type": "text",
+          "content": "• Void (Apollyon): reduzido de 6 para apenas 4 salas de recarga em Repentance+! Absorve ativos para disparar todos juntos e derrete passivos ruins em +2 atributos permanentes.\n• Abyss (Tainted Apollyon): em Repentance+, o dano dos gafanhotos vermelhos agora escala com a Quality (0 a 4) do item devorado, além de dezenas de efeitos elementais exclusivos.\n• Flip (Tainted Lazarus / Sala do Anjo): reduzido para 4 salas de recarga em Repentance+ e permite resgatar o \"item fantasma\" atrás de cada pedestal (2 itens por pedestal!).",
+          "color": "purple"
+        }
+      ],
+      "tags": "d6 eternal d6 d infinity void abyss flip dados reroll apollyon lazarus isaac the lost repentance+"
+    },
+    {
+      "id": 25,
+      "title": "Birthright (Direito de Primogenitura — Melhores Efeitos)",
+      "subtitle": "📜 Loja (15¢) • Efeito único por personagem • Isaac cicla itens, T. Isaac +4 espaços!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Personagens Normais (Destaques Tier S)",
+          "type": "text",
+          "content": "• Isaac: todos os novos pedestais alternam entre 2 itens (estilo Tainted Isaac sem limite de inventário!).\n• Judas: Book of Belial vira passivo fundido aos seus livros/ativos dando bônus extras e +Dano.\n• Blue Baby (???): cada contêiner de Soul Heart ganho passa a dar +2 Soul Hearts em vez de 1.\n• Eve: Whore of Babylon e Dead Bird ficam ativos permanentemente, independente da sua vida!\n• Azazel: dobra a largura do seu feixe curto de Brimstone.\n• The Lost: remove automaticamente todos os itens inúteis de Vida/Voo/Dano ao ser atingido das piscinas de itens!\n• Lilith: todos os seus familiares se alinham na sua frente mirando direto nos inimigos.",
+          "color": "cyan"
+        },
+        {
+          "title": "Personagens Tainted (Destaques Tier S)",
+          "type": "text",
+          "content": "• Tainted Isaac: expande seu inventário máximo de 8 para 12 itens passivos!\n• Tainted Lost: concede 1 vida extra imediata que revive na mesma sala causando 200 de dano em área!\n• Tainted Cain: dobra a quantidade de pickups gerados ao encostar em pedestais!\n• Tainted Keeper: atrai moedas magneticamente de longe antes que elas pisquem e desapareçam.\n• Tainted Lilith / Tainted Forgotten / Tainted Judas: melhorias drásticas diretas nas habilidades de bolso.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "birthright direito de primogenitura loja shop 15c efeitos por personagem isaac tainted isaac the lost judas eve azazel"
+    },
+    {
+      "id": 26,
+      "title": "Bag of Crafting (Tainted Cain — Pesos & Receitas Fixas)",
+      "subtitle": "🎒 Receitas variam por Seed, exceto 9 fixas • Use Bone/Eternal Hearts para Quality 4!",
+      "category": "items",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Forçar Quality 4 em Qualquer Seed",
+          "type": "text",
+          "content": "• Em Repentance, quase todas as receitas mudam a cada Seed, mas o jogo soma o \"Peso de Qualidade\" dos 8 ingredientes e escolhe a piscina pelo tipo de coração especial usado:\n• Bone Heart (Peso 5): puxa itens da Sala Secreta (R Key, Rock Bottom, Glitched Crown, Spindown)!\n• Eternal Heart (Peso 5): puxa itens da Sala do Anjo (Sacred Heart, Godhead, Revelation, Holy Mantle)!\n• Black Heart (Peso 4): puxa itens da Sala do Diabo (Brimstone, Twisted Pair, Incubus)!\n• Melhores recheios de alto peso: Lucky Penny (Peso 8!), Golden Bomb / Golden Key (Peso 7), Giga Bomb (Peso 6/10), Dime (Peso 5), Soul Heart (Peso 4), Nickel (Peso 3).",
+          "color": "yellow"
+        },
+        {
+          "title": "Receitas 100% Fixas em Qualquer Partida",
+          "type": "text",
+          "content": "• 8x Pennies (Moedas de 1¢) = Portable Slot (use dentro da Sala Secreta para explodir/substituir e gerar Bone Hearts!).\n• 8x Red Hearts = Yum Heart | 8x Soul Hearts = The Mitre | 8x Black Hearts = Ceremonial Robes.\n• 8x Bombs = Mr. Boom | 8x Keys = Latch Key | 8x Poop = The Poop.\n• 2x Golden Bombs + 6x Bombs (ou 8x Giga Bombs) = Mama Mega! (garante Boss Rush e Hush sem pressa!).\n• 8x Bone Hearts = Death Certificate!",
+          "color": "green"
+        }
+      ],
+      "tags": "bag of crafting tainted cain receitas fixas pesos pickups bone heart eternal heart mama mega portable slot death certificate"
+    },
+    {
+      "id": 27,
+      "title": "Cartas Invertidas I (0? The Fool? a VII? The Chariot?)",
+      "subtitle": "🃏 0? Fool? = Pedestais na Secreta • VI? Lovers? = +1 Item • VII? Chariot? = 4x Tears",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "0? The Fool? até III? The Empress?",
+          "type": "text",
+          "content": "• 0 - The Fool? (\"Let go and move on\"): joga no chão todos os seus corações, moedas, bombas, chaves e trinkets (deixa você com meio coração!), condensando grandes quantias em pedestais reais como A Quarter, A Dollar, Boom! ou Skeleton Key! (Com Tarot Cloth solta também até 6 passivos!).\n• I - The Magician?: cria aura azul repelente por 60s que empurra inimigos e reflete projéteis.\n• II - The High Priestess?: o pé da Mamãe pisa sem parar na sua posição por 60s (use para quebrar rochas azuis e abrir Salas Secretas de graça, mas não pare de andar!).\n• III - The Empress?: +2 contêineres vermelhos temporários e +1.5 Tears por 60s (-0.1 Speed).",
+          "color": "cyan"
+        },
+        {
+          "title": "IV? The Emperor? até VII? The Chariot?",
+          "type": "text",
+          "content": "• IV - The Emperor?: teleporta para uma Boss Room extra exclusiva (dá 1 item de Boss extra sem mudar de andar, com porta de saída!). ⚠️ Não use no Mom's Heart/Depths II sem rota de teleporte de volta!\n• V - The Hierophant?: gera 2 Bone Hearts no chão.\n• VI - The Lovers?: cria 1 pedestal da piscina da SALA ATUAL em troca de converter 1 contêiner (ou 2 Soul Hearts) em 1 Broken Heart (semelhante a Magic Skin, mas sem poluir piscinas futuras!).\n• VII - The Chariot?: transforma você em estátua invencível por 10s multiplicando seu Fire Rate em 4x (quebra o limite de Tears!).",
+          "color": "purple"
+        },
+        {
+          "title": "Quebra de Jogo com 0 - The Fool?",
+          "type": "text",
+          "content": "• Entre na Sala Secreta ou Sala do Anjo com 25+ moedas ou 10+ bombas, use 0 - The Fool? para ela cuspir um pedestal (A Quarter / Boom!), pegue seus corações de volta e dê Reroll (D6 / Perthro / Soul of Isaac) naquele pedestal para ganhar itens da Sala Secreta!",
+          "color": "green"
+        }
+      ],
+      "tags": "reverse tarot cards cartas invertidas 0? i? ii? iii? iv? v? vi? vii? the fool? magician? high priestess? empress? emperor? hierophant? lovers? chariot?"
+    },
+    {
+      "id": 28,
+      "title": "Cartas Invertidas II (VIII? Justice? a XIV? Temperance?)",
+      "subtitle": "🃏 VIII? Justice? = 2–4 Baús Dourados • IX? Hermit? = Vende Itens • XI? Strength? = 2x Dano",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "VIII? Justice? até XI? Strength?",
+          "type": "text",
+          "content": "• VIII - Justice?: gera de 2 a 4 Baús Dourados trancados! (Use no The Chest ou Dark Room para ganhar de 2 a 4 pedestais de itens garantidos!).\n• IX - The Hermit?: vende pedestais e pickups soltos na sala convertendo tudo em moedas pelo preço de Loja (transforma 1 item ruim em 15¢ na hora!).\n• X - Wheel of Fortune?: ativa aleatoriamente 1 dos 6 efeitos de Sala de Dado (1 a 6) — ⚠️ risco de 1/3 de cair Dado 1 ou 6 e rerollar sua build inteira!\n• XI - Strength?: deixa todos os inimigos e chefes da sala lentos e sofrendo o DOBRO de dano (2x) por até 60s!",
+          "color": "cyan"
+        },
+        {
+          "title": "XII? The Hanged Man? até XIV? Temperance?",
+          "type": "text",
+          "content": "• XII - The Hanged Man?: transforma você visualmente no Keeper por 30s com Tiro Triplo gratuito, e cada inimigo derrotado solta moedas aleatórias!\n• XIII - Death?: ativa Book of the Dead na sala, invocando ossos orbitais e esqueletos aliados para cada inimigo já morto no andar.\n• XIV - Temperance?: força você a engolir 5 pílulas aleatórias seguidas! (Use com PhD, Lucky Foot ou Virgo para ganhar 5 pílulas 100% positivas, ou com False PhD para ganhar muito Dano e Black Hearts!).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "reverse tarot cards cartas invertidas viii? ix? x? xi? xii? xiii? xiv? justice? hermit? wheel of fortune? strength? hanged man? death? temperance?"
+    },
+    {
+      "id": 29,
+      "title": "Cartas Invertidas III (XV? The Devil? a XXI? The World?)",
+      "subtitle": "🃏 XVII? Stars? = 2 Itens na Sala • XVIII? Moon? = Ultra Secret • XX? Judgement? = Reroll!",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "XV? The Devil? até XVIII? The Moon?",
+          "type": "text",
+          "content": "• XV - The Devil?: ativa The Bible (Voo + mata Mom/It Lives em 1 hit, mas ⚠️ MATA VOCÊ se usar no Satan!) e invoca o anjo Seraphim por 30s.\n• XVI - The Tower?: cria 7 blocos densos de pedras, potes e possíveis Tinted Rocks (ótima para criar cobertura ou achar Soul Hearts, mas cuidado para não se trancar sem bombas!).\n• XVII - The Stars?: remove o seu 1º item passivo coletado na partida e gera 2 PEDESTAIS GRATUITOS da piscina da sala atual! (Sempre guarde para estourar dentro da Sala Secreta, Sala do Anjo ou Planetário!).\n• XVIII - The Moon?: teleporta direto para a Ultra Secret Room do andar e já abre o corredor de Salas Vermelhas de volta ao mapa!",
+          "color": "purple"
+        },
+        {
+          "title": "XIX? The Sun? até XXI? The World?",
+          "type": "text",
+          "content": "• XIX - The Sun?: pelo andar inteiro concede +1.5 Dano, Voo + Tiros Espectrais e converte seus contêineres vermelhos em Bone Hearts temporários (aplica Curse of Darkness).\n• XX - Judgement?: planta uma Máquina de Reroll (Restock Machine) na sala atual! (Leve para a Sala Secreta ou Sala do Anjo com 2 pedestais e compre rerolls com moedas!).\n• XXI - The World?: abre imediatamente um alçapão que SEMPRE leva a um Crawl Space (com item ou Black Market!).",
+          "color": "green"
+        }
+      ],
+      "tags": "reverse tarot cards cartas invertidas xv? xvi? xvii? xviii? xix? xx? xxi? devil? tower? stars? moon? sun? judgement? world? ultra secret restock crawl space"
+    },
+    {
+      "id": 30,
+      "title": "Cartas Especiais (Chaos Card, Credit Card, Joker & Holy Card)",
+      "subtitle": "🃏 Chaos Card = Mira andando! • Credit Card = Pacto/Loja 0¢ • Holy Card = Escudo",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Regras Críticas de Uso",
+          "type": "text",
+          "content": "• Chaos Card: mata quase qualquer chefe em 1 único acerto (incluindo Hush, Mega Satan por fase, Mother por fase e Great Gideon!). ⚠️ ATENÇÃO À MIRA: ela é arremessada na direção em que suas PERNAS estão andando, e NÃO para onde você está atirando! (Delirium e The Beast são imunes!).\n• Credit Card: transforma todos os itens à venda na Loja, Black Market ou Pacto com o Diabo em itens 100% gratuitos (0¢ / 0 corações)!\n• Joker: teleporta direto para a Sala do Diabo ou Sala do Anjo do andar atual (inclusive no Basement I ou Womb II!).",
+          "color": "yellow"
+        },
+        {
+          "title": "Holy Card, Era Walk & Suicide King",
+          "type": "text",
+          "content": "• Holy Card: concede 1 escudo de Holy Mantle que dura até você sofrer dano (não some ao mudar de sala ou andar!). Vital para Tainted Lost (10% dos drops de cartas dele viram Holy Card).\n• Era Walk: desacelera todos os inimigos e balas da sala inteira + aumenta seu Shot Speed e velocidade — carta perfeita para segurar até Hush, Mother, Dogma ou Delirium.\n• Suicide King: ⚠️ mata seu personagem instantaneamente em troca de cuspir de 8 a 13 recompensas entre pedestais de itens, baús e cartas! Só use se tiver vida extra (Dead Cat, 1up!, Lazarus' Rags ou Soul of Lazarus).",
+          "color": "cyan"
+        }
+      ],
+      "tags": "chaos card credit card joker holy card era walk suicide king cartas especiais mira andando tainted lost"
+    },
+    {
+      "id": 31,
+      "title": "Runas Clássicas, Blank Rune & Black Rune",
+      "subtitle": "🔮 Jera = Duplica • Perthro = D6 • Dagaz = Limpa Curse • Algiz = 20s Escudo • Black Rune = Stats",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "As 8 Runas Nórdicas",
+          "type": "text",
+          "content": "• Jera: duplica todos os pickups e baús fechados da sala (não duplica outras runas Jera nem pedestais de itens; abra baús dourados no The Chest SÓ DEPOIS de usar Jera!).\n• Perthro: rerolla todos os pedestais da sala atual (idêntico ao D6).\n• Dagaz: remove qualquer Curse do andar e dá +1 Soul Heart.\n• Algiz: concede 20 segundos de invencibilidade total (em Repentance caiu de 30s para 20s).\n• Ehwaz: cria um alçapão para o próximo andar. 💡 Truque: se ativada exatamente em cima de um ladrilho com desenho/pedrinhas no chão, tem alta chance de abrir um Crawl Space!\n• Ansuz: revela o mapa completo, incluindo Sala Secreta e Super Secreta.\n• Berkano: invoca 3 moscas azuis e 3 aranhas azuis | Hagalaz: quebra todas as rochas e potes da sala.",
+          "color": "purple"
+        },
+        {
+          "title": "Blank Rune & Black Rune",
+          "type": "text",
+          "content": "• Blank Rune: dispara uma das 8 runas acima aleatoriamente (exceto Black Rune) e tem 25% de chance de gerar outra Blank Rune no chão.\n• Black Rune: causa 40 de dano na sala, transforma pickups soltos em moscas azuis e ABSORVE pedestais de itens em troca de +2 aumentos permanentes de atributos (igual ao Void de Apollyon)!",
+          "color": "gray"
+        }
+      ],
+      "tags": "runes runas jera perthro dagaz algiz ehwaz ansuz berkano hagalaz blank rune black rune crawl space duplicar"
+    },
+    {
+      "id": 32,
+      "title": "Soul Stones I (Pedras de Alma — Isaac a Lazarus)",
+      "subtitle": "💎 Soul of Isaac cicla item • Soul of Cain abre Red Rooms • Soul of Lazarus = Vida Extra!",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Isaac, Magdalene, Cain, Judas & ???",
+          "type": "text",
+          "content": "• Soul of Isaac: faz todos os pedestais da sala alternarem entre o item atual e 1 novo item (você escolhe o melhor sem perder o original!).\n• Soul of Magdalene: durante a sala atual, inimigos mortos soltam meios corações vermelhos temporários (piscam por 2s).\n• Soul of Cain: abre TODAS as portas trancadas (incluindo Boss Rush, Hush e Mega Satan!) e cria Salas Vermelhas (Red Key) em todas as paredes válidas da sala! ⚠️ Nunca use na sala do espelho em Downpour II, pois estilhaça o espelho!\n• Soul of Judas: ativa Dark Arts (pausa inimigos por 3s para você atravessar balas e fatiar todos com bônus de dano).\n• Soul of ???: solta uma trilha explosiva de cocôs variados atrás de você.",
+          "color": "cyan"
+        },
+        {
+          "title": "Eve, Samson, Azazel & Lazarus",
+          "type": "text",
+          "content": "• Soul of Eve: invoca uma revoada de coágulos aliados disparando lágrimas pela sala.\n• Soul of Samson: ativa a fúria Berserk! (clava de osso corpo a corpo veloz e letal).\n• Soul of Azazel: dispara o laser colossal Mega Blast por 7.5 segundos contínuos (carrega até entre salas!).\n• Soul of Lazarus: ⚠️ ATIVA SOZINHA AO MORRER! Basta segurá-la no bolso como uma vida extra garantida que revive você na mesma sala com meio coração!",
+          "color": "purple"
+        }
+      ],
+      "tags": "soul stones pedras de alma soul of isaac magdalene cain judas blue baby eve samson azazel lazarus red key mega blast boss rush hush"
+    },
+    {
+      "id": 33,
+      "title": "Soul Stones II (Pedras de Alma — Eden a Jacob & Esau)",
+      "subtitle": "💎 Soul of Eden = Reroll Chaos! • Soul of Lilith = Familiar Grátis • Soul of Lost = Escudo",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Eden, The Lost, Lilith & Keeper",
+          "type": "text",
+          "content": "• Soul of Eden: ativa D6 + D20 simultaneamente usando piscinas totalmente aleatórias (efeito Chaos)! Use em pedestais fracos de Boss/Loja para puxar itens da Sala do Anjo ou Secreta!\n• Soul of the Lost: transforma você no The Lost pela sala atual (Voo, lágrimas espectrais, escudo Holy Mantle grátis e permite pegar 1 Pacto com o Diabo DE GRAÇA!).\n• Soul of Lilith: concede 1 familiar PERMANENTE imediato (pode entregar Twisted Pair, Incubus, Succubus ou C Section? Não C Section, mas entrega Twisted Pair e Incubus!).\n• Soul of the Keeper: joga de 2 a 25 moedas aleatórias no chão na hora.",
+          "color": "yellow"
+        },
+        {
+          "title": "Apollyon, Forgotten, Bethany & Jacob",
+          "type": "text",
+          "content": "• Soul of Apollyon: invoca 15 gafanhotos permanentes de cores e efeitos variados!\n• Soul of the Forgotten: invoca um Forgotten temporário controlável na sala (pode pisar em espinhos de Curse Room/Baú por você sem gastar sua vida!).\n• Soul of Bethany: cria 6 fogos orbitais permanentes (Wisps do Lemegeton) vinculados a itens reais!\n• Soul of Jacob and Esau: invoca um Esau temporário recheado com a mesma quantidade de itens que você tem para ajudar a derreter o chefe da sala!",
+          "color": "green"
+        }
+      ],
+      "tags": "soul stones pedras de alma soul of eden the lost lilith keeper apollyon forgotten bethany jacob esau chaos pacto gratis"
+    },
+    {
+      "id": 34,
+      "title": "Melhores Trinkets (Berloques Tier S & Como Engolir)",
+      "subtitle": "🏅 Cancer (+1.0 Fire Rate acima do limite!) • Curved Horn (+2 Dano) • Sigil of Baphomet",
+      "category": "cards_trinkets",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Trinkets Mais Fortes que Itens Quality 4",
+          "type": "text",
+          "content": "• Cancer (\"Yay, cancer!\"): adiciona +1.0 de Fire Rate puro que QUEBRA o limite padrão de 5.00 Tears (sobe de 5.00 para 6.00!).\n• Curved Horn: +2.0 de Dano flat direto.\n• Cracked Crown: amplifica em +20% todos os seus aumentos de atributos atuais e futuros!\n• Sigil of Baphomet: concede 1 segundo de escudo invulnerável a CADA inimigo derrotado (desativa até dano de espinhos e portas!).\n• Brain Worm: faz suas lágrimas dobrarem 90° em pleno ar quando passam perto de um inimigo (quase um Homing perfeito!).\n• Nose Goblin: 10% de chance de atirar melecas teleguiadas que grudam causando dano por 60s.\n• Perfection: cai garantido após vencer 3 chefes seguidos sem tomar dano — concede +10.0 Luck (some se levar 1 hit real!).\n• Crystal Key / Cracked Key: abrem Salas Vermelhas (Red Rooms) de graça.",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Fundir Trinkets Permanentemente no Corpo",
+          "type": "text",
+          "content": "• Pílula Gulp!: engole todos os trinkets segurados liberando o bolso para outro.\n• Smelter (Ativo de 6 salas): derrete e absorve seus trinkets atuais permanentemente.\n• Marbles (Boss Room): solta 3 trinkets no chão e dá 5% de chance de engolir seu trinket atual toda vez que sofrer dano (use em Blood Donation Machine ou fogueira!).",
+          "color": "green"
+        }
+      ],
+      "tags": "trinkets berloques cancer curved horn cracked crown sigil of baphomet brain worm nose goblin perfection crystal key gulp smelter marbles"
+    },
+    {
+      "id": 35,
+      "title": "Guppy (Transformação de Gato — Tier S)",
+      "subtitle": "🐱 3 Itens de Guppy = Voo Permanente + Moscas Azuis (2x Dano) em 66% dos Tiros!",
+      "category": "transformations",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito & Regra de Contagem",
+          "type": "text",
+          "content": "• Efeito: concede Voo permanente e 66% de chance (em Repentance; era 100% antes) de gerar 1 Mosca Azul teleguiada (causando 2x o seu Dano!) para CADA lágrima ou tique de laser que atingir um inimigo.\n• Regra de Ouro dos Ativos: você NÃO precisa continuar segurando Guppy's Head ou Guppy's Paw! Basta levantar o ativo no ar 1 vez e pegar seu item antigo de volta que já conta +1/3 permanente!",
+          "color": "cyan"
+        },
+        {
+          "title": "Todos os Itens que Contam (Pegue 3)",
+          "type": "text",
+          "content": "• Passivos: Dead Cat (9 vidas), Guppy's Collar, Guppy's Tail, Guppy's Hair Ball e Guppy's Eye.\n• Ativos: Guppy's Head e Guppy's Paw.\n• Trinket Especial: Kid's Drawing conta como +1/3 de Guppy ENQUANTO estiver equipado no bolso (ou para sempre se for engolido com Gulp!/Smelter!).\n• Piscinas principais: Baús Vermelhos (Red Chests), Curse Rooms e Pacto com o Diabo.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "guppy transformacao gato voo moscas azuis dead cat guppys paw head tail collar eye hair ball kids drawing curse room"
+    },
+    {
+      "id": 36,
+      "title": "Seraphim & Leviathan (Transformações de Anjo & Demônio)",
+      "subtitle": "😇 Seraphim = Voo + 3 Soul Hearts • 😈 Leviathan = Voo + 2 Black Hearts",
+      "category": "transformations",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Seraphim (3 Itens Angelicais)",
+          "type": "text",
+          "content": "• Efeito: Voo permanente + 3 Soul Hearts imediatos.\n• Principais itens que contam: Sacred Heart, Godhead, Revelation, Holy Mantle, Crown of Light, Dead Dove, Holy Grail, Halo, Mitre, Rosary, The Bible (basta tocar!), Book of Virtues, Guardian Angel, Sworn Protector e Seraphim.",
+          "color": "cyan"
+        },
+        {
+          "title": "Leviathan (3 Itens Demoníacos)",
+          "type": "text",
+          "content": "• Efeito: Voo permanente + 2 Black Hearts imediatos.\n• Principais itens que contam: Brimstone, Abaddon, Maw of the Void, Pentagram, The Pact, The Mark, Lord of the Pit, Spirit of the Night, Eye of Belial e The Nail (ativo — basta levantar 1 vez!).",
+          "color": "red"
+        }
+      ],
+      "tags": "seraphim leviathan transformacao anjo demonio voo soul hearts black hearts bible the nail"
+    },
+    {
+      "id": 37,
+      "title": "Conjoined (Siameses — Tiro Triplo de Familiares)",
+      "subtitle": "👶 3 Bebês Familiares = Tiro Triplo em V (-0.3 Dano / -0.3 Tears)",
+      "category": "transformations",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Efeito & Sinergias",
+          "type": "text",
+          "content": "• Adiciona 2 disparos diagonais extras a CADA tiro frontal seu (transformando tiro simples em Tiro Triplo!), com penalidade minúscula de -0.3 Dano e -0.3 Tears.\n• Com Homing (Spoon Bender / Sacred Heart / Brain Worm) ou Tractor Beam, os 3 tiros se juntam no mesmo alvo triplicando o seu DPS!",
+          "color": "cyan"
+        },
+        {
+          "title": "Quais Familiares Contam em Repentance (Pegue 3)",
+          "type": "text",
+          "content": "• Incubus, Twisted Pair, Rotten Baby, Little Steven, Harlequin Baby, Brother Bobby, Sister Maggy, Headless Baby, Mongo Baby, Multidimensional Baby, Cube Baby, Freezer Baby, Acid Baby, Buddy in a Box, King Baby e Quints.",
+          "color": "yellow"
+        }
+      ],
+      "tags": "conjoined siameses transformacao tiro triplo bebes familiares incubus twisted pair rotten baby spoon bender tractor beam"
+    },
+    {
+      "id": 38,
+      "title": "Spun (Transformação de Seringas — +2.0 Dano)",
+      "subtitle": "💉 3 Seringas = +2.0 Dano Flat + 0.15 Speed + 1 Pílula Aleatória",
+      "category": "transformations",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Todas as 8 Seringas que Contam",
+          "type": "text",
+          "content": "• Growth Hormones, Roid Rage, Speed Ball, Synthoil, The Virus, Experimental Treatment, Adrenaline e Euthanasia.\n• Dica rápida: Devil Beggars (Mendigos Demônio) têm altíssima chance de pagar seringas — alimentar um Devil Beggar no Arcade quase garante Spun!",
+          "color": "green"
+        }
+      ],
+      "tags": "spun seringas syringes transformacao +2 dano speed growth hormones synthoil euthanasia devil beggar"
+    },
+    {
+      "id": 39,
+      "title": "Bookworm & Beelzebub (Livros & Moscas)",
+      "subtitle": "📚 3 Livros = 25% Tiro Duplo Grátis • 🪰 3 Moscas = Voo + Moscas Inimigas Aliadas",
+      "category": "transformations",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Bookworm (Tocar em 3 Livros)",
+          "type": "text",
+          "content": "• Basta levantar 3 livros diferentes durante a run (achar 1 Biblioteca com 3+ livros já ativa Bookworm na mesma hora!).\n• Efeito: ~25% de chance de disparar 2 lágrimas paralelas estilo 20/20 sem nenhuma perda de dano!",
+          "color": "cyan"
+        },
+        {
+          "title": "Beelzebub / Lord of the Flies (3 Itens de Mosca)",
+          "type": "text",
+          "content": "• Efeito: Voo permanente + converte moscas inimigas pequenas em Moscas Azuis aliadas.\n• Principais itens que contam: Psy Fly, Bot Fly, Halo of Flies, Distant Admiration, Forever Alone, Smart Fly, Hive Mind, The Mulligan, Mulliboom/Lost Fly, Angry Fly, Papa Fly, Big Fan, Obsessed Fan, Friend Zone, Yo Listen!, Skatole, Jar of Flies e Plum Flute!",
+          "color": "yellow"
+        }
+      ],
+      "tags": "bookworm beelzebub lord of the flies transformacao livros biblioteca moscas voo psy fly bot fly skatole plum flute"
+    },
+    {
+      "id": 40,
+      "title": "Progressão de Rotas Clássicas (Polaroid, Negative, ??? & Lamb)",
+      "subtitle": "🗺️ 11x Mom's Heart ➔ It Lives! • 5x Isaac = Polaroid • 5x Satan = Negative",
+      "category": "routes_unlocks",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Ordem de Desbloqueio no Save Novo",
+          "type": "text",
+          "content": "• 1ª vitória na Mom (Depths II): libera o capítulo Womb.\n• 11 vitórias no Mom's Heart (Womb II): transforma o chefe permanentemente em It Lives! e abre sempre os dois caminhos: feixe de luz (Cathedral) e alçapão escuro (Sheol).\n• Derrotar Isaac (Cathedral) 5 vezes: desbloqueia The Polaroid (cai sempre ao matar a Mom).\n• Derrotar Satan (Sheol) 5 vezes: desbloqueia The Negative (cai junto com Polaroid ao matar a Mom).",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Acessar The Chest e Dark Room",
+          "type": "text",
+          "content": "• The Chest (Chefe: ??? / Blue Baby): pegue The Polaroid na Mom ➔ suba pelo feixe de luz para Cathedral ➔ vença Isaac e toque no baú.\n• Dark Room (Chefe: The Lamb): pegue The Negative na Mom ➔ desça pelo alçapão para Sheol ➔ vença Satan e toque no baú (ou pule direto na 12ª+ pisada da Sala de Sacrifício!).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "polaroid negative progressao rotas it lives cathedral sheol chest dark room blue baby ??? the lamb isaac satan"
+    },
+    {
+      "id": 41,
+      "title": "Boss Rush (< 20 min) & Hush / Blue Womb (< 30 min)",
+      "subtitle": "⏱️ Boss Rush = Mom em < 20m (ou < 25m no Mausoleum) • Hush = It Lives em < 30m",
+      "category": "routes_unlocks",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Limites Exatos de Cronômetro",
+          "type": "text",
+          "content": "• Boss Rush: derrote a Mom antes de 20:00 no relógio (Depths II / Necropolis II) OU antes de 25:00 se você estiver em Mausoleum II / Gehenna II na rota alternativa! (Dá 1 item no início entre 4 escolhas + 1 item no fim das 15 ondas).\n• Blue Womb (Hush): derrote Mom's Heart / It Lives (Womb II) antes de 30:00 no relógio (oferece 2 Treasure Rooms duplas + Loja + 4 Baús antes do Hush).",
+          "color": "yellow"
+        },
+        {
+          "title": "Como Abrir Fora do Tempo (Sem Pressa!)",
+          "type": "text",
+          "content": "• Mama Mega!: usar no andar (ou entrar na sala com a explosão dourada ativa) escancara a entrada da Boss Rush ou do Hush mesmo aos 60 minutos de partida!\n• Soul of Cain / Strange Key: Soul of Cain usada dentro da sala do chefe abre a parede da Boss Rush e do Hush instantaneamente; o trinket Strange Key destranca a porta azul do Hush mesmo após 30:00 e dá 6 itens da Pandora's Box!",
+          "color": "green"
+        }
+      ],
+      "tags": "boss rush hush blue womb tempo cronometro 20 minutos 25 minutos 30 minutos mama mega soul of cain strange key"
+    },
+    {
+      "id": 42,
+      "title": "Mega Satan & Delirium (The Void — Chances de Portal)",
+      "subtitle": "😈 Mega Satan = 2 Key Pieces ou Dad's Key • Delirium = 100% após Hush (e finais em Rep+!)",
+      "category": "routes_unlocks",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Como Abrir a Porta Dourada do Mega Satan",
+          "type": "text",
+          "content": "• Local: sala inicial de The Chest ou Dark Room.\n• Método padrão: exploda 2 estátuas de Anjo (em Salas do Anjo ou nas pisadas 9 e 11 da Sala de Sacrifício) e derrote Uriel e Gabriel para unir Key Piece 1 + Key Piece 2.\n• Atalhos sem Anjos: Dad's Key, Mr. ME!, Get Out of Jail Free Card, Soul of Cain ou Sharp Key abrem o portão dourado na hora!",
+          "color": "yellow"
+        },
+        {
+          "title": "Chances Exatas do Portal para The Void (Delirium)",
+          "type": "text",
+          "content": "• Em Repentance base: 5% após Mom (se tiver 20+ itens ou 100+ dano), 10% após It Lives, 15% após Isaac/Satan, 20% após ???/The Lamb, 50% após Mega Satan (senão encerra na hora com cutscene!) e 100% GARANTIDO na sala superior após derrotar Hush!\n• 🔥 Atualização Oficial Repentance+: uma vez desbloqueado o The Void, o portal agora aparece com 100% DE CERTEZA após derrotar ???, The Lamb, Mega Satan e Mother!",
+          "color": "purple"
+        }
+      ],
+      "tags": "mega satan delirium the void portal chances porcentagens hush key piece dads key get out of jail free mr me repentance+"
+    },
+    {
+      "id": 43,
+      "title": "Rota da Mother / Corpse (Repentance — Passo a Passo)",
+      "subtitle": "🔪 Downpour II (Fogo Branco + Espelho) ➔ Mines II (3 Botões + Fuga) ➔ Mausoleum II",
+      "category": "routes_unlocks",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "1. Knife Piece 1 (Downpour II / Dross II)",
+          "type": "text",
+          "content": "• Após derrotar Hush 3 vezes no save, portas alternativas aparecem.\n• Gaste 1 Chave (após Basement I ou II) para entrar em Downpour/Dross.\n• Em Downpour II / Dross II: encoste na Fogueira Branca (você vira The Lost temporariamente com Holy Mantle) ➔ atravesse o Espelho grande ➔ vá até a Treasure Room do Mundo Espelhado pegar a Knife Piece 1 (opcional: mate o chefe espelhado para +1 item extra!) ➔ volte pelo espelho.",
+          "color": "cyan"
+        },
+        {
+          "title": "2. Knife Piece 2 (Mines II / Ashpit II)",
+          "type": "text",
+          "content": "• Gaste 2 Bombas para entrar em Mines/Ashpit.\n• Em Mines II / Ashpit II: aperte os 3 Botões Amarelos espalhados pelo mapa para montar os trilhos ➔ suba na vagoneta na sala da porta trancada.\n• Na área isolada (seus itens e voo ficam desativados!): pegue a Knife Piece 2 e fuja de volta esquivando das investidas da Mom's Shadow e usando as bombas das salas nos bloqueios.",
+          "color": "yellow"
+        },
+        {
+          "title": "3. Porta de Carne & Corpse (Mausoleum II / Gehenna II)",
+          "type": "text",
+          "content": "• Gaste 2 Corações para entrar em Mausoleum/Gehenna.\n• Em Mausoleum II / Gehenna II: vença a Mom ➔ atire a faca completa na Porta de Carne Vermelha para rasgá-la ➔ vença a versão alternativa de Mom's Heart (sem perder pacto se tomar dano fora, mas cuidado!) ➔ desça pelo buraco aberto para Corpse I e Corpse II (Mother)!",
+          "color": "red"
+        }
+      ],
+      "tags": "mother corpse rota alternativa knife piece 1 knife piece 2 downpour dross espelho fogo branco mines ashpit vagoneta mausoleum gehenna"
+    },
+    {
+      "id": 44,
+      "title": "Rota de Dogma & The Beast / Ascent (Repentance — Passo a Passo)",
+      "subtitle": "📺 Caveira com X (Depths II) = The Fool ➔ Polaroid/Negative na Mom ➔ Strange Door ➔ Home!",
+      "category": "routes_unlocks",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Passo a Passo Completo na Partida",
+          "type": "text",
+          "content": "1. Pré-requisito: já ter derrotado Mother (Corpse II) pelo menos 1 vez no perfil.\n2. Chegue em Depths II / Necropolis II / Dank Depths II (aparece uma porta cinza estranha na parede norte da sala inicial).\n3. Explore o andar procurando a Caveira Marcada com um \"X\" (Tinted Skull) e exploda-a com 1 bomba: ela SEMPRE solta a carta 0 - The Fool! (Qualquer outro teleporte como The Hermit, The Stars, Telepills ou Teleport! também serve).\n4. Entre na Boss Room, derrote a Mom, pegue The Polaroid OU The Negative (tanto faz qual dos dois!) e use 0 - The Fool IMEDIATAMENTE para sair da sala da Mom.",
+          "color": "yellow"
+        },
+        {
+          "title": "Subida (Ascent) & Batalha em Home",
+          "type": "text",
+          "content": "5. Encoste na Strange Door na sala inicial (ela consome o Polaroid/Negative — ou você pode abrir usando o trinket Faded Polaroid, Broken Padlock ou Sharp Key!) para entrar em Mausoleum/Gehenna II especial.\n6. Pegue o item Dad's Note no pedestal do chefe para iniciar o Ascent (você revisita todos os andares anteriores de trás para frente, podendo pegar Treasure Rooms e Planetários que pulou na ida!).\n7. Em Home: durma na cama da Mamãe (cura toda sua vida vermelha ou dá +3 Soul Hearts se não tiver contêineres vermelhos!) e toque na TV ligada da sala para enfrentar Dogma ➔ os 4 Ultra Cavaleiros ➔ The Beast! (Ao vencer Dogma, você ganha Voo + Holy Mantle + cura mínima de 6 corações para a luta final!).",
+          "color": "cyan"
+        }
+      ],
+      "tags": "dogma the beast ascent home strange door caveira x tinted skull 0 the fool dads note polaroid negative cama mamae"
+    },
+    {
+      "id": 45,
+      "title": "Como Desbloquear os 17 Personagens Tainted (Truque da Cracked Key)",
+      "subtitle": "🔑 Largue qualquer Trinket numa Boss/Treasure Room na ida ➔ Vira Cracked Key no Ascent!",
+      "category": "routes_unlocks",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "O Truque 100% Garantido (Nunca Esqueça!)",
+          "type": "text",
+          "content": "1. Jogue normalmente com o personagem cuja versão Tainted você quer liberar rumo à rota de The Beast (Ascent / Home).\n2. Na PRIMEIRA vez em que você chegar a Home no save, abra o baú dourado no quarto da Mamãe: ele entrega a Red Key garantida na 1ª visita.\n3. Nas runs seguintes, ANTES de pegar o Dad's Note, largue qualquer Trinket inútil no chão dentro de uma Boss Room ou Treasure Room (segure a tecla Ctrl / botão de largar por 3 segundos).\n4. Durante a subida do Ascent, entre de novo naquela Boss/Treasure Room: o Trinket largado terá virado uma Cracked Key vermelha!",
+          "color": "yellow"
+        },
+        {
+          "title": "Onde Abrir o Armário Secreto em Home",
+          "type": "text",
+          "content": "• Chegando em Home, desça pelo corredor comprido logo abaixo do quarto da Mamãe.\n• Encoste na parede ESQUERDA do corredor com sua Cracked Key (ou Red Key / Soul of Cain / Crystal Key) onde aparece uma fresta vermelha brilhante para abrir o armário trancado.\n• Encoste no personagem chorando lá dentro para desbloquear sua versão Tainted imediatamente!",
+          "color": "green"
+        }
+      ],
+      "tags": "tainted characters personagens tainted como desbloquear cracked key red key trinket boss room treasure room home armario corredor"
+    },
+    {
+      "id": 46,
+      "title": "Personagens Secretos (The Lost, The Forgotten, Keeper & Jacob)",
+      "subtitle": "👻 Lost = Missing Poster nos Espinhos • 🦴 Forgotten = Boss 1 em < 1 min + Pá Completa",
+      "category": "routes_unlocks",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "The Lost (+ Holy Mantle Inicial) & Keeper",
+          "type": "text",
+          "content": "• The Lost (Repentance): encontre o trinket Missing Poster (desbloqueado vencendo The Lamb com Isaac; dica: Mom's Box na Loja gera trinkets rápido!) e MORRA de propósito nos espinhos de uma Sala de Sacrifício enquanto segura o cartaz!\n• ⚠️ Obrigatório para The Lost: doe um total acumulado de 879 moedas na Greed Donation Machine (Greed / Greedier Mode) — isso faz The Lost já nascer com Holy Mantle embutido em toda partida!\n• Keeper: chegue a 1.000 moedas doadas na Greed Donation Machine (alterne os personagens no modo Greed para a taxa de travamento da máquina continuar em 0–1%!).",
+          "color": "cyan"
+        },
+        {
+          "title": "The Forgotten (Passo a Passo da Pá Quebrada)",
+          "type": "text",
+          "content": "1. Já ter vencido The Lamb 1 vez. Comece no Normal ou Hard (Azazel é o mais fácil!).\n2. Derrote o chefe do Basement I em MENOS DE 1 MINUTO (< 01:00) — você ouvirá o grito da Mamãe.\n3. Volte para a sala inicial vazia do Basement I e plante 1 Bomba no centro da sala (onde bate a sombra da pá no chão) para cair a Broken Shovel 1.\n4. Segure a pá até Depths II desviando das pisadas constantes da Mamãe (usar o ativo pausa as pisadas na sala atual!) e vença a Boss Rush (ela abre mesmo após 20:00 quando você segura a pá!) para juntar a Broken Shovel 2 = Mom's Shovel.\n5. Chegue na Dark Room, ache a sala vazia com um quadrado de terra fofa no meio e ative a Mom's Shovel em cima da cova para desenterrar The Forgotten! (Jacob & Esau = derrotar Mother 1 vez).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "the lost missing poster holy mantle 879 moedas keeper 1000 greed mode the forgotten broken shovel pa quebrada 1 minuto azazel jacob esau"
+    }
+  ]
+}
