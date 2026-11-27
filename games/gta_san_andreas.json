@@ -1,8 +1,31 @@
 {
-    "game_id":  "gta_san_andreas",
+    "id":  "gta_san_andreas",
     "title":  "GTA: San Andreas (PC)",
-    "version":  "1.0",
-    "updated_at":  "2026-11-27T19:45:00Z",
+    "icon":  "🌴",
+    "updated_at":  "2026-11-27T20:00:00Z",
+    "sources":  [
+                    {
+                        "name":  "GTA Wiki (Fandom) — Grand Theft Auto: San Andreas",
+                        "url":  "https://gta.fandom.com/wiki/Grand_Theft_Auto:_San_Andreas",
+                        "license":  "CC BY-SA 3.0 — Referência factual e imagens com redação própria"
+                    },
+                    {
+                        "name":  "GTA Wiki (Fandom) — Cheats in GTA San Andreas (PC)",
+                        "url":  "https://gta.fandom.com/wiki/Cheats_in_GTA_San_Andreas",
+                        "license":  "CC BY-SA 3.0 — Códigos verificados da versão PC"
+                    },
+                    {
+                        "name":  "PCGamingWiki — Grand Theft Auto: San Andreas",
+                        "url":  "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto:_San_Andreas",
+                        "license":  "CC BY-NC-SA 3.0 — Executável de PC (gta_sa.exe) e dicas técnicas de FPS"
+                    }
+                ],
+    "process_keywords":  [
+                             "gta_sa",
+                             "gta-sa",
+                             "sanandreas",
+                             "gtasanandreas"
+                         ],
     "categories":  [
                        {
                            "id":  "all",
