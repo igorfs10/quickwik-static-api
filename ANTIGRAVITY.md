@@ -49,5 +49,7 @@ Sempre que o usuário pedir para **criar um novo guia de jogo**, **adicionar ou 
      3. No campo `"updated_at"` global na raiz de `games_manifest.json`.
 3. **Caminhos Seguros de Imagens (`"type": "image"`)**:
    - O campo `"content"` de uma imagem deve conter **apenas o nome do arquivo** (ex.: `"mapa_1f.webp"`), sem barras (`/` ou `\`) e sem `..`. O arquivo deve estar salvo em `games/images/<game_id>/<nome_arquivo>`.
-4. **Ship Manual**:
-   - **NUNCA execute `git commit` ou `git push` automaticamente**. Deixe os arquivos JSON e imagens prontos na *working tree* para revisão e publicação manual pelo usuário.
+4. **Execução 1 a 1, Commit Local e Push Manual**:
+   - Ao criar ou refinar múltiplos jogos, processe **1 jogo por vez** (pesquisa, download/verificação de imagens `.webp` oficiais do jogo quando aplicável, escrita de `games/<game_id>.json`, sincronização de `games_manifest.json` e validação completa).
+   - Após validar cada jogo, faça **1 `git commit` local atômico** contendo apenas os arquivos daquele jogo (`games/<game_id>.json`, `games/images/<game_id>/` e `games_manifest.json`) com mensagem descritiva (ex.: `feat(<game_id>): ...` ou `refine(<game_id>): ...`).
+   - **NUNCA execute `git push` automaticamente**. Deixe os commits locais prontos na branch `main` para revisão e `git push` manual pelo usuário (que aciona o workflow `.github/workflows/sync-web.yml` para publicar na branch `web`).

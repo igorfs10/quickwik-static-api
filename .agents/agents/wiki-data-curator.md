@@ -185,13 +185,17 @@ Toda vez que você **criar** um novo `games/<game_id>.json` ou **atualizar** qua
 
 ---
 
-## 5. Validação Automática e Regra de Ship Manual
+## 5. Fluxo 1 a 1, Validação Automática e Push Manual
 
-1. Após criar ou editar qualquer JSON, valide que:
+1. **Execução 1 a 1 (Um Jogo por Vez)**:
+   - Quando a tarefa envolver múltiplos jogos, finalize, sincronize `games_manifest.json`, valide e commite **1 jogo por vez** antes de iniciar o próximo, evitando conflitos no manifesto e facilitando a revisão.
+2. **Validação Obrigatória Antes do Commit**:
    - A sintaxe JSON é estritamente válida (sem *trailing commas*).
-   - Todos os `entries[].id` são únicos e positivos.
+   - Todos os `entries[].id` são únicos e positivos (preservando os IDs existentes ao atualizar jogos já publicados).
    - Todo `entries[].category` existe em `categories` (e `categories[0].id == "all"`).
-   - Todo bloco `"type": "image"` aponta para um nome de arquivo simples existente em `games/images/<game_id>/`.
-   - O `updated_at` do jogo coincide com o `updated_at` da entrada correspondente em `games_manifest.json`.
-2. **Proibição de Commit Automático**: **NUNCA execute `git commit` ou `git push`** sem solicitação explícita. Entregue os arquivos JSON gerados/atualizados na *working tree* e apresente um resumo das entradas criadas para revisão manual.
-3. **Proibição de Escrita no Cache do Usuário**: **NUNCA escreva, copie ou modifique arquivos no cache local do aplicativo** (`%APPDATA%\QuickWik\cache\`).
+   - Todo bloco `"type": "image"` aponta para um nome de arquivo simples existente em `games/images/<game_id>/` com cabeçalho WebP válido.
+   - O `updated_at` do jogo coincide com o `updated_at` da entrada correspondente e da raiz em `games_manifest.json`.
+3. **Commit Local por Jogo e Proibição de Push Automático**:
+   - Após passar na validação, faça **1 commit local atômico** incluindo apenas os arquivos do jogo e o catálogo (`git add games/<game_id>.json games/images/<game_id> games_manifest.json` e `git commit -m "feat(<game_id>): ..."` ou `"refine(<game_id>): ..."`).
+   - **NUNCA execute `git push`** sem solicitação explícita; deixe os commits prontos na branch `main` para revisão e `git push` manual pelo usuário.
+4. **Proibição de Escrita no Cache do Usuário**: **NUNCA escreva, copie ou modifique arquivos no cache local do aplicativo** (`%APPDATA%\QuickWik\cache\`).
