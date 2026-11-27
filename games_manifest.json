@@ -48,7 +48,14 @@
       "icon": "🌾",
       "url": "games/stardew_valley.json",
       "updated_at": "2026-11-27T16:30:00Z"
+    },
+    {
+      "id": "terraria",
+      "title": "Terraria",
+      "icon": "🌳",
+      "url": "games/terraria.json",
+      "updated_at": "2026-11-27T16:35:00Z"
     }
   ],
-  "updated_at": "2026-11-27T16:30:00Z"
+  "updated_at": "2026-11-27T16:35:00Z"
 }
