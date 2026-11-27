@@ -1,47 +1,54 @@
 {
-    "games":  [
-                  {
-                      "id":  "hollow_knight",
-                      "title":  "Hollow Knight",
-                      "icon":  "🪲",
-                      "url":  "games/hollow_knight.json",
-                      "updated_at":  "2026-11-27T16:15:00Z"
-                  },
-                  {
-                      "id":  "elden_ring",
-                      "title":  "Elden Ring",
-                      "icon":  "💍",
-                      "url":  "games/elden_ring.json",
-                      "updated_at":  "2026-11-27T16:20:00Z"
-                  },
-                  {
-                      "id":  "ff12",
-                      "title":  "Final Fantasy XII: The Zodiac Age",
-                      "icon":  "⚔️",
-                      "url":  "games/ff12.json",
-                      "updated_at":  "2026-11-27T16:10:00Z"
-                  },
-                  {
-                      "id":  "resident_evil_requiem",
-                      "title":  "Resident Evil Requiem",
-                      "icon":  "🧟",
-                      "url":  "games/resident_evil_requiem.json",
-                      "updated_at":  "2026-11-18T01:30:00Z"
-                  },
-                  {
-                      "id":  "ready_or_not",
-                      "title":  "Ready or Not",
-                      "icon":  "🚓",
-                      "url":  "games/ready_or_not.json",
-                      "updated_at":  "2026-11-24T23:10:00Z"
-                  },
-                  {
-                      "id":  "binding_of_isaac",
-                      "title":  "The Binding of Isaac: Rebirth",
-                      "icon":  "💧",
-                      "url":  "games/binding_of_isaac.json",
-                      "updated_at":  "2026-11-27T16:25:00Z"
-                  }
-              ],
-    "updated_at":  "2026-11-27T16:25:00Z"
+  "games": [
+    {
+      "id": "hollow_knight",
+      "title": "Hollow Knight",
+      "icon": "🪲",
+      "url": "games/hollow_knight.json",
+      "updated_at": "2026-11-27T16:15:00Z"
+    },
+    {
+      "id": "elden_ring",
+      "title": "Elden Ring",
+      "icon": "💍",
+      "url": "games/elden_ring.json",
+      "updated_at": "2026-11-27T16:20:00Z"
+    },
+    {
+      "id": "ff12",
+      "title": "Final Fantasy XII: The Zodiac Age",
+      "icon": "⚔️",
+      "url": "games/ff12.json",
+      "updated_at": "2026-11-27T16:10:00Z"
+    },
+    {
+      "id": "resident_evil_requiem",
+      "title": "Resident Evil Requiem",
+      "icon": "🧟",
+      "url": "games/resident_evil_requiem.json",
+      "updated_at": "2026-11-18T01:30:00Z"
+    },
+    {
+      "id": "ready_or_not",
+      "title": "Ready or Not",
+      "icon": "🚓",
+      "url": "games/ready_or_not.json",
+      "updated_at": "2026-11-24T23:10:00Z"
+    },
+    {
+      "id": "binding_of_isaac",
+      "title": "The Binding of Isaac: Rebirth",
+      "icon": "💧",
+      "url": "games/binding_of_isaac.json",
+      "updated_at": "2026-11-27T16:25:00Z"
+    },
+    {
+      "id": "stardew_valley",
+      "title": "Stardew Valley",
+      "icon": "🌾",
+      "url": "games/stardew_valley.json",
+      "updated_at": "2026-11-27T16:30:00Z"
+    }
+  ],
+  "updated_at": "2026-11-27T16:30:00Z"
 }
