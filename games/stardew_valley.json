@@ -1,0 +1,293 @@
+{
+  "id": "stardew_valley",
+  "title": "Stardew Valley",
+  "icon": "🌾",
+  "updated_at": "2026-11-27T16:30:00Z",
+  "sources": [
+    {
+      "name": "Stardew Valley Official Wiki",
+      "url": "https://stardewvalleywiki.com/",
+      "license": "CC BY-NC-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "Stardew Valley Wiki (Fandom)",
+      "url": "https://stardewvalley.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual e sprites oficiais do jogo"
+    },
+    {
+      "name": "SteamDB & PCGamingWiki — Stardew Valley",
+      "url": "https://steamdb.info/app/413150/",
+      "license": "Referência técnica de executáveis (Stardew Valley.exe / StardewModdingAPI.exe)"
+    }
+  ],
+  "process_keywords": [
+    "stardew valley",
+    "stardewvalley",
+    "stardewmoddingapi"
+  ],
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "bundles", "label": "📦 Centro Comunitário" },
+    { "id": "villagers", "label": "❤️ Presentes & Moradores" },
+    { "id": "farming_fishing", "label": "🌾 Cultivos, Animais & Pesca" },
+    { "id": "mines_island", "label": "⛏️ Minas, Ilha Gengibre & 1.6" },
+    { "id": "secrets_perfection", "label": "🏆 Segredos & 100% Perfeição" }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Conjunto: Sala de Artesanato (Crafts Room)",
+      "subtitle": "📦 Centro Comunitário • Recompensa: Ponte da Pedreira (Quarry)",
+      "category": "bundles",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Coleta por Estação", "type": "text", "content": "• Primavera: Wild Horseradish (Raiz-Forte), Daffodil (Narciso), Leek (Alho-Poró), Dandelion (Dente-de-Leão).\n• Verão: Grape (Uva), Spice Berry (Café/Fruta-Tempero), Sweet Pea (Ervilha-de-Cheiro).\n• Outono: Common Mushroom, Wild Plum (Ameixa Selvagem), Hazelnut (Avelã), Blackberry (Amora).\n• Inverno: Winter Root, Crystal Fruit, Snow Yam, Crocus.", "color": "cyan" },
+        { "title": "Construção & Coleta Exótica", "type": "text", "content": "• Construção: 99× Madeira (2 pilhas = 198), 99× Pedra, 10× Madeira de Lei (Hardwood).\n• Coleta Exótica (escolha 5 de 9): Coconut (Coco), Cactus Fruit, Cave Carrot, Red Mushroom, Purple Mushroom, Maple Syrup, Oak Resin, Pine Tar, Morel.", "color": "yellow" },
+        { "title": "Dica Rápida", "type": "text", "content": "• Coloque Tappers (Torneirinhas) em 1 Ácer (Maple), 1 Carvalho (Oak) e 1 Pinheiro (Pine) logo no Ano 1 para garantir Maple Syrup, Oak Resin e Pine Tar sem atrasos.", "color": "green" }
+      ],
+      "tags": "centro comunitario community center crafts room artesanato pedreira quarry estacao coleta"
+    },
+    {
+      "id": 2,
+      "title": "Conjunto: Copa (Pantry — Estufa)",
+      "subtitle": "📦 Centro Comunitário • Recompensa: Estufa (Greenhouse) na Fazenda!",
+      "category": "bundles",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Lavouras Sazonais & Qualidade", "type": "text", "content": "• Primavera: Parsnip (Chirívia), Green Bean (Vagem), Cauliflower (Couve-Flor), Potato (Batata).\n• Verão: Tomato, Hot Pepper, Blueberry, Melon.\n• Outono: Corn (Milho), Eggplant (Berinjela), Pumpkin (Abóbora), Yam (Inhame).\n• Qualidade Ouro (escolha 3 de 4): 5× Parsnip Ouro, 5× Melon Ouro, 5× Pumpkin Ouro, 5× Corn Ouro (use Adubo Básico!).", "color": "cyan" },
+        { "title": "Animais & Artesanato", "type": "text", "content": "• Animal (5 de 6): Large Milk, Large Goat Milk, Large Egg (Branco), Large Egg (Marrom), Wool, Duck Egg.\n• Artesão (6 de 12): Truffle Oil, Cloth, Goat Cheese, Cheese, Honey, Jelly, Apple, Apricot, Orange, Peach, Pomegranate, Cherry.", "color": "yellow" },
+        { "title": "Estratégia Ano 1", "type": "text", "content": "• Escolha a Caverna de Frutas (Fruit Bats) se quiser fechar o Conjunto do Artesão rápido sem plantar todas as árvores frutíferas, ou plante 1 Maçã e 1 Romã até o meio do Verão!", "color": "green" }
+      ],
+      "tags": "copa pantry estufa greenhouse conjunto lavoura qualidade ouro animal artesao"
+    },
+    {
+      "id": 3,
+      "title": "Conjunto: Aquário (Fish Tank)",
+      "subtitle": "📦 Centro Comunitário • Recompensa: Remove Pedregulho Brilhante (Peneira)",
+      "category": "bundles",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Peixes por Conjunto", "type": "text", "content": "• Peixes de Rio: Sunfish (Primavera/Verão dia sol), Catfish (Primavera/Outono CHUVA!), Shad (Primavera/Verão/Outono chuva), Tiger Trout (Outono/Inverno).\n• Peixes de Lago: Largemouth Bass, Carp, Bullhead, Sturgeon (Verão/Inverno).\n• Peixes de Oceano: Sardine (Primavera/Outono/Inverno), Tuna (Verão/Inverno), Red Snapper (Verão/Outono chuva), Tilapia (Verão/Outono).\n• Pesca Noturna: Walleye (Outono CHUVA 12h–2h), Bream, Eel (Primavera/Outono chuva 16h–2h).", "color": "cyan" },
+        { "title": "Especiais & Covo (Crab Pot)", "type": "text", "content": "• Peixes Especiais: Pufferfish (Verão sol 12h–16h), Ghostfish (Minas), Sandfish (Deserto), Woodskip (Bosque Secreto).\n• Covo (5 de 10): Lobster, Crayfish, Crab, Cockle, Mussel, Shrimp, Snail, Periwinkle, Oyster, Clam.", "color": "yellow" },
+        { "title": "Atalho", "type": "text", "content": "• Visite o Carrinho de Viagem (Traveling Cart) às sextas e domingos — Pufferfish, Red Cabbage e Sturgeon aparecem com frequência!", "color": "green" }
+      ],
+      "tags": "aquario fish tank peixes catfish walleye pufferfish sandfish woodskip eel"
+    },
+    {
+      "id": 4,
+      "title": "Conjunto: Caldeira & Cofre (Carrinhos e Ônibus)",
+      "subtitle": "📦 Centro Comunitário • Recompensa: Carrinhos de Mina + Ônibus do Deserto",
+      "category": "bundles",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Sala da Caldeira (Boiler Room — Carrinhos)", "type": "text", "content": "• Ferreiro: 1× Barra de Cobre, 1× Barra de Ferro, 1× Barra de Ouro.\n• Geólogo: Quartz, Earth Crystal (Andares 1–39), Frozen Tear (40–79), Fire Quartz (80–120).\n• Aventureiro (2 de 4): 10× Slime, 10× Asa de Morcego, 1× Essência Solar, 1× Essência Nula.", "color": "cyan" },
+        { "title": "Cofre (Vault — Ônibus para o Deserto)", "type": "text", "content": "• Total necessário: 42.500g (2.500g + 5.000g + 10.000g + 25.000g).\n• Recompensas extras dos pacotes: Crystalarium (no pacote de 25.000g — ótimo para duplicar Jade/Diamante!).", "color": "yellow" }
+      ],
+      "tags": "caldeira boiler room cofre vault carrinhos de mina onibus deserto crystalarium"
+    },
+    {
+      "id": 5,
+      "title": "Conjunto: Mural de Recados (Bulletin Board)",
+      "subtitle": "📦 Centro Comunitário • Recompensa: +2 Corações de Amizade com TODOS!",
+      "category": "bundles",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Itens Raros de Atenção", "type": "text", "content": "• Chef: Maple Syrup, Fiddlehead Fern (Verão no Bosque Secreto / Ilha Gengibre), Truffle (Porco!), Poppy, Maki Roll, Fried Egg.\n• Tinta (6 de 8): Red Mushroom, Sea Urchin (300 madeiras ponte da praia), Sunflower, Duck Feather, Aquamarine, Red Cabbage (Ano 2 ou Carrinho de Viagem!), Purple Mushroom.\n• Pesquisa de Campo: Purple Mushroom, Nautilus Shell (Inverno praia), Chub, Frozen Geode.\n• Forragem: 10× Trigo, 10× Feno, 3× Maçã.\n• Encantador: Oak Resin, Vinho, Pé de Coelho (Rabbit's Foot), Romã (Pomegranate).", "color": "yellow" },
+        { "title": "⚠️ Alerta Ano 1: Red Cabbage", "type": "text", "content": "• Sementes de Repolho Roxo (Red Cabbage) só vendem no Pierre no Ano 2! Marque 'Garantir conclusão no Ano 1' na criação da fazenda para forçar a aparição no Carrinho de Viagem.", "color": "red" }
+      ],
+      "tags": "mural recados bulletin board red cabbage truffle rabbit foot amizade"
+    },
+    {
+      "id": 6,
+      "title": "O Conjunto Perdido (The Missing Bundle — Cinema)",
+      "subtitle": "📦 Pós-Centro Comunitário • Desbloqueia o Cinema (Movie Theater)",
+      "category": "bundles",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Prismatic Shard)", "type": "image", "content": "prismatic_shard.webp", "color": "purple" },
+        { "title": "Como Liberar & Itens (Escolha 5 de 6)", "type": "text", "content": "• Aparece dentro do JojaMart abandonado na primeira noite de chuva após concluir o Centro Comunitário.\n• 1. Vinho Qualidade Prata ou superior (envelheça em Barril/Cask no porão por 14 dias).\n• 2. Maionese de Dinossauro (coloque Ovo de Dinossauro na Máquina de Maionese).\n• 3. Prismatic Shard (Fragmento Prismático).\n• 4. 5× Ancient Fruit (Fruta Antiga) Qualidade Ouro.\n• 5. Void Salmon (Salmão Nulo) Qualidade Ouro ou Irídio (Pântano da Bruxa).\n• 6. Caviar (Ovas de Sturgeon na Jarra de Conservas).", "color": "yellow" },
+        { "title": "Qual Deixar de Fora?", "type": "text", "content": "• A maioria dos jogadores pula o item 3 (Prismatic Shard) ou o item 4 (5× Ancient Fruit Ouro) e entrega os outros 5 facilmente.", "color": "green" }
+      ],
+      "tags": "missing bundle conjunto perdido cinema movie theater jojamart caviar dinosaur mayonnaise"
+    },
+    {
+      "id": 7,
+      "title": "Presentes Universais (Todos Amam & Odeiam)",
+      "subtitle": "❤️ +80 Pontos (+640 no Aniversário!) • Cuidado com exceções",
+      "category": "villagers",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Magic Rock Candy)", "type": "image", "content": "magic_rock_candy.webp", "color": "purple" },
+        { "title": "Presentes Universais Amados", "type": "text", "content": "• Stardrop Tea (Novo na 1.6!): TODOS os moradores amam (inclusive sem contar no limite semanal de 2 presentes!).\n• Prismatic Shard: TODOS amam — ⚠️ EXCETO Haley (odeia!).\n• Rabbit's Foot (Pé de Coelho): TODOS amam — ⚠️ EXCETO Penny (odeia!).\n• Pearl (Pérola), Golden Pumpkin (Abóbora Dourada) e Magic Rock Candy: 100% universais sem exceção!", "color": "cyan" },
+        { "title": "Estratégia de Aniversário", "type": "text", "content": "• Dar um item Amado no aniversário multiplica o ganho por 8× (+640 pontos = mais de 2,5 corações de uma vez!).\n• Com qualidade Irídio, o bônus sobe em +50%.", "color": "green" }
+      ],
+      "tags": "presentes universais loved gifts stardrop tea prismatic shard rabbit foot pearl haley penny"
+    },
+    {
+      "id": 8,
+      "title": "Presentes Amados: Pretendentes (Solteiros & Solteiras)",
+      "subtitle": "❤️ Lista rápida dos 12 candidatos a casamento",
+      "category": "villagers",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Solteiras", "type": "text", "content": "• Abigail: Amethyst, Pumpkin, Spicy Eel, Chocolate Cake, Pufferfish.\n• Emily: Amethyst, Aquamarine, Emerald, Jade, Ruby, Topaz, Cloth, Wool.\n• Haley: Coconut, Sunflower, Pink Cake, Fruit Salad (⚠️ odeia Prismatic Shard!).\n• Leah: Goat Cheese, Salad, Wine, Truffle, Stir Fry.\n• Maru: Battery Pack, Cauliflower, Diamond, Gold/Iridium Bar, Strawberry.\n• Penny: Diamond, Emerald, Melon, Poppy, Sandfish, Tom Kha Soup (⚠️ odeia Rabbit's Foot!).", "color": "cyan" },
+        { "title": "Solteiros", "type": "text", "content": "• Alex: Complete Breakfast, Salmon Dinner.\n• Elliott: Crab Cakes, Duck Feather, Lobster, Pomegranate, Tom Kha Soup.\n• Harvey: Coffee (muito fácil!), Pickles, Truffle Oil, Wine.\n• Sam: Cactus Fruit, Maple Bar, Pizza, Tigerseye.\n• Sebastian: Frozen Tear, Obsidian, Pumpkin Soup, Sashimi, Void Egg.\n• Shane: Beer, Hot Pepper, Pepper Poppers, Pizza.", "color": "yellow" }
+      ],
+      "tags": "presentes moradores casamento solteiros abigail emily haley leah maru penny alex elliott harvey sam sebastian shane"
+    },
+    {
+      "id": 9,
+      "title": "Presentes Amados: Moradores da Vila, Krobus & Leo",
+      "subtitle": "❤️ Presentes fáceis para fechar amizade máxima (Perfection)",
+      "category": "villagers",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Moradores Principais", "type": "text", "content": "• Caroline: Fish Taco, Summer Spangle, Green Tea.\n• Clint & Dwarf & Emily: quase todas as gemas (Amethyst, Emerald, Ruby, Topaz, Omni Geode).\n• Demetrius: Strawberry, Bean Hotpot, Ice Pip.\n• Evelyn: Diamond, Chocolate Cake, Fairy Rose, Tulip.\n• George: Leek (Alho-Poró!), Fried Mushroom.\n• Gus: Diamond, Orange, Escargot, Fish Taco.\n• Jas & Vincent: Pink Cake, Fairy Rose (Jas) / Grape & Snail (Vincent).\n• Jodi: Diamond, Pancakes, Fried Calamari.\n• Kent: Roasted Hazelnuts, Fiddlehead Risotto.\n• Krobus: Void Egg, Void Mayonnaise, Pumpkin, Wild Horseradish, Diamond.\n• Leo: Mango, Duck Feather, Poi, Ostrich Egg.\n• Linus: Cactus Fruit, Coconut, Yam, Dish o' the Sea.\n• Marnie: Diamond, Pink Cake, Pumpkin Pie.\n• Pam: Beer, Cactus Fruit, Parsnip, Mead.\n• Pierre: Fried Calamari.\n• Robin: Peach, Spaghetti, Goat Cheese.\n• Sandy: Daffodil, Crocus, Sweet Pea, Mango Sticky Rice.\n• Willy: Diamond, Pumpkin, Catfish, Octopus, Iridium Bar.\n• Wizard (Feiticeiro): Purple Mushroom, Solar/Void Essence, Super Cucumber.", "color": "yellow" }
+      ],
+      "tags": "presentes moradores vila krobus leo wizard linus robin willy george caroline clint"
+    },
+    {
+      "id": 10,
+      "title": "Melhores Lavouras por Estação & Estufa (Lucro)",
+      "subtitle": "🌾 Primavera, Verão, Outono + Império do Vinho (Ancient Fruit & Starfruit)",
+      "category": "farming_fishing",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Ancient Fruit & Starfruit)", "type": "image", "content": "ancient_fruit.webp", "color": "cyan" },
+        { "title": "Visual (Starfruit)", "type": "image", "content": "starfruit.webp", "color": "yellow" },
+        { "title": "Melhores Cultivos Sazonais (Ano 1–2)", "type": "text", "content": "• Primavera: Batata (Potato) e Couve-Flor no começo; compre sementes de Morango (Strawberry — 120g) no Festival do Ovo (Dia 13)!\n• Verão: Mirtilo (Blueberry) e Melão para dinheiro direto; Starfruit (Carambola — Deserto 400g) se já tiver Barris (Kegs); Hops (Lúpulo) dá lucro absurdo virando Pale Ale.\n• Outono: Cranberry (Oxicoco) para volume sem replantio e Abóbora (Pumpkin) para Jarras/Barris.", "color": "cyan" },
+        { "title": "Estufa & Ilha Gengibre (Endgame)", "type": "text", "content": "• Ancient Fruit (Fruta Antiga): colhe a cada 7 dias para sempre sem precisar replantar — 116 espaços na Estufa + Iridium Sprinklers rendem ~260.000g/semana em Vinho (com Artisan!).\n• Starfruit (Carambola): maior lucro por garrafa de vinho (3.150g com Artisan; 6.300g qualidade Irídio no Cask!).", "color": "green" }
+      ],
+      "tags": "lavouras crops lucro primavera verao outono strawberry starfruit ancient fruit estufa"
+    },
+    {
+      "id": 11,
+      "title": "Barris (Kegs), Porão (Casks) & Cabanas de Junimo",
+      "subtitle": "🌾 Processamento artesanal (+40% com profissão Artisan)",
+      "category": "farming_fishing",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Keg)", "type": "image", "content": "keg.webp", "color": "yellow" },
+        { "title": "Visual (Cask)", "type": "image", "content": "cask.webp", "color": "yellow" },
+        { "title": "Visual (Junimo Hut)", "type": "image", "content": "junimo_hut.webp", "color": "green" },
+        { "title": "Regra de Ouro: Barril (Keg) vs. Jarra (Preserves Jar)", "type": "text", "content": "• Frutas caras (Starfruit, Ancient Fruit, Melon, Pumpkin): SEMPRE no Keg (Vinho = 3× valor base; Suco = 2,25×).\n• Vegetais baratos e frutas de baixo valor (Blueberry, Cranberry, Corn, Morango se tiver muitos): Preserves Jar é mais rápido (2–3 dias) e rende mais por dia.\n• Café & Lúpulo (Hops): Keg produz em menos de 1 dia (Pale Ale = 420g com Artisan!).", "color": "cyan" },
+        { "title": "Casks (Porão) & Cabana de Junimo", "type": "text", "content": "• Cask (Barril de Madeira no Porão): leva 56 dias (2 estações) para levar vinho de Normal até Irídio (2× preço). Use apenas com Starfruit ou Ancient Fruit Wine!\n• Junimo Hut (Torre do Feiticeiro — 20.000g + Starfruit/Fibra/Pedra): colhe automaticamente uma área de 17×17 (não colhe em dias de chuva).", "color": "green" }
+      ],
+      "tags": "keg barril cask porao junimo hut artisan preserves jar vinho pale ale"
+    },
+    {
+      "id": 12,
+      "title": "Aspersores de Irídio & Layout da Estufa",
+      "subtitle": "🌾 6 Iridium Sprinklers (ou 4 com Pressure Nozzle) cobrem os 120 blocos",
+      "category": "farming_fishing",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual do Item", "type": "image", "content": "iridium_sprinkler.webp", "color": "purple" },
+        { "title": "Alcance e Compra Barata", "type": "text", "content": "• Iridium Sprinkler rega um quadrado 5×5 (24 blocos ao redor) — ou 7×7 (48 blocos) com Pressure Nozzle da Sala do Sr. Qi!\n• Krobus nos Esgotos vende 1 Iridium Sprinkler por 10.000g toda SEXTA-FEIRA.\n• Estufa (10×12 = 120 espaços): usa apenas 6 Iridium Sprinklers (4 dentro da terra + 2 na borda de madeira) deixando 116 espaços livres para plantar!", "color": "yellow" },
+        { "title": "Árvores na Estufa", "type": "text", "content": "• Você pode plantar até 18 árvores frutíferas diretamente no piso de azulejo ao redor da terra da Estufa sem ocupar nenhum espaço de plantio!", "color": "green" }
+      ],
+      "tags": "iridium sprinkler aspersor krobus sexta feira estufa greenhouse layout arvores"
+    },
+    {
+      "id": 13,
+      "title": "Os 5 Peixes Lendários & Família Estendida (Qi)",
+      "subtitle": "🎣 Estação, Clima, Horário e Local Exato de Todos os Lendários",
+      "category": "farming_fishing",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Legend)", "type": "image", "content": "legend.webp", "color": "green" },
+        { "title": "Os 5 Lendários Originais (1x por Save)", "type": "text", "content": "• 1. Legend (Lenda): Primavera | CHUVA | Qualquer hora | Lago da Montanha (tronco submerso ao norte/leste) | Nível 10 Pesca.\n• 2. Crimsonfish (Peixe-Carmesim): Verão | Qualquer clima/hora | Píer Leste da Praia (após ponte de 300 madeiras) | Nível 5.\n• 3. Angler (Tamboril): Outono | Qualquer clima/hora | Rio norte da Vila (ponte acima do JojaMart, jogue para cima) | Nível 3.\n• 4. Glacierfish (Peixe-Geleira): Inverno | Qualquer clima/hora | Floresta Cinzaseiva (ponta sul da ilha em seta) | Nível 6.\n• 5. Mutant Carp (Carpa Mutante): Qualquer estação/clima | Esgotos (Sewer) | Qualquer nível.", "color": "yellow" },
+        { "title": "Família Estendida (Qi's Walnut Room) & Dicas", "type": "text", "content": "• Missão 'Extended Family' (3 dias): Legend II, Son of Crimsonfish, Ms. Angler, Glacierfish Jr. e Radioactive Carp pescam nos mesmos locais dos originais (não contam para Perfeição, mas dão Qi Gems).\n• Equipamento: Vara de Irídio (ou Avançada na 1.6 com 2 boias!) + Trap Bobber + Seafoam Pudding (+4 Pesca). Na 1.6 você pode colocar Lendários em Lagos de Peixes (Fish Ponds) para ovas raríssimas!", "color": "green" }
+      ],
+      "tags": "peixes lendarios legend crimsonfish angler glacierfish mutant carp extended family trap bobber"
+    },
+    {
+      "id": 14,
+      "title": "Caverna da Caveira (Skull Cavern — Andar 100)",
+      "subtitle": "⛏️ Estratégia de Jade -> Escadas aos Domingos + Bombas + Spicy Eel",
+      "category": "mines_island",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Preparação Obrigatória", "type": "text", "content": "• Escadas (Staircases): coloque Jade nos Crystalariums e troque 1 Jade = 1 Escada no Mercador do Deserto todo DOMINGO!\n• Comida de Buff: Spicy Eel (+1 Sorte, +1 Velocidade — troque Ruby no Deserto) ou Magic Rock Candy (+5 Sorte) + Triple Shot Espresso.\n• Cura sem perder buffs: Salad (Salada do Gus) ou Gold Quality Cheese.\n• Munição: 80–100 Mega Bombs / Bombs (compre com o Anão nas minas ou faça com Ferro/Carvão).", "color": "cyan" },
+        { "title": "Execução na Run", "type": "text", "content": "• Use Desert Warp Totem às 6h10 em dia de Sorte Máxima (espíritos muito felizes na TV).\n• Nunca perca tempo minerando nos primeiros 40 andares — jogue bomba perto de aglomerados ou use escadas direto até passar do andar 70–100 (onde Iridium Nodes dominam).\n• ⚠️ Para a missão do Sr. Qi no Andar 100 sem levar bronca no diálogo, use no máximo 10 escadas (a recompensa de +25 HP permanente é a mesma mesmo usando 100 escadas).", "color": "green" }
+      ],
+      "tags": "skull cavern caverna caveira andar 100 jade escadas staircase domingo iridium spicy eel"
+    },
+    {
+      "id": 15,
+      "title": "Espada Galáctica (Galaxy Sword) & Armas do Infinito",
+      "subtitle": "⛏️ Leve 1 Prismatic Shard entre os 3 pilares do Deserto Calico",
+      "category": "mines_island",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Galaxy Sword & Infinity Blade)", "type": "image", "content": "galaxy_sword.webp", "color": "purple" },
+        { "title": "Visual (Infinity Blade)", "type": "image", "content": "infinity_blade.webp", "color": "purple" },
+        { "title": "Como Pegar & Evoluir", "type": "text", "content": "• 1. Galaxy Sword (60–80 Dano): segure 1 Fragmento Prismático (Prismatic Shard) e fique no centro do triângulo de pilares a nordeste do Deserto Calico.\n• Isso também desbloqueia Galaxy Hammer e Galaxy Dagger na Guilda dos Aventureiros (Marlon).\n• 2. Infinity Blade (80–100 Dano + Defesa + Velocidade): na Forja do Vulcão (Ilha Gengibre), funda a Galaxy Sword com 3× Galaxy Souls (compradas por 40 Qi Gems cada na Sala do Sr. Qi) + 60 Cinder Shards!", "color": "yellow" },
+        { "title": "Dica", "type": "text", "content": "• Já aproveite para encantar a Infinity Blade (ou Galaxy Sword) com Crusader (+50% em Múmias e Fantasmas, matando Múmias sem precisar de bomba!) ou Vampiric.", "color": "green" }
+      ],
+      "tags": "galaxy sword espada galactica infinity blade prismatic shard deserto pilares galaxy soul"
+    },
+    {
+      "id": 16,
+      "title": "Ilha Gengibre (Ginger Island) & Nozes Douradas",
+      "subtitle": "⛏️ Como desbloquear o barco do Willy + 130 Golden Walnuts",
+      "category": "mines_island",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Golden Walnut)", "type": "image", "content": "golden_walnut.webp", "color": "yellow" },
+        { "title": "Acesso & Custos do Barco do Willy", "type": "text", "content": "• Após concluir o Centro Comunitário (ou Joja), entre nos fundos da loja do Willy e repare o barco com:\n  - 200× Madeira de Lei (Hardwood)\n  - 5× Barras de Irídio\n  - 5× Pacotes de Pilha (Battery Packs)", "color": "yellow" },
+        { "title": "Principais Desbloqueios com Nozes (Total: 130)", "type": "text", "content": "• 100 Nozes Douradas abrem a Sala de Nozes do Sr. Qi (Oeste da Ilha).\n• Papagaio da Fazenda Oeste (20 nozes): libera a fazenda tropical onde TODAS as lavouras crescem em qualquer estação sem corvos!\n• O Papagaio na cabana do Leo dá dicas diárias de onde faltam nozes; na 1.6 você pode até pagar um papagaio Joja perto do Vulcão para coletar as restantes por você.", "color": "green" }
+      ],
+      "tags": "ilha gengibre ginger island willy barco nozes douradas golden walnuts 130 fazenda"
+    },
+    {
+      "id": 17,
+      "title": "Forja do Vulcão: Encantamentos & Fusão de Anéis",
+      "subtitle": "⛏️ Andar 10 do Vulcão • Encantamentos de armas/ferramentas e Anéis Duplos",
+      "category": "mines_island",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Melhores Encantamentos (1 Prismatic Shard + 20 Cinder Shards)", "type": "text", "content": "• Armas: Crusader (+50% contra Múmias/Sombrios — impede múmias de reviver!), Artful (-50% recarga do ataque especial) ou Vampiric (cura no golpe).\n• Picareta / Machado / Enxada: Swift (mais rápido) ou Efficiency (zero gasto de energia).\n• Regador: Bottomless (água infinita) ou Reaching (área 5×5 no Irídio).\n• Vara de Pesca: Master (barra maior) ou Auto-Hook (fisga sozinho).\n• Enxada: Archaeologist (2× artefatos) ou Generous.", "color": "cyan" },
+        { "title": "Fusão de Anéis (20 Cinder Shards) & Gemas", "type": "text", "content": "• Você pode fundir 2 anéis diferentes em 1 só (ex.: Iridium Band + Lucky Ring, e Burglar's Ring + Slime Charmer Ring = 4 efeitos nos 2 dedos!).\n• Melhoria com Gemas (até 3×): use Ruby (+Dano) ou Jade (+Crítico) ou Emerald (+Velocidade).", "color": "green" }
+      ],
+      "tags": "forja vulcao forge enchantments encantamentos fusao aneis iridium band lucky ring crusader bottomless"
+    },
+    {
+      "id": 18,
+      "title": "Caverna da Maestria (Update 1.6 — 5 Maestrias)",
+      "subtitle": "⛏️ Floresta Cinzaseiva (Sul) • Libera após Nível 10 nas 5 habilidades",
+      "category": "mines_island",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Iridium Scythe)", "type": "image", "content": "iridium_scythe.webp", "color": "purple" },
+        { "title": "Requisito & Ordem Recomendada", "type": "text", "content": "• Requisito: atingir Nível 10 em Agricultura, Mineração, Coleta, Pesca e Combate.\n• Custos de XP de Maestria: 10k -> 25k -> 45k -> 70k -> 100k.\n• 1. Agricultura (Melhor primeiro!): Foice de Irídio (Iridium Scythe — colhe TODAS as lavouras com um golpe!), Estátua das Bênçãos e Golden Animal Crackers (2× produção de animais!).\n• 2. Combate: libera o slot de Berloque (Trinket — como Fairy Box que cura em combate!) + Bigorna e Mini-Forja.\n• 3. Mineração: Fornalha Pesada (Heavy Furnace — 25 minérios por vez!) e Estátua do Rei Anão.\n• 4. Pesca: Vara de Irídio Avançada (2 boias juntas!) + Challenge Bait (3× peixes!).\n• 5. Coleta: Semente de Árvore Mística + Totem de Tesouro + Caixas Misteriosas Douradas.", "color": "yellow" }
+      ],
+      "tags": "1.6 maestria mastery cave iridium scythe foice iridio trinket berloque heavy furnace golden animal cracker"
+    },
+    {
+      "id": 19,
+      "title": "Checklist 100% Perfeição & Joja Fizz (1.6)",
+      "subtitle": "🏆 Pesos exatos no Rastreador do Sr. Qi + 7 Gotas-Estrela (Stardrops)",
+      "category": "secrets_perfection",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Stardrop)", "type": "image", "content": "stardrop.webp", "color": "purple" },
+        { "title": "Requisitos de 100% Perfeição (Sala do Sr. Qi)", "type": "text", "content": "• 1. Todos os itens enviados no Baú de Vendas (15%).\n• 2. Todos os 4 Obeliscos construídos + Relógio Dourado (Golden Clock — 10.000.000g) (10%).\n• 3. Todos os Objetivos da Guilda dos Aventureiros (10%).\n• 4. Amizade Máxima com todos os moradores (11%).\n• 5. Todas as 5 Habilidades no Nível 10 (5%) + todas as 7 Stardrops encontradas (10%).\n• 6. Todas as receitas cozinhadas (10%), todos os itens fabricados (10%), todos os peixes capturados (10%) e todas as 130 Nozes Douradas (5%).\n• Alternativa 1.6: Fizz (na caverna do cogumelo na Ilha Gengibre) vende Certificados de Perfeição por 500.000g cada (+1% cada!).", "color": "cyan" },
+        { "title": "Todas as 7 Gotas-Estrela (Stardrops — 508 Energia)", "type": "text", "content": "• 1. Feira do Vale (Outono Dia 16 — 2.000 fichas).\n• 2. Andar 100 das Minas normais.\n• 3. Comprar da Velha Marinheira (Old Mariner — 50.000g na praia em dia de chuva / ponte).\n• 4. Estátua do Mestre Cannoli (Bosque Secreto — entregue 1 Sweet Gem Berry!).\n• 5. Completar o Museu (95 doações).\n• 6. Cônjuge / Krobus com 12,5+ corações.\n• 7. Baú no Topo (The Summit) após atingir 100% Perfeição.", "color": "yellow" }
+      ],
+      "tags": "perfeicao perfection 100% stardrop gota estrela fizz joja obelisco golden clock museu"
+    },
+    {
+      "id": 20,
+      "title": "Calendário de Festivais & Segredos Rápidos",
+      "subtitle": "🏆 Datas imperdíveis de sementes, bolsas, lojas secretas e truques",
+      "category": "secrets_perfection",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Calendário dos Festivais Principais", "type": "text", "content": "• Primavera: Dia 13 Egg Festival (compre Sementes de Morango!) | Dia 15–17 Desert Festival (1.6!) | Dia 24 Flower Dance.\n• Verão: Dia 11 Luau (coloque item Ouro/Irídio caro na sopa, ex.: Cauliflower Ouro ou Super Cucumber) | Dia 20–21 Trout Derby | Dia 28 Moonlight Jellies.\n• Outono: Dia 16 Stardew Valley Fair (Stardrop por 2.000 fichas — jogue na roleta apostando no VERDE!) | Dia 27 Spirit's Eve (Golden Pumpkin no labirinto).\n• Inverno: Dia 8 Festival of Ice | Dia 12–13 SquidFest | Dia 15–17 Night Market (barco das compras raras!) | Dia 25 Feast of the Winter Star.", "color": "yellow" },
+        { "title": "Segredos Úteis", "type": "text", "content": "• Mochila de 36 slots: compre no balcão do Pierre (2.000g e 10.000g).\n• Semente de Fruta Antiga: doe o artefato Ancient Seed no Museu para ganhar a planta + receita.\n• Livro das Botas / Cavalos / Livros de Poder (1.6): compre no Livreiro (Bookseller) nos dias marcados no calendário da praça.", "color": "green" }
+      ],
+      "tags": "festivais calendario morango luau feira roleta verde mercado noturno bookseller 1.6"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "terraria",
+  "title": "Terraria",
+  "icon": "🌳",
+  "updated_at": "2026-11-27T16:35:00Z",
+  "sources": [
+    {
+      "name": "Terraria Official Wiki",
+      "url": "https://terraria.wiki.gg/",
+      "license": "CC BY-NC-SA 3.0 — Referência factual com redação própria"
+    },
+    {
+      "name": "Terraria Wiki (Fandom)",
+      "url": "https://terraria.fandom.com/",
+      "license": "CC BY-SA 3.0 — Referência factual e sprites oficiais do jogo"
+    },
+    {
+      "name": "SteamDB & PCGamingWiki — Terraria (App 105600)",
+      "url": "https://steamdb.info/app/105600/",
+      "license": "Referência técnica de executável (Terraria.exe)"
+    }
+  ],
+  "process_keywords": [
+    "terraria",
+    "tmodloader"
+  ],
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "bosses", "label": "👑 Progressão de Chefes" },
+    { "id": "crafting", "label": "🛠️ Árvores de Craft Supremas" },
+    { "id": "npcs_shimmer", "label": "🏡 NPCs, Pilones & Shimmer" },
+    { "id": "builds", "label": "⚔️ Builds por Classe" },
+    { "id": "events_secrets", "label": "🌙 Eventos, Hardmode & Sementes" }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Chefes Pre-Hardmode (Ordem e Invocação)",
+      "subtitle": "👑 De King Slime até Wall of Flesh • Itens de invocação exatos",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Wall of Flesh)", "type": "image", "content": "wall_of_flesh.webp", "color": "red" },
+        { "title": "Ordem Completa & Itens de Invocação", "type": "text", "content": "• 1. King Slime (Opcional): Slime Crown (20 Gel + Coroa Ouro/Platina no Altar) ou Slime Rain.\n• 2. Eye of Cthulhu: Suspicious Looking Eye (6 Lentes no Altar) ou aparece à noite (≥200 HP).\n• 3. Eater of Worlds (Corrupção): Worm Food (15 Rotten Chunks + 5 Vile Powder) ou quebre 3 Shadow Orbs.\n• 3b. Brain of Cthulhu (Carmesim): Bloody Spine (15 Vertebrae + 5 Vicious Powder) ou quebre 3 Crimson Hearts.\n• 4. Queen Bee (Selva): Abeemination (5 Honey Blocks + 1 Stinger + 5 Hive + 1 Bottled Honey) ou quebre Larva na colmeia.\n• 5. Deerclops (Neve): Deer Thing (3 Flinx Fur + 1 Bone + 5 Demonite/Crimtane Ore) ou Nevasca à meia-noite.\n• 6. Skeletron (Dungeon): fale com o Old Man na entrada da Dungeon À NOITE e escolha 'Curse'.\n• 7. Wall of Flesh (Submundo): jogue o Guide Voodoo Doll na lava do Inferno com o Guia vivo!", "color": "yellow" },
+        { "title": "⚠️ Antes de Matar o Wall of Flesh", "type": "text", "content": "• Prepare sua arena longa no Inferno (~1.500–2.000 blocos) e isole sua base contra a propagação do Hardmode antes de invocar o Wall of Flesh!", "color": "red" }
+      ],
+      "tags": "chefes bosses pre-hardmode king slime eye of cthulhu eater of worlds brain queen bee skeletron wall of flesh"
+    },
+    {
+      "id": 2,
+      "title": "Chefes Hardmode I: Queen Slime, Mecânicos & Plantera",
+      "subtitle": "👑 Desbloqueando minérios Hallowed, Clorofita e o Templo da Selva",
+      "category": "bosses",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Plantera)", "type": "image", "content": "plantera.webp", "color": "green" },
+        { "title": "Ordem & Invocação", "type": "text", "content": "• 1. Queen Slime (Opcional): use Gelatin Crystal (cristal rosa/azul brilhante no Subterrâneo do Hallow) no Hallow.\n• 2. Os 3 Chefes Mecânicos (qualquer ordem):\n  - The Destroyer: Mechanical Worm (6 Rotten Chunk/Vertebrae + 5 Iron/Lead Bar + 6 Soul of Night).\n  - The Twins: Mechanical Eye (3 Lens + 5 Iron/Lead Bar + 6 Soul of Light).\n  - Skeletron Prime: Mechanical Skull (30 Bones + 5 Iron/Lead Bar + 3 Soul of Light + 3 Soul of Night).\n• 3. Plantera (Selva Subterrânea): após derrotar os 3 Mecânicos, quebre um Bulbo rosa brilhante (Plantera's Bulb) na Selva!", "color": "yellow" },
+        { "title": "Dica de Arena", "type": "text", "content": "• Para Plantera, escave uma arena ampla retangular na Selva Subterrânea com Fogos de Acampamento, Lanternas de Coração e espaço embaixo para as bolas espinhosas quicarem longe de você.", "color": "green" }
+      ],
+      "tags": "hardmode queen slime destroyer twins skeletron prime plantera bulb"
+    },
+    {
+      "id": 3,
+      "title": "Chefes Hardmode II: Golem, Duke Fishron & Empress of Light",
+      "subtitle": "👑 Pré-Finais • ⚠️ Empress de Dia dropa Terraprisma (Dano Letal!)",
+      "category": "bosses",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Duke Fishron)", "type": "image", "content": "duke_fishron.webp", "color": "cyan" },
+        { "title": "Visual (Empress of Light & Terraprisma)", "type": "image", "content": "empress_of_light.webp", "color": "purple" },
+        { "title": "Visual (Terraprisma)", "type": "image", "content": "terraprisma.webp", "color": "yellow" },
+        { "title": "Chefes Opcionais e Obrigatórios", "type": "text", "content": "• Golem (Obrigatório): dentro do Templo da Selva (abre com Temple Key da Plantera), use Lihzahrd Power Cell no Altar.\n• Duke Fishron (Opcional — armas insanas!): capture um Truffle Worm com Rede de Insetos no Bioma de Cogumelo Subterrâneo (Hardmode) e pesque no Oceano!\n• Empress of Light (Opcional — Pós-Plantera): mate a borboleta brilhante Prismatic Lacewing na superfície do Hallow à noite (ou capture com rede para soltar depois!).", "color": "yellow" },
+        { "title": "⚠️ Desafio Daytime Empress (Terraprisma)", "type": "text", "content": "• Se 100% do dano causado à Empress of Light ocorrer durante o DIA (4h30–19h30), TODOS os ataques dela matam em 1 único golpe (hit-kill), mas ela dropa garantidamente a Terraprisma (melhor invocação do jogo!).", "color": "red" }
+      ],
+      "tags": "golem duke fishron truffle worm empress of light prismatic lacewing terraprisma daytime"
+    },
+    {
+      "id": 4,
+      "title": "Fim de Jogo: Lunatic Cultist, Pilares & Moon Lord",
+      "subtitle": "👑 Sequência final até os drops de Luminite, Meowmere e Star Wrath",
+      "category": "bosses",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Moon Lord)", "type": "image", "content": "moon_lord.webp", "color": "cyan" },
+        { "title": "Sequência Final", "type": "text", "content": "• 1. Lunatic Cultist: após derrotar Golem, mate os 4 cultistas na entrada da Dungeon.\n• 2. Eventos Lunares (4 Pilares Celestiais): Solar (Melee), Vortex (Ranger), Nebula (Mage) e Stardust (Summoner). Mate 100 inimigos de cada pilar (150 no Expert/Master) para baixar o escudo e craftar armas imediatas com os fragmentos!\n• 3. Moon Lord: nasce 60 segundos após destruir o 4º Pilar — ou pode ser re-invocado com Celestial Sigil (20 de cada Fragmento Lunar no Ancient Manipulator).", "color": "yellow" },
+        { "title": "Estratégia Contra Moon Lord", "type": "text", "content": "• Use Rod of Discord / asas rápidas (Soaring Insignia no Expert!) para cruzar por cima do raio Phantasmal Deathray da testa e mantenha os olhos da mão e testa morrendo quase juntos.", "color": "green" }
+      ],
+      "tags": "lunatic cultist pilares celestiais moon lord celestial sigil luminite ancient manipulator"
+    },
+    {
+      "id": 5,
+      "title": "Árvore de Craft: Zenith (Espada Suprema)",
+      "subtitle": "🛠️ Pós-Moon Lord • Todas as 10 espadas + sub-receita da Terra Blade",
+      "category": "crafting",
+      "spoiler": true,
+      "additional_data": [
+        { "title": "Visual (Zenith & Terra Blade)", "type": "image", "content": "zenith.webp", "color": "purple" },
+        { "title": "Visual (Terra Blade)", "type": "image", "content": "terra_blade.webp", "color": "green" },
+        { "title": "As 10 Espadas Necessárias (Bigorna de Mythril/Orichalcum)", "type": "text", "content": "• 1. Terra Blade = True Excalibur (Excalibur + 24 Chlorophyte Bars) + True Night's Edge (Night's Edge + 20 Soul of Fright/Might/Sight) + Broken Hero Sword (Mothron no Solar Eclipse!).\n  *(Night's Edge = Muramasa + Blade of Grass + Volcano/Fiery Greatsword + Light's Bane ou Blood Butcherer).*\n• 2. Copper Shortsword (guarde a inicial ou faça com 5 Barras de Cobre).\n• 3. Starfury (Baús das Ilhas Flutuantes).\n• 4. Enchanted Sword (Santuários subterrâneos / Golden Crates).\n• 5. Bee Keeper (Drop da Queen Bee).\n• 6. Seedler (Drop da Plantera).\n• 7. The Horseman's Blade (Pumpking no evento Pumpkin Moon).\n• 8. Influx Waver (Martian Saucer na Invasão Marciana).\n• 9. Star Wrath (Drop do Moon Lord).\n• 10. Meowmere (Drop do Moon Lord).", "color": "yellow" }
+      ],
+      "tags": "zenith terra blade meowmere star wrath influx waver seedler horseman blade craft espada suprema"
+    },
+    {
+      "id": 6,
+      "title": "Árvore de Craft: Terraspark Boots (Botas Supremas)",
+      "subtitle": "🛠️ Mobilidade máxima + caminhar na lava • Atalho de Lava Charm no Shimmer!",
+      "category": "crafting",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual do Item", "type": "image", "content": "terraspark_boots.webp", "color": "orange" },
+        { "title": "Receita Completa (Tinkerer's Workshop)", "type": "text", "content": "• Terraspark Boots = Frostspark Boots + Lava Waders:\n• Frostspark Boots = Lightning Boots + Ice Skates.\n  - Lightning Boots = Hermes/Flurry/Sailfish/Dunerider Boots + Rocket Boots (Goblin) + Aglet + Anklet of the Wind.\n• Lava Waders = Obsidian Water Walking Boots (Water Walking Boots + Obsidian Skull) + Lava Charm + Obsidian Rose (drop de Fire Imp).", "color": "yellow" },
+        { "title": "Atalho 1.4.4 para Lava Charm (Shimmer)", "type": "text", "content": "• Não achou Lava Charm em baú? Jogue uma Magma Stone (drop comum de Hellbat / Lava Bat no Inferno) dentro do líquido Shimmer para transmutar direto em Lava Charm!", "color": "green" }
+      ],
+      "tags": "terraspark boots frostspark lava waders lava charm magma stone shimmer botas"
+    },
+    {
+      "id": 7,
+      "title": "Árvore de Craft: Ankh Shield (Escudo da Imunidade)",
+      "subtitle": "🛠️ Imunidade a Knockback, blocos de fogo e 12 debuffs negativos",
+      "category": "crafting",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual do Item", "type": "image", "content": "ankh_shield.webp", "color": "cyan" },
+        { "title": "Receita Completa (Tinkerer's Workshop)", "type": "text", "content": "• Ankh Shield = Obsidian Shield (Cobalt Shield + Obsidian Skull) + Ankh Charm.\n• Ankh Charm combina 5 pares (10 acessórios):\n  - Armor Bracing = Armor Polish + Vitamins\n  - Medicated Bandage = Adhesive Bandage + Bezoar\n  - The Plan = Fast Clock + Trifold Map\n  - Countercurse Mantra = Nazar + Megaphone\n  - Reflective Shades = Blindfold + Pocket Mirror (Medusa!)", "color": "yellow" },
+        { "title": "Atalho Shimmer 1.4.4", "type": "text", "content": "• Faltou metade de um par? Na 1.4.4 você pode jogar qualquer item de um par no Shimmer para trocar pelo seu par complementar (ex.: Armor Polish <-> Vitamins, Blindfold <-> Pocket Mirror, Nazar <-> Megaphone)!", "color": "green" }
+      ],
+      "tags": "ankh shield escudo imunidade debuff shimmer pocket mirror bezoar nazar"
+    },
+    {
+      "id": 8,
+      "title": "Árvore de Craft: Shellphone (Teleporte Global)",
+      "subtitle": "🛠️ Casa, Ponto de Spawn, Oceano e Submundo em 1 único item",
+      "category": "crafting",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual do Item", "type": "image", "content": "shellphone.webp", "color": "cyan" },
+        { "title": "Receita Completa", "type": "text", "content": "• Shellphone = Cell Phone + Magic Conch (baús do Deserto Subterrâneo) + Demon Conch (pesca na lava do Inferno).\n• Cell Phone = Magic/Ice Mirror + PDA.\n• PDA = GPS (Watch + Depth Meter + Compass) + Goblin Tech (DPS Meter + Stopwatch + Metal Detector) + R.E.K. 3000 (Tally Counter + Lifeform Analyzer + Radar) + Fish Finder (Pocket Guide + Weather Radio + Sextant).", "color": "yellow" },
+        { "title": "Atalho Shimmer 1.4.4 (Peças do Pescador)", "type": "text", "content": "• Pegou peça repetida do Angler (ex.: 2× Sextant)? Jogue no Shimmer para girar em Weather Radio ou Fisherman's Pocket Guide!", "color": "green" }
+      ],
+      "tags": "shellphone cell phone pda magic conch demon conch angler shimmer teleporte"
+    },
+    {
+      "id": 9,
+      "title": "Felicidade de NPCs & Todos os 8 Pilones (Pylons)",
+      "subtitle": "🏡 Pares ideais por bioma para teleporte gratuito + descontos máximos",
+      "category": "npcs_shimmer",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Forest Pylon)", "type": "image", "content": "forest_pylon.webp", "color": "green" },
+        { "title": "Pares Otimizados para Cada Pilone", "type": "text", "content": "• Forest: Zoologist + Golfer (+ Guide).\n• Desert: Arms Dealer + Nurse (ou Steampunker + Arms Dealer).\n• Snow: Goblin Tinkerer + Mechanic (⚠️ ambos amam estar juntos na Neve — barateia MUITO o Reforge!).\n• Cavern: Demolitionist + Tavernkeep (ou Clothier).\n• Jungle: Witch Doctor + Dryad + Painter.\n• Ocean: Angler + Pirate + Stylist.\n• Hallow: Wizard + Party Girl (ou Tavernkeep).\n• Mushroom (Superfície): Truffle + Dye Trader (ou Guide).\n• Aether / Universal: Princess + qualquer NPC.", "color": "yellow" },
+        { "title": "Regras de Ouro", "type": "text", "content": "• Máximo de 3 NPCs a menos de 25 blocos entre si, e mantenha pelo menos 120 blocos de distância entre vilas diferentes.", "color": "green" }
+      ],
+      "tags": "npc felicidade happiness pylons pilones teleporte goblin tinkerer desconto"
+    },
+    {
+      "id": 10,
+      "title": "Shimmer (Bioma Aether) & Todos os 8 Upgrades Permanentes",
+      "subtitle": "✨ Onde achar o líquido cintilante + Rod of Harmony + troca grátis de itens",
+      "category": "npcs_shimmer",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Aegis Fruit & Rod of Harmony)", "type": "image", "content": "aegis_fruit.webp", "color": "purple" },
+        { "title": "Visual (Rod of Harmony)", "type": "image", "content": "rod_of_harmony.webp", "color": "purple" },
+        { "title": "Como Encontrar & Os 8 Buffs Permanentes (1× por Personagem)", "type": "text", "content": "• Localização: sempre no subsolo externo do MESMO lado do mapa onde fica a Selva (entre a Selva e a borda do Oceano!).\n• Life Crystal -> Vital Crystal (+velocidade de regeneração de vida).\n• Mana Crystal -> Arcane Crystal (+velocidade de regeneração de mana).\n• Life Fruit -> Aegis Fruit (+4 Defesa permanente!).\n• Qualquer Fruta (Maçã, Pêssego, etc.) -> Ambrosia (+5% velocidade de mineração/construção).\n• Pink Pearl -> Galaxy Pearl (+0.03 Sorte permanente!).\n• Gold Worm -> Gummy Worm (+3 Poder de Pesca permanente!).\n• Spell Tome -> Advanced Combat Techniques Vol. 2 (+Defesa e Ataque aos NPCs).\n• Peddler's Hat -> Peddler's Satchel (+1 item à venda no Traveling Merchant).", "color": "cyan" },
+        { "title": "Rod of Harmony & Decraft", "type": "text", "content": "• Pós-Moon Lord: jogue o Rod of Discord no Shimmer para virar Rod of Harmony (teleporte infinito SEM dano!).\n• Jogue itens craftados no Shimmer para desmontar nos ingredientes originais — ótimo para tirar reforges ruins de graça!", "color": "green" }
+      ],
+      "tags": "shimmer aether aegis fruit vital crystal arcane crystal galaxy pearl rod of harmony 1.4.4"
+    },
+    {
+      "id": 11,
+      "title": "Builds por Classe & Melhores Reforges (Goblin)",
+      "subtitle": "⚔️ Marcos de Melee, Ranger, Mage, Summoner + tabela de modificadores",
+      "category": "builds",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Melhores Reforges (Goblin Tinkerer)", "type": "text", "content": "• Melee (Espadas/Ioios): Legendary (Godly para armas que não pegam Legendary).\n• Ranger (Arcos/Armas): Unreal.\n• Mage (Cajados/Livros): Mythical.\n• Summoner (Cajados de Invocação): Ruthless (+18% dano — o bônus fixa no minion!).\n• Acessórios: Warding (+4 Defesa — rei no Master Mode) ou Menacing (+4% Dano).", "color": "gray" },
+        { "title": "Destaques por Classe (Início -> Fim)", "type": "text", "content": "• Melee: Blade of Grass -> Night's Edge -> Shadowflame Knife / Amarok -> Terra Blade -> Daybreak / Zenith.\n• Ranger: Boomstick / Minishark -> Daedalus Stormbow (Holy Arrows!) -> Megashark -> Tsunami / Phantasm + S.D.M.G.\n• Mage: Water Bolt / Demon Scythe -> Sky Fracture / Crystal Serpent -> Razorblade Typhoon -> Last Prism.\n• Summoner: Snapthorn + Imp Staff -> Sanguine Staff / Blade Staff -> Terraprisma + Kaleidoscope.", "color": "cyan" }
+      ],
+      "tags": "builds classes melee ranger mage summoner reforge legendary unreal mythical ruthless warding menacing"
+    },
+    {
+      "id": 12,
+      "title": "Preparo de Hardmode, Eventos & Sementes Secretas",
+      "subtitle": "🌙 Contenção de Biomas + Terraformer + Seeds Especiais",
+      "category": "events_secrets",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Contenção do Mal & Eventos", "type": "text", "content": "• Ao matar Wall of Flesh, nasce um 'V' diagonal gigante de Hallow e Corrupção/Carmesim.\n• Cave túneis de 3–4 blocos de largura (sem paredes inflamáveis ou grama/espinhos!) ao redor da base e Selva.\n• Terraformer (1.4.4): jogue o Clentaminator (Steampunker) no Shimmer após Moon Lord para ganhar alcance absurdamente maior e 33% de economia de solução!", "color": "yellow" },
+        { "title": "Sementes Secretas (World Seeds)", "type": "text", "content": "• 05162020 (Drunk World): contém Corrupção E Carmesim juntos + todos os minérios.\n• for the worthy: chefes gigantes, muito mais difíceis e loot especial.\n• celebrationmk10: mundo festivo com itens raros fáceis e mais sorte.\n• getfixedboi (Zenith Seed): mistura TODAS as sementes secretas no desafio definitivo.", "color": "purple" }
+      ],
+      "tags": "hardmode corrupcao carmesim hallow terraformer clentaminator sementes secretas seeds getfixedboi"
+    }
+  ]
+}

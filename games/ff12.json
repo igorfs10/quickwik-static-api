@@ -2,17 +2,17 @@
   "id": "ff12",
   "title": "Final Fantasy XII: The Zodiac Age",
   "icon": "⚔️",
-  "updated_at": "2026-11-27T02:15:00Z",
+  "updated_at": "2026-11-27T16:10:00Z",
   "sources": [
     {
       "name": "Final Fantasy Wiki (Fandom) — Final Fantasy XII / The Zodiac Age",
       "url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_XII",
-      "license": "CC BY-SA 3.0 — Referência factual com redação própria"
+      "license": "CC BY-SA 3.0 — Referência factual e imagens oficiais com redação própria"
     },
     {
       "name": "Jegged — Final Fantasy XII: The Zodiac Age Walkthrough & Database",
       "url": "https://www.jegged.com/Games/Final-Fantasy-XII/",
-      "license": "Referência factual de locais, receitas e licenças com redação própria"
+      "license": "Referência factual de baús, receitas e licenças com redação própria"
     },
     {
       "name": "GameSpot — Final Fantasy XII: The Zodiac Age Guides",
@@ -33,355 +33,733 @@
     "final fantasy xii"
   ],
   "categories": [
-    { "id": "all", "label": "Todos" },
-    { "id": "jobs", "label": "🛡️ Jobs & Equipe" },
-    { "id": "weapons", "label": "⚔️ Armas & Acessórios" },
-    { "id": "gambits", "label": "⚙️ Gambits & Mecânicas" },
-    { "id": "espers_hunts", "label": "👑 Espers & Superchefes" },
-    { "id": "status", "label": "🧪 Efeitos & Status" },
-    { "id": "items", "label": "🎒 Itens" },
-    { "id": "spells", "label": "✨ Magias" }
+    {
+      "id": "all",
+      "label": "Todos"
+    },
+    {
+      "id": "jobs",
+      "label": "🛡️ Jobs & Equipe"
+    },
+    {
+      "id": "weapons",
+      "label": "⚔️ Armas & Acessórios"
+    },
+    {
+      "id": "gambits",
+      "label": "⚙️ Gambits & Mecânicas"
+    },
+    {
+      "id": "espers_hunts",
+      "label": "👑 Espers & Superchefes"
+    },
+    {
+      "id": "status",
+      "label": "🧪 Efeitos & Status"
+    },
+    {
+      "id": "items",
+      "label": "🎒 Itens"
+    },
+    {
+      "id": "spells",
+      "label": "✨ Magias"
+    }
   ],
   "entries": [
     {
       "id": 1,
       "title": "Poison (Veneno)",
-      "subtitle": "🧪 Dreno contínuo de HP • Cure com Antidote, Poisona ou Esuna",
+      "subtitle": "🧪 Dreno contínuo percentual de HP • Cure com Antidote, Poisona ou Esuna",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Ícone do Status", "type": "image", "content": "poison.webp", "color": "green" },
-        { "title": "Descrição", "type": "text", "content": "Tira HP aos poucos em intervalos regulares, até você curar.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "• O dano é percentual e ignora defesa.\n• Não some sozinho: fica até uma cura ser aplicada.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Item: Antidote (barato, em qualquer loja) ou Remedy.\n• Magia: Poisona ou Esuna.", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit: 'Ally: status = Poison → Antidote'.\n• Ofensiva: Nihopalaoa + Antidote envenena chefes vulneráveis sem gastar MP.", "color": "green" }
+        {
+          "title": "Ícone do Status",
+          "type": "image",
+          "content": "poison.webp",
+          "color": "green"
+        },
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Reduz periodicamente uma porcentagem do HP máximo do alvo até que uma cura seja aplicada.",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• O dano percentual ignora completamente defesa física e defesa mágica.\n• Ao contrário de Sap, Poison não expira com o tempo — permanece ativo indefinidamente.",
+          "color": "gray"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Antidote (barato, em qualquer loja) ou Remedy (Remedy Lore 1).\n• Magia: Poisona (Magia Branca básica) ou Esuna.",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Gambit padrão: 'Ally: status = Poison -> Antidote' ou 'Poisona'.\n• Uso ofensivo: equipe Nihopalaoa e use Antidote em chefes suscetíveis (como Firemane ou Mateus) para envenenar instantaneamente.",
+          "color": "green"
+        }
       ],
       "tags": "poison veneno status debuff dano dreno hp antidote esuna poisona bio nihopalaoa"
     },
     {
       "id": 2,
       "title": "Disease (Doença)",
-      "subtitle": "🧪 Trava o HP máximo no HP atual • ⚠️ Esuna não cura",
+      "subtitle": "🧪 Trava o HP máximo no HP atual • ⚠️ Esuna NÃO cura Disease",
       "category": "status",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "O HP máximo cai para o HP atual e cada dano rebaixa o teto ainda mais, até a cura.", "color": "red" },
-        { "title": "Mecânica", "type": "text", "content": "• Magias de cura comuns não passam do teto rebaixado.\n• Em casos extremos, o HP máximo chega a 1.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Item: Serum ou Remedy (com licença Remedy Lore adequada).\n• Magia: Cleanse.\n⚠️ Esuna NÃO cura Disease!", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit: 'Ally: status = Disease → Serum'.\n• Prevenção: acessório que protege contra Disease (ex.: Ribbon).\n• Ofensiva: Nihopalaoa + Serum em chefes vulneráveis.", "color": "green" }
+        {
+          "title": "⚠️ Atenção: Status Mais Letal de Ivalice",
+          "type": "text",
+          "content": "• No instante da infecção, o HP Máximo do personagem cai para o valor do HP atual.\n• Cada novo golpe reduz também o HP Máximo, podendo travar o personagem em 1/1 de HP.\n• Magias de cura (Cure, Cura, Curaja) NÃO recuperam vida além desse teto rebaixado.",
+          "color": "red"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Serum (vendido em Mt Bur-Omisace e Balfonheim).\n• Item: Remedy (EXIGE licença Remedy Lore 3).\n• Magia: Cleanse (Magia Branca).\n• ⚠️ Esuna NÃO remove Disease!",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Gambit prioritário: 'Ally: status = Disease -> Serum' (ou 'Remedy' com Lore 3).\n• Imunidade natural: manter o buff Bubble ativo impede a aplicação de Disease.\n• Ofensiva letal: use Nihopalaoa + Serum em chefes como Ghis no Trial Mode Stage 100 para impedir qualquer cura de HP.",
+          "color": "green"
+        }
       ],
-      "tags": "disease doenca status perigo hp teto debuff remedy serum cleanse ribbon"
+      "tags": "disease doenca status perigo hp teto debuff remedy serum cleanse bubble ribbon"
     },
     {
       "id": 3,
       "title": "Oil (Óleo)",
-      "subtitle": "🔥 Alvo recebe 3× de dano de Fogo • Cure com Handkerchief",
+      "subtitle": "🔥 Triplica todo dano elemental de Fogo (300%) • Cure com Handkerchief",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Cobre o alvo de óleo: qualquer ataque de Fogo causa o triplo do dano normal.", "color": "orange" },
-        { "title": "Mecânica", "type": "text", "content": "• Não causa dano sozinho.\n• Em grupos de Bombs ou chefes de fogo, o dano pode ser devastador nos dois lados.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Item: Handkerchief (barato) ou Remedy.\n• Magia: Esuna.", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Ataque: Oil no chefe + Firaga (Flame Staff aumenta o dano).\n• Defesa: Gambit 'Ally: status = Oil → Handkerchief' em áreas quentes.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Encharca o alvo em óleo inflamável. Não causa dano direto, mas multiplica por 3× todo dano de Fogo recebido.",
+          "color": "orange"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Handkerchief (80 Gil em lojas de itens).\n• Item: Remedy (Remedy Lore 1).\n• Magia: Esuna.",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Combo de Dano Supremo: aplique Oil no chefe (ou use Nihopalaoa + Handkerchief) e dispare Ardor/Firaga com Flame Staff ou Burning Bow (+50% Fogo) — totaliza 4,5× de dano!\n• Defesa: ative 'Ally: status = Oil -> Handkerchief' contra inimigos Bomb.",
+          "color": "green"
+        }
       ],
-      "tags": "oil oleo status fogo dano firaga handkerchief esuna debuff flame staff"
+      "tags": "oil oleo status fogo dano firaga ardor handkerchief esuna debuff flame staff burning bow"
     },
     {
       "id": 4,
       "title": "Stop (Parada)",
-      "subtitle": "⏸️ Congela o personagem por completo • ⚠️ Esuna não cura",
+      "subtitle": "⏸️ Congela barra de ATB e ações • ⚠️ Esuna NÃO cura Stop",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "O personagem para: sem ações, sem recarga de ATB e sem como se defender.", "color": "purple" },
-        { "title": "Mecânica", "type": "text", "content": "• Buffs ativos não expiram enquanto durar o Stop.\n• Fica indefeso contra qualquer ataque.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Item: Chronos Tear ou Remedy (com Remedy Lore adequada).\n⚠️ Esuna NÃO cura Stop!", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit no topo da lista: 'Ally: status = Stop → Chronos Tear'.\n• Chronos Tear não gasta MP.", "color": "green" }
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Paralisa totalmente o personagem: barra de ATB congela, buffs não expiram e não há esquiva ou bloqueio.",
+          "color": "purple"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Chronos Tear (instantâneo e sem gasto de MP).\n• Item: Remedy (exige Remedy Lore 2).\n• ⚠️ Esuna NÃO remove Stop!",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Gambit essencial: 'Ally: status = Stop -> Chronos Tear'.\n• Prevenção: acessórios Power Armlet ou Ribbon.",
+          "color": "green"
+        }
       ],
-      "tags": "stop parada atb congelado chronos tear remedy status controle"
+      "tags": "stop parada atb congelado chronos tear remedy status controle power armlet ribbon"
     },
     {
       "id": 5,
       "title": "Doom (Condenação)",
-      "subtitle": "💀 Contagem regressiva para morte instantânea",
+      "subtitle": "💀 Contagem regressiva até nocaute (KO) instantâneo",
       "category": "status",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Um contador aparece sobre o personagem. Ao zerar, ele cai (KO) na hora.", "color": "red" },
-        { "title": "Mecânica", "type": "text", "content": "Pouquíssimas curas funcionam, então a corrida é contra o tempo.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Remedy com Remedy Lore avançada remove Doom.\n• Alternativa: reviva depois com Phoenix Down ou Arise.", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Sem a cura: use o alvo para dano máximo (Berserk/Haste) antes de zerar.\n• Mantenha Gambit 'Ally: status = KO → Phoenix Down'.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Exibe um contador sobre a cabeça do alvo. Ao chegar a zero, causa KO imediato independente do HP restante.",
+          "color": "red"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Remedy com a licença Remedy Lore 3 desbloqueada.\n• Alternativa: deixe o personagem cair e reviva instantaneamente com Phoenix Down ou Arise.",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Se não tiver Remedy Lore 3, aproveite o tempo restante com Haste/Berserk para causar dano máximo e deixe um aliado com 'Ally: status = KO -> Phoenix Down'.",
+          "color": "green"
+        }
       ],
-      "tags": "doom condenacao morte instantanea remedy lore contador status"
+      "tags": "doom condenacao morte instantanea remedy lore 3 contador status"
     },
     {
       "id": 6,
       "title": "Petrify (Petrificação)",
-      "subtitle": "🗿 Contagem de pedra • Cure antes de zerar",
+      "subtitle": "🗿 Contagem de 10 a 0 • Ao zerar transforma em estátua de pedra",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Um contador aparece e o personagem ainda age. Ao zerar, vira pedra e sai do combate.", "color": "orange" },
-        { "title": "Mecânica", "type": "text", "content": "Depois de virar pedra, o personagem não recebe cura nem age até ser revertido.", "color": "gray" },
-        { "title": "Cura", "type": "text", "content": "• Item: Gold Needle, Stundal ou Remedy.\n• Magia: Esuna.", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit: 'Ally: status = Petrify → Gold Needle'.\n• Cure ANTES de chegar a zero.", "color": "green" }
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Inicia contagem regressiva de 10 até 0 (status Petrify); o personagem continua agindo durante a contagem.\n• Ao zerar, vira pedra (Stone), perde a capacidade de agir e não recebe curas comuns.",
+          "color": "orange"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Item: Gold Needle ou Remedy (Remedy Lore 1).\n• Magia: Esuna ou Cleanse (também existe Stona apenas para Stone consolidado).",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Gambit: 'Ally: status = Petrify -> Gold Needle' para curar antes que o contador chegue a 0.",
+          "color": "green"
+        }
       ],
-      "tags": "petrify petrificacao pedra gold needle esuna stundal status"
+      "tags": "petrify stone petrificacao pedra gold needle esuna stona status"
     },
     {
       "id": 7,
       "title": "Serum",
-      "subtitle": "🧪 Cura Disease na hora • Compre estoque antes de áreas perigosas",
+      "subtitle": "🎒 Consumível medicinal que cura Disease instantaneamente",
       "category": "items",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Remove Disease e deixa o HP voltar ao normal.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Diferente da cura mágica comum, anula a doença instantaneamente.", "color": "gray" },
-        { "title": "Onde Comprar", "type": "text", "content": "• Vendido em mercadores de Mt Bur-Omisace e Balfonheim, mais adiante na história.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Leve pelo menos 10 antes de áreas avançadas (Necrohol of Nabudis, Pharos).\n• Com Nihopalaoa, use em chefes para infligir Disease.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Remove o status Disease na hora, liberando novamente o teto máximo de HP do personagem.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Comprar",
+          "type": "text",
+          "content": "• Mercadores de Mt Bur-Omisace e Porto de Balfonheim (após avançar na história).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Leve pelo menos 15 unidades para Necrohol of Nabudis, Pharos e Trial Mode.\n• Com Nihopalaoa equipado, arremesse Serum em chefes vulneráveis para aplicar Disease neles.",
+          "color": "green"
+        }
       ],
       "tags": "serum item cura disease doenca remedio balfonheim omisace nihopalaoa"
     },
     {
       "id": 8,
       "title": "Remedy (Panaceia)",
-      "subtitle": "🧪 O item de cura mais versátil • Evolui com as licenças Remedy Lore",
+      "subtitle": "🎒 Cura universal • Desbloqueia cura de Stop, Disease e Doom com Remedy Lore",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Cura vários status. Com mais licenças Remedy Lore, cobre quase todos.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "• Base: Poison, Blind, Silence e afins.\n• Remedy Lore 1: Petrify e Oil.\n• Remedy Lore 2: Stop.\n• Remedy Lore 3: Disease e Doom.", "color": "gray" },
-        { "title": "Onde Comprar", "type": "text", "content": "• Em quase todas as lojas de itens de Ivalice (Rabanastre, Bhujerba, Nalbina).", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Destrave as 3 licenças Remedy Lore cedo: um só item resolve quase tudo.", "color": "green" }
+        {
+          "title": "Escalonamento com Licenças (Remedy Lore)",
+          "type": "text",
+          "content": "• Base (sem Lore): cura Poison, Blind, Silence, Sleep, Immobilize e Disable.\n• Remedy Lore 1: adiciona Petrify, Confuse, Sap e Oil.\n• Remedy Lore 2: adiciona Stop, Reverse e Slow.\n• Remedy Lore 3: adiciona Disease e Doom!",
+          "color": "gray"
+        },
+        {
+          "title": "Onde Comprar",
+          "type": "text",
+          "content": "• Vendido na maioria das lojas de itens (Rabanastre, Bhujerba, Nalbina, Balfonheim).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Priorize as 3 licenças Remedy Lore no seu curandeiro/suporte (Archer, Shikari ou Machinist) — além de curar tudo, transforma Remedy + Nihopalaoa na arma de debuffs mais forte do jogo!",
+          "color": "green"
+        }
       ],
-      "tags": "remedy item cura panaceia lore disease doom stop status"
+      "tags": "remedy item cura panaceia lore 1 2 3 disease doom stop status nihopalaoa"
     },
     {
       "id": 9,
       "title": "Handkerchief",
-      "subtitle": "🧪 Remove Oil rapidamente • Barato",
+      "subtitle": "🎒 Lenço barato (80 Gil) que remove o status Oil instantaneamente",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Limpa o óleo e evita dano triplo de Fogo.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Essencial contra Bombs e chefes que combinam Oil com Fogo.", "color": "gray" },
-        { "title": "Onde Comprar", "type": "text", "content": "• Cerca de 80 Gil em qualquer loja de itens de Rabanastre e outras cidades.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Deixe o gambit 'Ally: status = Oil → Handkerchief' ativo em áreas quentes (ex.: Mosphoran Highwaste).", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Limpa o óleo do personagem sem gastar MP, evitando dano triplicado de Fogo.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Comprar",
+          "type": "text",
+          "content": "• Vendido por 80 Gil em Rabanastre e praticamente qualquer loja de itens de Ivalice.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Mantenha o Gambit 'Ally: status = Oil -> Handkerchief' ao enfrentar Bombs ou chefes de Fogo.",
+          "color": "green"
+        }
       ],
       "tags": "handkerchief item lenco cura oil oleo fogo rabanastre"
     },
     {
       "id": 10,
       "title": "Chronos Tear",
-      "subtitle": "🧪 Cura Stop sem gastar MP • Uso quase instantâneo",
+      "subtitle": "🎒 Lágrima temporal instantânea para curar Stop sem gastar MP",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Descongela o personagem e devolve o controle na hora.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Reinicia a barra de ATB quando o alvo é atingido por magia do Tempo.", "color": "gray" },
-        { "title": "Onde Comprar", "type": "text", "content": "• Lojas de itens em Rabanastre, Balfonheim e Archades.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Coloque no topo dos Gambits: 'Ally: status = Stop → Chronos Tear'.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Descongela o aliado atingido por Stop e retoma a barra de ATB na hora.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Comprar",
+          "type": "text",
+          "content": "• Lojas de itens de Rabanastre, Archades e Balfonheim.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Como Esuna não cura Stop, configure no topo dos Gambits: 'Ally: status = Stop -> Chronos Tear'.",
+          "color": "green"
+        }
       ],
       "tags": "chronos tear item cura stop tempo parada atb rabanastre"
     },
     {
       "id": 11,
       "title": "Gold Needle",
-      "subtitle": "🧪 Reverte Petrify • Compre em quantidade",
+      "subtitle": "🎒 Agulha dourada que cura Petrify e o estado de pedra (Stone)",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Desfaz tanto a contagem quanto o estado de pedra.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Consumível barato que evita perder um membro da equipe para a pedra.", "color": "gray" },
-        { "title": "Onde Comprar", "type": "text", "content": "• Cidades e mercadores viajantes, a preço baixo.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Leve cerca de 30: basiliscos, górgonas e monstros alados petrificam em área.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Interrompe a contagem regressiva de Petrify e restaura aliados já transformados em pedra.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Comprar",
+          "type": "text",
+          "content": "• Disponível em qualquer mercador de itens de Ivalice por preço baixo.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Mantenha 30+ no inventário e Gambit 'Ally: status = Petrify -> Gold Needle'.",
+          "color": "green"
+        }
       ],
-      "tags": "gold needle item agulha cura petrify pedra petrificacao"
+      "tags": "gold needle item agulha cura petrify stone pedra petrificacao"
     },
     {
       "id": 12,
       "title": "Esuna",
-      "subtitle": "✨ Magia Branca de limpeza • ⚠️ Não cura Disease nem Stop",
+      "subtitle": "✨ Magia Branca de purificação em massa • ⚠️ Não cura Disease nem Stop",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Remove Poison, Blind, Silence, Sleep, Sap, Immobilize, Disable, Petrify e Oil de um aliado.", "color": "purple" },
-        { "title": "Mecânica", "type": "text", "content": "Custa 24 MP e substitui vários itens de cura no inventário.", "color": "gray" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Loja de magias de Bhujerba e, depois, em Rabanastre.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit 'Ally: any → Esuna' para limpeza contínua.\n• Para Disease e Stop, mantenha Serum/Chronos Tear à mão.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Remove Poison, Blind, Silence, Sleep, Sap, Immobilize, Disable, Petrify, Confuse e Oil de um aliado por 24 MP.",
+          "color": "purple"
+        },
+        {
+          "title": "Onde Conseguir (The Zodiac Age)",
+          "type": "text",
+          "content": "• Vendida na loja de magias de Bhujerba (Yamoora's Magicks) e em Rabanastre após Tomb of Raithwall.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Use o Gambit 'Ally: any -> Esuna' em seu White Mage (ou Red Battlemage) para economizar itens, mantendo Serum e Chronos Tear apenas para Disease e Stop.",
+          "color": "green"
+        }
       ],
       "tags": "esuna magia spell branca cura purificacao status bhujerba rabanastre"
     },
     {
       "id": 13,
       "title": "Cleanse",
-      "subtitle": "✨ Magia Branca avançada • Remove Disease e Petrify",
+      "subtitle": "✨ Magia Branca Rank 7 • Único feitiço capaz de remover Disease",
       "category": "spells",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "A magia que remove Disease e restaura o HP máximo.", "color": "purple" },
-        { "title": "Mecânica", "type": "text", "content": "Magia Branca de alto nível, rara. Substitui a necessidade de carregar Serum.", "color": "gray" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Baú em Necrohol of Nabudis (Cloister of the Highborn) ou em Cerobi Steppe.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Exige a licença White Magick correspondente no tabuleiro (White Mage ou Red Battlemage).", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Remove Disease e Petrify de um aliado, restaurando o funcionamento normal do HP máximo.",
+          "color": "purple"
+        },
+        {
+          "title": "Onde Conseguir (The Zodiac Age)",
+          "type": "text",
+          "content": "• Baú do tesouro em Necrohol of Nabudis (Cloister of the Highborn) ou em baú específico de Cerobi Steppe (com Diamond Armlet).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Requer a licença White Magick 7 (nativa no White Mage/Red Battlemage, ou liberada no Knight via Esper Mateus).",
+          "color": "green"
+        }
       ],
-      "tags": "cleanse magia spell branca cura disease doenca necrohol nabudis cerobi"
+      "tags": "cleanse magia spell branca cura disease doenca necrohol nabudis cerobi mateus"
     },
     {
       "id": 14,
       "title": "Dispel",
-      "subtitle": "✨ Remove buffs de inimigos • Essencial contra chefes",
+      "subtitle": "✨ Magia Branca/Verde que remove buffs de inimigos (Protect, Haste, Shell)",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Remove Haste, Protect, Shell, Regen e afins dos inimigos, e desfaz Reverse ou Berserk.", "color": "purple" },
-        { "title": "Mecânica", "type": "text", "content": "Indispensável em chefes e caçadas para desarmar escudos e acelerações.", "color": "gray" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Baú no Tomb of Raithwall ou na loja do Clan Centurio (Rabanastre).", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit 'Foe: any → Dispel' para anular buffs que o chefe lançar em si mesmo.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Remove imediatamente todos os status benéficos (Haste, Protect, Shell, Regen, Bravery, Faith) e também Reverse ou Berserk do alvo.",
+          "color": "purple"
+        },
+        {
+          "title": "Onde Conseguir (The Zodiac Age)",
+          "type": "text",
+          "content": "• Baú garantido no Tomb of King Raithwall (Royal Passage) — bem no início da campanha!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Configure 'Foe: any -> Dispel' para anular automaticamente buffs de chefes (não consome MP à toa porque o Gambit só dispara se o alvo tiver algo para remover).",
+          "color": "green"
+        }
       ],
-      "tags": "dispel magia spell verde clan centurio raithwall buff debuff"
+      "tags": "dispel magia spell raithwall royal passage buff debuff boss"
     },
     {
       "id": 15,
       "title": "Reverse (Reverso)",
-      "subtitle": "🔄 Inverte cura em dano • Perigoso para você e para o chefe",
+      "subtitle": "🔄 Inverte dano em cura e cura em dano • Base da tática de Tanque Imortal",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "No alvo, toda cura vira dano e todo dano vira cura.", "color": "purple" },
-        { "title": "Mecânica", "type": "text", "content": "• Funciona nos dois lados: tanto buff quanto armadilha.\n• Dispel remove o efeito.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Aliado tanque: Reverse + cura automática o torna quase imortal em combate longo.\n• ⚠️ Cuidado com Gambits de cura em aliado com Reverse sem querer.", "color": "green" }
+        {
+          "title": "Mecânica Exata",
+          "type": "text",
+          "content": "• Todo dano sofrido passa a CURAR o alvo pelo mesmo valor, enquanto magias/itens de cura causam DANO.\n• Dura pouco tempo (~10–15s dependendo de Vitality) e é removido por Dispel.",
+          "color": "purple"
+        },
+        {
+          "title": "⚠️ Cuidado com Gambits de Cura",
+          "type": "text",
+          "content": "• Desative Gambits automáticos de Curaja/Potion no aliado sob Reverse, ou seu próprio curandeiro vai matar o tanque!\n• Itens de reviver (Phoenix Down / Arise) não matam o alvo caído.",
+          "color": "red"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Combine Decoy + Reverse no tanque para absorver ataques mortais de Yiazmat, Omega Mark XII e Zodiark convertendo golpes de 5.000+ em cura integral.",
+          "color": "green"
+        }
       ],
-      "tags": "reverse reverso status inverte cura dano tanque dispel"
+      "tags": "reverse reverso status inverte cura dano tanque decoy yiazmat omega"
     },
     {
       "id": 16,
-      "title": "Berserk + Bravery + Haste (Trindade de Dano)",
-      "subtitle": "⚔️ Buffs físicos que formam a base do dano • Combine os três",
+      "title": "Berserk + Bravery + Haste (Trindade de DPS)",
+      "subtitle": "⚔️ Acúmulo máximo de dano físico (+50% Berserk, +30% Bravery, +50% ATB)",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Bravery: aumenta o dano físico.\n• Haste: acelera a barra de ATB.\n• Berserk: mais dano, ao custo de defesa e controle.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Os efeitos se somam. Dispel remove cada um deles (no inimigo ou em você).", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit de apoio: 'Ally: HP > 70% → Bravery', 'Ally: any → Haste'.\n• Use Berserk só quando o aliado tiver cura garantida.", "color": "green" }
+        {
+          "title": "Multiplicadores Exatos",
+          "type": "text",
+          "content": "• Haste: acelera a carga da barra de ação (ATB) em +50%.\n• Bravery: aumenta o dano físico causado em +30%.\n• Berserk: aumenta o ataque físico em +50% e a velocidade de carga ATB em +50% (acumula com Haste!), mas o personagem ataca automaticamente sem obedecer outros Gambits.",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Lance Haste + Bravery primeiro no seu DPS principal (Knight/Bushi ou Shikari) e aplique Berserk via magia ou item Bacchus's Wine.\n• Para cancelar Berserk sem esperar acabar, lance Dispel no próprio aliado.",
+          "color": "green"
+        }
       ],
-      "tags": "berserk bravery haste buff dano fisico trindade status"
+      "tags": "berserk bravery haste buff dano fisico trindade status dps bacchus wine"
     },
     {
       "id": 17,
-      "title": "Decoy (Isca) & Bubble",
-      "subtitle": "🛡️ Tank com Decoy atrai inimigos • Bubble reduz dano",
+      "title": "Decoy (Isca) & Bubble (Bolha)",
+      "subtitle": "🛡️ Decoy atrai 100% dos ataques • Bubble DOBRA o HP Máximo (2× HP)",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Decoy: inimigos passam a mirar neste personagem.\n• Bubble: reduz o dano recebido por um tempo.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Decoy + Reverse + Bubble no mesmo aliado cria um tanque que quase não cai.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Escolha o tanque com mais HP (Knight ou Foebreaker costuma ser bom).\n• Deixe o resto da equipe atacando livre.", "color": "green" }
+        {
+          "title": "Efeito Exato",
+          "type": "text",
+          "content": "• Decoy (Lure): força todos os inimigos ao alcance a focarem exclusivamente este personagem.\n• Bubble: DOBRA (2×) o HP Máximo do personagem, permitindo ultrapassar o limite padrão de 9.999 HP (até 99.999) e concedendo imunidade total contra Disease!",
+          "color": "cyan"
+        },
+        {
+          "title": "Mecânica",
+          "type": "text",
+          "content": "• Disease e Bubble são mutuamente exclusivos: se o personagem já tiver Disease, Bubble é bloqueado; com Bubble ativo, Disease não pega.",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Mantenha Decoy + Bubble sempre ativos no seu tanque (ou equipe Bubble Belt para ter Bubble permanente e liberar espaço de Gambit).",
+          "color": "green"
+        }
       ],
-      "tags": "decoy isca bubble tanque aggro reverse status"
+      "tags": "decoy lure isca bubble bolha dobra hp 2x disease tanque bubble belt status"
     },
     {
       "id": 18,
       "title": "Confuse, Silence, Blind e Sap",
-      "subtitle": "🧪 Debuffs comuns • Quase todos cedem a Esuna ou Remedy",
+      "subtitle": "🧪 Debuffs frequentes em masmorras • Todos curados por Esuna ou Remedy",
       "category": "status",
       "spoiler": false,
       "additional_data": [
-        { "title": "Resumo", "type": "text", "content": "• Confuse: ataca aliados.\n• Silence: sem magia.\n• Blind: erra ataques.\n• Sap: perde HP aos poucos.", "color": "cyan" },
-        { "title": "Cura", "type": "text", "content": "• Esuna cobre quase todos.\n• Remedy também resolve, conforme a Remedy Lore.", "color": "blue" },
-        { "title": "Estratégia", "type": "text", "content": "• Um Gambit 'Ally: any → Esuna' costuma bastar, deixando itens para Disease, Stop e Doom.", "color": "green" }
+        {
+          "title": "Resumo dos Efeitos",
+          "type": "text",
+          "content": "• Confuse: personagem ataca os próprios aliados (cuidado com Berserk/armas fortes!).\n• Silence: bloqueia o uso de qualquer Magia.\n• Blind: reduz drasticamente a precisão de ataques físicos.\n• Sap: dreno contínuo lento de HP (expira com o tempo, diferente de Poison).",
+          "color": "cyan"
+        },
+        {
+          "title": "Cura",
+          "type": "text",
+          "content": "• Esuna cura todos os quatro.\n• Itens dedicados: Smelling Salts (Confuse), Echo Herbs (Silence), Eye Drops (Blind) e Regen (sobrepõe e anula Sap).",
+          "color": "blue"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Um único Gambit 'Ally: any -> Esuna' no curandeiro limpa os 4 automaticamente, ou mantenha Smelling Salts caso o curandeiro tome Confuse.",
+          "color": "green"
+        }
       ],
-      "tags": "confuse silence blind sap debuff status esuna remedy"
+      "tags": "confuse silence blind sap debuff status esuna remedy smelling salts echo herbs eye drops"
     },
     {
       "id": 19,
       "title": "Phoenix Down & Pheasant Netsuke",
-      "subtitle": "🎒 Revive aliados caídos • Netsuke melhora a cura de revive",
+      "subtitle": "🎒 Revive aliados caídos • Pheasant Netsuke triplica a cura de itens",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Phoenix Down revive um aliado em KO com parte do HP.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Mantenha um Gambit 'Ally: status = KO → Phoenix Down' no topo.\n• Pheasant Netsuke aumenta a eficiência dos itens de revive; confira os efeitos no seu equipamento.", "color": "green" },
-        { "title": "Dica", "type": "text", "content": "• Em chefes com muito dano em área, deixe sempre outro aliado livre para reviver quem cair.", "color": "yellow" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Phoenix Down revive um aliado nocauteado com pequena fração de HP.\n• Pheasant Netsuke é um acessório que multiplica o efeito de cura dos itens (Potions/X-Potions) e faz Phoenix Down reviver com muito mais vida.",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Com as 3 licenças Phoenix Lore + Pheasant Netsuke, uma Phoenix Down revive o aliado praticamente com HP cheio (ótimo na tática de tanque com Reverse, onde Arise pode falhar ou demorar mais para conjurar).",
+          "color": "green"
+        }
       ],
-      "tags": "phoenix down revive ko netsuke item"
+      "tags": "phoenix down revive ko pheasant netsuke lore item reverse"
     },
     {
       "id": 20,
-      "title": "Bacchus's Wine & Motes",
-      "subtitle": "🎒 Itens raros de buff • Motes ensinam magias específicas",
+      "title": "Bacchus's Wine & Motes (Hastega/Reverse/Scathe Mote)",
+      "subtitle": "🎒 Vinho aplica Berserk • Motes conjuram magias instantaneamente sem MP",
       "category": "items",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Bacchus's Wine: buff potente de combate.\n• Motes: itens que liberam uma magia específica no uso.", "color": "cyan" },
-        { "title": "Observação", "type": "text", "content": "Motes de Reverse, Hastega e outros podem aparecer em baús de áreas avançadas (por exemplo Henne Mines).", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Guarde Motes raros para o momento certo da licença no tabuleiro.", "color": "green" }
+        {
+          "title": "Bacchus's Wine",
+          "type": "text",
+          "content": "• Consumível que aplica o status Berserk (+50% Dano Físico e +50% velocidade de ATB) em um aliado ou inimigo sem precisar gastar MP nem ter o Job com a magia.",
+          "color": "cyan"
+        },
+        {
+          "title": "Motes (Conjuração de Uso Único)",
+          "type": "text",
+          "content": "• Motes NÃO ensinam magias — são itens consumíveis que CONJURAM a magia na hora, ignorando custo de MP e licenças do tabuleiro:\n  - Bubble Mote / Hastega Mote / Reverse Mote / Scathe Mote / Balance Mote.",
+          "color": "gray"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Use Reverse Mote, Bubble Mote e Hastega Mote no Trial Mode (especialmente Stage 100) ou por qualquer Job físico quando seu mago estiver ocupado ou sem MP.",
+          "color": "green"
+        }
       ],
-      "tags": "bacchus wine mote magia raro item hastega reverse henne"
+      "tags": "bacchus wine berserk mote hastega reverse scathe bubble balance item consumivel"
     },
     {
       "id": 21,
       "title": "Hastega",
-      "subtitle": "✨ Haste em grupo • Magia do Tempo de alto impacto",
+      "subtitle": "✨ Haste em todo o grupo • Baú no Great Crystal (Gate Taurus II)",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Aplica Haste em todos os aliados ao mesmo tempo.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Baú na Great Crystal, em área profunda protegida por portões (acesso após obter a Treaty-Blade).\n• Famfrit (Machinist) libera licenças de Tempo de alto nível.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Time Battlemage ou Machinist com Hastega muda a velocidade de toda a equipe.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Magia do Tempo Rank 7 que aplica Haste (+50% velocidade de barra ATB) em todos os aliados ao alcance.",
+          "color": "purple"
+        },
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• The Great Crystal (Giruvegan): área 'Uldobi Phullam Pratii', atrás da barreira Gate Taurus II (acessível após obter a Treaty-Blade e manipular os portões Libra/Capricorn/Taurus).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Disponível nativamente para Time Battlemage; também é liberada para Machinist ao associar a Esper Famfrit.",
+          "color": "green"
+        }
       ],
-      "tags": "hastega haste magia tempo great crystal famfrit machinist"
+      "tags": "hastega haste magia tempo time magick great crystal gate taurus famfrit machinist"
     },
     {
       "id": 22,
       "title": "Bravery & Faith",
-      "subtitle": "✨ Buffs de dano • Bravery (físico) e Faith (mágico)",
+      "subtitle": "✨ Buffs supremos (+30% dano físico / mágico) • Baús em Necrohol of Nabudis",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Aumentam o dano físico (Bravery) e mágico (Faith) de um aliado.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Baús em Necrohol of Nabudis (Cloister of the Highborn e Hall of the Ivory Covenant), e lojas de Balfonheim mais adiante.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Hashmal no Knight libera Curaja, Bravery e Faith: boa combinação de suporte e dano.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Bravery: aumenta o dano físico causado em +30%.\n• Faith: aumenta em +30% o poder mágico (dano de magias negras e potência de cura branca).",
+          "color": "purple"
+        },
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• Bravery: baú em Necrohol of Nabudis (Cloister of the Highborn, sala oeste perto da entrada sul).\n• Faith: baú em Necrohol of Nabudis (Hall of the Ivory Covenant, canto sudoeste).\n• Dica: você pode correr direto para pegar os dois baús cedo, fugindo dos monstros fortes!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Na Zodiac Age ambas pertencem à Magia Branca (White Magick). O Knight também desbloqueia ambas com a Esper Hashmal.",
+          "color": "green"
+        }
       ],
-      "tags": "bravery faith buff magia necrohol nabudis balfonheim hashmal knight"
+      "tags": "bravery faith buff magia branca necrohol nabudis hashmal knight white mage"
     },
     {
       "id": 23,
       "title": "Reverse & Decoy (Magias Verdes)",
-      "subtitle": "✨ Compre com o Clan Provisioner • Exigem rank do clã",
+      "subtitle": "✨ Compradas no Clan Provisioner em Rabanastre (conforme Rank do Clã)",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Decoy atrai ataques para o alvo. Reverse inverte cura e dano.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Clan Provisioner em Rabanastre (Muthru Bazaar).\n• Decoy sai cedo (rank baixo); Reverse exige um rank bem mais alto do clã.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Faça as caçadas com antecedência para liberar Reverse e montar o tanque.", "color": "green" }
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• Vendidas pelo Clan Provisioner no Muthru Bazaar (Rabanastre):\n  - Decoy: liberada bem cedo no jogo ao atingir o rank Moppet.\n  - Reverse: exige rank Knight of the Round no Clã Centurio (complete caçadas regularmente!).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Pertencem à escola Green Magick (Time Battlemage e Red Battlemage usam ambas).",
+          "color": "green"
+        }
       ],
-      "tags": "reverse decoy magia verde clan provisioner rabanastre muthru bazaar tanque"
+      "tags": "reverse decoy magia verde clan provisioner rabanastre muthru bazaar knight of the round"
     },
     {
       "id": 24,
       "title": "Arise & Curaja",
-      "subtitle": "✨ Reviver e curar em grupo • Lojas de Balfonheim",
+      "subtitle": "✨ Reviver com 100% de HP e cura em área • Lojas de Balfonheim",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Arise: revive com HP cheio.\n• Curaja: cura forte em grupo.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Lojas de magias de Balfonheim, depois do avanço da história pelo Draklor Laboratory.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Gambit de cura: 'Ally: HP < 50% → Curaja'.\n• Arise no topo para reviver sem gastar itens.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Arise: revive aliado caído com 100% do HP máximo.\n• Curaja: magia branca de cura mais potente em área para todo o grupo.",
+          "color": "purple"
+        },
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• Vendidas na loja de magias de Balfonheim Port (Curaja por 7.700 Gil e Arise por 8.000 Gil) após avançar na história pelo Draklor Laboratory.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• White Mage aprende nativamente; Monk também libera Arise com Famfrit e Knight libera Curaja com Mateus/Hashmal.",
+          "color": "green"
+        }
       ],
-      "tags": "arise curaja revive cura grupo balfonheim draklor"
+      "tags": "arise curaja revive cura grupo balfonheim draklor white mage knight monk"
     },
     {
       "id": 25,
       "title": "Scathe & Ardor",
-      "subtitle": "✨ Dano mágico pesado • Lhusu Mines",
+      "subtitle": "✨ Magias Negras Supremas • Scathe (Não-Elemental) e Ardor (Fogo em Área)",
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Scathe causa dano não elemental alto. Ardor reforça o poder mágico de um aliado.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Scathe: baú no fundo das Lhusu Mines (precisa da Site 11 Key, via caça ao Antlion).", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Para chefes que resistem a elementos, Scathe é ótima opção do Black Mage.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Scathe: maior magia negra não-elemental (ignora resistências elementais e acerta um alvo com poder extremo).\n• Ardor: maior magia negra de Fogo em área (Rank 12), causando explosões massivas em grupo.",
+          "color": "purple"
+        },
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• Scathe: baú nas Lhusu Mines (Staging Area) — requer a Site 11 Key (recompensa após a caça ao Antlion em Bhujerba).\n• Ardor: baú em Pharos – Third Ascent (Spire Ravel – 2nd Flight), passando por uma parede falsa a nordeste e pegando o waystone verde.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Combo de Fogo Supremo com Red Battlemage + Archer: aplique Oil (3×) no chefe e conjure Ardor equipando o Burning Bow (+50% dano de Fogo) — atinge facilmente o dano máximo!",
+          "color": "green"
+        }
       ],
-      "tags": "scathe ardor magia dano lhusu mines antlion site 11 black mage"
+      "tags": "scathe ardor magia negra black magick fogo lhusu mines pharos oil burning bow red battlemage"
     },
     {
       "id": 26,
@@ -390,303 +768,668 @@
       "category": "spells",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Técnica que dá alcance físico contra inimigos aéreos.", "color": "purple" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Baú visível em Cerobi Steppe, na entrada de Old Elanise Road (versão Zodiac Age).", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Útil para Knight, Foebreaker e Bushi contra voadores sem trocar de arma.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Técnica que projeta golpes físicos à distância contra inimigos voadores, usando o ataque da sua arma corpo a corpo (espadas, lanças, katanas).",
+          "color": "purple"
+        },
+        {
+          "title": "Localização Exata (The Zodiac Age)",
+          "type": "text",
+          "content": "• Baú garantido em Cerobi Steppe (Old Elanise Road), logo na entrada vindo de Tchita Uplands.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Configure 'Foe: flying -> Telekinesis' no seu Knight/Bushi/Foebreaker para não ficar inútil contra chefes ou inimigos aéreos.",
+          "color": "green"
+        }
       ],
-      "tags": "telekinesis tecnica voador aereo cerobi steppe old elanise road"
+      "tags": "telekinesis tecnica voador aereo flying cerobi steppe old elanise road knight bushi"
     },
     {
       "id": 27,
-      "title": "Os 12 Jobs (Zodiac Age)",
-      "subtitle": "🛡️ Cada personagem escolhe 2 Jobs • Planeje a combinação",
+      "title": "Os 12 Jobs & Reset Gratuito (Montblanc)",
+      "subtitle": "🛡️ 2 Jobs por personagem • Resete tudo de graça com Montblanc a qualquer hora",
       "category": "jobs",
       "spoiler": false,
       "additional_data": [
-        { "title": "Lista de Jobs", "type": "text", "content": "• Físicos: Knight, Monk, Foebreaker, Bushi, Uhlan, Archer, Machinist, Shikari.\n• Mágicos: White Mage, Black Mage, Time Battlemage, Red Battlemage.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Cada Job tem um tabuleiro de licenças próprio. Duas escolhas por personagem dão acesso a dois tabuleiros.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Evite repetir Jobs em demasia na equipe: espalhe papéis (tank, dano, cura, suporte).\n• Planeje as Espers antes de gastar LP em licenças importantes.", "color": "green" }
+        {
+          "title": "Os 12 Tabuleiros de Licença",
+          "type": "text",
+          "content": "• Armadura Pesada / Dano Físico: Knight, Uhlan, Foebreaker, Bushi (Mística).\n• Armadura Leve / Agilidade: Shikari, Monk, Archer, Machinist.\n• Mágicos: White Mage, Black Mage, Time Battlemage, Red Battlemage.",
+          "color": "cyan"
+        },
+        {
+          "title": "Reset 100% Gratuito (Sem Medo de Errar!)",
+          "type": "text",
+          "content": "• Fale com Montblanc na sede do Clã Centurio (Rabanastre) e selecione resetar Jobs.\n• Devolve TODOS os seus License Points (LP), Quickenings e Espers gastos para que você reescolha os 2 Jobs de qualquer personagem quantas vezes quiser, de graça!",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• No início, priorize pegar os nós de Swiftness (menos tempo de espera entre ações), Remedy/Potion Lore e +HP.\n• Um grupo equilibrado de 12 Jobs diferentes (sem repetir nenhum nos 6 personagens) cobre todas as armas e magias do jogo.",
+          "color": "green"
+        }
       ],
-      "tags": "jobs zodiac knight monk foebreaker bushi uhlan archer machinist shikari white mage black mage time battlemage red battlemage tabuleiro"
+      "tags": "12 jobs zodiac board tabuleiro montblanc resetar reset clan centurio rabanastre lp"
     },
     {
       "id": 28,
-      "title": "Combinações de Jobs Recomendadas",
-      "subtitle": "🛡️ Builds clássicas que funcionam da campanha ao pós-jogo",
+      "title": "Combinações Meta de 2 Jobs (12 Jobs sem Repetir)",
+      "subtitle": "🛡️ Sinergias máximas de White/Black Robes, Fogo e Tanque",
       "category": "jobs",
       "spoiler": false,
       "additional_data": [
-        { "title": "Ideias de Combinação", "type": "text", "content": "• Knight + Bushi: dano físico forte com suporte White Magick.\n• Shikari + White Mage / Foebreaker: bom tanque ou suporte.\n• Black Mage + Monk: dano mágico com HP alto.\n• Archer + Red Battlemage: dano de longe com magias.\n• Uhlan / Machinist + Time Battlemage: controle e velocidade.", "color": "cyan" },
-        { "title": "Observação", "type": "text", "content": "Ajuste conforme as armas e Espers que você já tem.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Monte pelo menos um curandeiro automático e um tanque em toda equipe.", "color": "green" }
+        {
+          "title": "Melhores Pares & Sinergias Elementais",
+          "type": "text",
+          "content": "• Knight + Bushi: o combo físico mais famoso. O Bushi fornece White Robes (+50% dano Sagrado na Excalibur!), magia alta e 3× Swiftness ao Knight.\n• Shikari + White Mage (ou Foebreaker): Shikari usa Black Robes do White Mage para dar +50% dano Sombrio na Yagyu Darkblade (devastador contra Yiazmat!), além de tanque com escudo.\n• Black Mage + Monk: combina o maior poder mágico com mais de 3.000 de HP extra do Monk, Curaja/Arise (via Famfrit) e 3× Swiftness.\n• Archer + Red Battlemage: Archer fornece o Burning Bow (+50% dano de Fogo na magia Ardor!) e 3× Swiftness + Remedy Lore 3.\n• Uhlan + Time Battlemage: ótimo dano físico de lança + suporte de Hastega/Break/Heavy Armor.\n• Foebreaker + Machinist (ou Bushi): cobre as 4 técnicas Break (Wither, Expose, Addle, Shear) com arma de fogo que ignora defesa.",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• White Robes + Excalibur transforma ataques físicos normais em dano Sagrado turbinado (+50%) contra mortos-vivos, Great Crystal e Pharos.\n• Black Robes + Yagyu Darkblade é a combinação mais rápida para derreter os 50 milhões de HP do Yiazmat.",
+          "color": "green"
+        }
       ],
-      "tags": "jobs combinacao build knight bushi shikari white mage foebreaker black mage monk archer red battlemage uhlan machinist time battlemage"
+      "tags": "jobs combinacao build meta knight bushi shikari white robes black robes excalibur yagyu darkblade burning bow ardor"
     },
     {
       "id": 29,
-      "title": "Espers: Para Quem Dar Cada Uma",
-      "subtitle": "🛡️ Cada Esper só pode ser usada por um personagem",
+      "title": "Espers: Alocação Ideal nos Tabuleiros",
+      "subtitle": "🛡️ Cada Esper libera pontes exclusivas — escolha o Job que mais ganha",
       "category": "jobs",
       "spoiler": false,
       "additional_data": [
-        { "title": "Recomendações", "type": "text", "content": "• Mateus → Knight (Curaga, Esuna, Cleanse, Regen).\n• Hashmal → Knight (Curaja, Bravery, Faith).\n• Cúchulainn → Red Battlemage (magias -ga negras).\n• Famfrit → Machinist (Hastega e Tempo avançado).\n• Zodiark e Ultima → depende do tabuleiro de cada personagem.", "color": "cyan" },
-        { "title": "Observação", "type": "text", "content": "Cada Esper ocupa um nó específico em cada Job. Confirme no tabuleiro antes de gastar.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Defina primeiro quem cura e quem causa dano, e só depois distribua as Espers.", "color": "green" }
+        {
+          "title": "Alocação Recomendada das Principais Espers",
+          "type": "text",
+          "content": "• Mateus -> Knight: libera Curaga, Esuna, Cleanse e Regen.\n• Hashmal -> Knight: libera Curaja, Bravery, Faith e Confuse.\n• Cúchulainn -> Red Battlemage: libera as magias negras -ga (Firaga, Blizzaga, Thundaga, Sleepga) — ou Shikari (Protectga/Shellga).\n• Famfrit -> Machinist: libera Time Magick 8–10 (Hastega, Slowga, Reflectga, Vanishga) — ou Monk (Arise e Dispelga).\n• Zalera -> Black Mage (Steal/Poach) ou Shikari (+435 HP).\n• Chaos -> Monk (Holy, Esunaga, Protectga, Shellga) ou Uhlan (Bio/Blindga/Aeroga).\n• Ultima -> Monk (2× Swiftness extra!) ou Knight (Telekinesis).\n• Zodiark -> Monk (Renew!) ou Red Battlemage (Ragnarok).",
+          "color": "yellow"
+        },
+        {
+          "title": "Dica Prática",
+          "type": "text",
+          "content": "• Como os 2 Jobs de um personagem compartilham os desbloqueios da mesma Esper, verifique o mapa dos dois tabuleiros juntos — muitas vezes a Esper faz 'ponte' para ilhas isoladas de ambos os Jobs!",
+          "color": "green"
+        }
       ],
-      "tags": "esper mateus hashmal cuchulainn famfrit ultima zodiark knight red battlemage machinist tabuleiro licencas"
+      "tags": "esper mateus hashmal cuchulainn famfrit ultima zodiark chaos zalera knight red battlemage machinist monk licencas"
     },
     {
       "id": 30,
-      "title": "Quickenings & Concurrences",
-      "subtitle": "🛡️ Ataques especiais encadeados • Mist Chains",
+      "title": "Quickenings & Tabela de Concurrences",
+      "subtitle": "🛡️ Combinações exatas de Mist Chains até Black Hole (Poder 253)",
       "category": "jobs",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Quickenings são ataques especiais que gastam Mist. Encadeá-los forma Concurrences, bem mais fortes.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Cada Quickening pode abrir uma Mist Chain com outros. A ordem influencia o resultado final.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Guarde Mist para chefes e caçadas difíceis.\n• Prefira Concurrences para o fim de lutas longas.", "color": "green" }
+        {
+          "title": "Tabela Completa de Concurrences",
+          "type": "text",
+          "content": "• Inferno (Poder 90): 3× Nível 1.\n• Cataclysm (Poder 110): 6× Nível 1.\n• Torrent (Poder 130): 2× Nível 1 + 2× Nível 2.\n• Windburst (Poder 155): 4× Nível 2.\n• Whiteout (Poder 175): 4× Nível 3.\n• Ark Blast (Poder 175): 2× Nível 1 + 2× Nível 2 + 2× Nível 3.\n• Luminescence (Poder 215): 3× Nível 1 + 3× Nível 2 + 3× Nível 3.\n• Black Hole (Poder 253): 4× Nível 1 + 4× Nível 2 + 4× Nível 3!",
+          "color": "gray"
+        },
+        {
+          "title": "Mecânica e Dicas",
+          "type": "text",
+          "content": "• O jogo sempre executa a Concurrence mais alta cujos requisitos você atingiu na corrente.\n• Cada personagem tem 4 nós de Quickening no tabuleiro, mas só pode pegar 3 — verifique antes qual dos 4 nós dá acesso a licenças extras atrás dele!\n• Para a conquista/troféu do Sky Pirate's Den, Black Hole costuma ser o objetivo mais difícil: aperte R2 (Mist Charge) sempre que nenhuma carta aparecer.",
+          "color": "green"
+        }
       ],
-      "tags": "quickening concurrence mist chain black hole luminescence ataque especial"
+      "tags": "quickening concurrence mist chain black hole luminescence ark blast whiteout tabela trofeu"
     },
     {
       "id": 31,
-      "title": "Tournesol (Montante Suprema)",
-      "subtitle": "⚔️ Greatsword de elite • Receita pesada do Bazaar",
+      "title": "Tournesol (Montante Suprema — 138 ATK)",
+      "subtitle": "⚔️ Receita completa do Bazaar (The Sunflower) • 600.000 Gil",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Uma das armas mais fortes do jogo, para montantes.", "color": "cyan" },
-        { "title": "Receita (Bazaar)", "type": "text", "content": "Componentes principais (ver guias): 3× Gemsteel, 3× Empyreal Soul e 3× Serpentarius.\nCada um tem sua própria receita de materiais raros.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Junte materiais ao longo da campanha e ative o pacote no Bazaar. Não venda loot raro à toa.", "color": "green" }
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "tournesol.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Receita Exata no Bazaar (600.000 Gil)",
+          "type": "text",
+          "content": "• Venda para liberar o pacote:\n  - 3× Gemsteel\n  - 3× Empyreal Soul\n  - 3× Serpentarius",
+          "color": "yellow"
+        },
+        {
+          "title": "Sub-Receitas (Total de Loots Necessários)",
+          "type": "text",
+          "content": "• Para 3× Gemsteel (cada: 2× Damascus Steel, 2× Hell-Gate's Flame, 1× Scarletite) -> Total: 6× Damascus Steel, 6× Hell-Gate's Flame, 3× Scarletite.\n• Para 3× Empyreal Soul (cada: 1× Soul Powder, 2× Wargod's Band, 1× High Arcana) -> Total: 3× Soul Powder, 6× Wargod's Band, 3× High Arcana.\n• Para 3× Serpentarius (cada: 4× Snake Skin, 2× Serpent Eye, 1× High Arcana) -> Total: 12× Snake Skin, 6× Serpent Eye, 3× High Arcana.",
+          "color": "gray"
+        },
+        {
+          "title": "Dica de Economia",
+          "type": "text",
+          "content": "• Use o truque de ingredientes compartilhados do Bazaar: se vender os itens de Gemsteel junto com Kumbha/Mithuna antes de comprar um pacote, você economiza farm de Gemsteel e High Arcana (também recompensadas por caças do Clã!).",
+          "color": "green"
+        }
       ],
-      "tags": "tournesol sunflower greatsword montante bazaar gemsteel empyreal soul serpentarius"
+      "tags": "tournesol sunflower greatsword montante bazaar gemsteel empyreal soul serpentarius damascus steel"
     },
     {
       "id": 32,
-      "title": "Kumbha (Espada de Elite)",
-      "subtitle": "⚔️ Receita Master-crafted Blade no Bazaar",
+      "title": "Kumbha (Katana de 1 Mão — 131 ATK)",
+      "subtitle": "⚔️ Pacote Master-crafted Blade do Bazaar • 350.000 Gil",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Receita (Bazaar)", "type": "text", "content": "Segundo guias consultados: 2× Gemsteel, 3× Orichalcum e 2× Mallet.", "color": "yellow" },
-        { "title": "Observação", "type": "text", "content": "Confirme a receita no jogo antes de gastar loot raro.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Boa arma para quem usa espadas de uma mão de nível alto.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Versão aprimorada da Masamune para Bushi: é uma katana de 1 MÃO com 131 de Ataque e taxa altíssima de combo, permitindo equipar Escudo (como Genji Shield ou Gendarme) junto!",
+          "color": "cyan"
+        },
+        {
+          "title": "Receita Exata no Bazaar (350.000 Gil)",
+          "type": "text",
+          "content": "• Venda exatamente:\n  - 2× Gemsteel\n  - 3× Orichalcum\n  - 2× Mallet",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Equipe Kumbha + Genji Gloves + Escudo no Knight/Bushi para um dos maiores DPS contínuos do jogo mantendo defesa máxima.",
+          "color": "green"
+        }
       ],
-      "tags": "kumbha masamune espada bazaar master-crafted blade gemsteel orichalcum mallet"
+      "tags": "kumbha masamune katana 1 mao bazaar master-crafted blade gemsteel orichalcum mallet bushi"
     },
     {
       "id": 33,
-      "title": "Mithuna (Arma de Fogo)",
-      "subtitle": "⚔️ Pacote Mudslinger do Bazaar",
+      "title": "Mithuna (Arma de Fogo Suprema — 65 ATK)",
+      "subtitle": "⚔️ Pacote Mudslinger do Bazaar • 120.000 Gil • Ignora Defesa",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Receita (Bazaar)", "type": "text", "content": "Segundo guias: 2× Emperor Scale, 3× Silver Liquid e 8× Earth Crystal.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Boa para Machinist e Archer-like com armas de fogo.\n• Confirme a receita no jogo antes de vender loot.", "color": "green" }
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "mithuna.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Receita Exata no Bazaar (120.000 Gil)",
+          "type": "text",
+          "content": "• Pacote Mudslinger (vem Mithuna + munição Mud Shot):\n  - 2× Emperor Scale\n  - 3× Silver Liquid\n  - 8× Earth Crystal",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Armas de fogo ignoram completamente a defesa do inimigo e não dependem dos atributos do usuário — Mithuna com Bravery + Berserk + Elemental Shot causa dano absurdo mesmo em personagens nível 1 (base das runs de New Game Minus!).",
+          "color": "green"
+        }
       ],
       "tags": "mithuna arma de fogo gun mudslinger bazaar emperor scale silver liquid earth crystal machinist"
     },
     {
       "id": 34,
-      "title": "Mesa & Yagyu Darkblade (Katanas)",
-      "subtitle": "⚔️ Ninja Swords de elite • Mesa pelo Bazaar, Darkblade em baú",
+      "title": "Mesa & Yagyu Darkblade (Ninja Swords)",
+      "subtitle": "⚔️ Mesa no Bazaar (1M Gil) • Yagyu Darkblade no Great Crystal (+50% c/ Black Robes)",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Mesa (Bazaar)", "type": "text", "content": "Segundo guias: 3× Cancer Gem, 2× Coeurl Whisker e 2× Sickle-Blade (pacote Serpent Blade).", "color": "yellow" },
-        { "title": "Yagyu Darkblade", "type": "text", "content": "• Não é de Bazaar na Zodiac Age.\n• Baú na Great Crystal ou roubo do Bombshell nas Lhusu Mines (precisa de Thief's Cuffs).", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Katanas combinam bem com Bushi e Shikari, ajudando contra superchefes.", "color": "green" }
+        {
+          "title": "Visual da Arma (Yagyu Darkblade)",
+          "type": "image",
+          "content": "yagyu_darkblade.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Mesa (Pacote Serpent Blade — 1.000.000 Gil)",
+          "type": "text",
+          "content": "• Receita do Bazaar:\n  - 3× Cancer Gem\n  - 2× Coeurl Whisker\n  - 2× Sickle-Blade",
+          "color": "yellow"
+        },
+        {
+          "title": "Yagyu Darkblade (Elemento Sombrio — Para Yiazmat)",
+          "type": "text",
+          "content": "• NÃO é feita no Bazaar na Zodiac Age!\n• Baú 100% garantido em The Great Crystal (área Sirhru Jilaam Pratii'vaa — lembre de tirar o Diamond Armlet!).\n• Alternativa: roubo raro (com Thief's Cuffs) do Rare Game Bombshell nas Lhusu Mines (Site 11).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Yagyu Darkblade causa dano Sombrio (Dark): combinada com Black Robes (+50% Dark) e Genji Gloves, é o equipamento nº 1 do Shikari contra Yiazmat.",
+          "color": "green"
+        }
       ],
-      "tags": "mesa yagyu darkblade katana ninja sword bazaar serpent blade bombshell great crystal bushi"
+      "tags": "mesa yagyu darkblade ninja sword bazaar serpent blade bombshell great crystal black robes shikari"
     },
     {
       "id": 35,
-      "title": "Excalibur & Armas de Baú Raras",
-      "subtitle": "⚔️ Great Crystal guarda as armas mais fortes",
+      "title": "Excalibur & Baús Invisíveis (Seitengrat, Trango, Gendarme)",
+      "subtitle": "⚔️ Excalibur garantida no Great Crystal • Baús secretos exigem Diamond Armlet",
       "category": "weapons",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Excalibur fica na Great Crystal, depois de enfrentar a Esper Ultima, segundo guias.", "color": "cyan" },
-        { "title": "Raridades de Baú", "type": "text", "content": "• Seitengrat, Trango Tower e Gendarme têm chance minúscula de aparecer em baús específicos.\n• Seitengrat: baú invisível na parte de cima das aeronaves.\n• Trango Tower: Great Crystal.", "color": "yellow" },
-        { "title": "Aviso", "type": "text", "content": "⚠️ Essas armas dependem de sorte e podem exigir acessórios específicos para o baú liberar o item. Confira o guia da versão que você joga.", "color": "red" }
+        {
+          "title": "Visual da Arma (Excalibur)",
+          "type": "image",
+          "content": "excalibur.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Excalibur (Elemento Sagrado — Sem Diamond Armlet!)",
+          "type": "text",
+          "content": "• Localização: The Great Crystal, na seção superior acessível após derrotar Ultima (área 'Crystal Peak' / 'Sirhru Phullam Pratii'vaa' ao norte).\n• ⚠️ DESEQUIPE o Diamond Armlet antes de abrir o baú, senão você ganha lixo em vez da Excalibur!",
+          "color": "yellow"
+        },
+        {
+          "title": "As 3 Armas/Escudos Invisíveis (Com Diamond Armlet)",
+          "type": "text",
+          "content": "• Seitengrat (Arco Invisível — 224 ATK): baú invisível no convés superior da aeronave Skyferry (chance total ~1 em 10.000 sem manipulação de RNG).\n• Trango Tower (Espada 1 Mão — 153 ATK): baú invisível em Pharos Subterra / Great Crystal ou roubo raro do Zodiark no Trial Mode Stage 97.\n• Gendarme (Escudo Supremo — 90 Evade, absorve todos elementos!): baú invisível no topo do Great Crystal (próximo ao cristal de save da Ultima).",
+          "color": "purple"
+        },
+        {
+          "title": "⚠️ Aviso sobre Baús Invisíveis",
+          "type": "text",
+          "content": "• Esses 3 equipamentos ocultos dependem do Diamond Armlet no líder e têm chance minúscula de aparição; a maioria dos jogadores usa manipulação de RNG (método Reks) ou prefere usar Excalibur/Tournesol/Kumbha normalmente.",
+          "color": "red"
+        }
       ],
-      "tags": "excalibur great crystal seitengrat trango tower gendarme bau raro arma"
+      "tags": "excalibur great crystal seitengrat trango tower gendarme bau invisivel diamond armlet"
     },
     {
       "id": 36,
       "title": "Ribbon (Fita)",
-      "subtitle": "💍 Imunidade a quase todos os status",
+      "subtitle": "💍 Imunidade a quase todos os status negativos (incluindo Disease, Stop e Doom)",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Acessório que protege contra a maioria dos efeitos negativos do jogo.", "color": "cyan" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Na Zodiac Age, aparece em áreas avançadas: baús em Henne Mines e Pharos, ou roubo em Trial Mode e de Hashmal.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Prioridade nº 1 para quem for enfrentar superchefes com muitos status.", "color": "green" }
+        {
+          "title": "Visual do Acessório",
+          "type": "image",
+          "content": "ribbon.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Conseguir (The Zodiac Age)",
+          "type": "text",
+          "content": "• Na Zodiac Age NÃO aparece mais no baú fácil da Cerobi Steppe como no PS2!\n• Locais reais:\n  - Henne Mines (Phase 2 Dig — baú com 15% de chance, SEM Diamond Armlet).\n  - Pharos Subterra (Abyssal — baú com 10% de chance).\n  - Trial Mode: roubo do Esper Hashmal (Stage 49) ou drop de Lv.99 Red Chocobo.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Equipe no seu curandeiro principal para garantir que ele nunca fique em Stop, Sleep, Confuse ou Disease durante lutas críticas.",
+          "color": "green"
+        }
       ],
-      "tags": "ribbon fita acessorio imunidade status henne mines pharos trial mode hashmal"
+      "tags": "ribbon fita acessorio imunidade status henne mines pharos subterra trial mode hashmal"
     },
     {
       "id": 37,
       "title": "Nihopalaoa",
-      "subtitle": "💍 Inverte itens de cura em debuffs contra o alvo",
+      "subtitle": "💍 Inverte itens de cura em debuffs 100% garantidos contra chefes",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Quando equipado, itens de cura usados em inimigos causam o status correspondente.", "color": "cyan" },
-        { "title": "Onde Conseguir", "type": "text", "content": "• Na Zodiac Age: baús em Henne Mines e Pharos, pacote Cursed Necklace do Bazaar ou roubo de Carrot no Trial Mode.", "color": "yellow" },
-        { "title": "Estratégia", "type": "text", "content": "• Antidote → Poison, Handkerchief → Oil, Serum → Disease.\n• Muito usado contra chefes imunes a magia.", "color": "green" }
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Acessório que inverte o efeito de itens curativos usados pelo portador: quando usados em inimigos, infligem os debuffs correspondentes ignorando quase todas as resistências normais.",
+          "color": "cyan"
+        },
+        {
+          "title": "Onde Conseguir (The Zodiac Age)",
+          "type": "text",
+          "content": "• Na Zodiac Age não é mais vendido pelo Clan Provisioner!\n• Baú em Henne Mines (Phase 2 Dig, 25% de chance) ou Pharos Subterra (5% de chance).\n• Bazaar (pacote 'Cursed Necklace'): 3× Blood-stained Necklace + 2× Death's-head + 3× Leo Gem.\n• Trial Mode: roubo do chefe Carrot.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Use Remedy (com Remedy Lore 3) equipado com Nihopalaoa em qualquer chefe ou nos 5 Juízes do Stage 100 para aplicar de uma só vez Disease, Slow, Blind, Silence, Sap e Poison!",
+          "color": "green"
+        }
       ],
-      "tags": "nihopalaoa acessorio inverte cura debuff antidote handkerchief serum cursed necklace henne pharos"
+      "tags": "nihopalaoa acessorio inverte cura debuff remedy lore 3 henne pharos cursed necklace trial mode"
     },
     {
       "id": 38,
-      "title": "Genji Gloves & Genji Gear",
-      "subtitle": "⚠️ Perdível • Roubo em fases da luta com Gilgamesh",
+      "title": "Genji Gloves & Genji Gear (Conjunto Completo)",
+      "subtitle": "⚠️ PERDÍVEL • Roube do Gilgamesh em Lhusu Mines nas fases exatas de HP",
       "category": "weapons",
-      "spoiler": false,
+      "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "O conjunto Genji (luvas, escudo, elmo e armadura) vem do roubo de Gilgamesh em lutas nas Lhusu Mines.", "color": "cyan" },
-        { "title": "⚠️ Atenção (Perdível)", "type": "text", "content": "• Cada item só pode ser roubado em fases específicas de HP.\n• Não deixe os Gambits empurrarem Gilgamesh para a próxima fase antes do roubo.", "color": "red" },
-        { "title": "Estratégia", "type": "text", "content": "• Use Thief's Cuffs e controle manual.\n• Consulte o guia de fases antes de lutar.", "color": "green" }
+        {
+          "title": "⚠️ Atenção: Única Chance na Campanha",
+          "type": "text",
+          "content": "• Se você derrotar Gilgamesh ou fazê-lo mudar de fase antes de roubar, o item daquela fase é PERDIDO para sempre na campanha principal.\n• Desative Gambits de ataque automático ao chegar perto de cada faixa de HP!",
+          "color": "red"
+        },
+        {
+          "title": "Fases Exatas de Roubo (Use Thief's Cuffs)",
+          "type": "text",
+          "content": "• Luta 1 (Lhusu Mines — Site 7):\n  - 40% a 30% HP (após 3ª cutscene): roube o Genji Shield.\n  - Abaixo de 30% HP (após 4ª cutscene): roube as Genji Gloves (acessório mais forte de combo!).\n• Luta 2 (Lhusu Mines — Site 6 North — requer Site 11 Key):\n  - 60% a 40% HP (após 2ª cutscene): roube o Genji Helm.\n  - Abaixo de 40% HP (após 3ª cutscene): roube a Genji Armor.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Genji Gloves aumentam drasticamente a taxa de multi-hits (combos), especialmente com Kumbha e Yagyu Darkblade.\n• Use Gambit 'Foe: any -> Steal' com Thief's Cuffs e espere a notificação do item antes de continuar batendo.",
+          "color": "green"
+        }
       ],
-      "tags": "genji gloves genji gear gilgamesh lhusu mines roubo steal perdivel thief cuffs"
+      "tags": "genji gloves shield helm armor gilgamesh lhusu mines roubo steal perdivel thief cuffs"
     },
     {
       "id": 39,
-      "title": "Acessórios de Progressão",
-      "subtitle": "💍 Cat-ear Hood, Embroidered Tippet, Golden Amulet e Diamond Armlet",
+      "title": "Acessórios de Farm & Diamond Armlet (Quando Usar!)",
+      "subtitle": "💍 Embroidered Tippet (2× EXP), Golden Amulet (2× LP), Cat-ear Hood & Diamond Armlet",
       "category": "weapons",
       "spoiler": false,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Cat-ear Hood: converte LP excedente em Gil.\n• Embroidered Tippet: mais EXP.\n• Golden Amulet: mais LP.\n• Diamond Armlet: aumenta HP em troca de um efeito de risco; use com cuidado.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Troque para esses acessórios ao farmar EXP/LP/Gil.\n• Volte ao conjunto de defesa em chefes.", "color": "green" }
+        {
+          "title": "Acessórios de Progressão",
+          "type": "text",
+          "content": "• Golden Amulet: dobra (2×) os LP ganhos (inclusive para personagens fora do grupo ativo!).\n• Embroidered Tippet: dobra (2×) a EXP ganha pelo portador.\n• Cat-ear Hood (Clan Shop, rank alto): converte LP excedentes ganhos em Gil (melhor farm de dinheiro do jogo no Trial Mode!).",
+          "color": "cyan"
+        },
+        {
+          "title": "⚠️ Como Funciona o Diamond Armlet na Zodiac Age",
+          "type": "text",
+          "content": "• Concede imunidade a Raio (Lightning) e MUDA a tabela de prêmios de todos os baús abertos enquanto estiver equipado no líder.\n• QUANDO EQUIPAR: apenas para farmar na Cerobi Steppe ou pegar os 3 baús invisíveis (Seitengrat/Trango/Gendarme).\n• QUANDO TIRAR: ⚠️ DESEQUIPE em todas as masmorras normais (Great Crystal, Pharos, Henne, Necrohol), senão baús de armas/magias como Excalibur ou Hastega viram Knot of Rust ou Gil!",
+          "color": "red"
+        }
       ],
-      "tags": "cat-ear hood embroidered tippet golden amulet diamond armlet farm lp exp gil acessorio"
+      "tags": "diamond armlet embroidered tippet golden amulet cat-ear hood farm lp exp gil bau"
     },
     {
       "id": 40,
-      "title": "Gambit: Tanque Imortal",
-      "subtitle": "⚙️ Decoy + Reverse + Bubble no mesmo personagem",
+      "title": "Setup de Gambit: Tanque Imortal (Decoy + Reverse)",
+      "subtitle": "⚙️ Configuração completa de sobrevivência contra Yiazmat e Omega",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Configuração", "type": "text", "content": "• Self: Decoy.\n• Self: Reverse.\n• Self: Bubble.\n• Ally: HP < 50% → Cure/Curaja.", "color": "cyan" },
-        { "title": "Mecânica", "type": "text", "content": "Reverse transforma cura em dano em você mesmo, então combine com suporte que cure o grupo, não o tanque.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Ideal para chefes de longa duração.", "color": "green" }
+        {
+          "title": "Gambits do Suporte (Para o Tanque)",
+          "type": "text",
+          "content": "• 1. Ally: status = KO -> Arise / Phoenix Down\n• 2. Ally: [Nome do Tanque] -> Reverse (mantém Reverse renovado)\n• 3. Ally: [Nome do Tanque] -> Decoy (puxa toda a atenção)\n• 4. Ally: any -> Bubble (ou use Bubble Belt)\n• ⚠️ NUNCA deixe 'Ally: HP < X% -> Curaja' ativo junto com Reverse, pois cura mata o tanque sob Reverse!",
+          "color": "cyan"
+        },
+        {
+          "title": "Gambits do Próprio Tanque",
+          "type": "text",
+          "content": "• 1. Self -> Decoy (caso seja Red Battlemage/Time Mage secundário)\n• 2. Self: MP < 20% -> Charge (ou Syphon em aliado)\n• 3. Foe: party leader's target -> Attack (ou Expose/Wither)",
+          "color": "green"
+        }
       ],
-      "tags": "gambit tanque imortal decoy reverse bubble cure configuracao"
+      "tags": "gambit tanque imortal decoy reverse bubble arise yiazmat omega configuracao"
     },
     {
       "id": 41,
-      "title": "Gambit: Dano Físico Máximo",
-      "subtitle": "⚙️ Bravery + Haste + Berserk em sequência",
+      "title": "Setup de Gambit: DPS Físico & Mago Inteligente",
+      "subtitle": "⚙️ Gambits de ataque sem desperdício de MP e buffs automáticos",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Configuração", "type": "text", "content": "• Self: Bravery.\n• Self: Haste.\n• Foe: any → Attack.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Deixe Berserk para o fim da luta.\n• Mantenha um aliado com Gambit de cura de emergência.", "color": "green" }
+        {
+          "title": "DPS Físico (Knight/Bushi ou Shikari)",
+          "type": "text",
+          "content": "• 1. Ally: status = KO -> Phoenix Down\n• 2. Self -> Bravery / Haste (se tiver)\n• 3. Foe: flying -> Telekinesis (para acertar voadores)\n• 4. Foe: nearest visible -> Attack",
+          "color": "cyan"
+        },
+        {
+          "title": "Black Mage / Red Battlemage (Sem Queimar MP)",
+          "type": "text",
+          "content": "• 1. Self: MP < 20% -> Charge\n• 2. Foe: status = Oil -> Firaga / Ardor\n• 3. Foe: fire-weak -> Firaga | Foe: ice-weak -> Blizzaga | Foe: lightning-weak -> Thundaga\n• 4. Foe: party leader's target -> Scathe / Shock / Bio\n• Dica: use a passiva Inquisitor/Headsman/Warmage + Charge para manter MP infinito.",
+          "color": "green"
+        }
       ],
-      "tags": "gambit dano fisico bravery haste berserk dps ataque"
+      "tags": "gambit dps fisico black mage mago inteligente oil firaga telekinesis charge mp"
     },
     {
       "id": 42,
-      "title": "Gambit: Curandeiro Automático",
-      "subtitle": "⚙️ Cura e remove debuffs sem você precisar mexer",
+      "title": "Setup de Gambit: Curandeiro & Limpeza de Status",
+      "subtitle": "⚙️ Ordem de prioridade exata para nunca perder a equipe",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Configuração", "type": "text", "content": "• Ally: status = KO → Phoenix Down/Arise.\n• Ally: HP < 50% → Curaja/Cure.\n• Ally: any → Esuna.\n• Ally: status = Stop → Chronos Tear.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Coloque a revive acima da cura comum.\n• Reserve itens para Disease e Stop.", "color": "green" }
+        {
+          "title": "Ordem Recomendada (De Cima para Baixo)",
+          "type": "text",
+          "content": "• 1. Ally: status = KO -> Arise / Phoenix Down\n• 2. Ally: status = Stop -> Chronos Tear\n• 3. Ally: status = Disease -> Serum / Cleanse\n• 4. Ally: status = Petrify -> Gold Needle\n• 5. Ally: HP < 50% -> Curaja\n• 6. Ally: any -> Esuna\n• 7. Foe: any -> Dispel\n• 8. Ally: any -> Protectga / Shellga / Hastega",
+          "color": "cyan"
+        },
+        {
+          "title": "Por que essa Ordem?",
+          "type": "text",
+          "content": "• Reviver e remover Stop/Disease/Petrify vêm sempre antes da cura normal para evitar que o curandeiro trave ou desperdice Curaja em um aliado com Disease.",
+          "color": "green"
+        }
       ],
-      "tags": "gambit curandeiro automatico cura esuna phoenix arise chronos tear"
+      "tags": "gambit curandeiro automatico cura arise curaja esuna chronos tear serum gold needle dispel"
     },
     {
       "id": 43,
-      "title": "Gambit de Roubo (sem loop)",
-      "subtitle": "⚙️ Steal com condição para não repetir sem parar",
+      "title": "Gambit de Roubo (Sem Loop Infinito)",
+      "subtitle": "⚙️ 'Foe: HP = 100% -> Steal' para roubar automaticamente no primeiro segundo",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Configuração", "type": "text", "content": "• Foe: HP = 100% → Steal.\n• Depois: Foe: any → Attack.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Limitar o steal a um momento evita gastar tempo repetindo roubos.\n• Em lutas de fases (como Gilgamesh), desligue o Gambit ao entrar na fase certa.", "color": "green" }
+        {
+          "title": "Configuração Correta",
+          "type": "text",
+          "content": "• No personagem com Steal (Vaan/Balthier/Shikari), coloque no topo:\n  - 1. Foe: HP = 100% -> Steal\n  - 2. Foe: party leader's target -> Attack\n• Os outros 2 personagens atacam normalmente — assim que o inimigo sofre 1 ponto de dano, o ladrão para de roubar e passa a atacar!",
+          "color": "cyan"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Dá um fluxo contínuo de loots extras para vender no Bazaar sem você precisar roubar manualmente.",
+          "color": "green"
+        }
       ],
-      "tags": "gambit roubo steal loop thief cuffs configuracao"
+      "tags": "gambit roubo steal loop hp 100 thief cuffs loot bazaar"
     },
     {
       "id": 44,
-      "title": "Como Funciona o Bazaar",
-      "subtitle": "⚙️ Venda loot para liberar novos itens nas lojas",
+      "title": "Como Funciona o Bazaar (Sem Perder Loots)",
+      "subtitle": "⚙️ Contadores ocultos por item — nunca venda um ingrediente antes da hora",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Mecânica", "type": "text", "content": "Os itens (loot) que você vende abrem pacotes de itens, armas e magias para comprar. A combinação certa ativa o pacote.", "color": "gray" },
-        { "title": "Cuidado", "type": "text", "content": "⚠️ Vender loot raro sem querer pode atrasar receitas de armas lendárias.", "color": "red" },
-        { "title": "Estratégia", "type": "text", "content": "• Guarde itens raros até conhecer as receitas.\n• Confira o pacote que cada loot ativa antes de vender.", "color": "green" }
+        {
+          "title": "Mecânica Interna do Bazaar",
+          "type": "text",
+          "content": "• Ao vender loots exigidos por um pacote, o jogo soma em um contador interno para cada pacote aplicável.\n• ⚠️ Quando você COMPRA um pacote do Bazaar, o contador de TODOS os ingredientes daquele pacote é ZERADO — inclusive se outro item não comprado também usasse parte dos mesmos loots que você vendeu a mais!",
+          "color": "red"
+        },
+        {
+          "title": "Regra de Ouro",
+          "type": "text",
+          "content": "• Só venda loots raros (como Gemsteel, High Arcana, Orichalcum) quando tiver a quantidade exata do pacote que deseja desbloquear naquele momento, e compre o pacote logo em seguida.\n• Aproveite o 'compartilhamento' proposital: se vender 3× Gemsteel antes de comprar Kumbha OU Tournesol, ambos os pacotes podem abrir juntos!",
+          "color": "green"
+        }
       ],
-      "tags": "bazaar loot receita pacote venda armas lendarias"
+      "tags": "bazaar loot receita contador zera pacote venda armas lendarias"
     },
     {
       "id": 45,
-      "title": "Farm de LP, EXP e Gil + Trial Mode",
-      "subtitle": "⚙️ Use acessórios de progressão e o Trial Mode",
+      "title": "Farm de EXP, LP, Gil & Regras do Trial Mode",
+      "subtitle": "⚙️ Melhores locais de up + o que você leva do Trial Mode para a campanha",
       "category": "gambits",
       "spoiler": false,
       "additional_data": [
-        { "title": "Dicas de Farm", "type": "text", "content": "• Equipe Golden Amulet (LP), Embroidered Tippet (EXP) e Cat-ear Hood (LP → Gil).\n• Fique em áreas com muitos inimigos fortes.", "color": "cyan" },
-        { "title": "Trial Mode", "type": "text", "content": "Modo de 100 andares com recompensas raras e inimigos poderosos. O último andar enfrenta os Cinco Juízes.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Faça o Trial Mode depois de montar a equipe e conseguir Ribbon e Nihopalaoa.", "color": "green" }
+        {
+          "title": "Melhores Farms da Campanha",
+          "type": "text",
+          "content": "• Início (LP/EXP): Dustia (Westersands — mate com Phoenix Down com personagem <10% HP e saia da tela antes do número de XP desaparecer) ou esqueletos nas Lhusu Mines (ponte).\n• Meio (EXP/Chain): Jellys em Henne Mines (Pithead Junction B — com Break/Sleepga + Fira/Blizzara).\n• Fim (EXP/LP máxima): Henne Mines — Phase 2 Dig (Abysteels, use Sleepga + Curaja/Scathe ou Golden Amulet + Embroidered Tippet).\n• Gil Infinito: Trial Mode Stage 1 em loop com Diamond Armlet / Cat-ear Hood!",
+          "color": "yellow"
+        },
+        {
+          "title": "Regras do Trial Mode (100 Andares)",
+          "type": "text",
+          "content": "• Ao carregar um save do Trial Mode de volta na campanha principal, você MANTÉM todos os itens, armas, equipamentos, Gil e LP que roubou ou pegou em baús lá dentro!\n• ⚠️ Cuidado: salvar por cima do seu slot da campanha após completar Stage 100 inicia o New Game+ (ou sobrescreve o save) — sempre mantenha um save reserva separado!",
+          "color": "red"
+        }
       ],
-      "tags": "farm lp exp gil trial mode 100 andares juizes golden amulet tippet cat-ear hood"
+      "tags": "farm lp exp gil trial mode 100 andares abysteels henne mines dustia cat-ear hood"
     },
     {
       "id": 46,
-      "title": "Espers Opcionais",
-      "subtitle": "👑 Adrammelech, Zalera, Cúchulainn, Exodus, Zeromus, Chaos, Ultima e Zodiark",
-      "category": "espers_hunts",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Resumo", "type": "text", "content": "• Cúchulainn: nos canais de Garamsythe.\n• Chaos: medalhões em Necrohol of Nabudis.\n• Ultima: Great Crystal.\n• Zodiark: Henne Mines (cuidado com Darkja).\n• Demais Espers aparecem ao longo da história ou em áreas opcionais.", "color": "cyan" },
-        { "title": "Observação", "type": "text", "content": "Cada Esper só pode ser dada a um personagem. Veja a entrada de distribuição na categoria Jobs.", "color": "gray" },
-        { "title": "Estratégia", "type": "text", "content": "• Faça a equipe forte antes de buscar Ultima e Zodiark.", "color": "green" }
-      ],
-      "tags": "espers opcionais adrammelech zalera cuchulainn exodus zeromus chaos ultima zodiark garamsythe nabudis great crystal henne"
-    },
-    {
-      "id": 47,
-      "title": "Gilgamesh",
-      "subtitle": "👑 Luta em fases • Fonte do conjunto Genji",
-      "category": "espers_hunts",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "Gilgamesh troca de arma e fase conforme perde HP, e é nelas que se rouba o conjunto Genji.", "color": "cyan" },
-        { "title": "⚠️ Atenção", "type": "text", "content": "Perca o controle das fases e o item da fase passa. Veja a entrada sobre Genji Gloves.", "color": "red" },
-        { "title": "Estratégia", "type": "text", "content": "• Equipe boa defesa e Thief's Cuffs.\n• Desligue Gambits que acelerem demais o dano.", "color": "green" }
-      ],
-      "tags": "gilgamesh genji fases steal lhusu mines luta"
-    },
-    {
-      "id": 48,
-      "title": "Yiazmat, Hell Wyrm e Omega Mark XII",
-      "subtitle": "👑 Caçadas finais • Yiazmat é a mais longa",
-      "category": "espers_hunts",
-      "spoiler": false,
-      "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "• Yiazmat: HP extremamente alto (na casa dos milhões), luta longa.\n• Hell Wyrm e Omega Mark XII: superchefes opcionais de endgame.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Para Yiazmat: Wither/Expose, boas katanas (ex.: Yagyu Darkblade) e robes de dano.\n• Mantenha cura automática e imunidades (Ribbon).", "color": "green" }
-      ],
-      "tags": "yiazmat hell wyrm omega mark xii cacada superchefe endgame wither expose darkblade"
-    },
-    {
-      "id": 49,
-      "title": "Trial Mode: Andar 100 (Cinco Juízes)",
-      "subtitle": "👑 Último desafio do Trial Mode",
+      "title": "Espers Opcionais (8 Espers Secretas)",
+      "subtitle": "👑 Localização exata de Adrammelech, Zalera, Cúchulainn, Ultima e Zodiark",
       "category": "espers_hunts",
       "spoiler": true,
       "additional_data": [
-        { "title": "Descrição", "type": "text", "content": "O andar 100 enfrenta os Cinco Juízes, a prova final do Trial Mode.", "color": "cyan" },
-        { "title": "Estratégia", "type": "text", "content": "• Leve Ribbon, Nihopalaoa e Remedy com Remedy Lore alta.\n• Prepare buffs, cura automática e Dispel antes da luta.", "color": "green" }
+        {
+          "title": "Visual das Espers (Ultima & Zodiark)",
+          "type": "image",
+          "content": "ultima.webp",
+          "color": "purple"
+        },
+        {
+          "title": "Visual de Zodiark",
+          "type": "image",
+          "content": "zodiark.webp",
+          "color": "purple"
+        },
+        {
+          "title": "Localização das 8 Espers Opcionais",
+          "type": "text",
+          "content": "• Adrammelech: Zertinan Caverns (Athroza Quicksands — cuidado com mortos-vivos, use Blizzara/Blizzaga).\n• Zalera: Barheim Passage (Terminus No. 7 — exige Barheim Key após a quest do paciente em Dalmasca Estersand).\n• Cúchulainn: Garamsythe Waterway (No. 1 Cloaca — feche as comportas na ordem exata com a Sluice Gate Key).\n• Exodus: Mosphoran Highwaste (Empyrean Seat — alimente o chocobo em Babbling Vale com Gysahl Greens).\n• Zeromus: Stilshrine of Miriam (Throne of Veiled Gods — exige Stone of the Condemner do Acólito em Mt Bur-Omisace; magia bloqueada na sala!).\n• Chaos: Necrohol of Nabudis (requer os 3 Medalhões de Nabudis obtidos nas quests de Ma'kleou/Dalan/Rokkenmou).\n• Ultima: topo de The Great Crystal (Giruvegan — após obter Treaty-Blade).\n• Zodiark: Henne Mines (Special Charter Shaft — requer 10+ Espers obtidas e falar com Geomancer Yugelu em Jahara!).",
+          "color": "yellow"
+        },
+        {
+          "title": "⚠️ Alerta Contra Zodiark",
+          "type": "text",
+          "content": "• Zodiark abre a luta com Darkja (dano alto + chance alta de Morte Instantânea!). Equipe Black Masks / Demon Shields (absorvem Dark) ou use Shellga + reserva pronta para reviver.",
+          "color": "red"
+        }
       ],
-      "tags": "trial mode andar 100 cinco juizes judges prova final ribbon nihopalaoa remedy"
+      "tags": "espers opcionais adrammelech zalera cuchulainn exodus zeromus chaos ultima zodiark darkja barheim garamsythe"
+    },
+    {
+      "id": 47,
+      "title": "Gilgamesh (Caçada em Lhusu Mines)",
+      "subtitle": "👑 Caçada de Rank VII • Luta em 2 batalhas • Fonte do conjunto Genji",
+      "category": "espers_hunts",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Visual do Chefe",
+          "type": "image",
+          "content": "gilgamesh.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Requisitos",
+          "type": "text",
+          "content": "• Aceite a caça 'Battle on the Big Bridge' com Montblanc após eventos de Phon Coast/Archades.\n• Luta 1: Lhusu Mines (Tasche Span / Site 7).\n• Luta 2: Lhusu Mines (Site 6 North) — exige a Site 11 Key (encontrada em Phon Coast Hunters' Camp após a caça ao Antlion).",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia & Roubos",
+          "type": "text",
+          "content": "• Use Dispel no companheiro Enkidu (e derrote Enkidu primeiro em ambas as lutas).\n• Controle o dano manualmente para não pular as fases de HP antes de roubar Genji Shield (40–30%, Luta 1), Genji Gloves (<30%, Luta 1), Genji Helm (60–40%, Luta 2) e Genji Armor (<40%, Luta 2).",
+          "color": "green"
+        }
+      ],
+      "tags": "gilgamesh enkidu genji lhusu mines big bridge cacada hunt site 11 key"
+    },
+    {
+      "id": 48,
+      "title": "Yiazmat, Hell Wyrm & Omega Mark XII",
+      "subtitle": "👑 Superchefes Finais • Wither + Expose + Yagyu Darkblade vencem Yiazmat",
+      "category": "espers_hunts",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Visual de Yiazmat",
+          "type": "image",
+          "content": "yiazmat.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Visual de Omega Mark XII",
+          "type": "image",
+          "content": "omega_mark_xii.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Derrotar Yiazmat (50 Milhões de HP — Ridorana Colosseum)",
+          "type": "text",
+          "content": "• Pré-requisito: derrotar Hell Wyrm (Sochen Cave Palace) e todas as outras caçadas.\n• Tática Quebra-Chefe: use a técnica WITHER (Pharos Subterra – Abyssal North) várias vezes para reduzir o ataque de Yiazmat a quase zero, e EXPOSE (Lhusu Mines – Site 9) para zerar a defesa física!\n• DPS Máximo: Shikari com Yagyu Darkblade + Black Robes (+50% Dark) + Genji Gloves + Berserk + Bravery + Haste (Yiazmat tem fraqueza a Dark!).\n• Cuidado com Death Strike e Cyclone: mantenha Shell/Bubble ou tanque com Decoy + Reverse. Você pode sair da arena para salvar no cristal, mas ⚠️ não demore demais sem aplicar Regen/voltar ou ele usa Renew.",
+          "color": "green"
+        },
+        {
+          "title": "Omega Mark XII (Great Crystal)",
+          "type": "text",
+          "content": "• Encontrado nas profundezas do Great Crystal (Demesne of the Edelweiss) após aceitar a caça de Yiazmat.\n• Aplique Wither + Expose e mantenha Tanque com Decoy + Reverse continuamente (seus lasers causam dano altíssimo em linha reta).",
+          "color": "yellow"
+        }
+      ],
+      "tags": "yiazmat hell wyrm omega mark xii cacada superchefe wither expose yagyu darkblade black robes"
+    },
+    {
+      "id": 49,
+      "title": "Trial Mode: Andar 100 (Os 5 Juízes)",
+      "subtitle": "👑 Batalha Final • Ordem: Ghis -> Drace -> Bergan -> Dormir Zargabaath -> Gabranth",
+      "category": "espers_hunts",
+      "spoiler": true,
+      "additional_data": [
+        {
+          "title": "Estratégia Clássica: Ordem de Eliminação",
+          "type": "text",
+          "content": "• 1. Judge Ghis (123k HP): aplique Disease (Nihopalaoa + Remedy) + Slow e elimine primeiro — ele usa Scourge e Dispel.\n• 2. Judge Drace: use Dispel constantemente e abata em seguida para parar os buffs em área (Protectga/Shellga/Hastega).\n• 3. Judge Bergan: dano físico pesado; enfraqueça com Wither e elimine.\n• 4. Judge Zargabaath: ⚠️ NÃO MATE AINDA — mantenha-o em SLEEP (Sleepga / Prince's Kiss) para impedir que cure Gabranth com Elixirs!\n• 5. Judge Gabranth: elimine com Zargabaath dormindo e finalize Zargabaath por último.",
+          "color": "green"
+        },
+        {
+          "title": "Estratégia Rápida (Zeromus Big Bang)",
+          "type": "text",
+          "content": "• Invoque Zeromus sob efeito de Bubble + HP crítico (1 HP via Infuse ou golpe) usando Bubble Mote: o ataque Big Bang causa dano massivo baseado no HP perdido de Zeromus e limpa rapidamente os primeiros Juízes.",
+          "color": "purple"
+        }
+      ],
+      "tags": "trial mode stage 100 andar 100 cinco juizes judges ghis drace bergan zargabaath gabranth nihopalaoa zeromus"
+    },
+    {
+      "id": 50,
+      "title": "Karkata (Espada Suprema Precoce — 92 ATK)",
+      "subtitle": "⚔️ Roubo raro no Trial Mode Stage 3 • 100% Confuse no golpe!",
+      "category": "weapons",
+      "spoiler": false,
+      "additional_data": [
+        {
+          "title": "Visual da Arma",
+          "type": "image",
+          "content": "karkata.webp",
+          "color": "cyan"
+        },
+        {
+          "title": "Descrição",
+          "type": "text",
+          "content": "• Espada de 1 mão com 92 de Ataque (nível de fim de jogo!) e 100% de chance de aplicar Confuse a cada golpe físico.",
+          "color": "cyan"
+        },
+        {
+          "title": "Como Pegar no Início do Jogo (Trial Mode Stage 3)",
+          "type": "text",
+          "content": "• 1. Entre no Trial Mode pelo menu principal carregando seu save da campanha (assim que tiver Vaan + licença de Steal).\n• 2. Vença os Stages 1 e 2 e chegue ao Stage 3.\n• 3. Derrote os Cactoids menores primeiro deixando apenas o Flowering Cactoid vivo.\n• 4. Use Steal no Flowering Cactoid (Karkata é o roubo RARO ~3%). Se vier Longsword ou Mythril Blade, dê Load no autosave do Stage 3 e tente de novo!\n• 5. Ao conseguir, complete o Stage 3 (ou saia depois do próximo autosave) e carregue o save do Trial Mode na campanha principal.",
+          "color": "yellow"
+        },
+        {
+          "title": "Estratégia",
+          "type": "text",
+          "content": "• Requer a licença Blood Sword A (Knight) no tabuleiro — transforma toda a campanha inicial e intermediária em passeio tranquilo.",
+          "color": "green"
+        }
+      ],
+      "tags": "karkata blood sword a trial mode stage 3 flowering cactoid steal roubo 92 atk confuse knight"
     }
   ]
 }

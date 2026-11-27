@@ -5,21 +5,21 @@
       "title": "Hollow Knight",
       "icon": "🪲",
       "url": "games/hollow_knight.json",
-      "updated_at": "2026-11-27T02:15:00Z"
+      "updated_at": "2026-11-27T16:15:00Z"
     },
     {
       "id": "elden_ring",
       "title": "Elden Ring",
       "icon": "💍",
       "url": "games/elden_ring.json",
-      "updated_at": "2026-11-27T02:15:00Z"
+      "updated_at": "2026-11-27T16:20:00Z"
     },
     {
       "id": "ff12",
       "title": "Final Fantasy XII: The Zodiac Age",
       "icon": "⚔️",
       "url": "games/ff12.json",
-      "updated_at": "2026-11-27T02:15:00Z"
+      "updated_at": "2026-11-27T16:10:00Z"
     },
     {
       "id": "resident_evil_requiem",
@@ -40,8 +40,29 @@
       "title": "The Binding of Isaac: Rebirth",
       "icon": "💧",
       "url": "games/binding_of_isaac.json",
-      "updated_at": "2026-11-27T02:15:00Z"
+      "updated_at": "2026-11-27T16:25:00Z"
+    },
+    {
+      "id": "stardew_valley",
+      "title": "Stardew Valley",
+      "icon": "🌾",
+      "url": "games/stardew_valley.json",
+      "updated_at": "2026-11-27T16:30:00Z"
+    },
+    {
+      "id": "terraria",
+      "title": "Terraria",
+      "icon": "🌳",
+      "url": "games/terraria.json",
+      "updated_at": "2026-11-27T16:35:00Z"
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "icon": "⛏️",
+      "url": "games/minecraft.json",
+      "updated_at": "2026-11-27T16:40:00Z"
     }
   ],
-  "updated_at": "2026-11-27T02:15:00Z"
+  "updated_at": "2026-11-27T16:40:00Z"
 }
