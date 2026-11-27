@@ -1,0 +1,360 @@
+{
+  "id": "ragnarok_latam",
+  "title": "Ragnarok Online LATAM",
+  "icon": "🛡️",
+  "updated_at": "2026-11-27T17:00:00Z",
+  "sources": [
+    {
+      "name": "bROWiki — Classes (Guia Oficial do Servidor LATAM)",
+      "url": "https://browiki.org/wiki/Classes",
+      "license": "Referência factual de árvore de classes, requisitos e coordenadas com redação própria"
+    },
+    {
+      "name": "bROWiki — Talentos & Renascimento",
+      "url": "https://browiki.org/wiki/Talentos",
+      "license": "Referência factual de Talentos, AP e Renascimento com redação própria"
+    },
+    {
+      "name": "Ragnarok Online América Latina (GNJOY LATAM)",
+      "url": "https://ro.gnjoylatam.com/",
+      "license": "Referência oficial de nomes localizados em PT-BR no servidor LATAM"
+    },
+    {
+      "name": "Ragnarok Wiki (Fandom)",
+      "url": "https://ragnarok.fandom.com/",
+      "license": "CC BY-SA 3.0 — Sprites oficiais das classes do jogo"
+    }
+  ],
+  "process_keywords": [
+    "ragexe",
+    "ragnarok",
+    "ragnarokonline",
+    "gnjoylatam"
+  ],
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "progression", "label": "🧭 Progressão, Renascimento & 4ª Classes" },
+    { "id": "swordsman_mage", "label": "⚔️ Espadachim & Mago" },
+    { "id": "archer_acolyte", "label": "🏹 Arqueiro & Noviço" },
+    { "id": "merchant_thief", "label": "💰 Mercador & Gatuno" },
+    { "id": "expanded", "label": "✨ Classes Expandidas & Doram" }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "title": "Mapa Geral de Evolução (Aprendiz até 4ª Classe)",
+      "subtitle": "🧭 Ordem exata do bROWiki • Níveis de Base e Classe obrigatórios",
+      "category": "progression",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Linha Tradicional Completa", "type": "text", "content": "• 1. Aprendiz -> Classe 1: atinja Nível de Classe 10.\n• 2. Classe 1 -> Classe 2: a partir do Nível de Classe 40 (⚠️ vá até o Classe 50 para não perder 10 pontos de habilidade!).\n• 3. Classe 2 -> Renascimento (Aprendiz T.): atinja Base 99 / Classe 50.\n• 4. Aprendiz T. -> Classe T. (1ª Transcendental): Nível de Classe 10.\n• 5. Classe T. -> Transclasse: Nível de Classe 40–50 (⚠️ vá até o Classe 50!).\n• 6. Transclasse -> Classe 3: atinja Base 99 / Classe 50–70 (⚠️ vá até o Classe 70!).\n• 7. Classe 3 -> Classe 4: atinja Base 200 / Classe 70!", "color": "cyan" },
+        { "title": "⚠️ Regra de Ouro (Escolha Irreversível)", "type": "text", "content": "• Uma vez escolhida sua classe (ex.: Arqueiro em vez de Espadachim), não é possível trocar — mesmo após Renascer em Juno, cada classe mantém o 'karma' da árvore escolhida.\n• Classes Expandidas (Taekwon, Superaprendiz, Ninja, Justiceiro, Invocador/Doram e Druida) NÃO passam pelo Renascimento.", "color": "red" },
+        { "title": "Atalho Pago: Sussurro da Valquíria", "type": "text", "content": "• É possível pular a quest de mudança de classe na NPC Sussurro da Valquíria usando 4 MiauMiau (Classe 2 ou 3) ou 40 MiauMiau (Classe 4 — exige já ser Transclasse para 3ª; adotados não usam). Você não recebe as recompensas da quest.", "color": "yellow" }
+      ],
+      "tags": "evolucao classe 1 2 transclasse 3 4 aprendiz niveis job 50 job 70 sussurro valquiria miaumiau browiki"
+    },
+    {
+      "id": 2,
+      "title": "Locais de Mudança: Primeiras Classes & Guildas (Cidades)",
+      "subtitle": "🧭 Onde ir ao pegar Nível de Classe 10 como Aprendiz + locais de 2ª/4ª",
+      "category": "progression",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Cidades das 6 Classes Básicas (Job 10)", "type": "text", "content": "• Espadachim: Izlude (guilda ao norte/oeste — Sussurro da Valquíria Cavaleiro: prt_in 83 106 | Templário: prt_cas 251 108).\n• Mago: Geffen (torre/guilda noroeste — Bruxo: gef_tower 112 28 | Sábio: yuno_in02 48 67).\n• Arqueiro: Payon (mapa norte da vila — Caçador: hu_in01 386 381 | Bardo: comodo 208 155 | Odalisca: xmas 169 209).\n• Noviço: Prontera (Igreja no canto nordeste — Sacerdote: prt_church 19 33 | Monge: prt_monk 53 255).\n• Mercador: Alberta (prédio sudoeste da cidade — Ferreiro: ein_in01 12 28 | Alquimista: alde_alche 45 178).\n• Gatuno: Morroc (ruínas/pirâmide — Mercenário: in_moc_16 14 21 | Arruaceiro: in_rogue 369 120).", "color": "yellow" },
+        { "title": "Coordenadas das Quartas Classes (bROWiki)", "type": "text", "content": "• Cavaleiro Draconiano: gef_fild08 51 99 | Guardião Imperial: prt_cas 181 10.\n• Magus: ba_maison 200 266 | Elementalista: geffen_in 118 29.\n• Falcão do Vento: payon 100 177 | Maestro: lighthalzen 186 124 | Diva: comodo 142 165.\n• Cardeal: prt_church 185 98 | Inquisidor: prt_in 249 132.\n• Engenheiro: juno 112 208 | Cientista: verus04 157 165.\n• Executor: job3_guil01 71 95 | Mandraque: rachel 181 116.", "color": "gray" }
+      ],
+      "tags": "mudanca de classe locais cidades izlude geffen payon prontera alberta morroc coordenadas browiki"
+    },
+    {
+      "id": 3,
+      "title": "Renascimento (Rebirth em Juno — Valquíria)",
+      "subtitle": "🧭 Base 99 / Classe 50 • +25% HP/SP, 100 pontos iniciais e Job 70",
+      "category": "progression",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Benefícios Permanentes de Renascer", "type": "text", "content": "• Bônus permanente de +25% de HP e SP máximos.\n• Começa com 100 pontos de atributo (em vez de 48) e libera o teto de Classe 70 na Transclasse.\n• Habilidades de quest da 1ª/2ª classe já ficam ativas automaticamente ao falar com o NPC.\n• Recebe uma Caixa de Aventura na jornada.", "color": "cyan" },
+        { "title": "Checklist Obrigatório Antes de Entrar em Juno", "type": "text", "content": "• Atingir Base 99 e Classe 50 (Classe 2 tradicional).\n• Ter 1.285.000 Zeny exatos (taxa do Livro de Ymir em Juno).\n• Zerar todo o Peso do inventário (Peso = 0 — guarde itens e Zenys extras no Armazém!).\n• Gastar TODOS os pontos de habilidade.\n• Remover Carrinho, Falcão, Peco-Peco e Homúnculo.", "color": "red" },
+        { "title": "Passo a Passo", "type": "text", "content": "• Vá até a Academia/Biblioteca de Juno -> pague 1.285.000z no Livro de Ymir -> desça até o Coração de Ymir para chegar em Valhalla -> fale com a Valquíria para virar Aprendiz T. (nível 1/1).", "color": "green" }
+      ],
+      "tags": "renascimento rebirth reborn juno valquiria valhalla livro de ymir 1285000 zeny peso zero transclasse"
+    },
+    {
+      "id": 4,
+      "title": "Quartas Classes: Talentos (Alt+A) & Barra AP",
+      "subtitle": "🧭 Desbloqueio no 200/70 • 6 Talentos Primários + até 200 Pontos de Atividade",
+      "category": "progression",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Os 6 Talentos Primários (Teto 100 cada)", "type": "text", "content": "• Ao virar Classe 4 ganha 7 pontos; a partir do nível 201 recebe 3 pontos por nível (+4 extras a cada 5 níveis) em vez de atributos comuns:\n• POD (Poder): +5 ATQ/pt e +1 P.ATQ (dano físico %) a cada 3 pts.\n• STA (Estâmina): aumenta Tenacidade (TEN — resistência física).\n• SAB (Sabedoria): aumenta Tenacidade Mágica (TENM — resistência mágica).\n• FEI (Feitiço): +5 ATQM/pt e +1 S.ATQM (dano mágico %) a cada 3 pts.\n• CON (Concentração): +2 Esquiva e +2 Precisão/pt; +1 P.ATQ e +1 S.ATQM a cada 5 pts.\n• CRV (Criatividade): +1 C.Mais/pt (cura), +1 T.CRIT a cada 3 pts (dano crítico) e melhora criação/remoção.", "color": "cyan" },
+        { "title": "Mecânica da Barra AP (Pontos de Atividade)", "type": "text", "content": "• Barra amarela/azul exclusiva das Classes 4 com limite máximo de 200 AP.\n• Habilidades básicas de Classe 4 geram AP; habilidades 'supremas' consomem grandes quantidades de AP.\n• ⚠️ Morrer em qualquer mapa ou entrar em PvP / Guerra do Emperium (GdE) ZERA todo o AP acumulado!", "color": "red" }
+      ],
+      "tags": "talentos alt a pod sta sab fei con crv ap pontos de atividade p.atq s.atqm t.crit quarta classe 200"
+    },
+    {
+      "id": 5,
+      "title": "Mini-Classes (Adoção / Baby Classes)",
+      "subtitle": "🧭 Versões adotadas • ⚠️ Não podem renascer para Transclasse",
+      "category": "progression",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Regras & Limitações", "type": "text", "content": "• Personagens adotados por um casal (Família) viram Mini-Aprendizes e evoluem direto de Classe 1 -> Classe 2 -> Classe 3 (Mini) sem passar por Transclasse.\n• Possuem menor capacidade de carga (peso máximo reduzido) e menos HP/SP do que personagens transcendentais.\n• ⚠️ Não podem usar o serviço pago da NPC Sussurro da Valquíria.", "color": "red" },
+        { "title": "Dica", "type": "text", "content": "• Use adoção apenas se quiser o visual Mini/função de Família; para foco competitivo e acesso completo às habilidades de Transclasse e Classe 4, prefira personagens normais.", "color": "green" }
+      ],
+      "tags": "mini classe adocao baby class familia limitacao nao renasce"
+    },
+    {
+      "id": 6,
+      "title": "Espadachim -> Cavaleiro -> Cavaleiro Draconiano",
+      "subtitle": "⚔️ Cavaleiro -> Lorde -> Cavaleiro Rúnico -> Cavaleiro Draconiano (Dragon Knight)",
+      "category": "swordsman_mage",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Cavaleiro Draconiano)", "type": "image", "content": "dragon_knight.webp", "color": "red" },
+        { "title": "Visual (Cavaleiro Rúnico)", "type": "image", "content": "rune_knight.webp", "color": "cyan" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Espadachim -> Cavaleiro -> Lorde -> Cavaleiro Rúnico -> Cavaleiro Draconiano.\n• Papel: linha de frente versátil com foco em Sopro do Dragão (Fogo/Água), golpes críticos com espada de duas mãos, impacto com lança e Runas especiais de buff/dano.\n• Montaria: Peco-Peco (Cavaleiro/Lorde) e Ferus/Dragão (Cavaleiro Rúnico/Draconiano — indispensável para Sopro).", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Build Sopro/Híbrida: VIT, INT, DES, AGI + POD / CON / STA.\n• Build Crítico / Espada 2 Mãos: FOR, AGI, SOR, VIT + POD (100) / CRV (para T.CRIT) / CON.", "color": "green" }
+      ],
+      "tags": "espadachim cavaleiro lorde cavaleiro runico cavaleiro draconiano dragon knight sopro dragao critico"
+    },
+    {
+      "id": 7,
+      "title": "Espadachim -> Templário -> Guardião Imperial",
+      "subtitle": "⚔️ Templário -> Paladino -> Guardião Real -> Guardião Imperial (Imperial Guard)",
+      "category": "swordsman_mage",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Guardião Imperial)", "type": "image", "content": "imperial_guard.webp", "color": "yellow" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Espadachim -> Templário -> Paladino -> Guardião Real -> Guardião Imperial.\n• Papel: melhor Tanque protetor do jogo (Redenção/Sacrifício, bloqueio com escudo e auras defensivas) com opções fortes de DPS com Lança (Exceder Limite / Toque do Oblívio) ou dano mágico Sagrado (Luz da Criação / Gênese).", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Tanque / Escudo: VIT, DES, AGI + STA / SAB (resiliência) / POD.\n• Mágico Sagrado (Gênese/Cruz): INT, DES, VIT + FEI / SAB.", "color": "green" }
+      ],
+      "tags": "espadachim templario paladino guardiao real guardiao imperial imperial guard tanque escudo lanca"
+    },
+    {
+      "id": 8,
+      "title": "Mago -> Bruxo -> Magus (Arch Mage)",
+      "subtitle": "⚔️ Mago -> Bruxo -> Arquimago -> Arcano -> Magus",
+      "category": "swordsman_mage",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Magus)", "type": "image", "content": "arch_mage.webp", "color": "purple" },
+        { "title": "Visual (Arcano)", "type": "image", "content": "warlock.webp", "color": "purple" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Mago -> Bruxo -> Arquimago -> Arcano -> Magus.\n• Papel: artilharia mágica pesada de longo alcance com magias de área de todos os elementos (Meteoro Escarlate, Nevasca, Cometa, Tetra Vortex e novas magias elementais de Classe 4).", "color": "purple" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Foco Principal: INT (120+), DES (reduz conjuração variável), VIT (sobrevivência) e AGI/SOR conforme equipamento.\n• Talentos (4ª Classe): FEI (100) + CON / SAB.", "color": "green" }
+      ],
+      "tags": "mago bruxo arquimago arcano magus arch mage warlock magia dano elemental cometa"
+    },
+    {
+      "id": 9,
+      "title": "Mago -> Sábio -> Elementalista (Elemental Master)",
+      "subtitle": "⚔️ Mago -> Sábio -> Professor -> Feiticeiro -> Elementalista",
+      "category": "swordsman_mage",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Elementalista)", "type": "image", "content": "elemental_master.webp", "color": "cyan" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Mago -> Sábio -> Professor -> Feiticeiro -> Elementalista.\n• Papel: dano mágico contínuo em área (Onda Psíquica, Pó de Diamante, Castigo de Nerthus), invocação de Elementais maiores (Fogo/Água/Vento/Terra/Veneno), além de suporte essencial de SP (Exalar Alma), Desencantar e Proteger Terreno.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Caster Padrão / Suporte: INT, DES, VIT + FEI (100) / CON / SAB.\n• Autocast (Desejo Arcano / Punho Arcano): AGI, INT, DES, FOR.", "color": "green" }
+      ],
+      "tags": "mago sabio professor feiticeiro elementalista elemental master sorcerer onda psiquica desencantar"
+    },
+    {
+      "id": 10,
+      "title": "Arqueiro -> Caçador -> Falcão do Vento (Windhawk)",
+      "subtitle": "🏹 Arqueiro -> Caçador -> Atirador de Elite -> Sentinela -> Falcão do Vento",
+      "category": "archer_acolyte",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Falcão do Vento)", "type": "image", "content": "windhawk.webp", "color": "green" },
+        { "title": "Visual (Sentinela)", "type": "image", "content": "ranger.webp", "color": "green" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Arqueiro -> Caçador -> Atirador de Elite -> Sentinela -> Falcão do Vento.\n• Papel: DPS físico à distância mais popular para farm e instâncias — Tempestade de Flechas em área, build de Crítico/Disparo Certeiro com Worg/Falcão e Armadilhas elementais.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Tempestade / A distância: DES, AGI, SOR, VIT + POD / CON / CRV (para Crítico).", "color": "green" }
+      ],
+      "tags": "arqueiro cacador atirador de elite sentinela falcao do vento windhawk ranger tempestade worg"
+    },
+    {
+      "id": 11,
+      "title": "Arqueiro -> Bardo -> Maestro (Troubadour)",
+      "subtitle": "🏹 Arqueiro -> Bardo -> Menestrel -> Trovador -> Maestro (Masculino)",
+      "category": "archer_acolyte",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Maestro)", "type": "image", "content": "troubadour.webp", "color": "yellow" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha (Personagem Masculino): Arqueiro -> Bardo -> Menestrel -> Trovador -> Maestro.\n• Papel: suporte indispensável em grupos (Poema de Bragi reduz pós-conjuração e conjuração fixa/variável!) e ótimo DPS de área com Ressonância / Temporal de Mil Flechas / habilidades musicais de Classe 4.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Build Musical/Suporte: INT, DES, VIT, AGI.\n• Talentos (4ª Classe): POD + CON (físico) ou FEI + CON (mágico/suporte).", "color": "green" }
+      ],
+      "tags": "arqueiro bardo menestrel trovador maestro troubadour bragi musica temporal"
+    },
+    {
+      "id": 12,
+      "title": "Arqueiro -> Odalisca -> Diva (Trouvere)",
+      "subtitle": "🏹 Arqueiro -> Odalisca -> Cigana -> Musa -> Diva (Feminino)",
+      "category": "archer_acolyte",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Diva)", "type": "image", "content": "trouvere.webp", "color": "purple" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha (Personagem Feminino): Arqueiro -> Odalisca -> Cigana -> Musa -> Diva.\n• Papel: contraparte feminina dos Bardos/Maestros, especialista em danças de suporte em grupo (Dança Cigana de SP, Ritmo Contagiante), duetos com Maestro e DPS sonoro/arco com chicote ou arco.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Suporte / DPS: DES, INT, AGI, VIT + POD/CON (físico) ou FEI/CON (mágico).", "color": "green" }
+      ],
+      "tags": "arqueiro odalisca cigana musa diva trouvere danca dueto chicote"
+    },
+    {
+      "id": 13,
+      "title": "Noviço -> Sacerdote -> Cardeal (Cardinal)",
+      "subtitle": "🏹 Noviço -> Sacerdote -> Sumo Sacerdote -> Arcebispo -> Cardeal",
+      "category": "archer_acolyte",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Cardeal)", "type": "image", "content": "cardinal.webp", "color": "cyan" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Noviço -> Sacerdote -> Sumo Sacerdote -> Arcebispo -> Cardeal.\n• Papel: pilar de cura e buffs de todo grupo (Clementia, Praefatio, Curatio, Ressuscitar, Mediale Votum) — também possui vertente ofensiva Sagrada com Adoramus / Judex / Petitio.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Full Suporte (FS): INT, VIT, DES, AGI + CRV (aumenta C.Mais/cura!), SAB, STA.\n• Exorcista (Adoramus): INT, DES, VIT + FEI (100) / CON.", "color": "green" }
+      ],
+      "tags": "novico sacerdote sumo arcebispo cardeal cardinal cura suporte adoramus exorcista"
+    },
+    {
+      "id": 14,
+      "title": "Noviço -> Monge -> Inquisidor (Inquisitor)",
+      "subtitle": "🏹 Noviço -> Monge -> Mestre -> Shura -> Inquisidor",
+      "category": "archer_acolyte",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Inquisidor)", "type": "image", "content": "inquisitor.webp", "color": "orange" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Noviço -> Monge -> Mestre -> Shura -> Inquisidor.\n• Papel: artista marcial de combos rápidos e dano explosivo (Punho Supremo de Asura, Garra de Tigre, Portões do Inferno, Chamas de Hela) — além de excelente tanque com Corpo Fechado (Steel Body)!", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Combate / Combo / Asura: FOR, VIT, DES, INT/AGI + POD (100) / CON / STA.", "color": "green" }
+      ],
+      "tags": "novico monge mestre shura inquisidor inquisitor asura garra de tigre corpo fechado"
+    },
+    {
+      "id": 15,
+      "title": "Mercador -> Ferreiro -> Engenheiro (Meister)",
+      "subtitle": "💰 Mercador -> Ferreiro -> Mestre-Ferreiro -> Mecânico -> Engenheiro",
+      "category": "merchant_thief",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Engenheiro)", "type": "image", "content": "meister.webp", "color": "orange" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Mercador -> Ferreiro -> Mestre-Ferreiro -> Mecânico -> Engenheiro.\n• Papel: combate brutal com Machado/Choque do Carrinho/Fúria do Furacão OU armadura robótica M.E.C.H.A. (Canhão, Propulsão e Máquinas de Classe 4), mantendo habilidades comerciais e refino/forja.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Machado / M.E.C.H.A.: FOR, DES, VIT, INT/AGI + POD (100) / CON / STA.", "color": "green" }
+      ],
+      "tags": "mercador ferreiro mestre ferreiro mecanico engenheiro meister mecha machado choque carrinho"
+    },
+    {
+      "id": 16,
+      "title": "Mercador -> Alquimista -> Cientista (Biolo)",
+      "subtitle": "💰 Mercador -> Alquimista -> Criador -> Bioquímico -> Cientista",
+      "category": "merchant_thief",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Cientista)", "type": "image", "content": "biolo.webp", "color": "green" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Mercador -> Alquimista -> Criador -> Bioquímico -> Cientista.\n• Papel: especialista em MVP e DPS de área com Canhão de Prótons, Bomba Ácida, invocações de plantas e Homúnculos (evoluíveis para Homúnculos S!), além de fabricação de poções.", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Canhão de Prótons / Bomba Ácida: FOR, INT, DES, VIT + POD (100) / CON / CRV (para criação).", "color": "green" }
+      ],
+      "tags": "mercador alquimista criador bioquimico cientista biolo bomba acida canhao protons homunculo"
+    },
+    {
+      "id": 17,
+      "title": "Gatuno -> Mercenário -> Executor (Shadow Cross)",
+      "subtitle": "💰 Gatuno -> Mercenário -> Algoz -> Sicário -> Executor",
+      "category": "merchant_thief",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Executor)", "type": "image", "content": "shadow_cross.webp", "color": "purple" },
+        { "title": "Visual (Sicário)", "type": "image", "content": "guillotine_cross.webp", "color": "purple" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Gatuno -> Mercenário -> Algoz -> Sicário -> Executor.\n• Papel: assassino de altíssimo DPS corpo a corpo com Katar (Lâminas Retalhadoras, Impacto Meteoro, Crítico duplo natural) ou Duas Adagas + Encantar com Veneno Mortal (EDP).", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Crítico / Retalhadoras: FOR, AGI, SOR, VIT, DES + POD (100) / CRV (para T.CRIT) / CON.", "color": "green" }
+      ],
+      "tags": "gatuno mercenario algoz sicario executor shadow cross katar edp veneno retalhadoras critico"
+    },
+    {
+      "id": 18,
+      "title": "Gatuno -> Arruaceiro -> Mandraque (Abyss Chaser)",
+      "subtitle": "💰 Gatuno -> Arruaceiro -> Desordeiro -> Renegado -> Mandraque",
+      "category": "merchant_thief",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Mandraque)", "type": "image", "content": "abyss_chaser.webp", "color": "purple" },
+        { "title": "Árvore Completa & Papel em Combate", "type": "text", "content": "• Linha: Gatuno -> Arruaceiro -> Desordeiro -> Renegado -> Mandraque.\n• Papel: classe mais imprevisível do jogo — copia habilidades de outras classes (Plágio / Mimetismo), usa Autocast mágico com Adaga/Espada, dispara com Arco (Disparo Triplo / Tempestade) ou remove equipamentos em PvP/GdE (Remoção Sombria Total!).", "color": "cyan" },
+        { "title": "Atributos & Talentos Recomendados", "type": "text", "content": "• Físico (Adaga/Arco): FOR/DES, AGI, VIT + POD / CON.\n• Autocast / Mágico: INT, AGI, DES + FEI / CON (CRV ajuda na Remoção Sombria Total!).", "color": "green" }
+      ],
+      "tags": "gatuno arruaceiro desordeiro renegado mandraque abyss chaser plagio mimetismo autocast remocao"
+    },
+    {
+      "id": 19,
+      "title": "Superaprendiz -> Superaprendiz EX -> Hiperaprendiz",
+      "subtitle": "✨ Classe Expandida (Não Renasce) • Versatilidade total física ou mágica",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Hiperaprendiz)", "type": "image", "content": "hyper_novice.webp", "color": "yellow" },
+        { "title": "Visual (Superaprendiz)", "type": "image", "content": "super_novice.webp", "color": "cyan" },
+        { "title": "Árvore & Mecânicas (NÃO Renasce em Juno)", "type": "text", "content": "• Linha: Aprendiz -> Superaprendiz (Base 45 / Classe 10) -> Superaprendiz EX (Expandido) -> Hiperaprendiz (Base 200).\n• Conceito: combina habilidades de quase todas as 1ª e 2ª classes (Espadachim, Mago, Noviço, Mercador, Gatuno, Arqueiro) e no Hiperaprendiz libera técnicas próprias avançadas sem restrição rígida de arma!", "color": "cyan" },
+        { "title": "Builds", "type": "text", "content": "• Físico / Autocast: FOR, AGI, DES, VIT + POD/CON/CRV.\n• Mágico: INT, DES, VIT + FEI/CON.", "color": "green" }
+      ],
+      "tags": "superaprendiz super aprendiz ex hiperaprendiz hyper novice expandida nao renasce"
+    },
+    {
+      "id": 20,
+      "title": "Taekwon -> Mestre Taekwon -> Mestre Celestial",
+      "subtitle": "✨ Taekwon -> Mestre Taekwon -> Mestre Estelar -> Mestre Celestial (Não Renasce)",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Mestre Celestial)", "type": "image", "content": "sky_emperor.webp", "color": "orange" },
+        { "title": "Árvore & Papel em Combate", "type": "text", "content": "• Linha: Aprendiz -> Taekwon -> Mestre Taekwon -> Mestre Estelar -> Mestre Celestial.\n• Conceito: combate desarmado acrobático com chutes e posturas do Sol, Lua e Estrelas, além da energia cósmica e habilidades aéreas no Mestre Celestial.\n• ⚠️ Não passa pelo Renascimento em Juno.", "color": "cyan" },
+        { "title": "Atributos & Talentos", "type": "text", "content": "• Foco em FOR, AGI, DES, VIT + POD / CON / CRV.", "color": "green" }
+      ],
+      "tags": "taekwon mestre taekwon mestre estelar mestre celestial sky emperor chutes expandida"
+    },
+    {
+      "id": 21,
+      "title": "Taekwon -> Espiritualista -> Asceta das Almas",
+      "subtitle": "✨ Taekwon -> Espiritualista -> Ceifador de Almas -> Asceta das Almas (Não Renasce)",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Asceta das Almas)", "type": "image", "content": "soul_ascetic.webp", "color": "purple" },
+        { "title": "Árvore & Papel em Combate", "type": "text", "content": "• Linha: Aprendiz -> Taekwon -> Espiritualista -> Ceifador de Almas -> Asceta das Almas.\n• Conceito: começa como suporte espiritual (Links/Espíritos para outras classes) e evolui para um conjurador poderoso de magia Sombria, Fantasma e Sagrada usando Energia das Almas e Talismãs.\n• ⚠️ Não passa pelo Renascimento em Juno.", "color": "purple" },
+        { "title": "Atributos & Talentos", "type": "text", "content": "• Foco em INT, DES, VIT + FEI (100) / CON / SAB.", "color": "green" }
+      ],
+      "tags": "taekwon espiritualista ceifador de almas asceta das almas soul ascetic soul linker expandida"
+    },
+    {
+      "id": 22,
+      "title": "Ninja -> Kagerou / Oboro -> Shinkiro / Shiranui",
+      "subtitle": "✨ Classe Expandida (Não Renasce) • Kunais, Huuma, Ninjutsu e Clones",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Shinkiro)", "type": "image", "content": "shinkiro.webp", "color": "purple" },
+        { "title": "Visual (Kagerou)", "type": "image", "content": "kagerou.webp", "color": "cyan" },
+        { "title": "Árvore & Papel em Combate", "type": "text", "content": "• Linha: Aprendiz -> Ninja (Amatsu) -> Kagerou (Masculino) / Oboro (Feminino) -> Shinkiro / Shiranui.\n• Papel: altíssima sobrevivência com Troca de Pele (esquiva automática de golpes!) e três estilos claros:\n  - Arremesso / Shuriken Huuma (dano físico em área)\n  - Ninjutsu Elemental (magia instantânea com Amuletos)\n  - Clones / Crítico corpo a corpo.", "color": "cyan" },
+        { "title": "Atributos & Talentos", "type": "text", "content": "• Físico / Huuma: FOR, DES, AGI, VIT + POD / CON.\n• Ninjutsu: INT, DES, VIT + FEI / CON.", "color": "green" }
+      ],
+      "tags": "ninja kagerou oboro shinkiro shiranui amatsu kunai huuma ninjutsu troca de pele expandida"
+    },
+    {
+      "id": 23,
+      "title": "Justiceiro -> Insurgente -> Guerrilheiro",
+      "subtitle": "✨ Classe Expandida (Não Renasce) • Armas de fogo, moedas e alto DPS à distância",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Insurgente)", "type": "image", "content": "rebellion.webp", "color": "orange" },
+        { "title": "Árvore & Papel em Combate", "type": "text", "content": "• Linha: Aprendiz -> Justiceiro (Einbroch) -> Insurgente -> Guerrilheiro (Night Watch).\n• Papel: especialista exclusivo em armas de fogo (Pistolas, Rifles, Escopetas, Metralhadoras e Lança-Granadas), gerenciando Cara ou Coroa (Moedas) para explosões em área (Expurgar / Tempestade de Balas) ou abates de alvo único com Rifle.", "color": "cyan" },
+        { "title": "Atributos & Talentos", "type": "text", "content": "• Foco Principal: DES, AGI, SOR, VIT + POD (100) / CON / CRV (para builds críticas de Rifle).", "color": "green" }
+      ],
+      "tags": "justiceiro insurgente guerrilheiro night watch rebellion einbroch armas de fogo pistola rifle expandida"
+    },
+    {
+      "id": 24,
+      "title": "Invocador (Doram) -> Animista (+ Druida)",
+      "subtitle": "✨ Raça Independente (Lasagna) • Sem Aprendiz e sem Renascimento",
+      "category": "expanded",
+      "spoiler": false,
+      "additional_data": [
+        { "title": "Visual (Animista)", "type": "image", "content": "spirit_handler.webp", "color": "green" },
+        { "title": "Visual (Invocador)", "type": "image", "content": "summoner.webp", "color": "cyan" },
+        { "title": "Raça Doram: As 3 Árvores do Invocador -> Animista", "type": "text", "content": "• Os Doram nascem na Ilha de Lasagna diretamente como Invocadores (não passam por Aprendiz nem Renascimento) e evoluem para Animista (Spirit Handler) no nível 200.\n• 1. Planta / Vegetal (Mágico): Meteoro de Nepenthes / Erva Daninha — ótimo DPS mágico em área.\n• 2. Frutos do Mar / Marinho (Suporte): Atum Festivo (escudo de HP gigante!), Camarão (cura/buff) e Arclouse.\n• 3. Bicho / Animal (Físico): Pulo do Gato / Chilique de Picky / Investida.", "color": "yellow" },
+        { "title": "Nota sobre Druida (bROWiki)", "type": "text", "content": "• O bROWiki também registra na tabela de Classes Expandidas a árvore de Druida (Druida -> Karnos / Alitea) prevista para futuras atualizações do ciclo.", "color": "gray" }
+      ],
+      "tags": "doram invocador animista spirit handler summoner lasagna druida karnos alitea planta marinho animal"
+    }
+  ]
+}
