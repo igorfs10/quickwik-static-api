@@ -2,7 +2,7 @@
     "id":  "elden_ring",
     "title":  "Elden Ring",
     "icon":  "💍",
-    "updated_at":  "2026-11-27T16:20:00Z",
+    "updated_at":  "2026-11-27T19:20:00Z",
     "sources":  [
                     {
                         "name":  "Fextralife — Elden Ring \u0026 Shadow of the Erdtree Wiki",
@@ -211,7 +211,7 @@
                         "title":  "Grandes Runas (Great Runes), Torres Divinas \u0026 Arcos de Runa",
                         "subtitle":  "👑 Buffs supremos até morrer: Godrick (+40 atributos), Radahn e Morgott (+25% HP)",
                         "category":  "heal",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",
@@ -363,7 +363,7 @@
                         "title":  "Melhores Cinzas de Espírito: Mimic Tear, Black Knife Tiche \u0026 Taylew",
                         "subtitle":  "👥 As 3 invocações mais apelonas do jogo base e da expansão DLC",
                         "category":  "upgrade",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone das Cinzas",
@@ -557,7 +557,7 @@
                         "title":  "Blasphemous Blade (Lâmina Blasfema)",
                         "subtitle":  "🔥 Espada Grande • FTH/STR/DEX • Cura sua vida ao matar inimigos e com L2!",
                         "category":  "weapons",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone da Arma",
@@ -1051,7 +1051,7 @@
                         "title":  "Margit\u0027s \u0026 Mohg\u0027s Shackle (Grilhões de Margit e Mohg)",
                         "subtitle":  "⛓️ Imobiliza Margit/Morgott e Mohg no chão + Truque de revelar paredes ilusórias!",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Item",
@@ -1091,7 +1091,7 @@
                         "title":  "Golden Scarab \u0026 Melhor Farm de Runas (Palácio de Mohgwyn)",
                         "subtitle":  "🪲 +20% a +56% de Runas + Rota do Pássaro Gigante e Albinaurics (Palace Approach)",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",
@@ -1125,7 +1125,7 @@
                         "title":  "Medalhões de Dectus \u0026 Medalhão Secreto da Árvore Sacra (Haligtree)",
                         "subtitle":  "🪙 Onde achar as 4 metades para ativar o Elevador de Dectus e Consecrated Snowfield",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",
@@ -1153,7 +1153,7 @@
                         "title":  "Quest de White Mask Varré (Acesso Precoce a Mohgwyn \u0026 DLC)",
                         "subtitle":  "🩸 Rota rápida Online OU Offline para chegar em Mohg logo após Godrick!",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",
@@ -1231,7 +1231,7 @@
                         "title":  "Quest de Iron Fist Alexander (Guerreiro Jarro)",
                         "subtitle":  "🏺 Somente as etapas obrigatórias para garantir o Shard of Alexander (+15%)",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",
@@ -1253,7 +1253,7 @@
                         "title":  "Como Entrar na DLC Shadow of the Erdtree",
                         "subtitle":  "🌑 Pré-requisitos exatos (Radahn + Mohg) e nível recomendado para o Reino das Sombras",
                         "category":  "key",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Descrição",

@@ -5,35 +5,35 @@
                       "title":  "Hollow Knight",
                       "icon":  "🪲",
                       "url":  "games/hollow_knight.json",
-                      "updated_at":  "2026-11-27T16:15:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "elden_ring",
                       "title":  "Elden Ring",
                       "icon":  "💍",
                       "url":  "games/elden_ring.json",
-                      "updated_at":  "2026-11-27T16:20:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "ff12",
                       "title":  "Final Fantasy XII: The Zodiac Age",
                       "icon":  "⚔️",
                       "url":  "games/ff12.json",
-                      "updated_at":  "2026-11-27T16:10:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "resident_evil_requiem",
                       "title":  "Resident Evil Requiem",
                       "icon":  "🧟",
                       "url":  "games/resident_evil_requiem.json",
-                      "updated_at":  "2026-11-18T01:30:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "ready_or_not",
                       "title":  "Ready or Not",
                       "icon":  "🚓",
                       "url":  "games/ready_or_not.json",
-                      "updated_at":  "2026-11-24T23:10:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "binding_of_isaac",
@@ -47,21 +47,21 @@
                       "title":  "Stardew Valley",
                       "icon":  "🌾",
                       "url":  "games/stardew_valley.json",
-                      "updated_at":  "2026-11-27T16:30:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "terraria",
                       "title":  "Terraria",
                       "icon":  "🌳",
                       "url":  "games/terraria.json",
-                      "updated_at":  "2026-11-27T16:35:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "minecraft",
                       "title":  "Minecraft",
                       "icon":  "⛏️",
                       "url":  "games/minecraft.json",
-                      "updated_at":  "2026-11-27T16:40:00Z"
+                      "updated_at":  "2026-11-27T19:20:00Z"
                   },
                   {
                       "id":  "ragnarok_latam",
@@ -71,5 +71,5 @@
                       "updated_at":  "2026-11-27T19:10:00Z"
                   }
               ],
-    "updated_at":  "2026-11-27T19:10:00Z"
+    "updated_at":  "2026-11-27T19:20:00Z"
 }

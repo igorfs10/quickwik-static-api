@@ -2,7 +2,7 @@
     "id":  "hollow_knight",
     "title":  "Hollow Knight",
     "icon":  "🪲",
-    "updated_at":  "2026-11-27T16:15:00Z",
+    "updated_at":  "2026-11-27T19:20:00Z",
     "sources":  [
                     {
                         "name":  "Hollow Knight Wiki (Independent Wiki)",
@@ -147,7 +147,7 @@
                         "title":  "Mothwing Cloak \u0026 Shade Cloak (Mantos de Esquiva)",
                         "subtitle":  "💨 Esquiva horizontal rápida (Dash) e travessia invencível pelas sombras",
                         "category":  "skills",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone da Habilidade",
@@ -791,7 +791,7 @@
                         "title":  "Dream Nail, Dreamgate \u0026 Seer (Ferrão dos Sonhos)",
                         "subtitle":  "🌸 Lê mentes, gera Alma e destrava o Portal dos Sonhos + Palácio Branco",
                         "category":  "skills",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Ícone do Ferrão dos Sonhos",
@@ -825,7 +825,7 @@
                         "title":  "Magias \u0026 Upgrades Sombrios (Shade Soul, Descending Dark \u0026 Abyss Shriek)",
                         "subtitle":  "🔥 Localização e dano exato dos 3 feitiços base e de suas 3 evoluções de Vazio",
                         "category":  "skills",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "1. Vengeful Spirit -\u003e Shade Soul (Projétil Horizontal)",
@@ -1201,7 +1201,7 @@
                         "title":  "Nosk \u0026 Winged Nosk",
                         "subtitle":  "🕷️ Predador metamorfo em Deepnest • Recompensa: 1x Minério Pálido (Pale Ore)",
                         "category":  "bosses",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Visual do Chefe",
@@ -1235,7 +1235,7 @@
                         "title":  "Traitor Lord (Lorde Traidor)",
                         "subtitle":  "🌿 Chefe letal de 2 Máscaras de dano em Queen\u0027s Gardens • Guarda a Dama Branca",
                         "category":  "bosses",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Visual do Chefe",
@@ -1371,7 +1371,7 @@
                         "title":  "Checklist Completo de 112% de Conclusão",
                         "subtitle":  "📊 Matemática exata de tudo que soma % (e o que NÃO conta para os 112%)",
                         "category":  "quests",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Jogo Base — 100% Exatos",
@@ -1427,7 +1427,7 @@
                         "title":  "Missão da Flor Delicada (Delicate Flower — Rota Segura)",
                         "subtitle":  "🌸 Passo a passo sem tomar dano + truque de limpar o caminho sem descansar!",
                         "category":  "quests",
-                        "spoiler":  false,
+                        "spoiler":  true,
                         "additional_data":  [
                                                 {
                                                     "title":  "Regras \u0026 Recompensa (1x Mask Shard)",
